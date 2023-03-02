@@ -1,0 +1,60 @@
+#友怪相关配置
+#CfgMonthLogin
+---
+key: 唯一
+activityEvents:
+  - {id: 101,title: 福临轩押押乐,memo: 押押乐大奖必出五星卡牌,days: [1,11,21]}
+  - {id: 102,title: 激战魔王降临,memo: 深渊魔尊排行奖励必为限定四星卡牌,days: [5,15,25]}
+  - {id: 104,title: 招募神将,memo: 所有卡池的许愿卡牌临时增加20%的许愿值,activitys:[10150]}
+  - {id: 105,title: 夺宝抽奖,memo: 夺宝所需夺宝积分打8.5折,activitys: [10160]}
+  - {id: 106,title: 商铺扫货,memo: 商铺除礼包外，所有商品8折销售。,activitys:[210]}
+  - {id: 107,title: 神仙大会上分,memo: 可前往神仙大会领取3个补神丹，且胜利获得积分翻倍。,days: [29,30,31]}
+  - {id: 108,title: 决战阐截斗法,memo: 今日阐截斗法无限生命值，双倍荣誉点}
+#  - {id: 109,title: 完成商会任务,memo: 本日所有商会任务加急,activitys:[10100]}
+  - {id: 110,title: 打怪攻城,memo: 攻城，练兵，野怪胜利获得的铜钱与经验奖励翻倍,activitys:[130,140]}
+  - {id: 111,title: 快乐跑商,memo: 所有特产出售增加50%溢价,activitys:[11060]}
+
+goodEvents:
+  - {id: 201,title: 参与广场舞比赛,memo: 大妈参与广场舞比赛，本日不会偶遇大妈,probability: 2}
+  - {id: 202,title: 矿场挖矿,memo: 矿场60%概率双倍收成,probability: 5}
+  - {id: 203,title: 炼宝炉炼宝,memo: 获得法宝时，10%概率额外获得一个法宝,probability: 4}
+  - {id: 204,title: 钱庄收款,memo: 钱庄收益增加30%,probability: 5}
+  - {id: 205,title: 炼丹房修体,memo: 炼丹房经验增加30%,probability: 5}
+  - {id: 206,title: 操练神将,memo: 城池练兵经验增加30%,probability: 4}
+  - {id: 207,title: 大破诛仙阵,memo: 诛仙阵积分增加1.5倍,probability: 5}
+  - {id: 208,title: 女娲庙捐献,memo: 25%概率获得双倍好感度,probability: 4}
+  - {id: 209,title: 太一府捐献,memo: 获得双倍奖励,probability: 4}
+  - {id: 210,title: 送老奶奶回家,memo: 送老奶奶回家，获得双倍奖励,probability: 5}
+  - {id: 211,title: 文王求签,memo: 不会出现下签,probability: 5}
+  - {id: 212,title: 完成八卦任务,probability: 4}
+  - {id: 213,title: 修炼碧游宫,probability: 4}
+  - {id: 214,title: 飞天姜子牙,probability: 4}
+  - {id: 215,title: 开野怪宝箱,probability: 5}
+  - {id: 216,title: 福临轩猜数字,probability: 5}
+  - {id: 217,title: 背包开宝箱,probability: 5}
+  - {id: 218,title: 使用震天箭,probability: 3}
+  - {id: 219,title: 使用乾坤弓,probability: 3}
+  - {id: 220,title: 开万仙阵宝箱,probability: 3}
+  - {id: 221,title: 无1,probability: 4}
+  - {id: 222,title: 无2,probability: 4}
+  - {id: 223,title: 无3,probability: 4}
+  - {id: 224,title: 无4,probability: 4}
+
+
+badEvents:
+  - {id: 301,title: 忽悠小白,memo: 本日偶遇小白，收益减少50%,probability: 1}
+  - {id: 303,title: 偷看妲己画像,memo: 遇到的卡组为精英野怪 ,probability: 4}
+  - {id: 304,title: 反抗强盗,memo: 遇到的卡组为精英野怪 ,probability: 4}
+  - {id: 305,title: 追击小偷,memo: 遇到的卡组为精英野怪 ,probability: 4}
+  - {id: 306,title: 嘲讽对手,probability: 6}
+  - {id: 307,title: 对战挂机,probability: 6}
+  - {id: 308,title: 与大妈沿街对骂,probability: 6}
+  - {id: 309,title: 攻城自动战斗,probability: 6}
+  - {id: 310,title: 满血上神疗,probability: 6}
+  - {id: 311,title: 金刚上妖术,probability: 6}
+  - {id: 312,title: 空位上禁术,probability: 6}
+  - {id: 313,title: 阐截斗法盲选卡牌,probability: 6}
+  - {id: 314,title: 无1,probability: 9}
+  - {id: 315,title: 无2,probability: 9}
+  - {id: 316,title: 无3,probability: 9}
+  - {id: 317,title: 无4,probability: 9}

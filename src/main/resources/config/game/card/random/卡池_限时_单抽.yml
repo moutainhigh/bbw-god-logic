@@ -1,0 +1,24 @@
+#策略名称
+key: 卡池_限时_单抽
+#策略描述
+desc: 按概率获得元素或者卡牌（way=0、1），其中3星卡韩毒龙和薛恶虎的概率是其他3星卡的1/10。
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 1
+    condition: {include: [犰狳]}
+    probability: {type: 1,value: 0.1}
+  - key: 2
+    condition: {include: [金銮火凤,黄飞虎]}
+    probability: {type: 1,value: 0.5}
+  - key: 3
+    condition: {include: [刘环,薛恶虎,雷开]}
+    probability: {type: 1,value: 0.6}
+  - key: 4
+    condition: {star: 4, include: [王天君,杨任,胡喜媚,魔礼青,鄂顺,殷郊,邬文化,魔礼寿,土行孙,石矶娘娘]}
+    probability: {type: 1,value: 5}
+  - key: 5
+    condition: {star: 3, include: [王魔,张天君,苏护,哼将郑伦,哈将陈奇,苟章,邓九公,商容,高友乾,殷洪,赵天君]}
+    probability: {type: 1,value: 100}
+...

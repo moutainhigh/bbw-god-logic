@@ -1,0 +1,38 @@
+#箱子标识
+key: 唯一
+#箱子描述
+desc: 夺宝卡牌，每2周换一期，一期2张卡牌
+#物品
+goods:
+  - item: 40
+    good: 杨文辉
+    num: 1
+    prop: 50
+  - item: 40
+    good: 孙焰红
+    num: 1
+    prop: 150
+  - item: 40
+    good: 周信
+    num: 1
+    prop: 50
+  - item: 40
+    good: 徐芳
+    num: 1
+    prop: 150
+  - item: 40
+    good: 李奇
+    num: 1
+    prop: 50
+  - item: 40
+    good: 敖丙
+    num: 1
+    prop: 150
+  - item: 40
+    good: 朱天麟
+    num: 1
+    prop: 50
+  - item: 40
+    good: 嘲风
+    num: 1
+    prop: 150

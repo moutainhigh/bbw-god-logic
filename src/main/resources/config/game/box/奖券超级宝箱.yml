@@ -1,0 +1,13 @@
+key: 11150
+desc: 使用后随机获得以下卡牌之一：金睛白虎、腾蛇；累计3次内必得金睛白虎。
+isRandom: true
+goods:
+  - item: 40
+    good: 金睛白虎
+    num: 1
+    prop: 3000
+  - item: 40
+    good: 腾蛇
+    num: 1
+    prop: 7000
+...

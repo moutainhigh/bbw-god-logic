@@ -1,0 +1,17 @@
+#箱子标识
+key: 1510
+#箱子描述
+desc: 魂源*10、神砂*10
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 神沙
+    num: 10
+  -
+    item: 60 # 道具
+    good: 魂源
+    num: 10
+...

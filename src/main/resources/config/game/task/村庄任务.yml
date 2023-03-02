@@ -1,0 +1,71 @@
+---
+groupId: 100000
+#村庄任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+tasks:
+  # 普通
+  - {id: 100011,seqGroup: 0,seq: 0,type: 120,difficulty: 10,name: "村里的小孩-初级-物归原主",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 100012,seqGroup: 0,seq: 0,type: 120,difficulty: 10,name: "面善的掌柜-初级-理性消费",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 100013,seqGroup: 0,seq: 0,type: 120,difficulty: 10,name: "村里的小红-初级-民心所向",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 100014,seqGroup: 0,seq: 0,type: 120,difficulty: 20,name: "保长-中级-正名定分",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 100015,seqGroup: 0,seq: 0,type: 120,difficulty: 20,name: "村里的老王-中级-平定风波",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 100016,seqGroup: 0,seq: 0,type: 120,difficulty: 20,name: "小贩-中级-回馈万民",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 100017,seqGroup: 0,seq: 0,type: 120,difficulty: 30,name: "落魄神将-高级-失而复得",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 100018,seqGroup: 0,seq: 0,type: 120,difficulty: 30,name: "用弓的高手-高级-凤凰怒火",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 100019,seqGroup: 0,seq: 0,type: 120,difficulty: 30,name: "隔壁村败家子-高级-浪子回头",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  #第一神豪
+  - {id: 101001,seqGroup: 1000,seq: 1,type: 120,difficulty: 10,name: "第一神豪-初级-酒肉朋友",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 101002,seqGroup: 1000,seq: 1,type: 120,difficulty: 20,name: "第一神豪-中级-尔虞我诈",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 101003,seqGroup: 1000,seq: 1,type: 120,difficulty: 30,name: "第一神豪-高级-尔虞我诈",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 101004,seqGroup: 1000,seq: 1,type: 120,difficulty: 40,name: "第一神豪-史诗级-绝境反击（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 101005,seqGroup: 1000,seq: 2,type: 110,difficulty: 40,name: "第一神豪-史诗级-绝境反击（二）",value: 1000000,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 101006,seqGroup: 1000,seq: 3,type: 130,difficulty: 40,name: "第一神豪-史诗级-绝境反击（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #神神叨叨的老者
+  - {id: 102001,seqGroup: 2000,seq: 1,type: 120,difficulty: 10,name: "神神叨叨的老者-初级-有朋前来",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 102002,seqGroup: 2000,seq: 1,type: 120,difficulty: 20,name: "神神叨叨的老者-中级-故意刁难",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 102003,seqGroup: 2000,seq: 1,type: 120,difficulty: 30,name: "神神叨叨的老者-高级-心有所悟",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 102004,seqGroup: 2000,seq: 1,type: 120,difficulty: 40,name: "神神叨叨的老者-史诗级-青胜于蓝（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 102005,seqGroup: 2000,seq: 2,type: 110,difficulty: 40,name: "神神叨叨的老者-史诗级-青胜于蓝（二）",value: 5,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 102006,seqGroup: 2000,seq: 3,type: 130,difficulty: 40,name: "神神叨叨的老者-史诗级-青胜于蓝（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #村里的二毛
+  - {id: 103001,seqGroup: 3000,seq: 1,type: 120,difficulty: 10,name: "村里的二毛-初级-乐于助人",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 103002,seqGroup: 3000,seq: 1,type: 120,difficulty: 20,name: "村里的二毛-中级-命运转折",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 103003,seqGroup: 3000,seq: 1,type: 120,difficulty: 30,name: "村里的二毛-高级-饱受争议",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 103004,seqGroup: 3000,seq: 1,type: 120,difficulty: 40,name: "村里的二毛-史诗级-天选之子（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 103005,seqGroup: 3000,seq: 2,type: 110,difficulty: 40,name: "村里的二毛-史诗级-天选之子（二）",value: 10,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 103006,seqGroup: 3000,seq: 3,type: 130,difficulty: 40,name: "村里的二毛-史诗级-天选之子（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #村里的小张
+  - {id: 104001,seqGroup: 4000,seq: 1,type: 120,difficulty: 10,name: "村里的小张-初级-狂妄自大",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 104002,seqGroup: 4000,seq: 1,type: 120,difficulty: 20,name: "村里的小张-中级-远大梦想",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 104003,seqGroup: 4000,seq: 1,type: 120,difficulty: 30,name: "村里的小张-高级-惊天阴谋",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 104004,seqGroup: 4000,seq: 1,type: 120,difficulty: 40,name: "村里的小张-史诗级-九死一生（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 104005,seqGroup: 4000,seq: 2,type: 110,difficulty: 40,name: "村里的小张-史诗级-九死一生（二）",value: 5,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 104006,seqGroup: 4000,seq: 3,type: 130,difficulty: 40,name: "村里的小张-史诗级-九死一生（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #村长大叔
+  - {id: 105001,seqGroup: 5000,seq: 1,type: 120,difficulty: 10,name: "村长大叔-初级-村中异象",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 105002,seqGroup: 5000,seq: 1,type: 120,difficulty: 20,name: "村长大叔-中级-探寻真相",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 105003,seqGroup: 5000,seq: 1,type: 120,difficulty: 30,name: "村长大叔-高级-全村之力",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 105004,seqGroup: 5000,seq: 1,type: 120,difficulty: 40,name: "村长大叔-史诗级-灭顶之灾（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 105005,seqGroup: 5000,seq: 2,type: 110,difficulty: 40,name: "村长大叔-史诗级-灭顶之灾（二）",value: 5,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 105006,seqGroup: 5000,seq: 3,type: 130,difficulty: 40,name: "村长大叔-史诗级-灭顶之灾（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #村里的小布
+  - {id: 106001,seqGroup: 6000,seq: 1,type: 120,difficulty: 10,name: "村里的小布-初级-梦想发芽",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 106002,seqGroup: 6000,seq: 1,type: 120,difficulty: 20,name: "村里的小布-中级-辣眼操作",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 106003,seqGroup: 6000,seq: 1,type: 120,difficulty: 30,name: "村里的小布-高级-天生锦鲤",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 106004,seqGroup: 6000,seq: 1,type: 120,difficulty: 40,name: "村里的小布-史诗级-初次登场（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 106005,seqGroup: 6000,seq: 2,type: 110,difficulty: 40,name: "村里的小布-史诗级-初次登场（二）",value: 2,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 106006,seqGroup: 6000,seq: 3,type: 130,difficulty: 40,name: "村里的小布-史诗级-初次登场（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  #村里的小巴
+  - {id: 107001,seqGroup: 7000,seq: 1,type: 120,difficulty: 10,name: "村里的小巴-初级-子承父业",value: 1,awards: [{item: 60,awardId: 11780, num: 1}],isValid: true}
+  - {id: 107002,seqGroup: 7000,seq: 1,type: 120,difficulty: 20,name: "村里的小巴-中级-天赋平平",value: 1,awards: [{item: 60,awardId: 11790, num: 1}],isValid: true}
+  - {id: 107003,seqGroup: 7000,seq: 1,type: 120,difficulty: 30,name: "村里的小巴-高级-破晓时分",value: 1,awards: [{item: 60,awardId: 11800, num: 1}],isValid: true}
+  - {id: 107004,seqGroup: 7000,seq: 1,type: 120,difficulty: 40,name: "村里的小巴-史诗级-以子为傲（一）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 107005,seqGroup: 7000,seq: 2,type: 110,difficulty: 40,name: "村里的小巴-史诗级-以子为傲（二）",value: 2,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+  - {id: 107006,seqGroup: 7000,seq: 3,type: 130,difficulty: 40,name: "村里的小巴-史诗级-以子为傲（三）",value: 1,awards: [{item: 60,awardId: 11810, num: 1}],isValid: true}
+...

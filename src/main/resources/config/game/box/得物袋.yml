@@ -1,0 +1,37 @@
+#得物袋
+#箱子标识，对应
+key: 50179
+#箱子描述
+desc: 此宝袋内含各类精致礼品，风靡商周大陆，乃居家旅行、追求佳偶必备之物。
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 夜明珠
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 鼻烟壶
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 大金元
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 千里马
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 玉发簪
+    num: 1
+    prop: 2000
+...

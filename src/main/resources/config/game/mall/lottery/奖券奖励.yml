@@ -1,0 +1,9 @@
+#奖券
+#CfgLotteryAwards
+--- {id: 10,name: 一等奖,level: 1,maxPerson: 1,awards: [{item: 60,awardId: 50155,num: 1}]}
+--- {id: 20,name: 二等奖,level: 2,maxPerson: 1,awards: [{item: 60,awardId: 11060,num: 1}]}
+--- {id: 30,name: 三等奖,level: 3,maxPerson: 6,awards: [{item: 60,awardId: 530,num: 1}]}
+--- {id: 40,name: 四等奖,level: 4,maxPerson: 9,awards: [{item: 60,awardId: 11010,num: 2}]}
+--- {id: 50,name: 五等奖,level: 5,maxPerson: 9,awards: [{item: 60,awardId: 10110,num: 1}]}
+--- {id: 60,name: 参与奖,level: 6,maxPerson: 10,awards: [{item: 60,awardId: 10180,num: 1}]}
+

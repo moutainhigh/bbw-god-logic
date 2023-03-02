@@ -1,0 +1,9 @@
+#CfgPrivilege
+key: 唯一
+tianlingBag:
+ - {item: 60,awardId: 50159,num: 1}
+ - {item: 60,awardId: 10020,num: 5}
+dilingBag:
+ - {item: 60,awardId: 11010,num: 1}
+ - {item: 60,awardId: 160,num: 2}
+ - {item: 60,awardId: 90,num: 2}

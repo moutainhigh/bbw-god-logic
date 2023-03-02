@@ -1,0 +1,9 @@
+#卷轴合成配置
+#CfgSkillScroll
+--- {id: 10, chapter: 1, supportSynthesisType: [10, 30], probability: 100}
+--- {id: 20, chapter: 2, supportSynthesisType: [10, 20, 30], probability: 100}
+--- {id: 30, chapter: 3, supportSynthesisType: [10, 20, 30], probability: 75}
+--- {id: 40, chapter: 4, supportSynthesisType: [10, 20, 30], probability: 50}
+--- {id: 50, chapter: 5, supportSynthesisType: [10, 20, 30], probability: 25}
+--- {id: 60, chapter: 98, supportSynthesisType: [10, 40,50,51,52]}
+--- {id: 70, chapter: 99, supportSynthesisType: [10, 40,50,51,52]}

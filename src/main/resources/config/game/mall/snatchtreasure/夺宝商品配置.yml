@@ -1,0 +1,50 @@
+#夺宝商品配置
+#CfgSnatchTreasureMall
+#mallId 商品id
+#showWeek 第几周开始展示
+#sellWeek 第几周开始卖
+
+--- {mallId: 170010,showWeek: 0,sellWeek: 0}
+--- {mallId: 170020,showWeek: 2,sellWeek: 3}
+--- {mallId: 170030,showWeek: 2,sellWeek: 3}
+--- {mallId: 170040,showWeek: 0,sellWeek: 0}
+--- {mallId: 170050,showWeek: 0,sellWeek: 0}
+--- {mallId: 170060,showWeek: 0,sellWeek: 0}
+--- {mallId: 170070,showWeek: 0,sellWeek: 0}
+#--- {mallId: 170080,showWeek: 0,sellWeek: 0}
+#--- {mallId: 170090,showWeek: 0,sellWeek: 0}
+--- {mallId: 170100,showWeek: 0,sellWeek: 0}
+--- {mallId: 170110,showWeek: 0,sellWeek: 0}
+--- {mallId: 170120,showWeek: 0,sellWeek: 0}
+--- {mallId: 170130,showWeek: 0,sellWeek: 0}
+--- {mallId: 170140,showWeek: 0,sellWeek: 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

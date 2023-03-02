@@ -1,0 +1,15 @@
+#成就类别
+#CfgAchievement
+key: 唯一
+recentNumToShow: 4
+allScore: 11600
+typeInfos:
+  # num对应列表的数量，totalScore是该类别的总积分
+  - {id: 10,name: 个人,num: 63,totalScore: 2615}
+  - {id: 20,name: 卡牌,num: 34,totalScore: 1210}
+  - {id: 30,name: 商途,num: 12,totalScore: 320}
+  - {id: 40,name: 征战,num: 64,totalScore: 2350}
+  - {id: 50,name: 竞技,num: 57,totalScore: 1120}
+  - {id: 60,name: 历练,num: 60,totalScore: 2060}
+  - {id: 70,name: 秘闻,num: 97,totalScore: 4025}
+  - {id: 80,name: 卦象,num: 64,totalScore: 640}

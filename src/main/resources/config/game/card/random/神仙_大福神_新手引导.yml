@@ -1,0 +1,18 @@
+#策略名称
+key: 神仙_大福神_新手引导
+#策略描述
+desc: 一张未拥有的1星卡，一张指定的和玩家同属性的二星卡
+#结果限制 返回2张卡
+maxSize: 2
+selectors:
+  - key: 1
+    requestSize: 1
+    #一张未拥有的1星卡（way=0）
+    condition: {star: 1,include: [$0类卡],type: $角色属性,exclude: [殷商死士,$角色卡牌集]}
+    probability: {type: 0,value: 100}
+  - #一张指定的和玩家同属性的二星卡（way=0）
+    key: 2
+    requestSize: 1
+    condition: {include: [虎贲卫士,女娲祭祀,鱼人女卫,南鄂巫女,金鳖岛散仙],type: $角色属性  }
+    probability: {type: 0,value: 100}
+...

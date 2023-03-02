@@ -1,0 +1,17 @@
+key: 1060
+desc: 仙之源*1、铜钱*2w、神砂*1
+isRandom: false
+goods:
+  -
+    item: 60
+    good: 仙之源
+    num: 1
+  -
+    item: 20
+    good: 铜钱
+    num: 20000
+  -
+    item: 60
+    good: 神沙
+    num: 1
+...

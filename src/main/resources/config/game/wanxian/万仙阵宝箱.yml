@@ -1,0 +1,33 @@
+# CfgWanXianBox
+#箱子标识
+key: 唯一
+#宝箱开出卡牌的概率
+boxAwards:
+  # 常规赛
+  - {treasureId: 41001, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 10000}
+  - {treasureId: 41002, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 6000}
+  - {treasureId: 41003, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 4000}
+  - {treasureId: 41004, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 2500}
+  - {treasureId: 41005, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 1500}
+  - {treasureId: 41006, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 1000}
+  - {treasureId: 41007, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 500}
+  - {treasureId: 41008, type: 10, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 200}
+  # 特色
+  - {treasureId: 42001, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 10000}
+  - {treasureId: 42002, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 6000}
+  - {treasureId: 42003, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 4000}
+  - {treasureId: 42004, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 2500}
+  - {treasureId: 42005, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 1500}
+  - {treasureId: 42006, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 1000}
+  - {treasureId: 42007, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 500}
+  - {treasureId: 42008, type: 20, awards: [{num: 1, item: 60, awardId: 10930},{num: 1, item: 60, awardId: 10940},{num: 1, item: 60, awardId: 10950}], probability: 200}
+#获得哪张卡牌的概率
+cardProbabilityList:
+  # 常规赛
+  - {cardId: 141, type: 10, probability: 3000}
+  - {cardId: 441, type: 10, probability: 7000}
+  # 特色赛
+  - {cardId: 245, type: 20, probability: 3000}
+  - {cardId: 440, type: 20, probability: 3000}
+  - {cardId: 346, type: 20, probability: 3000}
+  - {cardId: 542, type: 20, probability: 1000}

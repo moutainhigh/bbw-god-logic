@@ -1,0 +1,21 @@
+#策略名称
+key: 卡池_单抽_土
+#策略描述
+desc: 按概率获得元素或者卡牌（way=0、1），其中3星卡韩毒龙和薛恶虎的概率是其他3星卡的1/10。
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 5星卡
+    condition: {star: 5,type: 50, include: [$0类卡,$1类卡,$可洗入卡池卡牌集],exclude: [$排除卡牌]}
+    probability: {type: 1,value: 0.3}
+  - key: 4星卡
+    condition: {star: 4,type: 50, include: [$0类卡,$1类卡,$可洗入卡池卡牌集],exclude: [$排除卡牌]}
+    probability: {type: 1,value: 5}
+  - key: 3星特殊卡
+    condition: {star: 3,type: 50, include: [雷开]}
+    probability: {type: 1,value: 0.6}
+  - key: 3星卡
+    condition: { star: 3,type: 50, include: [$0类卡,$1类卡,$可洗入卡池卡牌集],exclude: [雷开]}
+    probability: {type: 1,value: 100}
+...

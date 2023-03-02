@@ -1,0 +1,117 @@
+---
+#行会 任务要求和相关奖励
+#同一组任务的attr为一样  注释任务  则表示不会再 新生成该任务
+key: 唯一
+tasks: 
+  - {id: 1001,attr: 1,content: "出售5件特产",target: 5}
+  - {id: 1002,attr: 2,content: "获得1次城战胜利",target: 1}
+  - {id: 1003,attr: 3,content: "获得1次野战胜利",target: 1}
+  - {id: 1004,attr: 4,content: "消耗60点体力",target: 60}
+  - {id: 1005,attr: 5,content: "触发2次随机事件",target: 2}
+  - {id: 1006,attr: 6,content: "消耗3个地图法宝",target: 3}
+#  - {id: 1007,attr: 7,content: "前往【福临轩】猜数字下注1次",target: 1}
+  - {id: 1008,attr: 8,content: "前往【客栈】购买1次卡牌",target: 1}
+  - {id: 1009,attr: 9,content: "前往【黑市】购买1次法宝",target: 1}
+#  - {id: 1010,content: "进行一次城池建筑升级",target: 1} 
+  - {id: 1011,attr: 10,content: "消耗10个金元素",target: 10}
+  - {id: 1012,attr: 10,content: "消耗10个木元素",target: 10}
+  - {id: 1013,attr: 10,content: "消耗10个水元素",target: 10}
+  - {id: 1014,attr: 10,content: "消耗10个火元素",target: 10}
+  - {id: 1015,attr: 10,content: "消耗10个土元素",target: 10}
+  - {id: 1016,attr: 11,content: "拜访2次任意城市",target: 2}
+  - {id: 1017,attr: 12,content: "拜访1次【村庄】或【仙人洞】",target: 1}
+
+boxRewards:  #宝箱奖励按等级顺序添加
+   - {lv: 1,copper: 5000,contrbution: 10,exp: 3}
+   - {lv: 2,copper: 10000,contrbution: 15,exp: 4}
+   - {lv: 3,copper: 20000,contrbution: 20,exp: 5}
+   - {lv: 4,copper: 30000,contrbution: 25,exp: 6}
+   - {lv: 5,copper: 40000,contrbution: 30,exp: 7}
+   - {lv: 6,copper: 50000,contrbution: 35,exp: 8}
+   - {lv: 7,copper: 60000,contrbution: 40,exp: 9}
+   - {lv: 8,copper: 70000,contrbution: 45,exp: 10}
+   - {lv: 9,copper: 80000,contrbution: 50,exp: 11}
+   - {lv: 10,copper: 90000,contrbution: 55,exp: 12}
+   - {lv: 11,copper: 100000,contrbution: 65,exp: 0}
+taskRewards: #任务奖励按等级顺序添加
+  - productId: 1
+    memo: 1级任务奖励
+    awardList:
+      - {num: 10, item: 60, awardId: 11070}
+      - {num: 7, item: 66,awardId: 100001}
+  - productId: 2
+    memo: 2级任务奖励
+    awardList:
+      - {num: 15, item: 60, awardId: 11070}
+      - {num: 11, item: 66,awardId: 100001}
+  - productId: 3
+    memo: 3级任务奖励
+    awardList:
+      - {num: 20, item: 60, awardId: 11070}
+      - {num: 15, item: 66,awardId: 100001}
+  - productId: 4
+    memo: 4级任务奖励
+    awardList:
+      - {num: 25, item: 60, awardId: 11070}
+      - {num: 19, item: 66,awardId: 100001}
+  - productId: 5
+    memo: 5级任务奖励
+    awardList:
+      - {num: 30, item: 60, awardId: 11070}
+      - {num: 23, item: 66,awardId: 100001}
+  - productId: 6
+    memo: 6级任务奖励
+    awardList:
+      - {num: 35, item: 60, awardId: 11070}
+      - {num: 27, item: 66,awardId: 100001}
+  - productId: 7
+    memo: 7级任务奖励
+    awardList:
+      - {num: 40, item: 60, awardId: 11070}
+      - {num: 31, item: 66,awardId: 100001}
+  - productId: 8
+    memo: 8级任务奖励
+    awardList:
+      - {num: 45, item: 60, awardId: 11070}
+      - {num: 35, item: 66,awardId: 100001}
+  - productId: 9
+    memo: 9级任务奖励
+    awardList:
+      - {num: 50, item: 60, awardId: 11070}
+      - {num: 39, item: 66,awardId: 100001}
+  - productId: 10
+    memo: 10级任务奖励
+    awardList:
+      - {num: 55, item: 60, awardId: 11070}
+      - {num: 43, item: 66,awardId: 100001}
+  - productId: 11
+    memo: 11级任务奖励
+    awardList:
+      - {num: 65, item: 60, awardId: 11070}
+      - {num: 0, item: 66,awardId: 100001}
+products: #消耗类型 1 元宝 2铜钱 3 RMB 商会金币 4 神仙大会仙豆  5 行会贡献 6商会金币
+   - {permit: 3级行会,minLevel: 3,propType: 60,goodId: 830,id: 830,quantity: 1,star: 3,price: 900,priceType: 5,limitCount: 3,memo: "三星灵石"}
+   - {permit: 3级行会,minLevel: 3,propType: 40,goodId: 437,id: 437,quantity: 1,star: 3,price: 10000,priceType: 5,limitCount: 1,memo: "卡牌-邓忠"}
+   - {permit: 3级行会,minLevel: 3,propType: 40,goodId: 138,id: 138,quantity: 1,star: 3,price: 10000,priceType: 5,limitCount: 1,memo: "卡牌-辛环"}
+   - {permit: 3级行会,minLevel: 3,propType: 40,goodId: 240,id: 240,quantity: 1,star: 3,price: 10000,priceType: 5,limitCount: 1,memo: "卡牌-张节"}
+   - {permit: 3级行会,minLevel: 3,propType: 40,goodId: 342,id: 342,quantity: 1,star: 3,price: 10000,priceType: 5,limitCount: 1,memo: "卡牌-陶荣"}
+   - {permit: 4级行会,minLevel: 4,propType: 40,goodId: 0,id: 100000004,quantity: 1,star: 4,price: 8100,priceType: 5,limitCount: 1,memo: "随机四星卡"}
+   - {permit: 5级行会,minLevel: 5,propType: 60,goodId: 840,id: 840,quantity: 1,star: 4,price: 2700,priceType: 5,limitCount: 2,memo: "四星灵石"}
+   - {permit: 6级行会,minLevel: 6,propType: 40,goodId: 0,id: 100000005,quantity: 1,star: 5,price: 27000,priceType: 5,limitCount: 1,memo: "随机五星卡"}
+   - {permit: 7级行会,minLevel: 7,propType: 60,goodId: 850,id: 850,quantity: 1,star: 5,price: 9000,priceType: 5,limitCount: 2,memo: "五星灵石"}
+   - {permit: 3级行会,minLevel: 3,propType: 40,goodId: 250,id: 250,quantity: 1,star: 1,price: 5000,priceType: 5,limitCount: 1,memo: "卡牌-叔齐"}
+#满级数
+maxLevel: 11
+levels: 
+   - {lv: 1,limitPeople: 3,baseExp: 0,targetExp: 190,openBoxTimes: 3}  
+   - {lv: 2,limitPeople: 4,baseExp: 190,targetExp: 1020,openBoxTimes: 4}  
+   - {lv: 3,limitPeople: 5,baseExp: 1020,targetExp: 3200,openBoxTimes: 5}  
+   - {lv: 4,limitPeople: 6,baseExp: 3200,targetExp: 9000,openBoxTimes: 6}  
+   - {lv: 5,limitPeople: 7,baseExp: 9000,targetExp: 20000,openBoxTimes: 7}  
+   - {lv: 6,limitPeople: 8,baseExp: 20000,targetExp: 40000,openBoxTimes: 8}  
+   - {lv: 7,limitPeople: 8,baseExp: 40000,targetExp: 73000,openBoxTimes: 8}  
+   - {lv: 8,limitPeople: 8,baseExp: 73000,targetExp: 118000,openBoxTimes: 8}  
+   - {lv: 9,limitPeople: 8,baseExp: 118000,targetExp: 180000,openBoxTimes: 8}  
+   - {lv: 10,limitPeople: 8,baseExp: 180000,targetExp: 287000,openBoxTimes: 8}  
+   - {lv: 11,limitPeople: 8,baseExp: 287000,targetExp: 287000,openBoxTimes: 8}  
+...

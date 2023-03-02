@@ -1,0 +1,8 @@
+#野地事件
+#CfgActivityRankGenerateRule
+--- {id: 10,loop: [10000],beginDay: 8,beginWeek: 2,endWeek: 2,duration: 7,endHms: 23:59:59}
+--- {id: 20,loop: [10010],beginDay: 1,beginWeek: 1,endWeek: 99999,duration: 7,endHms: 23:59:59}
+--- {id: 30,loop: [10110,10050,10130],beginDay: 10,beginWeek: 2,endWeek: 99999,duration: 7,endHms: 23:59:59}
+--- {id: 40,loop: [10080],beginDay: 1,beginWeek: 1,endWeek: 1,duration: 9,endHms: 23:59:59}
+--- {id: 50,loop: [10100],beginDay: 1,beginWeek: 1,endWeek: 1,duration: 3,endHms: 19:59:59}
+--- {id: 60,loop: [10140],beginDay: 1,beginWeek: 1,endWeek: 1,duration: 7,endHms: 23:59:59}

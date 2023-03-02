@@ -1,0 +1,63 @@
+#箱子标识
+key: "精英野怪宝箱_玩家等级[20,29]"
+#箱子描述
+desc: 随机1种物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  - item: 40 #卡牌
+    good: "精英野怪卡牌_玩家等级[20,29]"
+    num: 1
+    prop: 3000
+  - item: 60 #道具
+    good: 法宝
+    num: 2
+    prop: 800
+    starProps:
+      - 2400
+      - 2400
+      - 3600
+      - 1100
+      - 500
+  - item: 60 #道具
+    good: 万能灵石
+    num: 2
+    prop: 800
+    starProps:
+      - 0
+      - 0
+      - 7000
+      - 2000
+      - 1000
+  - item: 30 #体力
+    good: 体力
+    num: 36
+    prop: 800
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 5000
+    prop: 920
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 10000
+    prop: 1380
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 20000
+    prop: 1380
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 30000
+    prop: 460
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 40000
+    prop: 322
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 50000
+    prop: 138
+...

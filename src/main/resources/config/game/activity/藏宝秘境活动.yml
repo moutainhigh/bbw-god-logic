@@ -1,0 +1,75 @@
+#藏宝秘境活动
+#CfgTreasureTrove
+key: 唯一
+#刷新藏宝秘境需要的元宝
+refreshNeedGold: 50
+#宝藏值达到该值触发大奖池
+troveValueLimit: 100
+#奖池总概率
+propSum: 10000
+#保底信息
+guaranteeInformations:
+  - {guaranteedTimes: 90,treasureId: 50010,awardPoolId: 620003}
+  - {guaranteedTimes: 160,treasureId: 11065,awardPoolId: 620001}
+#大奖池
+bigAwardPool:
+  - {id: 620001,bigAward: true,probability: 100,isProbDecays: true}  #620001,type: 620,name: 至尊秘传宝箱*1,item: 60,goodsId: 11065
+  - {id: 620002,bigAward: true,probability: 600,isProbDecays: true} #620002,type: 620,name: 五色神牛*1,item: 40,goodsId: 538
+  - {id: 620003,bigAward: true,probability: 500,isProbDecays: true} #620003,type: 620,name: 随机秘传卷轴*1,item: 60,goodsId: 50010
+  - {id: 620004,bigAward: true,probability: 500,isProbDecays: true} #620004,type: 620,name: 五阶符首*1,item: 60,goodsId: 50132
+  - {id: 620005,bigAward: true,probability: 700,isProbDecays: true} #620005,type: 620,name: 四阶符首*1,item: 60,goodsId: 50131
+  - {id: 620006,bigAward: true,probability: 100,isProbDecays: true} #620006,type: 620,name: 随机高级卷轴*1,item: 60,goodsId: 11410
+  - {id: 620007,bigAward: true,probability: 700,isProbDecays: true} #620007,type: 620,name: 洪力符*1,item: 60,goodsId: 20150
+  - {id: 620008,bigAward: true,probability: 700,isProbDecays: true} #620008,type: 620,name: 宙元符*1,item: 60,goodsId: 20250
+  - {id: 620009,bigAward: true,probability: 1300,isProbDecays: true} #620009,type: 620,name: 仙之源*9,item: 60,goodsId: 10110
+  - {id: 620010,bigAward: true,probability: 1600,isProbDecays: true} #620010,type: 620,name: 威力符*1,item: 60,goodsId: 20140
+  - {id: 620011,bigAward: true,probability: 1600,isProbDecays: true} #620011,type: 620,name: 尚元符*1,item: 60,goodsId: 20240
+  - {id: 620012,bigAward: true,probability: 1500,isProbDecays: true} #620012,type: 620,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060
+  - {id: 620038,bigAward: true,probability: 100,isProbDecays: true} #620038,type: 620,name: 荣耀金币*1,item: 60,goodsId: 50011
+#常规大奖池的概率
+bigAwardPoolProbability: 50
+#普通奖池
+normalAwardPool:
+  - {id: 620013,bigAward: false,probability: 100} #620013,type: 620,name: 乾坤图*1,item: 60,goodsId: 20
+  - {id: 620014,bigAward: false,probability: 100} #620014,type: 620,name: 力神符*1,item: 60,goodsId: 20130
+  - {id: 620015,bigAward: false,probability: 100} #620015,type: 620,name: 元神符*1,item: 60,goodsId: 20230
+  - {id: 620016,bigAward: false,probability: 100} #620016,type: 620,name: 血晶*1,item: 60,goodsId: 50129
+  - {id: 620017,bigAward: false,probability: 200} #620017,type: 620,name: 财神珠*1,item: 60,goodsId: 10
+  - {id: 620018,bigAward: false,probability: 200} #620018,type: 620,name: 五星灵石*1,item: 60,goodsId: 850
+  - {id: 620019,bigAward: false,probability: 200} #620019,type: 620,name: 聚仙旗*1,item: 60,goodsId: 10010
+  - {id: 620020,bigAward: false,probability: 200} #620020,type: 620,name: 大力符*1,item: 60,goodsId: 20120
+  - {id: 620021,bigAward: false,probability: 200} #620021,type: 620,name: 强元符*1,item: 60,goodsId: 20220
+  - {id: 620022,bigAward: false,probability: 200} #620022,type: 620,name: 星图保护符*1,item: 60,goodsId: 11720
+  - {id: 620023,bigAward: false,probability: 200} #620023,type: 620,name: 四星灵石*1,item: 60,goodsId: 840
+  - {id: 620024,bigAward: false,probability: 500} #620024,type: 620,name: 三星灵石*1,item: 60,goodsId: 830
+  - {id: 620025,bigAward: false,probability: 400} #620025,type: 620,name: 番天印*1,item: 60,goodsId: 210
+  - {id: 620026,bigAward: false,probability: 400} #620026,type: 620,name: 九龙神火罩*1,item: 60,goodsId: 260
+  - {id: 620027,bigAward: false,probability: 400} #620027,type: 620,name: 山河社稷图*1,item: 60,goodsId: 60
+  - {id: 620028,bigAward: false,probability: 300} #620028,type: 620,name: 混沌仙石*1,item: 60,goodsId: 10030
+  - {id: 620029,bigAward: false,probability: 300} #620029,type: 620,name: 仙之源*1,item: 60,goodsId: 10110
+  - {id: 620030,bigAward: false,probability: 700} #620030,type: 620,name: 夺宝抵用券*1,item: 60,goodsId: 11090
+  - {id: 620031,bigAward: false,probability: 600} #620031,type: 620,name: 魂源*1,item: 60,goodsId: 10180
+  - {id: 620032,bigAward: false,probability: 900} #620032,type: 620,name: 通天残卷*1,item: 60,goodsId: 11010
+  - {id: 620033,bigAward: false,probability: 500} #620033,type: 620,name: 天晶*10,item: 60,goodsId: 50128
+  - {id: 620034,bigAward: false,probability: 650} #620034,type: 620,name: 神砂*5,item: 60,goodsId: 10020
+  - {id: 620035,bigAward: false,probability: 900} #620035,type: 620,name: 星光砂*1,item: 60,goodsId: 11600
+  - {id: 620036,bigAward: false,probability: 800} #620036,type: 620,name: 增力符*1,item: 60,goodsId: 20110
+  - {id: 620037,bigAward: false,probability: 800} #620037,type: 620,name: 补元符*1,item: 60,goodsId: 20210
+probDecays:
+  - {oldTreasureId: 620001,newTreasureId: 620006, prob: 50,buyTimes: 1}
+  - {oldTreasureId: 620001,newTreasureId: 620006, prob: 40,buyTimes: 2}
+  - {oldTreasureId: 620001,newTreasureId: 620006, prob: 5,buyTimes: 3}
+  - {oldTreasureId: 620001,newTreasureId: 620006, prob: 4,buyTimes: 4}
+  - {oldTreasureId: 620003,newTreasureId: 620006, prob: 100,buyTimes: 1}
+  - {oldTreasureId: 620003,newTreasureId: 620006, prob: 100,buyTimes: 2}
+  - {oldTreasureId: 620003,newTreasureId: 620006, prob: 100,buyTimes: 3 }
+  - {oldTreasureId: 620003,newTreasureId: 620006, prob: 100,buyTimes: 4}
+  - {oldTreasureId: 620004,newTreasureId: 620006, prob: 100,buyTimes: 1}
+  - {oldTreasureId: 620004,newTreasureId: 620006, prob: 100,buyTimes: 2}
+  - {oldTreasureId: 620004,newTreasureId: 620006, prob: 100,buyTimes: 3}
+  - {oldTreasureId: 620004,newTreasureId: 620006, prob: 0,buyTimes: 4}
+  - {oldTreasureId: 620038,newTreasureId: 620006, prob: 90,buyTimes: 1}
+  - {oldTreasureId: 620038,newTreasureId: 620006, prob: 10,buyTimes: 2}
+  - {oldTreasureId: 620038,newTreasureId: 620006, prob: 0,buyTimes: 3}
+  - {oldTreasureId: 620038,newTreasureId: 620006, prob: 0,buyTimes: 4}
+

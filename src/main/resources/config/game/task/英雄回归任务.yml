@@ -1,0 +1,37 @@
+---
+groupId: 60000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks: 
+#1日
+  - {id: 60011,type: 60,name: "登录游戏",value: 1,awards: [{item: 20,num: 50000},{item: 130,num: 20}],isValid: true}
+  - {id: 60012,type: 60,name: "进行3场攻城或练兵",value: 3,awards: [{item: 30,num: 50},{item: 130,num: 20}],isValid: true}
+  - {id: 60013,type: 60,name: "消耗100点体力",value: 100,awards: [{item: 60,awardId: 10020,num: 10},{item: 130,num: 30}],isValid: true}
+  - {id: 60014,type: 60,name: "挑战1次诛仙阵",value: 1,awards: [{item: 60,awardId: 510,num: 1},{item: 130,num: 30}],isValid: true}
+  - {id: 60015,type: 60,name: "使用2个地图法宝",value: 2,awards: [{item: 10,num: 40},{item: 130,num: 30}],isValid: true}
+#2
+  - {id: 60111,type: 60,name: "登录游戏",value: 1,awards: [{item: 20,num: 50000},{item: 130,num: 20}],isValid: true}
+  - {id: 60112,type: 60,name: "到福地收获60元宝",value: 60,awards: [{item: 30,num: 50},{item: 130,num: 20}],isValid: true}
+  - {id: 60113,type: 60,name: "累计铜钱收益80万",value: 800000,awards: [{item: 60,awardId: 10020,num: 15},{item: 130,num: 30}],isValid: true}
+  - {id: 60114,type: 60,name: "到游商馆买入10件特产",value: 10,awards: [{item: 60,awardId: 510,num: 1},{item: 130,num: 30}],isValid: true}
+  - {id: 60115,type: 60,name: "与野怪战斗8次",value: 8,awards: [{item: 10,num: 50},{item: 130,num: 30}],isValid: true}
+#3日
+  - {id: 60211,type: 60,name: "登录游戏",value: 1,awards: [{item: 20,num: 50000},{item: 130,num: 20}],isValid: true}
+  - {id: 60212,type: 60,name: "在客栈或聚贤庄购买15张卡牌",value: 15,awards: [{item: 30,num: 50},{item: 130,num: 20}],isValid: true}
+  - {id: 60213,type: 60,name: "到秘宝阁购买6件法宝",value: 6,awards: [{item: 60,awardId: 10020,num: 20},{item: 130,num: 30}],isValid: true}
+  - {id: 60214,type: 60,name: "到文王庙求签1次",value: 1,awards: [{item: 60,awardId: 510,num: 1},{item: 130,num: 30}],isValid: true}
+  - {id: 60215,type: 60,name: "完成8个行会任务",value: 8,awards: [{item: 10,num: 60},{item: 130,num: 30}],isValid: true}
+#4日
+  - {id: 60311,type: 60,name: "登录游戏",value: 1,awards: [{item: 20,num: 50000},{item: 130,num: 20}],isValid: true}
+  - {id: 60312,type: 60,name: "进行2次神仙大会战斗",value: 2,awards: [{item: 30,num: 50},{item: 130,num: 20}],isValid: true}
+  - {id: 60313,type: 60,name: "到鹿台升级卡牌1次",value: 1,awards: [{item: 60,awardId: 10020,num: 25},{item: 130,num: 30}],isValid: true}
+  - {id: 60314,type: 60,name: "到商城累计消费500元宝",value: 500,awards: [{item: 60,awardId: 10180,num: 3},{item: 130,num: 30}],isValid: true}
+  - {id: 60315,type: 60,name: "完成2次商帮任务",value: 2,awards: [{item: 10,num: 80},{item: 130,num: 30}],isValid: true}
+boxs: 
+  - {id: 60901,boxKey: 0,score: 100,awards: [{item: 20,num: 500000}],isValid: true}
+  - {id: 60902,boxKey: 0,score: 200,awards: [{item: 60,awardId: 570,num: 3}],isValid: true}
+  - {id: 60903,boxKey: 0,score: 300,awards: [{item: 10,num: 300}],isValid: true}
+  - {id: 60904,boxKey: 0,score: 400,awards: [{item: 60,awardId: 10110,num: 2}],isValid: true}
+  #姜子牙，孟章苍龙，赵公明，金銮火凤，黄飞虎，五星灵石*5    6选1
+  - {id: 60905,boxKey: 0,score: 500,awards: [{item: 40,awardId: 101,num: 1},{item: 40,awardId: 236,num: 1},{item: 40,awardId: 302,num: 1},{item: 40,awardId: 401,num: 1},{item: 40,awardId: 502,num: 1},{item: 60,awardId: 850,num: 5}],isValid: true}
+...

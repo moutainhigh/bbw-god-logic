@@ -1,0 +1,4 @@
+ID生成器依赖于服务器ip设置，为了保证不重复，需要将集群服务器ip地址设置为连续。
+
+将target下lib包和godLogic.jar(运行包)以及src/main/resources下的文件部署至服务器同一目录下
+

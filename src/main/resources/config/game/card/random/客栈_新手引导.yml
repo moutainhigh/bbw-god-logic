@@ -1,0 +1,18 @@
+#策略名称
+key: 客栈_新手引导
+#策略描述
+desc: 按概率随机2张1星卡牌（way=0），1张指定的跟玩家同属性的三星卡
+#结果限制
+maxSize: 3
+selectors:
+  - key: 1
+    requestSize: 2
+    condition: {star: 1,include: [$0类卡]}
+    #type:概率类型0|1。0=真随机;1=伪随机。 value:概率[0,100]，maxTimes:保底策略，可选参数，最多多少次后必然命中。
+    probability: {type: 0,value: 100}
+  - key: 2
+    requestSize: 1
+    condition: {star: 2,include: [方弼]}
+    #type:概率类型0|1。0=真随机;1=伪随机。 value:概率[0,100]，maxTimes:保底策略，可选参数，最多多少次后必然命中。
+    probability: {type: 0,value: 100}
+...

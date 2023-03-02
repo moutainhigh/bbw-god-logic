@@ -1,0 +1,38 @@
+#type=10是普通奖励
+#CfgGodBlessAward
+--- { id: 1010,type: 10,awards: [ { item: 10, num: 88 } ] }
+--- { id: 1020,type: 10,awards: [ { item: 10, num: 188 } ] }
+--- { id: 1030,type: 10,awards: [ { item: 10, num: 288 } ] }
+--- { id: 1040,type: 10,awards: [ { "item": 40,"star": 4,"num": 1,"strategy": "仙人祝福随机四星卡牌" } ] }
+--- { id: 1050,type: 10,awards: [ { "item": 40,"star": 4,"num": 1,"strategy": "仙人祝福随机四星卡牌" } ] }
+--- { id: 1060,type: 10,awards: [ { "item": 40,"star": 4,"num": 1,"strategy": "仙人祝福随机四星卡牌" } ] }
+--- { id: 1070,type: 10,awards: [ { "item": 40,"star": 4,"num": 1,"strategy": "仙人祝福随机四星卡牌" } ] }
+--- { id: 1080,type: 10,awards: [ { "item": 60,"awardId": 10110,"num": 1 } ] }
+--- { id: 1090,type: 10,awards: [ { "item": 60,"awardId": 10110,"num": 1 } ] }
+--- { id: 1100,type: 10,awards: [ { "item": 60,"awardId": 10110,"num": 1 } ] }
+--- { id: 1110,type: 10,awards: [ { "item": 60,"awardId": 11090,"num": 1 } ] }
+--- { id: 1120,type: 10,awards: [ { "item": 60,"awardId": 11090,"num": 1 } ] }
+--- { id: 1130,type: 10,awards: [ { "item": 60,"awardId": 11090,"num": 1 } ] }
+--- { id: 1140,type: 10,awards: [ { "item": 60,"awardId": 10180,"num": 2 } ] }
+--- { id: 1150,type: 10,awards: [ { "item": 60,"awardId": 10180,"num": 2 } ] }
+--- { id: 1160,type: 10,awards: [ { "item": 60,"awardId": 10180,"num": 2 } ] }
+--- { id: 1170,type: 10,awards: [ { "item": 60,"awardId": 10020,"num": 10 } ] }
+--- { id: 1180,type: 10,awards: [ { "item": 60,"awardId": 10020,"num": 10 } ] }
+--- { id: 1190,type: 10,awards: [ { "item": 60,"awardId": 10020,"num": 10 } ] }
+--- { id: 1200,type: 10,awards: [ { "item": 60,"awardId": 10170,"num": 1 } ] }
+--- { id: 1210,type: 10,awards: [ { "item": 60,"awardId": 10010,"num": 2 } ] }
+--- { id: 1220,type: 10,awards: [ { "item": 60,"awardId": 110,"num": 2 } ] }
+--- { id: 1230,type: 10,awards: [ { "item": 60,"awardId": 260,"num": 1 } ] }
+--- { id: 1240,type: 10,awards: [ { "item": 60,"awardId": 210,"num": 1 } ] }
+--- { id: 1250,type: 10,awards: [ { "item": 60,"awardId": 30,"num": 1 } ] }
+#type=20是连线奖励
+--- { id: 2010,type: 20,index: 26,awards: [ { "item": 10,"num": 388 } ] }
+--- { id: 2020,type: 20,index: 27,awards: [ { "item": 60,"awardId": 10180,"num": 5 } ] }
+--- { id: 2030,type: 20,index: 28,awards: [ { "item": 60,"awardId": 10110,"num": 3 } ] }
+--- { id: 2040,type: 20,index: 29,awards: [ { "item": 60,"awardId": 60,"num": 1 } ] }
+--- { id: 2050,type: 20,index: 30,awards: [ { "item": 40,"star": 5,"num": 1,"strategy": "仙人祝福随机五星卡牌" } ] }
+--- { id: 2060,type: 20,index: 31,awards: [ { "item": 60,"awardId": 11060,"num": 1 } ] }
+--- { id: 2070,type: 20,index: 32,awards: [ { "item": 60,"awardId": 11100,"num": 1 } ] }
+--- { id: 2080,type: 20,index: 33,awards: [ { "item": 60,"awardId": 11090,"num": 3 } ] }
+--- { id: 2090,type: 20,index: 34,awards: [ { "item": 60,"awardId": 10180,"num": 5 } ] }
+--- { id: 2100,type: 20,index: 35,awards: [ { "item": 10,"num": 388 } ] }

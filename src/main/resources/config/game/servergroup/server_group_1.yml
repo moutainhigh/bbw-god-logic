@@ -1,0 +1,18 @@
+# CfgServerGroup
+# 【富甲】开发测试服务器组
+#组ID
+groupId: 1
+#APP使用的产品分组
+appProductGroupId: 1
+#微信公众号使用的产品分组
+wechatProductGroupId: 2
+#强联网http地址
+wsUrl: http://localhost:7181/godWS/
+#玩家竞技ip
+fsFightIps:
+  - 120.24.165.28
+  - 100.120.94.56
+  - 100.120.94.52
+  - 100.120.59.132
+  - 100.120.59.168
+  - 100.120.94.59

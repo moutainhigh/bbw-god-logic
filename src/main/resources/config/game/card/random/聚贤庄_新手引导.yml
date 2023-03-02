@@ -1,0 +1,15 @@
+#TODO
+---
+#策略名称
+key: 聚贤庄_新手引导
+#策略描述
+desc: 3张固定卡
+#结果限制 返回3张卡
+maxSize: 3
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 1
+    requestSize: 3
+    condition: {star: -1,include: [殷商死士,殷商兵,花斑豹]}
+    probability: {type: 0,value: 100}
+...

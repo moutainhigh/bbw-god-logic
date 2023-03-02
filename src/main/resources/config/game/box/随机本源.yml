@@ -1,0 +1,31 @@
+key: 50419
+desc: 随机获得1个本源
+isRandom: true
+categoryNum: 1
+goods:
+  -
+    item: 60
+    good: 金系本源
+    num: 1
+    prop: 2000
+  -
+    item: 60
+    good: 木系本源
+    num: 1
+    prop: 2000
+  -
+    item: 60
+    good: 水系本源
+    num: 1
+    prop: 2000
+  -
+    item: 60
+    good: 火系本源
+    num: 1
+    prop: 2000
+  -
+    item: 60
+    good: 土系本源
+    num: 1
+    prop: 2000
+...

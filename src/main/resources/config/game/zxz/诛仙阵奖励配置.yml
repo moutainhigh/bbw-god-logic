@@ -1,0 +1,94 @@
+#CfgZxzAwardEntity
+key: 唯一
+#clearanceNumLimit：通关（全通）次数的上限
+clearanceNumLimit: 20
+#奖励掉落数量规则
+#kind 10普通，20:精英，30：首领
+#addRegionLv：区域等级
+#addProbability：增加的概率 (每增加25区域等级概率增加1%)
+#num：掉落的数量
+#probability:掉落的概率，不出就是-1
+#order:顺序
+quantityRules:
+  - {defenderKind: 10,addRegionLv: 25,addProbability: 1,awardNumPool:[{num: 7,probability: -1,order: 1},{num: 6,probability: -1,order: 2},{num: 5,probability: 0,order: 3},{num: 4,probability: 5,order: 4},{num: 3,probability: 20,order: 5},{num: 2,probability: 60,order: 6},{num: 1,probability: 100,order: 7}]}
+  - {defenderKind: 20,addRegionLv: 25,addProbability: 1,awardNumPool:[{num: 7,probability: -1,order: 1},{num: 6,probability: 0,order: 2},{num: 5,probability: 5,order: 3},{num: 4,probability: 20,order: 4},{num: 3,probability: 60,order: 5},{num: 2,probability: 100,order: 6},{num: 1,probability: 100,order: 7}]}
+  - {defenderKind: 30,addRegionLv: 25,addProbability: 1,awardNumPool:[{num: 7,probability: 0,order: 1},{num: 6,probability: 5,order: 2},{num: 5,probability: 20,order: 3},{num: 4,probability: 60,order: 4},{num: 3,probability: 100,order: 5},{num: 2,probability: 100,order: 6},{num: 1,probability: 100,order: 7}]}
+  #奖励物品掉落规则
+#difficulty 难度类型，10：简单，20：普通，30：困难，40：噩梦，50：地狱
+#defenderKind 10普通，20:精英，30：首领
+#addRegionLv：区域等级
+#addProbability：增加的概率 (每增加25区域等级概率增加1%)
+#awardPool：奖池
+#awards:掉落的物品
+#probability：掉落的概率，-1为不出
+winAwardRuleRules:
+  #简单
+  - {difficulty: 10,defenderKind: 10,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 5000},{item: 20,num: 6000},{item: 20,num: 7000},{item: 20,num: 8000},{item: 20,num: 10000}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 30,order: 4},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 20,order: 3},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50371,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 10,defenderKind: 20,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 5000},{item: 20,num: 6000},{item: 20,num: 7000},{item: 20,num: 8000},{item: 20,num: 10000}],probability: -1,order: 5},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 4},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 80,order: 3},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50371,num: 1}],probability: 1,order: 1}]}
+  - {difficulty: 10,defenderKind: 30,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 5000},{item: 20,num: 6000},{item: 20,num: 7000},{item: 20,num: 8000},{item: 20,num: 10000}],probability: -1,order: 5},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 4},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 90,order: 3},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 30,order: 2},{awards:[{item: 60,awardId: 50371,num: 1}],probability: 20,order: 1}]}
+  #普通
+  - {difficulty: 20,defenderKind: 10,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 10000},{item: 20,num: 12000},{item: 20,num: 14000},{item: 20,num: 17000},{item: 20,num: 20000}],probability: 100,order: 6},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 35,order: 5},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 30,order: 4},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 20,order: 3},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50372,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 20,defenderKind: 20,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 10000},{item: 20,num: 12000},{item: 20,num: 14000},{item: 20,num: 17000},{item: 20,num: 20000}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 80,order: 4},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 30,order: 3},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50372,num: 1}],probability: 1,order: 1}]}
+  - {difficulty: 20,defenderKind: 30,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 20,num: 10000},{item: 20,num: 12000},{item: 20,num: 14000},{item: 20,num: 17000},{item: 20,num: 20000}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 90,order: 4},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 40,order: 3},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 20,order: 2},{awards:[{item: 60,awardId: 50372,num: 1}],probability: 20,order: 1}]}
+  #困难
+  - {difficulty: 30,defenderKind: 10,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 50,order: 5},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 30,order: 4},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 20,order: 3},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50373,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 30,defenderKind: 20,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 50,order: 4},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 30,order: 3},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50373,num: 1}],probability: 1,order: 1}]}
+  - {difficulty: 30,defenderKind: 30,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50366,num: 1}],probability: 70,order: 4},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 40,order: 3},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 20,order: 2},{awards:[{item: 60,awardId: 50373,num: 1}],probability: 15,order: 1}]}
+  #噩梦
+  - {difficulty: 40,defenderKind: 10,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: 100,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 50,order: 5},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 30,order: 4},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 20,order: 3},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50374,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 40,defenderKind: 20,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 50,order: 4},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 30,order: 3},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 5,order: 2},{awards:[{item: 60,awardId: 50374,num: 1}],probability: 1,order: 1}]}
+  - {difficulty: 40,defenderKind: 30,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50419,num: 1}],probability: -1,order: 6},{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 5},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 70,order: 4},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 40,order: 3},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 20,order: 2},{awards:[{item: 60,awardId: 50374,num: 1}],probability: 15,order: 1}]}
+  #地狱
+  - {difficulty: 50,defenderKind: 10,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 7},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 35,order: 6},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 30,order: 5},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 20,order: 4},{awards:[{item: 60,awardId: 50370,num: 1}],probability: 5,order: 3},{awards:[{item: 60,awardId: 50375,num: 1}],probability: -1,order: 2},{awards:[{item: 60,awardId: 50376,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 50,defenderKind: 20,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 7},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 70,order: 6},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 50,order: 5},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 30,order: 4},{awards:[{item: 60,awardId: 50370,num: 1}],probability: 5,order: 3},{awards:[{item: 60,awardId: 50375,num: 1}],probability: 1,order: 2},{awards:[{item: 60,awardId: 50376,num: 1}],probability: -1,order: 1}]}
+  - {difficulty: 50,defenderKind: 30,addRegionLv: 25,addProbability: 1,clearanceNumLimit: 20,awardPool:[{awards:[{item: 60,awardId: 50364,num: 1},{item: 60,awardId: 50365,num: 1}],probability: 100,order: 7},{awards:[{item: 60,awardId: 50367,num: 1}],probability: 80,order: 6},{awards:[{item: 60,awardId: 50368,num: 1}],probability: 70,order: 5},{awards:[{item: 60,awardId: 50369,num: 1}],probability: 40,order: 4},{awards:[{item: 60,awardId: 50370,num: 1}],probability: 20,order: 3},{awards:[{item: 60,awardId: 50375,num: 1}],probability: 15,order: 2},{awards:[{item: 60,awardId: 50376,num: 1}],probability: 1,order: 1}]}
+
+
+#宝箱奖励倍数的随机规则（每个道具单独计算倍数）
+#regionLv :区域等级间隔
+#multiple 倍数
+#probability：概率
+boxMultipleRules:
+  - {regionLvInterval:[1,99],awardMultiplePool:[{multiple: 5,probability: 0},{multiple: 4,probability: 0},{multiple: 3,probability: 0},{multiple: 2,probability: 0},{multiple: 1,probability: 100}]}
+  - {regionLvInterval:[100,199],awardMultiplePool:[{multiple: 5,probability: 0},{multiple: 4,probability: 0},{multiple: 3,probability: 8},{multiple: 2,probability: 15},{multiple: 1,probability: 77}]}
+  - {regionLvInterval:[200,299],awardMultiplePool:[{multiple: 5,probability: 0},{multiple: 4,probability: 5},{multiple: 3,probability: 10},{multiple: 2,probability: 15},{multiple: 1,probability: 70}]}
+  - {regionLvInterval:[300,399],awardMultiplePool:[{multiple: 5,probability: 2},{multiple: 4,probability: 6},{multiple: 3,probability: 12},{multiple: 2,probability: 18},{multiple: 1,probability: 62}]}
+  - {regionLvInterval:[400,999],awardMultiplePool:[{multiple: 5,probability: 5},{multiple: 4,probability: 8},{multiple: 3,probability: 15},{multiple: 2,probability: 25},{multiple: 1,probability: 47}]}
+#宝箱奖励规则
+#difficulty 难度类型，10：简单，20：普通，30：困难，40：噩梦，50：地狱
+#defenderKind: 20：精英宝箱，30：首领宝箱
+#boxId:宝箱Id
+#fixedId:固定奖励Id
+boxAwardRules:
+  - {difficulty: 10,defenderKind: 20,boxId: 50409,fixedId: 50408}
+  - {difficulty: 10,defenderKind: 30,boxId: 50410,fixedId: 50408}
+
+  - {difficulty: 20,defenderKind: 20,boxId: 50411,fixedId: 50408}
+  - {difficulty: 20,defenderKind: 30,boxId: 50412,fixedId: 50408}
+
+  - {difficulty: 30,defenderKind: 20,boxId: 50413,fixedId: 50408}
+  - {difficulty: 30,defenderKind: 30,boxId: 50414,fixedId: 50408}
+
+  - {difficulty: 40,defenderKind: 20,boxId: 50415,fixedId: 50408}
+  - {difficulty: 40,defenderKind: 30,boxId: 50416,fixedId: 50408}
+
+  - {difficulty: 50,defenderKind: 20,boxId: 50417,fixedId: 50408}
+  - {difficulty: 50,defenderKind: 30,boxId: 50418,fixedId: 50408}
+#全通奖励规则
+#difficulty 难度类型，10：简单，20：普通，30：困难，40：噩梦，50：地狱
+#addRegionLv：增加的评分
+#addMultiple：增加的倍数
+#clearanceNumLimit：全通次数的上限
+#awardPool：奖池
+#awards:掉落的物品
+#probability：掉落概率，必得的为100
+allPassAwardRules:
+  - {difficulty: 10,addRegionLv: 230,addMultiple: 1,clearanceNumLimit: 40,awardPool:[{awards:[{item: 20,num: 40000}],probability: 1000},{awards:[{item: 60,awardId: 50366,num: 1},{item: 60,awardId: 50366,num: 2},{item: 60,awardId: 50366,num: 3}],probability: 1000},{awards:[{item: 60,awardId: 50371,num: 1}],probability: 120}]}
+  - {difficulty: 20,addRegionLv: 230,addMultiple: 1,clearanceNumLimit: 40,awardPool:[{awards:[{item: 20,num: 60000}],probability: 1000},{awards:[{item: 60,awardId: 50366,num: 2},{item: 60,awardId: 50366,num: 3},{item: 60,awardId: 50366,num: 4},{item: 60,awardId: 50366,num: 5}],probability: 1000},{awards:[{item: 60,awardId: 50367,num: 1},{item: 60,awardId: 50367,num: 2},{item: 60,awardId: 50367,num: 3}],probability: 1000},{awards:[{item: 60,awardId: 50372,num: 1}],probability: 120}]}
+  - {difficulty: 30,addRegionLv: 230,addMultiple: 1,clearanceNumLimit: 40,awardPool:[{awards:[{item: 20,num: 80000}],probability: 1000},{awards:[{item: 60,awardId: 50367,num: 2},{item: 60,awardId: 50367,num: 3},{item: 60,awardId: 50367,num: 4},{item: 60,awardId: 50367,num: 5}],probability: 1000},{awards:[{item: 60,awardId: 50368,num: 1},{item: 60,awardId: 50368,num: 2},{item: 60,awardId: 50368,num: 3}],probability: 1000},{awards:[{item: 60,awardId: 50373,num: 1}],probability: 40},{awards:[{item: 60,awardId: 50377,num: 1}],probability: 40}]}
+  - {difficulty: 40,addRegionLv: 230,addMultiple: 1,clearanceNumLimit: 40,awardPool:[{awards:[{item: 20,num: 120000}],probability: 1000},{awards:[{item: 60,awardId: 50368,num: 2},{item: 60,awardId: 50368,num: 3},{item: 60,awardId: 50368,num: 4},{item: 60,awardId: 50368,num: 5}],probability: 1000},{awards:[{item: 60,awardId: 50369,num: 1},{item: 60,awardId: 50369,num: 2},{item: 60,awardId: 50369,num: 3}],probability: 1000},{awards:[{item: 60,awardId: 50374,num: 1}],probability: 20},{awards:[{item: 60,awardId: 50377,num: 1},{item: 60,awardId: 50377,num: 2}],probability: 20}]}
+  - {difficulty: 50,addRegionLv: 230,addMultiple: 1,clearanceNumLimit: 40,awardPool:[{awards:[{item: 20,num: 200000}],probability: 1000},{awards:[{item: 60,awardId: 50369,num: 2},{item: 60,awardId: 50369,num: 3},{item: 60,awardId: 50369,num: 4},{item: 60,awardId: 50369,num: 5}],probability: 1000},{awards:[{item: 60,awardId: 50370,num: 1},{item: 60,awardId: 50370,num: 2},{item: 60,awardId: 50370,num: 3}],probability: 1000},{awards:[{item: 60,awardId: 50375,num: 1}],probability: 10},{awards:[{item: 60,awardId: 50376,num: 1}],probability: 3},{awards:[{item: 60,awardId: 50356,num: 1}],probability: 2},{awards:[{item: 60,awardId: 50357,num: 1}],probability: 2},{awards:[{item: 60,awardId: 50377,num: 3},{item: 60,awardId: 50377,num: 4}],probability: 10}]}
+
+randomOrigin: [{item: 60,num: 1,awardId: 50390},{item: 60,num: 1,awardId: 50391},{item: 60,num: 1,awardId: 50392},{item: 60,num: 1,awardId: 50393},{item: 60,num: 1,awardId: 50394}]
+#首次全通获得奖励
+firstClearanceAward: [{item: 60,num: 1,awardId: 50358}]

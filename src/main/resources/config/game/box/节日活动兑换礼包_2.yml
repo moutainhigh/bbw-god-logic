@@ -1,0 +1,21 @@
+#箱子标识
+key: 1520
+#箱子描述
+desc: 卡牌-度厄真人*1、四星灵石*90、神砂*100
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 神沙
+    num: 100
+  -
+    item: 60 # 道具
+    good: 四星灵石
+    num: 90
+  -
+    item: 40 # 道具
+    good: 度厄真人
+    num: 1
+...

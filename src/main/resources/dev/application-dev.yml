@@ -1,0 +1,133 @@
+spring:
+  session: #session保存方式设置
+    store-type: redis
+    timeout: 7200
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/god_game?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+      initial-size: 5
+      max-active: 256
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      aop-patterns: com.bbw.god.login.*,com.bbw.god.db.pool.*
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: lsj@zf
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+  kafka:
+    bootstrap-servers: 192.168.3.7:9092
+    producer:
+      # 重试次数
+      retries: 0
+      # 应答级别:多少个分区副本备份完成时向生产者发送ack确认(可选0、1、all/-1)
+      acks: 0
+      # 批量大小 16K
+      batch-size: 16384
+      # 生产端缓冲区大小 32M
+      buffer-memory: 33554432
+      # 系列化
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      security:
+#        protocol: SASL_PLAINTEXT
+#      properties:
+#        sasl.mechanism: PLAIN
+#        sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="producer" password="Producer@110308";
+logging:
+  file: logs/spring/spring.log
+  path: /Users/zhuojiu/Desktop/IdeaProjects/bbw-god-game/logs/
+  log-root-path: /Users/zhuojiu/Desktop/IdeaProjects/bbw-god-game/logs/
+server:
+  tomcat:
+    accesslog:
+      buffered: true #使用缓存，定期刷新到日志文件
+      directory: /Users/zhuojiu/Desktop/IdeaProjects/bbw-god-game/logs/access #日志路径
+      enabled: true #开关
+      file-date-format: .yyyy-MM-dd #日志名称包含的轮转的时间戳格式
+      pattern: "%{X-Forwarded-For}i|%t| %r |%{postdata}r|%s|%b|%T" #common #通用 %h %l %u %t “%r” %s %b
+      prefix: localhost_access_log #前缀
+      rename-on-rotate: false #是否延迟到玩家切换时才在文件名包含时间戳
+      request-attributes-enabled: false #
+      rotate: true #指定是否启用日志轮转。默认为true。这个参数决定是否需要切换切换日志文件，如果被设置为false，则日志文件不会切换，即所有文件打到同一个日志文件中，并且file-date-format参数也会被忽略
+      suffix: .txt #后缀
+bbw-god:
+  db-batchSize: 1000 #区服数据批量提交一次性最多数量
+  load-all-user-data-one-time: true #一次性载入所有玩家数据。如果为false则只载入GameUser对象数据，仅在第一获取某一类型UserData的时候再载入此类型全部数据到redis
+  run-schedule: true #启动定时任务引擎
+  game-data-result-days: 10 #提前生成多少天的结果数据
+  health-check-days: 7 #提前健康检查
+  redis-userdata-in-days: 5 #redis中缓存的多少天内登录的用户数据
+  checking-ios-channels:
+  #    - {channelVersion: "1v",initPos: 2701,initDir: 3}
+  is-push-to-kafka: true
+  newGameUser: #新角色资源初始值开发环境用
+    copper: 100000000 #铜钱50000
+    gold: 10000000 #元宝0
+    dice: 10000 #体力30
+  chanjie:
+    open: true #开启阐截斗法
+    beginTime: "18:45:00" #战斗开始时间
+    endTime: "22:00:00" #战斗结束时间
+    useWeapon: false #是否允许使用法宝
+  #redis 设置
+  multi-redis:
+    common:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password:     # 密码（默认为空）
+      timeout: 6000ms  # 连接超时时长（毫秒）
+      lettuce:
+        pool:
+          max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          minIdle: 5
+          maxIdle: 50
+    redis1-db6:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password:     # 密码（默认为空）
+      timeout: 6000ms  # 连接超时时长（毫秒）
+      lettuce:
+        pool:
+          max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          minIdle: 5
+          maxIdle: 50
+    redis1-db7:
+      database: 7
+      host: 127.0.0.1
+      port: 6379
+      password:    # 密码（默认为空）
+      timeout: 6000ms  # 连接超时时长（毫秒）
+      lettuce:
+        pool:
+          max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          minIdle: 5
+          maxIdle: 50
+push:
+  numOfThread: 1
+  iosChannels:
+    - {chanel: 1, certificate: src/main/resources/config/ios_push/叫我召唤师推送.p12, pwd: 123}

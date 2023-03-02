@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <springProperty scope="context" name="logPath" source="logging.path"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="SPRING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/spring/godlogic_spring.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/spring/godlogic_spring.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="GOD_DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/debug/godlogic_debug.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/debug/godlogic_debug.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="GOD_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/info/godlogic_info.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <!--格式化输出：%d表示日期，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符 -->
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/info/godlogic_info.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 错误日志 -->
+    <appender name="GOD_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/error/godlogic_error.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/error/godlogic_error.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 警告日志 -->
+    <appender name="GOD_WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/warn/godlogic_warn.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/warn/godlogic_warn.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 安全日志 -->
+    <appender name="GOD_SECURITY" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/security/godlogic_security.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${logPath}/security/godlogic_security.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>50MB</maxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <!-- 数据库操作日志 -->
+    <appender name="GOD_DB" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/db/godlogic_db.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/db/godlogic_db.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 监控日志 -->
+    <appender name="GOD_MONITOR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/monitor/godlogic_monitor.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${logPath}/monitor/godlogic_monitor.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>50MB</maxFileSize>
+        </triggeringPolicy>
+
+    </appender>
+    <!-- 删除过期数据日志 -->
+    <appender name="GOD_DATA_DEL_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/del_log/godlogic_data_del.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/del_log/godlogic_data_del.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="GOD_COMBAT_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/combat/godlogic_combat.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/combat/godlogic_combat.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 神仙大会日志 -->
+    <appender name="GOD_SXDH_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/sxdh/godlogic_sxdh.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/sxdh/godlogic_sxdh.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 请求结果日志 -->
+    <appender name="GOD_REQUEST_RESULT_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/request_result/godlogic_request_result.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/request_result/godlogic_request_result.%d{yyyy-MM-dd-HH}.log.zip
+            </fileNamePattern>
+            <maxHistory>360</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 万仙阵日志 -->
+    <appender name="GOD_WANXIAN_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logPath}/wanxian/godlogic_wanxian.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %logger{0}.%M[%line] [%logger{30}] [%level]%n %m%n%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/wanxian/godlogic_wanxian.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- 测试环境+开发环境. 多个使用逗号隔开. -->
+    <springProfile name="test,dev,dev-suhq,dev-scb,dev-lwb,dev-lzc,dev-fzj,dev-huanghb,dev-hzf,dev-lwh">
+        <logger name="org.springframework" level="INFO">
+            <appender-ref ref="SPRING"/>
+        </logger>
+        <logger name="com.bbw.god.db" additivity="true" level="INFO">
+            <appender-ref ref="GOD_DB"/>
+        </logger>
+        <logger name="com.bbw" additivity="true" level="DEBUG">
+            <!--            <appender-ref ref="STDOUT"/>-->
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.cache" additivity="true" level="INFO">
+            <!--            <appender-ref ref="STDOUT"/>-->
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.controller" additivity="true" level="DEBUG">
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.sys.session" additivity="false" level="INFO">
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+        <logger name="com.bbw.god.detail.LogUtil" additivity="true" level="INFO">
+            <appender-ref ref="GOD_DATA_DEL_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.sxdh" additivity="true" level="INFO">
+            <appender-ref ref="GOD_SXDH_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.fight.fsfight" additivity="true" level="INFO">
+            <appender-ref ref="GOD_SXDH_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.combat" additivity="true" level="INFO">
+            <appender-ref ref="GOD_COMBAT_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.combat.ClientProtocol" additivity="false" level="INFO">
+            <appender-ref ref="GOD_MONITOR"/>
+        </logger>
+        <logger name="com.bbw.god.game.chanjie" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.game.wanxianzhen" additivity="true" level="INFO">
+            <appender-ref ref="GOD_WANXIAN_LOG"/>
+        </logger>
+        <logger name="requestAspect" additivity="true" level="INFO">
+            <appender-ref ref="GOD_REQUEST_RESULT_LOG"/>
+        </logger>
+        <logger name="godSecurity" additivity="true" level="ERROR">
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+    </springProfile>
+    <!-- 生产环境. -->
+    <springProfile name="prod">
+        <logger name="org.springframework" level="INFO">
+            <appender-ref ref="SPRING"/>
+        </logger>
+        <logger name="com.bbw.god.db" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DB"/>
+        </logger>
+        <logger name="com.bbw.god" additivity="false" level="INFO">
+            <!-- <appender-ref ref="STDOUT" /> -->
+            <!-- <appender-ref ref="GOD_DEBUG" /> -->
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.cache" additivity="false" level="INFO">
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.controller" additivity="false" level="DEBUG">
+            <!-- <appender-ref ref="GOD_DEBUG" /> -->
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.sys.session" additivity="false" level="INFO">
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+        <logger name="com.bbw.god.fight.attack" additivity="true" level="ERROR">
+            <appender-ref ref="STDOUT"/>
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+        <logger name="com.bbw.god.pay.PayCallBackCtrl" additivity="false" level="ERROR">
+            <appender-ref ref="STDOUT"/>
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+        <logger name="com.bbw.god.game.monitor" additivity="false" level="INFO">
+            <appender-ref ref="GOD_MONITOR"/>
+        </logger>
+        <logger name="com.bbw.god.game.combat.ClientProtocol" additivity="false" level="INFO">
+            <appender-ref ref="GOD_MONITOR"/>
+        </logger>
+        <logger name="com.bbw.god.detail.LogUtil" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DATA_DEL_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.sxdh" additivity="false" level="INFO">
+            <appender-ref ref="GOD_SXDH_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.fight.fsfight" additivity="true" level="INFO">
+            <appender-ref ref="GOD_SXDH_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.combat" additivity="false" level="INFO">
+            <appender-ref ref="GOD_COMBAT_LOG"/>
+        </logger>
+        <logger name="com.bbw.god.game.chanjie" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.activityrank" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.random.box" additivity="false" level="INFO">
+            <appender-ref ref="GOD_DEBUG"/>
+            <appender-ref ref="GOD_INFO"/>
+            <appender-ref ref="GOD_WARN"/>
+            <appender-ref ref="GOD_ERROR"/>
+        </logger>
+        <logger name="com.bbw.god.game.wanxianzhen" additivity="true" level="INFO">
+            <appender-ref ref="GOD_WANXIAN_LOG"/>
+        </logger>
+        <logger name="requestAspect" additivity="false" level="INFO">
+            <appender-ref ref="GOD_REQUEST_RESULT_LOG"/>
+        </logger>
+        <logger name="godSecurity" additivity="true" level="ERROR">
+            <appender-ref ref="GOD_SECURITY"/>
+        </logger>
+    </springProfile>
+    <root level="ERROR">
+        <appender-ref ref="GOD_ERROR"/>
+    </root>
+</configuration>

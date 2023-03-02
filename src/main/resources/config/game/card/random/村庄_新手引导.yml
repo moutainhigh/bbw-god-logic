@@ -1,0 +1,16 @@
+#需要参数
+#  $玩家属性 
+---
+#策略名称
+key: 村庄_新手引导
+#策略描述
+desc: 随机一张同属性的一星卡牌（way=0）
+#结果限制
+maxSize: 1
+selectors:
+  - key: 1
+    requestSize: 1
+    condition: {star: 1,include: [$0类卡],exclude: [殷商死士],type: $角色属性 }
+    #type:概率类型0|1。0=真随机;1=伪随机。 value:概率[0,100]，maxTimes:保底策略，可选参数，最多多少次后必然命中。
+    probability: {type: 0,value: 100}
+...

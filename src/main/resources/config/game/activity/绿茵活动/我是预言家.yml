@@ -1,0 +1,42 @@
+#CfgProphet
+#betBegin:竞猜开始时间
+#betEnd:竞猜结束时间
+#showBegin: 展示开始时间
+#showEnd: 展示结束时间
+#quizs: 竞猜内容
+#id:这场比赛的标识 eg：22-12-20-20 年-月-日-小时
+#competeCountries:参与的国家
+#winCountry:赢的国家
+#needTreasure:消耗道具的Id
+#needNum:消耗道具的数量
+#quizAwards:竞猜奖励
+#continuousSuccessTimes:连续中的次数
+#awards:奖励
+key: 唯一
+
+
+betBegin: 2022-12-07 09:00:00
+betEnd: 2022-12-09 19:59:59
+showBegin: 2022-12-09 20:00:00
+showEnd: 2022-12-20 23:59:59
+needTreasure: 50430
+needNum: 30
+quizs:
+  - {id: 22-12-09-23,competeCountries: [24,25],winCountry: 24}
+  - {id: 22-12-10-03,competeCountries: [4,9],winCountry: 9}
+  - {id: 22-12-10-23,competeCountries: [23,29],winCountry: 23}
+  - {id: 22-12-11-03,competeCountries: [5,13],winCountry: 13}
+  - {id: 22-12-14-03,competeCountries: [24,9],winCountry: 9}
+  - {id: 22-12-15-03,competeCountries: [23,13],winCountry: 13}
+  - {id: 22-12-18-23,competeCountries: [9,13],winCountry: 9}
+
+quizAwards:
+  - {successTimes: 7,awards: [{awardId: 11065,item: 60,num: 2},{awardId: 11010,item: 60,num: 200}]}
+  - {successTimes: 0,awards: [{awardId: 11065,item: 60,num: 2},{awardId: 11010,item: 60,num: 200}]}
+  - {successTimes: 6,awards: [{awardId: 11065,item: 60,num: 1},{awardId: 11010,item: 60,num: 100}]}
+  - {successTimes: 5,awards: [{awardId: 50010,item: 60,num: 1},{awardId: 11010,item: 60,num: 80}]}
+  - {successTimes: 4,awards: [{awardId: 11410,item: 60,num: 1},{awardId: 11010,item: 60,num: 70}]}
+  - {successTimes: 3,awards: [{awardId: 11060,item: 60,num: 1},{awardId: 11010,item: 60,num: 60}]}
+  - {successTimes: 2,awards: [{awardId: 11010,item: 60,num: 50}]}
+  - {successTimes: 1,awards: [{awardId: 11010,item: 60,num: 50}]}
+

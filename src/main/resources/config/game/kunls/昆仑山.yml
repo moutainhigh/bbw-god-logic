@@ -1,0 +1,90 @@
+#CfgKunLS
+#激活
+key: 唯一
+#注灵次数上限
+infusionTimesLimit: 5
+#属性偏向概率
+propertyTrendProbs: [200,200,200,200,200]
+#属性偏向材料上限
+propertyTrendMaterialNumLimit: 40
+#注灵需要法宝id
+infusionNeedTreasureId: 50377
+#注灵需要法宝数量
+infusionNeedTreasureNum: [1,2,3,4,5]
+#品质对应的图纸id：品质 -> 图纸id
+mapTreasureIds:
+  10: 50358
+  20: 50359
+  30: 50360
+  40: 50361
+  50: 50362
+  60: 50363
+#至宝胚类型（前一个10代表至宝类型，后一个10是至宝品质）=》至宝胚id
+embryoTreasureIds:
+  1010: 50378
+  1020: 50379
+  1030: 50380
+  1040: 50381
+  1050: 50382
+  1060: 50383
+  2010: 50384
+  2020: 50385
+  2030: 50386
+  2040: 50387
+  2050: 50388
+  2060: 50389
+#属性类型上限(如 数值为2 即只能选择 金木，木水这样只有两种属性)
+propertyTypeLimit: 2
+#灵宝炼制信息
+makingInfos:
+  #quality：品质（10~60），initProb：初始概率
+  #isNeedSacrifice：是否需要献祭道具（除凡品，其他都是ture）
+  #sacrificeZhiBaoQuality：献祭至宝的品质
+  #isRandomEssential：是否随机数量的基础材料（除凡品，其他都是false），essentials：基础材料id，essentialNum：基础材料所需数量
+  #upgradeMaterials：升品材料id（无则空白,仙品需多个升品材料时，逗号隔开），goUpNum：升品道具数量（仙品需多个升品材料时，逗号隔开）
+  #optionals：可选材料id，optionalNum：可选材料数量
+  #outPuts：产出道具id
+  - {quality: 10,initProb: 90,name: "凡品炼制信息",isNeedSacrifice: false,sacrificeZhiBaoQuality: 0,isRandomEssential: true, essentials: [50364,50365],essentialNum: 20,upgradeMaterials:[],upgradeMaterialNums:[],optionals: [50371],optionalNum: [1],outPuts: [50378,50384]}
+  - {quality: 20,initProb: 75,name: "中品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 10,isRandomEssential: false, essentials: [50364,50365],essentialNum: 20,upgradeMaterials:[50366],upgradeMaterialNums:[6],optionals: [50372],optionalNum: [1],outPuts: [50379,50385]}
+  - {quality: 30,initProb: 60,name: "上品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 20,isRandomEssential: false, essentials: [50364,50365],essentialNum: 25,upgradeMaterials:[50367],upgradeMaterialNums:[6],optionals: [50373],optionalNum: [1],outPuts: [50380,50386]}
+  - {quality: 40,initProb: 50,name: "精品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 30,isRandomEssential: false, essentials: [50364,50365],essentialNum: 30,upgradeMaterials:[50368],upgradeMaterialNums:[6],optionals: [50374],optionalNum:[1],outPuts: [50381,50387]}
+  - {quality: 50,initProb: 40,name: "极品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 40,isRandomEssential: false, essentials: [50364,50365],essentialNum: 35,upgradeMaterials:[50369],upgradeMaterialNums:[6],optionals: [50375],optionalNum: [1],outPuts: [50382,50388]}
+  - {quality: 60,initProb: 50,name: "仙品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 40,isRandomEssential: false, essentials: [50364,50365],essentialNum: 40,upgradeMaterials:[50370,50376],upgradeMaterialNums:[6,1],optionals: [],optionalNum:[] ,outPuts: [50383,50389]}
+  - {quality: 60,initProb: 100,name: "仙品炼制信息",isNeedSacrifice: true,sacrificeZhiBaoQuality: 50,isRandomEssential: false, essentials: [50364,50365],essentialNum: 40,upgradeMaterials:[50370,50376],upgradeMaterialNums:[6,1],optionals: [],optionalNum: [],outPuts: [50383,50389]}
+
+#注灵
+infusions:
+  #id：前两位为至宝类型（10为法器，20为灵宝） 后两位为至宝品质（10 -60）
+  #minAttack：最小攻击，maxAttack：最大攻击，minDefense：最小防御，maxDefense：最大防御
+  #minStrength：最小强度，maxStrength：最大强度，minTenacity：最小韧度，maxTenacity：最大韧度
+  #skillGroupOne：技能组1id（存在无的情况是，填写0），skillGroupTwo：技能组1id（存在无的情况是，填写0）
+  - {id: 1010,name: "凡品器胚属性",minAttack: 10,maxAttack: 90}
+  - {id: 1020,name: "中级器胚属性",minAttack: 125,maxAttack: 225,minTenacity: 30,maxTenacity: 50,minStrength: 30,maxStrength: 50,skillGroupOne: [0,10101,10102]}
+  - {id: 1030,name: "上品器胚属性",minAttack: 240,maxAttack: 375,minTenacity: 51,maxTenacity: 70,minStrength: 51,maxStrength: 70,skillGroupOne: [10101,10102]}
+  - {id: 1040,name: "精品器胚属性",minAttack: 390,maxAttack: 600,minTenacity: 71,maxTenacity: 120,minStrength: 71,maxStrength: 120,skillGroupOne: [10101,10102],skillGroupTwo:[0,10201,10202]}
+  - {id: 1050,name: "极品器胚属性",minAttack: 630,maxAttack: 975,minTenacity: 121,maxTenacity: 170,minStrength: 121,maxStrength: 170,skillGroupOne: [10101,10102],skillGroupTwo:[10201,10202]}
+  - {id: 1060,name: "仙品器胚属性",minAttack: 990,maxAttack: 1500,minTenacity: 171,maxTenacity: 250,minStrength: 171,maxStrength: 250,skillGroupOne: [10101,10102],skillGroupTwo:[10201,10202]}
+  - {id: 2010,name: "凡品宝胚属性",minDefense: 10,maxDefense: 90}
+  - {id: 2020,name: "中级宝胚属性",minDefense: 125,maxDefense: 225,minTenacity: 30,maxTenacity: 50,minStrength: 30,maxStrength: 50,skillGroupOne: [0,11101,11102]}
+  - {id: 2030,name: "上品宝胚属性",minDefense: 240,maxDefense: 375,minTenacity: 51,maxTenacity: 70,minStrength: 51,maxStrength: 70,skillGroupOne: [11101,11102]}
+  - {id: 2040,name: "精品宝胚属性",minDefense: 390,maxDefense: 600,minTenacity: 71,maxTenacity: 120,minStrength: 71,maxStrength: 120,skillGroupOne: [11101,11102],skillGroupTwo:[11201,11202]}
+  - {id: 2050,name: "极品宝胚属性",minDefense: 630,maxDefense: 975,minTenacity: 121,maxTenacity: 170,minStrength: 121,maxStrength: 170,skillGroupOne: [11101,11102],skillGroupTwo:[11201,11202]}
+  - {id: 2060,name: "仙品宝胚属性",minDefense: 990,maxDefense: 1500,minTenacity: 171,maxTenacity: 250,minStrength: 171,maxStrength: 250,skillGroupOne: [11101,11102],skillGroupTwo:[11201,11202]}
+
+#提炼
+refines:
+  #id 前两位为至宝类型（10为法器，20为灵宝） 后两位为至宝品质（10 -60）
+  #type：至宝类型
+  - {id: 1010,type: 10,name: "凡品法器/凡品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 10},{treasureId: 50365,minNum: 1,maxNum: 10}]}
+  - {id: 1020,type: 10,name: "中品法器/中品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 30},{treasureId: 50366,minNum: 1,maxNum: 6}]}
+  - {id: 1030,type: 10,name: "上品法器/上品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 55},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6}]}
+  - {id: 1040,type: 10,name: "精品法器/精品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 85},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6}]}
+  - {id: 1050,type: 10,name: "极品法器/极品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 120},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6},{treasureId: 50369,minNum: 1,maxNum: 6}]}
+  - {id: 1060,type: 10,name: "仙品法器/仙品器胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 160},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6},{treasureId: 50369,minNum: 1,maxNum: 6},{treasureId: 50370,minNum: 1,maxNum: 6}]}
+
+  - {id: 2010,type: 20,name: "凡品灵宝/凡品宝胚提炼",returnMaterials:[{treasureId: 50364,minNum: 1,maxNum: 10},{treasureId: 50365,minNum: 1,maxNum: 10}]}
+  - {id: 2020,type: 20,name: "中品灵宝/中品宝胚提炼",returnMaterials:[{treasureId: 50365,minNum: 1,maxNum: 30},{treasureId: 50366,minNum: 1,maxNum: 6}]}
+  - {id: 2030,type: 20,name: "上品灵宝/上品宝胚提炼",returnMaterials:[{treasureId: 50365,minNum: 1,maxNum: 55},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6}]}
+  - {id: 2040,type: 20,name: "精品灵宝/精品宝胚提炼",returnMaterials:[{treasureId: 50365,minNum: 1,maxNum: 85},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6}]}
+  - {id: 2050,type: 20,name: "极品灵宝/极品宝胚提炼",returnMaterials:[{treasureId: 50365,minNum: 1,maxNum: 120},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6},{treasureId: 50369,minNum: 1,maxNum: 6}]}
+  - {id: 2060,type: 20,name: "仙品灵宝/仙品宝胚提炼",returnMaterials:[{treasureId: 50365,minNum: 1,maxNum: 160},{treasureId: 50366,minNum: 1,maxNum: 6},{treasureId: 50367,minNum: 1,maxNum: 6},{treasureId: 50368,minNum: 1,maxNum: 6},{treasureId: 50369,minNum: 1,maxNum: 6},{treasureId: 50370,minNum: 1,maxNum: 6}]}

@@ -1,0 +1,17 @@
+#箱子标识
+key: 50227
+#箱子描述
+desc: 中型平安符礼包
+isRandom: true
+categoryNum: 1
+#物品
+goods:
+  - item: 60
+    good: 符•爱拼才会赢
+    num: 1
+    prop: 9500
+  - item: 60
+    good: 符•平安无代志
+    num: 1
+    prop: 500
+...

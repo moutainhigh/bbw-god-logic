@@ -1,0 +1,135 @@
+#商帮基础配置
+#CfgBusinessGangEntity
+key: 唯一
+#开启商帮等级
+openLevel: 20
+#荣耀货币转化率
+gloryCurrencyRate: 100
+#商帮任务生成数量
+businessGangTaskNum: 5
+#解锁周常任务商帮
+unlockWeeklyTaskGang: 1000
+#解锁周常任务需要的声望
+unlockWeeklyTaskNeedPrestige: 5300
+#解锁商帮需要好感度
+unlockBusinessGangNeedFavorability: 500
+#刷新商帮任务需要的元宝
+refreshTaskNeedGold: 50
+#派遣任务生成概率
+dispatchTaskRefreshPro: 30
+#城内特产解锁礼物所需声望
+unlockGiftsNeedPrestige: 100
+#城内特产刷新礼物概率
+refreshGiftsPro: 10
+#城内特产刷新铜铲子概率
+refreshCopperShovelPro: 25
+#购买低级礼物需要的铜钱
+buyLowGiftNeedCopper: 20000
+#购买高级礼物需要的铜钱
+buyHightGiftNeedCopper: 200000
+#激城池铜铲子需要的好感度
+unlockCopperShovelNeedFavorability: 1000
+#城池购买铜铲子需要的铜钱
+buyCopperShovelNeedCopper: 50000
+#解锁特殊野怪宝箱的商帮
+unlockSpecialYeGBoxGang: 2000
+#触发特殊野怪宝箱概率对应声望
+specialYeGBoxPro:
+  - {prestige: 5300, probability: 30}
+  - {prestige: 1300, probability: 20}
+  - {prestige: 100, probability: 10}
+#获得特产升阶永久开启需要的好感度
+permanentOpenNeedFavorability: 9000
+#触发特产升阶概率对应好感度
+specialUpgradeProbs:
+  - {favorability: 9000, probability: 20}
+  - {favorability: 3000, probability: 15}
+  - {favorability: 1000, probability: 10}
+#商帮任务刷新概率
+taskRefreshProbability:
+  - {needPrestige: 2800, difficulty: 10, probability: 30}
+  - {needPrestige: 2800, difficulty: 20, probability: 30}
+  - {needPrestige: 2800, difficulty: 30, probability: 20}
+  - {needPrestige: 2800, difficulty: 40, probability: 20}
+  - {needPrestige: 1300, difficulty: 10, probability: 50}
+  - {needPrestige: 1300, difficulty: 20, probability: 30}
+  - {needPrestige: 1300, difficulty: 30, probability: 20}
+  - {needPrestige: 1300, difficulty: 40, probability: 0}
+  - {needPrestige: 500, difficulty: 10, probability: 70}
+  - {needPrestige: 500, difficulty: 20, probability: 30}
+  - {needPrestige: 500, difficulty: 30, probability: 0}
+  - {needPrestige: 500, difficulty: 40, probability: 0}
+  - {needPrestige: 0, difficulty: 10, probability: 100}
+  - {needPrestige: 0, difficulty: 0, probability: 0}
+  - {needPrestige: 0, difficulty: 0, probability: 0}
+  - {needPrestige: 0, difficulty: 0, probability: 0}
+#商帮数据 businessGangId 商帮id name 商帮名称 hostilityGang 敌对帮派
+businessGangData:
+  - {businessGangId: 1000, name: 正财, hostilityGang: []}
+  - {businessGangId: 2000, name: 招宝, hostilityGang: [3000]}
+  - {businessGangId: 3000, name: 招财, hostilityGang: [2000]}
+#Npc配置 type 10掌舵人 20长老 30执事 40小师弟 50小师妹 gangId所属商帮Id HobbyGifts喜爱礼物 HateGifts厌恶礼物
+npcInfo:
+  - {id: 1001, name: 赵公明, type: 10, gangId: 1000, hobbyGifts: [50183,50184], hateGifts: [50187,50188]}
+  - {id: 1002, name: 乐长老, type: 20, gangId: 1000, hobbyGifts: [50185,50186], hateGifts: [50189,50190]}
+  - {id: 1003, name: 花无雨, type: 30, gangId: 1000, hobbyGifts: [50187,50188], hateGifts: [50191,50192]}
+#  - {id: 1004, name: 小杰子, type: 40, gangId: 1000, hobbyGifts: [50189,50190], hateGifts: [50183,50184]}
+#  - {id: 1005, name: 布布, type: 50, gangId: 1000, hobbyGifts: [50191,50192], hateGifts: [50185,50186]}
+  - {id: 2001, name: 萧升, type: 10, gangId: 2000, hobbyGifts: [50183,50184], hateGifts: [50187,50188]}
+  - {id: 2002, name: 池长老, type: 20, gangId: 2000, hobbyGifts: [50185,50186], hateGifts: [50189,50190]}
+#  - {id: 2003, name: 逸少聪, type: 30, gangId: 2000, hobbyGifts: [50187,50188], hateGifts: [50191,50192]}
+#  - {id: 2004, name: 小强子, type: 40, gangId: 2000, hobbyGifts: [50189,50190], hateGifts: [50183,50184]}
+#  - {id: 2005, name: 欣欣, type: 50, gangId: 2000, hobbyGifts: [50191,50192], hateGifts: [50185,50186]}
+  - {id: 3001, name: 陈九公, type: 10, gangId: 3000, hobbyGifts: [50183,50184], hateGifts: [50187,50188]}
+#  - {id: 3002, name: 刘长老, type: 20, gangId: 3000, hobbyGifts: [50185,50186], hateGifts: [50189,50190]}
+#  - {id: 3003, name: 夏日天, type: 30, gangId: 3000, hobbyGifts: [50187,50188], hateGifts: [50191,50192]}
+#  - {id: 3004, name: 小桂子, type: 40, gangId: 3000, hobbyGifts: [50189,50190], hateGifts: [50183,50184]}
+#  - {id: 3005, name: 思思, type: 50, gangId: 3000, hobbyGifts: [50191,50192], hateGifts: [50185,50186]}
+#好感度规则
+#npcType npc类型 favorability 好感度 needZhangDrFavorability 需要掌舵人好感度 needBusinessGangPrestige 需要商帮声望
+favorabilityRules:
+  - {npcType: 10, favorability: 0, needZhangDrFavorability: 0, needBusinessGangPrestige: 0}
+  - {npcType: 10, favorability: 500, needZhangDrFavorability: 0, needBusinessGangPrestige: 0}
+  - {npcType: 10, favorability: 2000, needZhangDrFavorability: 0, needBusinessGangPrestige: 2800}
+  - {npcType: 10, favorability: 6500, needZhangDrFavorability: 0, needBusinessGangPrestige: 9300}
+  - {npcType: 20, favorability: 0, needZhangDrFavorability: 0, needBusinessGangPrestige: 0}
+  - {npcType: 20, favorability: 1000, needZhangDrFavorability: 500, needBusinessGangPrestige: 500}
+  - {npcType: 20, favorability: 4000, needZhangDrFavorability: 2000, needBusinessGangPrestige: 2800}
+  - {npcType: 20, favorability: 13000, needZhangDrFavorability: 6500, needBusinessGangPrestige: 9300}
+  - {npcType: 30, favorability: 0, needZhangDrFavorability: 0, needBusinessGangPrestige: 0}
+  - {npcType: 30, favorability: 1000, needZhangDrFavorability: 500, needBusinessGangPrestige: 500}
+  - {npcType: 30, favorability: 4000, needZhangDrFavorability: 2000, needBusinessGangPrestige: 2800}
+  - {npcType: 30, favorability: 13000, needZhangDrFavorability: 6500, needBusinessGangPrestige: 9300}
+  - {npcType: 40, favorability: 0, needZhangDrFavorability: 0, needBusinessGangPrestige: 0}
+  - {npcType: 40, favorability: 1000, needZhangDrFavorability: 500, needBusinessGangPrestige: 500}
+  - {npcType: 40, favorability: 4000, needZhangDrFavorability: 2000, needBusinessGangPrestige: 2800}
+  - {npcType: 40, favorability: 13000, needZhangDrFavorability: 6500, needBusinessGangPrestige: 9300}
+#声望及对应每日衰减量
+reputationAndDecay:
+  - {prestige: 15300, decay: 80}
+  - {prestige: 9300, decay: 80}
+  - {prestige: 5300, decay: 60}
+  - {prestige: 2800, decay: 40}
+  - {prestige: 1300, decay: 20}
+  - {prestige: 500, decay: 0}
+  - {prestige: 100, decay: 0}
+  - {prestige: 0, decay: 0}
+#需要解锁的商品
+#goodId 物品id item 物品类型 correspondNpc 对应npcId needFavorability 需要好感度 correspondBang 对应商帮 needPrestige 需要声望
+needUnlockGoods:
+  - {goodId: 90090, item: 60, correspondNpc: 1001, needFavorability: 6500, correspondBang: 0, needPrestige: 0}
+  - {goodId: 21271, item: 60, correspondNpc: 1001, needFavorability: 6500, correspondBang: 0, needPrestige: 0}
+  - {goodId: 262, item: 40, correspondNpc: 2001, needFavorability: 6500, correspondBang: 0, needPrestige: 0}
+  - {goodId: 463, item: 40, correspondNpc: 3001, needFavorability: 6500, correspondBang: 0, needPrestige: 0}
+  - {goodId: 50180, item: 60, correspondNpc: 2002, needFavorability: 1000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 50181, item: 60, correspondNpc: 2002, needFavorability: 4000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 50182, item: 60, correspondNpc: 2002, needFavorability: 13000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 135, item: 40, correspondNpc: 1003, needFavorability: 1000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 536, item: 40, correspondNpc: 1003, needFavorability: 1000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 10060, item: 60, correspondNpc: 1003, needFavorability: 1000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 136, item: 40, correspondNpc: 1003, needFavorability: 4000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 239, item: 40, correspondNpc: 1003, needFavorability: 4000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 531, item: 40, correspondNpc: 1003, needFavorability: 13000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 442, item: 40, correspondNpc: 1003, needFavorability: 13000, correspondBang: 0, needPrestige: 0}
+  - {goodId: 50179, item: 60, correspondNpc: 0, needFavorability: 0, correspondBang: 1000, needPrestige: 100}
+  - {goodId: 50199, item: 60, correspondNpc: 0, needFavorability: 0, correspondBang: 3000, needPrestige: 100}

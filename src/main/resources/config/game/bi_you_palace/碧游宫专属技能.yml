@@ -1,0 +1,41 @@
+#CfgBYPalaceExclusiveSkillEntity
+#碧游宫专属技能，在此配置表中的技能不在除碧游宫外的其他途径产出
+#skillId 法宝基础数据表中对应的技能卷轴id
+--- {skillId: 21272}
+--- {skillId: 21275}
+--- {skillId: 21273}
+--- {skillId: 21274}
+--- {skillId: 21281}
+--- {skillId: 21282}
+--- {skillId: 21124}
+--- {skillId: 21214}
+--- {skillId: 50331}
+--- {skillId: 50332}
+--- {skillId: 50333}
+--- {skillId: 50334}
+--- {skillId: 50335}
+--- {skillId: 50336}
+--- {skillId: 50337}
+--- {skillId: 50338}
+--- {skillId: 50339}
+--- {skillId: 50340}
+--- {skillId: 50341}
+--- {skillId: 50342}
+--- {skillId: 50343}
+--- {skillId: 50344}
+--- {skillId: 50345}
+--- {skillId: 50346}
+--- {skillId: 50347}
+--- {skillId: 50348}
+--- {skillId: 50349}
+--- {skillId: 50350}
+--- {skillId: 50351}
+--- {skillId: 50352}
+--- {skillId: 50353}
+--- {skillId: 50354}
+--- {skillId: 50355}
+--- {skillId: 21286}
+--- {skillId: 21287}
+--- {skillId: 21288}
+--- {skillId: 21289}
+

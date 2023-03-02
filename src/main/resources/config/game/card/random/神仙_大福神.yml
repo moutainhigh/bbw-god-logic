@@ -1,0 +1,20 @@
+#策略名称
+key: 神仙_大福神
+#策略描述
+desc: 按概率随机2张卡牌
+#结果限制
+maxSize: 2
+selectors:
+  - key: 4星卡
+    condition: {star: 4,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 0.8}
+  - key: 3星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 20}
+  - key: 2星卡
+    condition: {star: 2,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 39.6}
+  - key: 1星卡
+    condition: {star: 1,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 100}
+...

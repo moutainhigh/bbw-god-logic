@@ -1,0 +1,49 @@
+#碧游宫相关配置
+#CfgBYPalace
+---
+key: 唯一
+isOpen: true #碧游宫是否开放
+tongTCJPrice: 50 #单个通天残卷价格
+tongTCJEffects: [3,4,5] #单个通天残卷可能加值
+realizationTime: 500 #领悟时间（ms）
+resetByPalaceGold: 1000
+ttlpCreditNum: 5
+finalAwards:
+  - {item: 60, awardId: 20010,num: 2}
+possibleConditionGroups:
+  - [1020,3040]
+  - [1020,4050]
+  - [2030,4050]
+  - [2030,5010]
+  - [3040,5010]
+excludeSkillPrices:
+  - {times: 1, needGold: 200}
+  - {times: 2, needGold: 300}
+  - {times: 3, needGold: 400}
+  - {times: 4, needGold: 500}
+  - {times: 5, needGold: 600}
+  - {times: 6, needGold: 800}
+  - {times: 7, needGold: 1000}
+  - {times: 8, needGold: 1200}
+  - {times: 9, needGold: 1400}
+  - {times: 10, needGold: 1600}
+  - {times: 11, needGold: 1800}
+  - {times: 12, needGold: 2000}
+  - {times: 13, needGold: 2300}
+  - {times: 14, needGold: 2600}
+  - {times: 15, needGold: 2900}
+  - {times: 16, needGold: 3200}
+  - {times: 17, needGold: 3500}
+  - {times: 18, needGold: 4000}
+  - {times: 19, needGold: 4500}
+  - {times: 20, needGold: 5000}
+excludeSkillNeedTTLP: 1
+###############第一次初始化碧游宫############
+firstInit:
+  - {type: 金,chapters: [1,2,3,4,5],chapterAwards: [增力符,金-真金,金-神剑,威力符,金-强水]}
+  - {type: 木,chapters: [1,2,3,4,5],chapterAwards: [木-避雷,木-定风,木-祛毒,木-灭魄,宙元符]}
+  - {type: 水,chapters: [1,2,3,4,5],chapterAwards: [水-心止,强元符,水-神疗,水-升仙,洪力符]}
+  - {type: 火,chapters: [1,2,3,4,5],chapterAwards: [补元符,火-返照,力神符,火-业火-圣火,火-强土]}
+  - {type: 土,chapters: [1,2,3,4,5],chapterAwards: [土-自在,大力符,元神符,尚元符,土-生金]}
+  - {type: 秘传,chapters: [98,99],conditionGroups: [2030,4050],chapterAwards: [全-超度,全-封咒]}
+...

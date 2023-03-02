@@ -1,0 +1,23 @@
+#箱子标识，对应
+key: 1040
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 60 
+    good: 七香车
+    prop: 6000
+  -
+    item: 60 
+    good: 风火轮
+    prop: 3000
+  -
+    item: 60 
+    good: 山河社稷图
+    prop: 1000
+...

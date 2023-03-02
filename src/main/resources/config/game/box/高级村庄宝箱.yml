@@ -1,0 +1,24 @@
+key: 11800
+desc: 随机获得以下奖励之一：铜钱*60万、元宝*60、魂源*3、通天残卷*3
+isRandom: true
+categoryNum: 1
+goods: 
+  -
+    item: 20
+    num: 600000
+    prop: 3500
+  -
+    item: 10
+    num: 60
+    prop: 3000
+  -
+    item: 60
+    good: 魂源
+    num: 3
+    prop: 1800
+  -
+    item: 60
+    good: 通天残卷
+    num: 3
+    prop: 1700
+...

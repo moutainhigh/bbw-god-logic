@@ -1,0 +1,22 @@
+/**
+   * pipeline : 1，正确使用方式
+   */
+  public void pipelineSample(){
+    final byte[] rawKey = redisTemplate.getKeySerializer().serialize("user_total");
+    //pipeline
+    RedisCallback<List<Object>> pipelineCallback = new RedisCallback<List<Object>>() {
+      @Override
+      public List<Object> doInRedis(RedisConnection connection) throws DataAccessException {
+        connection.openPipeline();
+        connection.incr(rawKey);
+        connection.incr(rawKey);
+        return connection.closePipeline();
+      }
+      
+    };
+    
+    List<Object> results = (List<Object>)redisTemplate.execute(pipelineCallback);
+    for(Object item : results){
+      System.out.println(item.toString());
+    }
+  }

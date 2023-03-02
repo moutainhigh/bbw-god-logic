@@ -1,0 +1,8 @@
+key: 1703
+desc: 攻城略地礼包*1
+isRandom: false
+goods:
+  - item: 60
+    good: 攻城略地礼包
+    num: 1
+...

@@ -1,0 +1,68 @@
+# 招财兽配置
+#CfgLuckyBeast
+---
+key: 唯一
+#可重置次数
+resetTimesLimit: 1
+#免费攻击次数
+freeAttackTimes: 10
+#购买攻击次数
+buyAttackTimesLimit: 10
+#购买攻击次数需要荣耀铜币数量
+buyAttackTimesNeedHonorCopperCoinNum: 10
+#重置需要御兽铃铛数量
+resetNeedBellNum: 1
+#界碑位置
+jieBeiPosList: [1732,1815,3515,3633]
+#对招财兽有影响的法宝id
+ownEffectTReasureIds: [90,120]
+#参战卡牌数
+cardLimit: 1
+#招财兽出现概率
+luckyBeastOutputProbs:
+  - {needPrestige: 5300,perLuckyBeastOutputProbs:[50,30,20]}
+  - {needPrestige: 1300,perLuckyBeastOutputProbs:[70,30,0]}
+  - {needPrestige: 100,perLuckyBeastOutputProbs:[100,0,0]}
+#招财兽层级数据、
+luckyBeasts:
+  - {id: 530,level: 1,attackPower: 100,skillLevels:[1,2,3]}
+  - {id: 531,level: 2,attackPower: 300,skillLevels:[2,3,4]}
+  - {id: 532,level: 3,attackPower: 500,skillLevels:[3,4,5]}
+#技能分级
+levelSkills:
+  1: [宝鉴,暴起,避雷,穿刺,得道,定风,法盾,返照,飞狙,疾驰,克敌,噬魂,无相,心止,修仙,真金,治愈,自愈,自在]
+  2: [法身,飞行,护卫,回光,火球,枷锁,拦截,流毒,奇袭,祛毒,入痘,闪电,神剑,神疗,嗜血,死士,突袭,吸血,业火]
+  3: [暴击,灵动,魅惑,灭魄,升仙,圣火,死斗,死咒,挑拨,偷营,威风,瘟君,巫医,妖术,怨灵,炙焰]
+  4: [暗蛊,复活,刚毅,回魂,混元,力盾,联攻,龙息,强火,强金,强木,强水,强土,生火,生金,生木,生水,生土,双狙,销魂,兴法,主帅,钻地]
+  5: [悲愤,超度,地劫,反间,反射,封神,封咒,蛊惑,鼓舞,激励,禁术,绝杀,雷电,连锁,袍泽,食尸,吸星,长生,招财,震慑,咒怨]
+#key第一位代表铜钱是否加成，第二位代表元宝是否加成，第三位代表铜币是否加成，值分别代表铜钱，元宝，铜币，产出的概率，只产出一种
+awardTypeProbsRules:
+  000: [70,25,5]
+  001: [60,20,20]
+  010: [60,37,3]
+  011: [50,35,15]
+  100: [77,20,3]
+  101: [75,15,10]
+  110: [72,27,1]
+  111: [70,25,5]
+  #luckyBeastAwardRule：第一位代表luckyBeastLevel（招财兽等级）;第二位代表奖励类别；第三位代表是否加成0否1是
+awardPoolInfos:
+  - {luckyBeastAwardRule: 100,awardProbs:[50,30,10,6,3,1],awards: [{item: 20,num: 100000},{item: 20,num: 200000},{item: 20,num: 500000},{item: 20,num: 1000000},{item: 20,num: 5000000},{item: 20,num: 10000000}]}
+  - {luckyBeastAwardRule: 200,awardProbs:[50,30,10,6,3,1],awards: [{item: 20,num: 200000},{item: 20,num: 400000},{item: 20,num: 1000000},{item: 20,num: 2000000},{item: 20,num: 10000000},{item: 20,num: 20000000}]}
+  - {luckyBeastAwardRule: 300,awardProbs:[50,30,10,6,3,1],awards: [{item: 20,num: 500000},{item: 20,num: 1000000},{item: 20,num: 2500000},{item: 20,num: 5000000},{item: 20,num: 25000000},{item: 20,num: 50000000}]}
+  - {luckyBeastAwardRule: 101,awardProbs:[0,40,30,20,8,2],awards: [{item: 20,num: 100000},{item: 20,num: 200000},{item: 20,num: 500000},{item: 20,num: 1000000},{item: 20,num: 5000000},{item: 20,num: 10000000}]}
+  - {luckyBeastAwardRule: 201,awardProbs:[0,40,30,20,8,2],awards: [{item: 20,num: 200000},{item: 20,num: 400000},{item: 20,num: 1000000},{item: 20,num: 2000000},{item: 20,num: 10000000},{item: 20,num: 20000000}]}
+  - {luckyBeastAwardRule: 301,awardProbs:[0,40,30,20,8,2],awards: [{item: 20,num: 500000},{item: 20,num: 1000000},{item: 20,num: 2500000},{item: 20,num: 5000000},{item: 20,num: 25000000},{item: 20,num: 50000000}]}
+  - {luckyBeastAwardRule: 110,awardProbs:[50,30,10,6,3,1],awards: [{item: 10,num: 10},{item: 10,num: 30},{item: 10,num: 50},{item: 10,num: 80},{item: 10,num: 120},{item: 10,num: 180}]}
+  - {luckyBeastAwardRule: 210,awardProbs:[50,30,10,6,3,1],awards: [{item: 10,num: 20},{item: 10,num: 40},{item: 10,num: 60},{item: 10,num: 90},{item: 10,num: 130},{item: 10,num: 190}]}
+  - {luckyBeastAwardRule: 310,awardProbs:[50,30,10,6,3,1],awards: [{item: 10,num: 30},{item: 10,num: 50},{item: 10,num: 70},{item: 10,num: 100},{item: 10,num: 140},{item: 10,num: 200}]}
+  - {luckyBeastAwardRule: 111,awardProbs:[0,40,30,20,8,2],awards: [{item: 10,num: 10},{item: 10,num: 30},{item: 10,num: 50},{item: 10,num: 80},{item: 10,num: 120},{item: 10,num: 180}]}
+  - {luckyBeastAwardRule: 211,awardProbs:[0,40,30,20,8,2],awards: [{item: 10,num: 20},{item: 10,num: 40},{item: 10,num: 60},{item: 10,num: 90},{item: 10,num: 130},{item: 10,num: 190}]}
+  - {luckyBeastAwardRule: 311,awardProbs:[0,40,30,20,8,2],awards: [{item: 10,num: 30},{item: 10,num: 50},{item: 10,num: 70},{item: 10,num: 100},{item: 10,num: 140},{item: 10,num: 200}]}
+  - {luckyBeastAwardRule: 120,awardProbs:[50,30,10,6,3,1],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+  - {luckyBeastAwardRule: 220,awardProbs:[50,30,10,6,3,1],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+  - {luckyBeastAwardRule: 320,awardProbs:[50,30,10,6,3,1],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+  - {luckyBeastAwardRule: 121,awardProbs:[0,50,25,15,8,2],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+  - {luckyBeastAwardRule: 221,awardProbs:[0,50,25,15,8,2],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+  - {luckyBeastAwardRule: 321,awardProbs:[0,50,25,15,8,2],awards: [{item: 60,awardId: 50198,num: 5},{item: 60,awardId: 50198,num: 15},{item: 60,awardId: 50198,num: 30},{item: 60,awardId: 50198,num: 50},{item: 60,awardId: 50198,num: 75},{item: 60,awardId: 50198,num: 100}]}
+...

@@ -1,0 +1,69 @@
+#每日摇一摇
+#DailyCfgShake
+key: 唯一
+#摇一摇次数上限
+shakeTimesLimit: 2
+#第一个奖池
+firstPrizePools:
+  - {id: 1,shakeTimes: 1,awards:[{item: 30, num: 60,probability: 200},{item: 60,awardId: 10020,num: 3,probability: 200},{item: 60,awardId: 11010,num: 1,probability: 200},{item: 60,awardId: 10180,num: 1,probability: 200},{item: 60,awardId: 10030,num: 1,probability: 100},{item: 60,awardId: 10110,num: 1,probability: 100}]}
+  - {id: 2,shakeTimes: 2,awards:[{item: 30, num: 60,probability: 250},{item: 60,awardId: 11010,num: 1,probability: 0},{item: 60,awardId: 10180,num: 1,probability: 250},{item: 60,awardId: 10030,num: 1,probability: 250},{item: 60,awardId: 10110,num: 1,probability: 250}]}
+secondPrizePools:
+  - {id: 1,shakeTimes: 1,awards:[{item: 20, num: 10000,probability: 300},{item: 20, num: 50000,probability: 300},{item: 20, num: 100000,probability: 200},{item: 20, num: 200000,probability: 100},{item: 20, num: 500000,probability: 99},{item: 60,awardId: 50158,num: 1,probability: 1}]}
+  - {id: 2,shakeTimes: 2,awards:[{item: 20, num: 100000,probability: 400},{item: 20, num: 200000,probability: 400},{item: 20, num: 500000,probability: 180},{item: 60,awardId: 50158,num: 1,probability: 20}]}
+thirdPrizePools:
+  - {id: 1,shakeTimes: 1,awards:[{item: 60,awardId: 50305,num: 1,probability: 600},{item: 60,awardId: 50306,num: 1,probability: 360},{item: 60,awardId: 50307,num: 1,probability: 40}]}
+  - {id: 2,shakeTimes: 2,awards:[{item: 60,awardId: 50305,num: 1,probability: 500},{item: 60,awardId: 50306,num: 1,probability: 400},{item: 60,awardId: 50307,num: 1,probability: 100}]}
+welfares:
+  - {id: 501001,name: "每周炼技礼包享9折优惠",mallIds: [100328],type: 50305,welfareAdds:[295],prob: 30}
+  - {id: 501002,name: "每周夺宝礼包享9折优惠",mallIds: [100199],type: 50305,welfareAdds:[178],prob: 30}
+  - {id: 501003,name: "每周保护礼包享8折优惠",mallIds: [100098],type: 50305,welfareAdds:[78],prob: 30}
+  - {id: 501004,name: "每周保护礼包2享9折优惠",mallIds: [100200],type: 50305,welfareAdds:[178],prob: 50}
+  - {id: 501005,name: "每周修道礼包享9折优惠",mallIds: [100329],type: 50305,welfareAdds:[295],prob: 150}
+  - {id: 501006,name: "每周星图礼包享8折优惠",mallIds: [100201],type: 50305,welfareAdds:[54],prob: 100}
+  - {id: 501007,name: "每周符首礼包享8折优惠",mallIds: [100202],type: 50305,welfareAdds:[54],prob: 50}
+  - {id: 501008,name: "每周符首礼包2享8折优惠",mallIds: [100203],type: 50305,welfareAdds:[78],prob: 50}
+  - {id: 501009,name: "每周祈符礼包享9折优惠",mallIds: [100204],type: 50305,welfareAdds:[295],prob: 30}
+  - {id: 501010,name: "每周修炼礼包享9折优惠",mallIds: [100205],type: 50305,welfareAdds:[178],prob: 30}
+  - {id: 501011,name: "每日夺宝礼包享8折优惠",mallIds: [105030],type: 50305,welfareAdds:[24],prob: 30}
+  - {id: 501012,name: "每日修道礼包享8折优惠",mallIds: [105060],type: 50305,welfareAdds:[48],prob: 120}
+  - {id: 501013,name: "每日升阶礼包享8折优惠",mallIds: [105080],type: 50305,welfareAdds:[64],prob: 120}
+  - {id: 501014,name: "每日招募礼包享8折优惠",mallIds: [105098],type: 50305,welfareAdds:[72],prob: 30}
+  - {id: 501015,name: "每日祈符礼包享8折优惠",mallIds: [105120],type: 50305,welfareAdds:[96],prob: 30}
+  - {id: 501016,name: "首次购买元宝礼包额外获得50%元宝",mallIds: [190013,190020,190015,190016,190017,190018,190019],type: 50305,welfareAdds:[30,150,340,490,990,1640,3240],prob: 50}
+  - {id: 501017,name: "活动-今日充值满16元额外加16元额度",mallIds: [0],type: 50305,welfareAdds:[16],prob: 70}
+  #中级福利
+  - {id: 501026,name: "每周炼技礼包享8折优惠",mallIds: [100328],type: 50306,welfareAdds:[262],prob: 30}
+  - {id: 501027,name: "每周夺宝礼包享8折优惠",mallIds: [100199],type: 50306,welfareAdds:[158],prob: 30}
+  - {id: 501028,name: "每周保护礼包享7折优惠",mallIds: [100098],type: 50306,welfareAdds:[68],prob: 30}
+  - {id: 501029,name: "每周保护礼包2享8折优惠",mallIds: [100200],type: 50306,welfareAdds:[158],prob: 50}
+  - {id: 501030,name: "每周修道礼包享8折优惠",mallIds: [100329],type: 50306,welfareAdds:[262],prob: 150}
+  - {id: 501031,name: "每周星图礼包享7折优惠",mallIds: [100201],type: 50306,welfareAdds:[47],prob: 100}
+  - {id: 501032,name: "每周符首礼包享7折优惠",mallIds: [100202],type: 50306,welfareAdds:[47],prob: 50}
+  - {id: 501033,name: "每周符首礼包2享7折优惠",mallIds: [100203],type: 50306,welfareAdds:[68],prob: 50}
+  - {id: 501034,name: "每周祈符礼包享8折优惠",mallIds: [100204],type: 50306,welfareAdds:[262],prob: 30}
+  - {id: 501035,name: "每周修炼礼包享8折优惠",mallIds: [100205],type: 50306,welfareAdds:[158],prob: 30}
+  - {id: 501036,name: "每日夺宝礼包享7折优惠",mallIds: [105030],type: 50306,welfareAdds:[21],prob: 30}
+  - {id: 501037,name: "每日修道礼包享7折优惠",mallIds: [105060],type: 50306,welfareAdds:[42],prob: 120}
+  - {id: 501038,name: "每日升阶礼包享7折优惠",mallIds: [105080],type: 50306,welfareAdds:[56],prob: 120}
+  - {id: 501039,name: "每日招募礼包享7折优惠",mallIds: [105098],type: 50306,welfareAdds:[63],prob: 30}
+  - {id: 501040,name: "每日祈符礼包享7折优惠",mallIds: [105120],type: 50306,welfareAdds:[84],prob: 30}
+  - {id: 501041,name: "首次购买元宝礼包额外获得75%元宝",mallIds: [190013,190020,190015,190016,190017,190018,190019],type: 50306,welfareAdds:[45,225,510,735,1485,2460,4860],prob: 50}
+  - {id: 501042,name: "活动-今日充值满30元额外加30元额度",mallIds: [0],type: 50306,welfareAdds:[30],prob: 70}
+  #高级福利
+  - {id: 501050,name: "每周炼技礼包享7折优惠",mallIds: [100328],type: 50307,welfareAdds:[229],prob: 30}
+  - {id: 501051,name: "每周夺宝礼包享7折优惠",mallIds: [100199],type: 50307,welfareAdds:[138],prob: 30}
+  - {id: 501052,name: "每周保护礼包享6折优惠",mallIds: [100098],type: 50307,welfareAdds:[58],prob: 30}
+  - {id: 501053,name: "每周保护礼包2享7折优惠",mallIds: [100200],type: 50307,welfareAdds:[138],prob: 50}
+  - {id: 501054,name: "每周修道礼包享7折优惠",mallIds: [100329],type: 50307,welfareAdds:[229],prob: 150}
+  - {id: 501055,name: "每周星图礼包享6折优惠",mallIds: [100201],type: 50307,welfareAdds:[40],prob: 100}
+  - {id: 501056,name: "每周符首礼包享6折优惠",mallIds: [100202],type: 50307,welfareAdds:[40],prob: 50}
+  - {id: 501057,name: "每周符首礼包2享6折优惠",mallIds: [100203],type: 50307,welfareAdds:[58],prob: 50}
+  - {id: 501058,name: "每周祈符礼包享7折优惠",mallIds: [100204],type: 50307,welfareAdds:[229],prob: 30}
+  - {id: 501059,name: "每周修炼礼包享7折优惠",mallIds: [100205],type: 50307,welfareAdds:[138],prob: 30}
+  - {id: 501060,name: "每日夺宝礼包享6折优惠",mallIds: [105030],type: 50307,welfareAdds:[18],prob: 30}
+  - {id: 501061,name: "每日修道礼包享6折优惠",mallIds: [105060],type: 50307,welfareAdds:[36],prob: 120}
+  - {id: 501062,name: "每日升阶礼包享6折优惠",mallIds: [105080],type: 50307,welfareAdds:[48],prob: 120}
+  - {id: 501063,name: "每日招募礼包享6折优惠",mallIds: [105098],type: 50307,welfareAdds:[54],prob: 30}
+  - {id: 501064,name: "每日祈符礼包享6折优惠",mallIds: [105120],type: 50307,welfareAdds:[72],prob: 30}
+  - {id: 501065,name: "首次购买元宝礼包额外获得100%元宝",mallIds: [190013,190020,190015,190016,190017,190018,190019],type: 50307,welfareAdds:[60,300,680,980,1980,3280,6480],prob: 50}
+  - {id: 501066,name: "活动-今日充值满68元额外加68元额度",mallIds: [0],type: 50307,welfareAdds:[68],prob: 70}

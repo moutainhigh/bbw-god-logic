@@ -1,0 +1,12 @@
+#TODO
+#需要参数：$重复数据
+---
+#策略名称，上线以后不可修改
+key: 福临轩_前6周特殊日期
+#策略描述
+desc: 随机一张五星卡（way=0）
+selectors:
+  - key: 5星卡
+    condition: {star: 5,include: [$0类卡]}
+    probability: {type: 0,value: 100}
+...

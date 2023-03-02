@@ -1,0 +1,29 @@
+---
+groupId: 190000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  #1日
+  # - {id: 190101,type: 230,name: "获得1颗五灵珠",value: 1,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190102,type: 230,name: "五气朝元祈福5次",value: 5,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190103,type: 230,name: "今日消耗100体力",value: 100,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190104,type: 230,name: "挑战一次诛仙阵",value: 1,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190105,type: 230,name: "今日商铺元宝购物一次",value: 1,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190106,type: 230,name: "今日合成1次天灯",value: 1,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190107,type: 230,name: "今日合成3次天灯",value: 3,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190108,type: 230,name: "今日合成5次天灯",value: 5,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190109,type: 230,name: "五气朝元祈福3次",value: 3,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190110,type: 230,name: "五气朝元祈福5次",value: 5,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190111,type: 230,name: "五气朝元祈福8次",value: 8,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+
+
+
+  - {id: 190201,type: 230,name: "活动期间，累计登录3天",value: 3,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190202,type: 230,name: "活动期间，累计登录6天",value: 6,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190203,type: 230,name: "活动期间累积获得20颗五灵珠",value: 20,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190204,type: 230,name: "活动期间累积获得50颗五灵珠",value: 50,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  - {id: 190205,type: 230,name: "活动期间累积获得100颗五灵珠",value: 100,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190206,type: 230,name: "活动期间，累积藏宝图翻牌30次",value: 30,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190207,type: 230,name: "活动期间，累积藏宝图翻牌60次",value: 60,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+  # - {id: 190208,type: 230,name: "活动期间，累积藏宝图翻牌90次",value: 90,awards: [{item: 60,awardId: 50207,num: 1}],isValid: true}
+...

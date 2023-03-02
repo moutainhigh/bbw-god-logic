@@ -1,0 +1,14 @@
+#灵装词条 CfgLingZhuangEntryEntity
+#lv 词条等级
+#xianJueLv：仙决等级
+#quality  品质====>淬星凡品10、中20、上品30、精品40、极品50、仙品60
+#comprehension 参悟值 %
+#attack:攻击
+#defense：攻防
+#strength 强度
+#tenacity 韧度
+--- {lv: 1,xianJueLv: 30,quality: 60,comprehension: 20,attack: 225,defense: 225,strength: 50,tenacity: 50}
+--- {lv: 2,xianJueLv: 50,quality: 60,comprehension: 40,attack: 375,defense: 375,strength: 70,tenacity: 70}
+--- {lv: 3,xianJueLv: 70,quality: 60,comprehension: 60,attack: 600,defense: 600,strength: 120,tenacity: 120}
+--- {lv: 4,xianJueLv: 90,quality: 60,comprehension: 80,attack: 975,defense: 975,strength: 170,tenacity: 170}
+--- {lv: 5,xianJueLv: 120,quality: 60,comprehension: 100,attack: 1500,defense: 1500,strength: 250,tenacity: 250}

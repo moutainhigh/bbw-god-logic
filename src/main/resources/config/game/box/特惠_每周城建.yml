@@ -1,0 +1,16 @@
+#箱子标识
+key: 1140
+#箱子描述
+desc: 乾坤图*1、铜钱*20w
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 #道具
+    good: 乾坤图
+    num: 1
+  -
+    item: 20 # 铜钱
+    num: 200000
+...

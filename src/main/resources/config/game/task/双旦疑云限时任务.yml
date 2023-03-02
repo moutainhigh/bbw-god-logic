@@ -1,0 +1,58 @@
+---
+groupId: 130000
+#万圣节限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 130001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "幽魂的祈求",value: 1,awards: [{item: 20, num: 100000}],isValid: true}
+  - {id: 130002,seqGroup: 8000,seq: 2,type: 120,difficulty: 10,name: "最后的执念",value: 1,awards: [{item: 60, awardId: 10020, num: 10}],isValid: true}
+  - {id: 130003,seqGroup: 8000,seq: 3,type: 130,difficulty: 10,name: "现实的残酷",value: 1,awards: [{item: 60, awardId: 530, num: 1}],isValid: true}
+  - {id: 130004,seqGroup: 8000,seq: 4,type: 110,difficulty: 10,name: "卑微的请求",value: 2,awards: [{item: 60, awardId: 50167, num: 5}],isValid: true}
+  - {id: 130005,seqGroup: 8000,seq: 5,type: 120,difficulty: 10,name: "圣诞的祝福",value: 1,awards: [{item: 60, awardId: 31240, num: 1}],isValid: true}
+  - {id: 130006,seqGroup: 8000,seq: 6,type: 120,difficulty: 10,name: "不幸的消息",value: 1,awards: [{item: 20, num: 150000}],isValid: true}
+  - {id: 130007,seqGroup: 8000,seq: 7,type: 120,difficulty: 10,name: "救救我妈妈",value: 1,awards: [{item: 60, awardId: 10020, num: 15}],isValid: true}
+  - {id: 130008,seqGroup: 8000,seq: 8,type: 120,difficulty: 10,name: "善意的警告",value: 1,awards: [{item: 60, awardId: 11090, num: 1}],isValid: true}
+  - {id: 130009,seqGroup: 8000,seq: 9,type: 110,difficulty: 10,name: "强大的存在",value: 5,awards: [{item: 60, awardId: 50156, num: 1}],isValid: true}
+  - {id: 130010,seqGroup: 8000,seq: 10,type: 130,difficulty: 10,name: "打虎大英雄",value: 1,awards: [{item: 60, awardId: 580, num: 1}],isValid: true}
+  - {id: 130011,seqGroup: 8000,seq: 11,type: 120,difficulty: 20,name: "意外的惊喜",value: 1,awards: [{item: 60, awardId: 10110, num: 1}],isValid: true}
+  - {id: 130012,seqGroup: 8000,seq: 12,type: 120,difficulty: 20,name: "转危而为安",value: 1,awards: [{item: 20, num: 200000}],isValid: true}
+  - {id: 130013,seqGroup: 8000,seq: 13,type: 120,difficulty: 20,name: "村长的请求",value: 1,awards: [{item: 60, awardId: 10020, num: 20}],isValid: true}
+  - {id: 130014,seqGroup: 8000,seq: 14,type: 110,difficulty: 20,name: "祭坛的材料",value: 3,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 130015,seqGroup: 8000,seq: 15,type: 120,difficulty: 20,name: "祭坛出事了",value: 1,awards: [{item: 60, awardId: 11090, num: 1}],isValid: true}
+  - {id: 130016,seqGroup: 8000,seq: 16,type: 120,difficulty: 20,name: "女孩的邀请",value: 1,awards: [{item: 60, awardId: 50157, num: 1}],isValid: true}
+  - {id: 130017,seqGroup: 8000,seq: 17,type: 120,difficulty: 20,name: "祭坛起风云",value: 1,awards: [{item: 20, num: 250000}],isValid: true}
+  - {id: 130018,seqGroup: 8000,seq: 18,type: 130,difficulty: 20,name: "大哥找上门",value: 1,awards: [{item: 60, awardId: 11100, num: 1}],isValid: true}
+  - {id: 130019,seqGroup: 8000,seq: 19,type: 110,difficulty: 20,name: "更多的材料",value: 5,awards: [{item: 60, awardId: 11572, num: 3}],isValid: true}
+  - {id: 130020,seqGroup: 8000,seq: 20,type: 110,difficulty: 20,name: "再来一次吧",value: 10,awards: [{item: 60, awardId: 11090, num: 2}],isValid: true}
+  - {id: 130021,seqGroup: 8000,seq: 21,type: 110,difficulty: 20,name: "最后一次了",value: 15,awards: [{item: 20, num: 300000}],isValid: true}
+  - {id: 130022,seqGroup: 8000,seq: 22,type: 120,difficulty: 20,name: "突生大变故",value: 1,awards: [{item: 60, awardId: 11572, num: 3}],isValid: true}
+  - {id: 130023,seqGroup: 8000,seq: 23,type: 130,difficulty: 20,name: "大哥的大哥",value: 1,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 130024,seqGroup: 8000,seq: 24,type: 120,difficulty: 20,name: "真大有来头",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 130025,seqGroup: 8000,seq: 25,type: 120,difficulty: 30,name: "一伙人来了",value: 1,awards: [{item: 60, awardId: 11090, num: 2}],isValid: true}
+  - {id: 130026,seqGroup: 8000,seq: 26,type: 120,difficulty: 30,name: "暂避风头吧",value: 1,awards: [{item: 60, awardId: 11572, num: 3}],isValid: true}
+  - {id: 130027,seqGroup: 8000,seq: 27,type: 120,difficulty: 30,name: "大事不好了",value: 1,awards: [{item: 60, awardId: 50160, num: 3}],isValid: true}
+  - {id: 130028,seqGroup: 8000,seq: 28,type: 120,difficulty: 30,name: "救救我爷爷",value: 1,awards: [{item: 60, awardId: 50158, num: 1}],isValid: true}
+  - {id: 130029,seqGroup: 8000,seq: 29,type: 120,difficulty: 30,name: "一定要冷静",value: 1,awards: [{item: 60, awardId: 50159, num: 5}],isValid: true}
+  - {id: 130030,seqGroup: 8000,seq: 30,type: 120,difficulty: 30,name: "快去搬救兵",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 130031,seqGroup: 8000,seq: 31,type: 120,difficulty: 30,name: "这就去救人",value: 1,awards: [{item: 60, awardId: 11700, num: 4}],isValid: true}
+  - {id: 130032,seqGroup: 8000,seq: 32,type: 130,difficulty: 30,name: "赢了就放人",value: 1,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 130033,seqGroup: 8000,seq: 33,type: 120,difficulty: 30,name: "深谷救村长",value: 1,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 130034,seqGroup: 8000,seq: 34,type: 120,difficulty: 30,name: "护送回村子",value: 1,awards: [{item: 20, num: 400000}],isValid: true}
+  - {id: 130035,seqGroup: 8000,seq: 35,type: 120,difficulty: 30,name: "恶魔的报复",value: 1,awards: [{item: 60, awardId: 11010, num: 6}],isValid: true}
+  - {id: 130036,seqGroup: 8000,seq: 36,type: 130,difficulty: 30,name: "愤怒的恶魔",value: 1,awards: [{item: 60, awardId: 10180, num: 9}],isValid: true}
+  - {id: 130037,seqGroup: 8000,seq: 37,type: 120,difficulty: 30,name: "一支穿云箭",value: 1,awards: [{item: 60, awardId: 11010, num: 6}],isValid: true}
+  - {id: 130038,seqGroup: 8000,seq: 38,type: 120,difficulty: 30,name: "我们回去吧",value: 1,awards: [{item: 60, awardId: 60, num: 1}],isValid: true}
+  - {id: 130039,seqGroup: 8000,seq: 39,type: 110,difficulty: 30,name: "能相信我吗",value: 20,awards: [{item: 20, num: 450000}],isValid: true}
+  - {id: 130040,seqGroup: 8000,seq: 40,type: 120,difficulty: 40,name: "新年要快乐",value: 1,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 130041,seqGroup: 8000,seq: 41,type: 110,difficulty: 40,name: "来犯的恶魔",value: 200000,awards: [{item: 60, awardId: 11010, num: 8}],isValid: true}
+  - {id: 130042,seqGroup: 8000,seq: 42,type: 130,difficulty: 40,name: "胜之不武啊",value: 1,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 130043,seqGroup: 8000,seq: 43,type: 120,difficulty: 40,name: "放我条生路",value: 1,awards: [{item: 20, num: 500000}],isValid: true}
+  - {id: 130044,seqGroup: 8000,seq: 44,type: 120,difficulty: 40,name: "战后成废墟",value: 1,awards: [{item: 60, awardId: 20, num: 1}],isValid: true}
+  - {id: 130045,seqGroup: 8000,seq: 45,type: 120,difficulty: 40,name: "我警告你啊",value: 1,awards: [{item: 60, awardId: 11410, num: 1}],isValid: true}
+...

@@ -1,0 +1,49 @@
+#兑换品
+#CfgExchangeEntity
+#way兑换方式，见ExchangeWayEnum
+#unit单位，见ConsumeType
+#封神台1
+--- {id: 2010,name: 金元素,serial: 10,type: 50,goodId: 10,num: 1,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2020,name: 木元素,serial: 20,type: 50,goodId: 20,num: 1,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2030,name: 水元素,serial: 30,type: 50,goodId: 30,num: 1,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2040,name: 火元素,serial: 50,type: 50,goodId: 40,num: 1,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2050,name: 土元素,serial: 50,type: 50,goodId: 50,num: 1,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2070,name: 铜钱,serial: 70,type: 20,num: 10000,unit: 1,price: 1000,way: 1,isValid: true}
+--- {id: 2329,name: 碧云,serial: 103,type: 40,goodId: 329,num: 1,unit: 1,price: 300000,way: 1,isValid: true}
+--- {id: 2330,name: 厉鬼,serial: 102,type: 40,goodId: 330,num: 1,unit: 1,price: 150000,way: 1,isValid: true}
+--- {id: 2332,name: 雉鸡精,serial: 104,type: 40,goodId: 332,num: 1,unit: 1,price: 300000,way: 1,isValid: true}
+--- {id: 2430,name: 孔雀明王,serial: 108,type: 40,goodId: 430,num: 1,unit: 1,price: 2400000,way: 1,isValid: true}
+--- {id: 2528,name: 乌鸦兵,serial: 101,type: 40,goodId: 528,num: 1,unit: 1,price: 150000,way: 1,isValid: true}
+--- {id: 2529,name: 晁田,serial: 105,type: 40,goodId: 529,num: 1,unit: 1,price: 600000,way: 1,isValid: true}
+--- {id: 2530,name: 晁雷,serial: 106,type: 40,goodId: 530,num: 1,unit: 1,price: 600000,way: 1,isValid: true}
+#诛仙阵2
+--- {id: 810,name: 一星灵石,serial: 810,type: 60,goodId: 810,num: 1,unit: 2,price: 30,way: 2,isValid: true}
+--- {id: 820,name: 二星灵石,serial: 820,type: 60,goodId: 820,num: 1,unit: 2,price: 100,way: 2,isValid: true}
+--- {id: 830,name: 三星灵石,serial: 830,type: 60,goodId: 830,num: 1,unit: 2,price: 300,way: 2,isValid: true}
+--- {id: 840,name: 四星灵石,serial: 840,type: 60,goodId: 840,num: 1,unit: 2,price: 1000,way: 2,isValid: true}
+--- {id: 850,name: 五星灵石,serial: 850,type: 60,goodId: 850,num: 1,unit: 2,price: 3000,way: 2,isValid: true}
+#星君宝库3
+--- {id: 3010,name: 金元素,serial: 10,type: 50,goodId: 10,num: 1,unit: 8,price: 1,way: 3,isValid: true}
+--- {id: 3020,name: 木元素,serial: 20,type: 50,goodId: 20,num: 1,unit: 8,price: 1,way: 3,isValid: true}
+--- {id: 3030,name: 水元素,serial: 30,type: 50,goodId: 30,num: 1,unit: 8,price: 1,way: 3,isValid: true}
+--- {id: 3040,name: 火元素,serial: 40,type: 50,goodId: 40,num: 1,unit: 8,price: 1,way: 3,isValid: true}
+--- {id: 3050,name: 土元素,serial: 50,type: 50,goodId: 50,num: 1,unit: 8,price: 1,way: 3,isValid: true}
+--- {id: 3060,name: 混沌仙石,serial: 4,type: 60,goodId: 10030,num: 1,unit: 8,price: 30,way: 3,isValid: true}
+--- {id: 3070,name: 三星灵石,serial: 3,type: 60,goodId: 830,num: 1,unit: 9,price: 1,way: 3,isValid: true}
+--- {id: 3080,name: 四星灵石,serial: 2,type: 60,goodId: 840,num: 1,unit: 9,price: 3,way: 3,isValid: true}
+--- {id: 3090,name: 五星灵石,serial: 1,type: 60,goodId: 850,num: 1,unit: 9,price: 9,way: 3,isValid: true}
+#神仙大会5
+#仙豆兑换
+#--- {id: 5010,name: 一星灵石,serial: 810,type: 60,goodId: 810,num: 1,unit: 4,price: 30,way: 5,isValid: true}
+#--- {id: 5020,name: 二星灵石,serial: 820,type: 60,goodId: 820,num: 1,unit: 4,price: 90,way: 5,isValid: true}
+#--- {id: 5030,name: 三星灵石,serial: 830,type: 60,goodId: 830,num: 1,unit: 4,price: 30,way: 5,isValid: true}
+#--- {id: 5040,name: 四星灵石,serial: 840,type: 60,goodId: 840,num: 1,unit: 4,price: 900,way: 5,isValid: true}
+#--- {id: 5050,name: 五星灵石,serial: 850,type: 60,goodId: 850,num: 1,unit: 4,price: 3000,way: 5,isValid: true}
+#--- {id: 5060,name: 混沌仙石,serial: 860,type: 60,goodId: 10030,num: 1,unit: 4,price: 540,way: 5,isValid: true}
+#元宝兑换
+#--- {id: 5210,name: 一星灵石,serial: 810,type: 60,goodId: 810,num: 1,unit: 1,price: 10,way: 5,isValid: true}
+#--- {id: 5220,name: 二星灵石,serial: 820,type: 60,goodId: 820,num: 1,unit: 1,price: 30,way: 5,isValid: true}
+#--- {id: 5230,name: 三星灵石,serial: 830,type: 60,goodId: 830,num: 1,unit: 1,price: 100,way: 5,isValid: true}
+#--- {id: 5240,name: 四星灵石,serial: 840,type: 60,goodId: 840,num: 1,unit: 1,price: 200,way: 5,isValid: true}
+#--- {id: 5250,name: 五星灵石,serial: 850,type: 60,goodId: 850,num: 1,unit: 1,price: 600,way: 5,isValid: true}
+#--- {id: 5260,name: 混沌仙石,serial: 860,type: 60,goodId: 10030,num: 1,unit: 1,price: 180,way: 5,isValid: true}

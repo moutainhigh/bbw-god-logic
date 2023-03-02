@@ -1,0 +1,8 @@
+#秘传条件组合
+#CfgBYPalaceConditionEntity
+--- {id: 1020,name: 金木, condition: [10,20],value: 7}
+--- {id: 2030,name: 木水, condition: [20,30],value: 7}
+--- {id: 3040,name: 水火, condition: [30,40],value: 7}
+--- {id: 4050,name: 火土, condition: [40,50],value: 7}
+--- {id: 5010,name: 土金, condition: [50,10],value: 7}
+...

@@ -1,0 +1,17 @@
+#箱子标识
+key: 1150
+#箱子描述
+desc: 聚仙旗*2、元宝福袋*1
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 #道具
+    good: 聚仙旗
+    num: 2
+  -
+    item: 60 #道具
+    good: 元宝福袋
+    num: 1
+...

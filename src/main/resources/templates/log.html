@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>${logicName}日志下载</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="${request.contextPath}/statics/plugins/layui245/css/layui.css"  media="all">
+    <script src="${request.contextPath}/statics/plugins/layui245/layui.js" charset="utf-8"></script>
+    <style>
+        .dir_item{
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .dir_item:hover{
+            background-color: rgb(233,233,233);
+            border-radius: 5px;
+        }
+        .file_item{
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+            width: 180px;
+        }
+        .file_item:hover{
+            background-color: rgb(233,233,233);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <fieldset class="layui-elem-field">
+        <legend>{{dir_name}}</legend>
+        <div class="layui-field-box">
+            <div class="dir_item" v-on:click="open('','根')">
+                <img src="${request.contextPath}/statics/bbw/dir.png">
+                <div>根目录</div>
+            </div>
+
+            <div v-for="item in dirs" :key="item.name" class="dir_item" v-on:click="open(item.path,item.name)">
+                <img src="${request.contextPath}/statics/bbw/dir.png">
+                <div> {{item.name}}</div>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="layui-elem-field">
+        <legend>{{file_list}}</legend>
+        <div class="layui-field-box">
+            <div v-for="item in files" :key="item.name" class="file_item" v-on:click="downloadFile(item.path,item.name)">
+                <img src="${request.contextPath}/statics/bbw/file.png">
+                <div>{{item.name}}</div>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<script>
+    var app=new Vue({
+        el: '#app',
+        data:{
+            dir_name:"根目录",
+            file_list:"根目录文件列表",
+            dirs: [],
+            files:[]
+        },
+        created: function () {
+            this.open("",'根');
+        },
+        methods: {
+            open:function (dir,dirname) {
+                console.log("开："+dir+"---"+dirname)
+                if (dir!=""){
+                    dir=dir.replaceAll("\\","%2F");
+                    dir=dir.replaceAll("/","%2F");
+                }
+                axios.get('${request.contextPath}/coder/listLogs?dir='+dir)
+                    .then(res=>{
+                        var data=res.data;
+                        this.files=data.files;
+                        this.dirs=data.dirs;
+                        this.dir_name=dirname+"目录";
+                        this.file_list=dirname+"目录文件列表";
+
+                    })
+                    .catch(function (error) { // 请求失败处理
+                        console.log(error);
+                    });
+            },
+            downloadFile:function (filePath,fileName) {
+                let iframe = document.createElement('iframe');
+                filePath=filePath.replaceAll("\\","%2F");
+                console.log(filePath);
+                iframe.style.display = 'none'
+                iframe.src ='${request.contextPath}/coder/downloadZip?filePath='+filePath+'&fileName='+fileName;
+                iframe.onload = function () {
+                    document.body.removeChild(iframe)
+                }
+                document.body.appendChild(iframe)
+            }
+        }
+
+    });
+</script>
+</body>
+</html>

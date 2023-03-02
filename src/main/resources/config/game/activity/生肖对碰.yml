@@ -1,0 +1,15 @@
+#生肖对碰
+#CfgChineseZodiacCollision
+key: 唯一
+#碰牌需要法宝 needTreasures
+#碰牌成功奖励 sucessAwards
+#碰牌需要生肖牌数量 collisionNeedChineseZodiacNum
+#valid 指定生效条
+#碰牌需要生肖卡数量 collisionNeedChineseZodiacNum
+
+collisions:
+  - { collisionNeedChineseZodiacNum: 2,needTreasures: [{ item: 60,awardId: 50497,num: 1 }], sucessAwards: [{ item: 60,awardId: 50498,num: 1 }], valid: true}
+chineseZodiacMaps:
+  - { id: 1001, level: 1,size: 12,needChineseZodiacNum: 4,awards:[ { item: 60,awardId: 50499,num: 100}]}
+  - { id: 2001, level: 2,size: 20,needChineseZodiacNum: 6,awards:[ { item: 60,awardId: 50499,num: 200}]}
+  - { id: 3001, level: 3,size: 30,needChineseZodiacNum: 12,awards:[ { item: 60,awardId: 50499,num: 500}]}

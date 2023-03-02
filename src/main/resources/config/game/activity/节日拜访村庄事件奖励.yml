@@ -1,0 +1,11 @@
+#节日拜访村庄事件奖励
+#CfgHolidayCunZEventAwardEntity
+#type=10070是每日任务
+--- { id: 1010,activityType: 13180,prob: 25,awards: [ { item: 60,awardId: 50204,num: 1 } ] }
+--- { id: 1020,activityType: 13180,prob: 25,awards: [ { item: 60,awardId: 50203,num: 1 } ] }
+--- { id: 1030,activityType: 13180,prob: 25,awards: [ { item: 60,awardId: 50205,num: 1 } ] }
+--- { id: 1040,activityType: 13180,prob: 8,awards: [ { item: 60,awardId: 50204,num: 2 } ] }
+--- { id: 1050,activityType: 13180,prob: 8,awards: [ { item: 60,awardId: 50205,num: 2 } ] }
+--- { id: 1060,activityType: 13180,prob: 8,awards: [ { item: 60,awardId: 50203,num: 2 } ] }
+--- { id: 1070,activityType: 13180,prob: 1,awards: [ { item: 60,awardId: 50204,num: 1 },{ item: 60,awardId: 50203,num: 1 },{ item: 60,awardId: 50205,num: 1 }] }
+

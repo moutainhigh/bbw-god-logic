@@ -1,0 +1,31 @@
+#五气朝元配置
+#CfgHolidayWQCY
+#type=30
+key: 唯一
+#第一个抽奖结果
+firstRewardResult: [10,20,30,40,50]
+#特产产出总概率
+specialsOutPutTotalProb: 0
+#特产产出一个圣元珠概率
+specialsOutPutOneSYZProb: 20
+#特产产出两个圣元珠概率
+specialsOutPutTwoSYZProb: 5
+#抽奖消耗
+drawConsumptions:
+  # treasureId: 抽奖消耗的法宝的id
+  # num: 抽奖消耗的法宝的数量
+  - {treasureId: 11440,num: 1}
+  - {treasureId: 11450,num: 1}
+  - {treasureId: 11460,num: 1}
+  - {treasureId: 11470,num: 1}
+  - {treasureId: 11480,num: 1}
+
+#抽奖轮次信息
+drawRoundInfos:
+  # roundId: 轮次id
+  # minTurn: 抽奖活动的最小轮次
+  # maxTurn: 抽奖活动的最大轮次。999999相当于无限轮次
+  # perRoundDrawTimesLimit: 在轮次期间，每轮的抽奖次数上限
+  - {roundId: 3001,minRound: 2,maxRound: 2,perRoundDrawTimesLimit: 120}
+  - {roundId: 3002,minRound: 3,maxRound: 999999,perRoundDrawTimesLimit: 120}
+

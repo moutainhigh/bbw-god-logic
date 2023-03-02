@@ -1,0 +1,11 @@
+#CfgPrayerSkyLanternConfig
+#元宵节祈福天灯活动相关配置
+key: 唯一
+#天灯放飞次数对应奖励
+targetWithAwards:
+  #skyLanternTimes 天灯次数 awards 奖励
+  - {skyLanternTimes: 100000, awards: [{awardId: 11010,item: 60,num: 6},{awardId: 10180,item: 60,num: 3},{awardId: 10020,item: 60,num: 18},{item: 20,num: 150000},{awardId: 11090,item: 60,num: 3}]}
+  - {skyLanternTimes: 70000, awards: [{awardId: 11010,item: 60,num: 4},{awardId: 10180,item: 60,num: 2},{awardId: 10020,item: 60,num: 12},{item: 20,num: 100000},{awardId: 11090,item: 60,num: 2}]}
+  - {skyLanternTimes: 50000, awards: [{awardId: 11010,item: 60,num: 4},{awardId: 10180,item: 60,num: 2},{awardId: 10020,item: 60,num: 12},{item: 20,num: 100000},{awardId: 11090,item: 60,num: 2}]}
+  - {skyLanternTimes: 30000, awards: [{awardId: 11010,item: 60,num: 4},{awardId: 10180,item: 60,num: 2},{awardId: 10020,item: 60,num: 12},{item: 20,num: 100000},{awardId: 11090,item: 60,num: 2}]}
+  - {skyLanternTimes: 10000, awards: [{awardId: 11010,item: 60,num: 2},{awardId: 10180,item: 60,num: 1},{awardId: 10020,item: 60,num: 6},{item: 20,num: 50000},{awardId: 11090,item: 60,num: 1}]}

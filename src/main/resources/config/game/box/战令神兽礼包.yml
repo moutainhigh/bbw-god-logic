@@ -1,0 +1,72 @@
+#战令神兽礼包
+#箱子标识，对应
+key: 50154
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  - item: 60 # 神兽
+    good: 射月鹰
+    num: 1
+    prop: 15
+  - item: 60 # 神兽
+    good: 驺虞兽
+    num: 1
+    prop: 10
+  - item: 60 # 神兽
+    good: 貔貅
+    num: 1
+    prop: 5
+  - item: 60 # 神兽
+    good: 幻影
+    num: 1
+    prop: 10
+  - item: 60 # 神兽
+    good: 药兽
+    num: 1
+    prop: 5
+  - item: 60 # 神兽
+    good: 黄龙
+    num: 1
+    prop: 5
+  - item: 60 # 道具
+    good: 仙之源
+    num: 1
+    prop: 460
+  - item: 60 # 道具
+    good: 魂源
+    num: 2
+    prop: 490
+  - item: 60 # 道具
+    good: 魂源
+    num: 1
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 通天残卷
+    num: 2
+    prop: 1500
+  -
+    item: 20 # 铜钱
+    num: 500000
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 夺宝积分
+    num: 20
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 200
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 100
+    prop: 1500
+...

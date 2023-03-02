@@ -1,0 +1,38 @@
+---
+#阅读奖励帮助的所有列表  title为具体帮助项的小标题  show: 1,helpId和type为客户端对应的帮助id和type
+#无效的不要删除 设置show为0即可
+key: 唯一
+list:
+  - {type: 1,show: 1,helpId: 10,title: "卡牌的获取途径"}
+  - {type: 1,show: 1,helpId: 11,title: "卡牌的升级"}
+  - {type: 1,show: 1,helpId: 12,title: "卡牌的进阶"}
+  - {type: 1,show: 1,helpId: 13,title: "召唤师经验的获得途径"}
+  - {type: 1,show: 1,helpId: 14,title: "体力的主要获取方式"}
+  - {type: 1,show: 1,helpId: 15,title: "游戏内的主要货币"}
+  - {type: 1,show: 1,helpId: 16,title: "铜钱的主要获取方式"}
+  - {type: 1,show: 1,helpId: 17,title: "城池建筑功能"}
+  - {type: 1,show: 1,helpId: 18,title: "法宝的使用"}
+  - {type: 1,show: 0,helpId: 19,title: "如何邀请好友"}
+  - {type: 2,show: 1,helpId: 20,title: "战斗胜负判定"}
+  - {type: 2,show: 1,helpId: 21,title: "战斗技能"}
+  - {type: 2,show: 1,helpId: 22,title: "手牌和营地"}
+  - {type: 2,show: 1,helpId: 23,title:  "法术值"}
+  - {type: 2,show: 1,helpId: 24,title: "不同属性之间的克制"}
+  - {type: 2,show: 1,helpId: 25,title: "自动战斗的上牌规则"}
+  - {type: 2,show: 1,helpId: 26,title: "攻城难度"}
+  - {type: 2,show: 1,helpId: 27,title: "技能效果发动顺序"}
+  - {type: 3,show: 1,helpId: 30,title: "跑商的规则"}
+  - {type: 3,show: 1,helpId: 31,title: "区域属性"}
+  - {type: 3,show: 1,helpId: 32,title: "查看特产产出城池及出售最高价城池"}
+  - {type: 3,show: 1,helpId: 33,title: "跑商法宝推荐"}
+  - {type: 4,show: 1,helpId: 40,title: "城内建筑物最高等级"}
+  - {type: 4,show: 1,helpId: 41,title: "振兴城市"}
+  - {type: 4,show: 1,helpId: 42,title: "平城和大城"}
+  - {type: 4,show: 0,helpId: 43,title: "魔王的属性"}
+  - {type: 4,show: 1,helpId: 44,title: "切换骰子个数"}
+  - {type: 4,show: 1,helpId: 45,title: "查看太一府未捐赠特产"}
+  - {type: 4,show: 1,helpId: 46,title: "战斗冷知识"}
+  - {type: 1,show: 1,helpId: 47,title: "卡牌的特殊获取途径"}
+  - {type: 4,show: 1,helpId: 48,title: "梦魇世界开启条件"}
+  - { type: 2,show: 1,helpId: 49,title: "对战阶段未阵亡加成" }
+...

@@ -1,0 +1,30 @@
+#封神卡牌数据 id为基础卡牌ID+10000
+
+#水属性
+--- {id: 10102,name: 杨戬,type: 10,star: 5,attack: 730,hp: 820,zeroSkill: 4116,fiveSkill: 1005,tenSkill: 4503,group: 0}
+--- {id: 10325,name: 崇侯虎,type: 30,star: 5,attack: 920,hp: 880,zeroSkill: 4116,fiveSkill: 3001,tenSkill: 3111,group: 0}
+--- {id: 10201,name: 哪吒,type: 20,star: 5,attack: 660,hp: 670,zeroSkill: 3901,fiveSkill: 1201,tenSkill: 0,group: 2003}
+--- {id: 10527,name: 张奎,type: 50,star: 5,attack: 610,hp: 810,zeroSkill: 3902,fiveSkill: 4303,tenSkill: 3002,group: 0}
+--- {id: 10430,name: 孔雀明王,type: 40,star: 5,attack: 750,hp: 750,zeroSkill: 3202,fiveSkill: 3157,tenSkill: 3125,group: 0}
+--- {id: 10301,name: 妲己,type: 30,star: 5,attack: 640,hp: 800,zeroSkill: 1011,fiveSkill: 3110,tenSkill: 3163,group: 2005}
+--- {id: 10247,name: 玉鼎真人,type: 20,star: 5,attack: 640,hp: 790,zeroSkill: 3018,fiveSkill: 4503,tenSkill: 3142,group: 0}
+--- {id: 10101,name: 姜子牙,type: 10,star: 5,attack: 680,hp: 740,zeroSkill: 1104,fiveSkill: 3170,tenSkill: 3104,group: 0}
+--- {id: 10302,name: 赵公明,type: 30,star: 5,attack: 730,hp: 750,zeroSkill: 1018,fiveSkill: 0,tenSkill: 1019,group: 0}
+--- {id: 10331,name: 无当圣母,type: 30,star: 4,attack: 600,hp: 650,zeroSkill: 3167,fiveSkill: 3133,tenSkill: 1203,group: 0}
+--- {id: 10204,name: 袁洪,type: 20,star: 4,attack: 630,hp: 710,zeroSkill: 3124,fiveSkill: 3202,tenSkill: 3122,group: 2010}
+--- {id: 10106,name: 韦护,type: 10,star: 4,attack: 600,hp: 680,zeroSkill: 4112,fiveSkill: 4113,tenSkill: 4119,group: 0}
+--- {id: 10435,name: 天花娘娘,type: 40,star: 4,attack: 610,hp: 640,zeroSkill: 3125,fiveSkill: 3127,tenSkill: 3131,group: 0}
+--- {id: 10532,name: 龟灵圣母,type: 50,star: 4,attack: 520,hp: 900,zeroSkill: 3301,fiveSkill: 3101,tenSkill: 3146,group: 0}
+--- {id: 10464,name: 赤精子,type: 40,star: 5,attack: 730,hp: 710,zeroSkill: 3158,fiveSkill: 3013,tenSkill: 4119,group: 0}
+--- {id: 10142,name: 金睛白虎,type: 10,star: 5,attack: 610,hp: 730,zeroSkill: 3173,fiveSkill: 1020,tenSkill: 3156,group: 2019}
+--- {id: 10236,name: 孟章苍龙,type: 20,star: 5,attack: 630,hp: 950,zeroSkill: 4121,fiveSkill: 3202,tenSkill: 3016,group: 2019}
+--- {id: 10347,name: 重甲玄武,type: 30,star: 5,attack: 660,hp: 850,zeroSkill: 3019,fiveSkill: 4504,tenSkill: 3133,group: 2019}
+--- {id: 10401,name: 金銮火凤,type: 40,star: 5,attack: 660,hp: 780,zeroSkill: 1209,fiveSkill: 3125,tenSkill: 1010,group: 2019}
+#--- {id: 10363,name: 慈航道人,type: 30,star: 5,attack: 680,hp: 690,zeroSkill: 3141,fiveSkill: 1022,tenSkill: 6006,group: 2019}
+--- {id: 10127,name: 恶来,type: 10,star: 4,attack: 500,hp: 570,zeroSkill: 1202,fiveSkill: 3302,tenSkill: 4111,group: 2020}
+--- {id: 10128,name: 蜚廉,type: 10,star: 4,attack: 510,hp: 560,zeroSkill: 4301,fiveSkill: 3002,tenSkill: 3301,group: 2020}
+
+
+
+
+

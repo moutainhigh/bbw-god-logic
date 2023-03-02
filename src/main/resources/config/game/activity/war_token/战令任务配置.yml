@@ -1,0 +1,51 @@
+#战令任务配置 CfgWarTokenTask
+#签到任务【代码生成】：每周固定任务。该任务领取的经验不会记录到周任务上限中。该任务每周只能完成一次。
+--- {id: 100000,type: 10,exp: 1000,need: 1}
+--- {id: 100001,type: 10,exp: 2000,need: 1}
+--- {id: 100002,type: 10,exp: 3000,need: 1}
+#常规任务：每周固定任务。该任务在完成后自动领取经验，并重置该任务，增加1次完成次数的显示。该任务类型没有完成次数上限。
+#每参与1场神仙大会
+#--- {id: 200000,type: 20,exp: 200,addWeekExp: true,need: 1}
+#每参与1场斗法封神台
+--- {id: 200010,type: 20,exp: 100,addWeekExp: true,need: 1}
+#每通关1层独战魔王
+--- {id: 200020,type: 20,exp: 100,addWeekExp: true,need: 1}
+#每参与1场诛仙阵
+--- {id: 200030,type: 20,exp: 100,addWeekExp: true,need: 1}
+
+#随机任务：每周随机3种，可花费元宝更换任务。该任务在完成后自动领取经验，并重置该任务，增加1次完成次数的显示。该任务类型没有完成次数上限。
+#每获得1场斗法封神台胜利
+--- {id: 300000,type: 30,exp: 100,addWeekExp: true,need: 1}
+#每获得1场神仙大会胜利
+--- {id: 300010,type: 30,exp: 100,addWeekExp: true,need: 1}
+#每击败1个诛仙阵对手
+--- {id: 300020,type: 30,exp: 100,addWeekExp: true,need: 1}
+#每击败2个友怪
+--- {id: 300030,type: 30,exp: 100,addWeekExp: true,need: 2}
+#每获得1场阐截斗法胜利
+--- {id: 300040,type: 30,exp: 100,addWeekExp: true,need: 1}
+#每累计使用5个战斗法宝
+--- {id: 300050,type: 30,exp: 50,addWeekExp: true,need: 5}
+#神仙大会每击杀10张卡牌
+--- {id: 300060,type: 30,exp: 50,addWeekExp: true,need: 10}
+#诛仙阵每击杀10张卡牌
+--- {id: 300070,type: 30,exp: 50,addWeekExp: true,need: 10}
+#阐截斗法每击杀10张卡牌
+--- {id: 300080,type: 30,exp: 50,addWeekExp: true,need: 10}
+#魔王降临每攻击15次魔王
+--- {id: 300090,type: 30,exp: 50,addWeekExp: true,need: 15}
+
+#唯一任务：每周随机1种，该任务在完成后自动领取经验。该任务每周只能完成1次。
+#万仙阵进入64强
+--- {id: 400010,type: 40,exp: 1500,addWeekExp: true,need: 1}
+#神仙大会获得100点积分
+--- {id: 400020,type: 40,exp: 1500,addWeekExp: true,need: 100}
+#魔王降临累计对魔王造成80万伤害
+--- {id: 400030,type: 40,exp: 1500,addWeekExp: true,need: 800000}
+#阐截斗法获得乱斗封神参赛资格
+--- {id: 400040,type: 40,exp: 1500,addWeekExp: true,need: 1}
+#斗法封神台获得20场胜利
+--- {id: 400050,type: 40,exp: 1500,addWeekExp: true,need: 20}
+#通关高级诛仙阵
+--- {id: 400060,type: 40,exp: 1500,addWeekExp: true,need: 1}
+

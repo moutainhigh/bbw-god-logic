@@ -1,0 +1,67 @@
+#神仙大会排名奖励
+#CfgSxdhRankAward
+key: 唯一
+#日排行奖励
+phaseAwards:
+  - {minRank: 1,maxRank: 3,awards:[{item: 60,awardId: 11500,num: 3450}]}
+  - {minRank: 4,maxRank: 10,awards:[{item: 60,awardId: 11500,num: 3100}]}
+  - {minRank: 11,maxRank: 20,awards:[{item: 60,awardId: 11500,num: 2750}]}
+  - {minRank: 21,maxRank: 30,awards:[{item: 60,awardId: 11500,num: 2400}]}
+  - {minRank: 31,maxRank: 50,awards:[{item: 60,awardId: 11500,num: 2150}]}
+  - {minRank: 51,maxRank: 70,awards:[{item: 60,awardId: 11500,num: 1900}]}
+  - {minRank: 71,maxRank: 100,awards:[{item: 60,awardId: 11500,num: 1650}]}
+  - {minRank: 101,maxRank: 130,awards:[{item: 60,awardId: 11500,num: 1400}]}
+  - {minRank: 131,maxRank: 160,awards:[{item: 60,awardId: 11500,num: 1250}]}
+  - {minRank: 161,maxRank: 200,awards:[{item: 60,awardId: 11500,num: 1100}]}
+  - {minRank: 201,maxRank: 250,awards:[{item: 60,awardId: 11500,num: 950}]}
+  - {minRank: 251,maxRank: 300,awards:[{item: 60,awardId: 11500,num: 800}]}
+  - {minRank: 301,maxRank: 350,awards:[{item: 60,awardId: 11500,num: 650}]}
+  - {minRank: 351,maxRank: 400,awards:[{item: 60,awardId: 11500,num: 600}]}
+  - {minRank: 401,maxRank: 450,awards:[{item: 60,awardId: 11500,num: 550}]}
+  - {minRank: 451,maxRank: 500,awards:[{item: 60,awardId: 11500,num: 500}]}
+  - {minRank: 501,maxRank: 550,awards:[{item: 60,awardId: 11500,num: 450}]}
+  - {minRank: 551,maxRank: 600,awards:[{item: 60,awardId: 11500,num: 400}]}
+  - {minRank: 601,maxRank: 999999,awards:[{item: 60,awardId: 11500,num: 350}]}
+
+#季中排名奖励
+middleSeasonAwards:
+  - {minRank: 1,maxRank: 3,awards:[{item: 60,awardId: 11500,num: 2900}]}
+  - {minRank: 4,maxRank: 10,awards:[{item: 60,awardId: 11500,num: 2500}]}
+  - {minRank: 11,maxRank: 20,awards:[{item: 60,awardId: 11500,num: 2200}]}
+  - {minRank: 21,maxRank: 30,awards:[{item: 60,awardId: 11500,num: 2000}]}
+  - {minRank: 31,maxRank: 50,awards:[{item: 60,awardId: 11500,num: 1800}]}
+  - {minRank: 51,maxRank: 70,awards:[{item: 60,awardId: 11500,num: 1600}]}
+  - {minRank: 71,maxRank: 100,awards:[{item: 60,awardId: 11500,num: 1400}]}
+  - {minRank: 101,maxRank: 130,awards:[{item: 60,awardId: 11500,num: 1300}]}
+  - {minRank: 131,maxRank: 160,awards:[{item: 60,awardId: 11500,num: 1200}]}
+  - {minRank: 161,maxRank: 200,awards:[{item: 60,awardId: 11500,num: 1100}]}
+  - {minRank: 201,maxRank: 250,awards:[{item: 60,awardId: 11500,num: 1000}]}
+  - {minRank: 251,maxRank: 300,awards:[{item: 60,awardId: 11500,num: 900}]}
+  - {minRank: 301,maxRank: 350,awards:[{item: 60,awardId: 11500,num: 850}]}
+  - {minRank: 351,maxRank: 400,awards:[{item: 60,awardId: 11500,num: 800}]}
+  - {minRank: 401,maxRank: 450,awards:[{item: 60,awardId: 11500,num: 750}]}
+  - {minRank: 451,maxRank: 500,awards:[{item: 60,awardId: 11500,num: 700}]}
+  - {minRank: 501,maxRank: 550,awards:[{item: 60,awardId: 11500,num: 650}]}
+  - {minRank: 551,maxRank: 600,awards:[{item: 60,awardId: 11500,num: 600}]}
+  - {minRank: 601,maxRank: 999999,awards:[{item: 60,awardId: 11500,num: 550}]}
+#赛季排名奖励
+seasonAwards:
+  - {minRank: 1,maxRank: 3,awards:[{item: 60,awardId: 11500,num: 8700}]}
+  - {minRank: 4,maxRank: 10,awards:[{item: 60,awardId: 11500,num: 7500}]}
+  - {minRank: 11,maxRank: 20,awards:[{item: 60,awardId: 11500,num: 6600}]}
+  - {minRank: 21,maxRank: 30,awards:[{item: 60,awardId: 11500,num: 6000}]}
+  - {minRank: 31,maxRank: 50,awards:[{item: 60,awardId: 11500,num: 5400}]}
+  - {minRank: 51,maxRank: 70,awards:[{item: 60,awardId: 11500,num: 4800}]}
+  - {minRank: 71,maxRank: 100,awards:[{item: 60,awardId: 11500,num: 4200}]}
+  - {minRank: 101,maxRank: 130,awards:[{item: 60,awardId: 11500,num: 3900}]}
+  - {minRank: 131,maxRank: 160,awards:[{item: 60,awardId: 11500,num: 3600}]}
+  - {minRank: 161,maxRank: 200,awards:[{item: 60,awardId: 11500,num: 3300}]}
+  - {minRank: 201,maxRank: 250,awards:[{item: 60,awardId: 11500,num: 3000}]}
+  - {minRank: 251,maxRank: 300,awards:[{item: 60,awardId: 11500,num: 2700}]}
+  - {minRank: 301,maxRank: 350,awards:[{item: 60,awardId: 11500,num: 2550}]}
+  - {minRank: 351,maxRank: 400,awards:[{item: 60,awardId: 11500,num: 2400}]}
+  - {minRank: 401,maxRank: 450,awards:[{item: 60,awardId: 11500,num: 2250}]}
+  - {minRank: 451,maxRank: 500,awards:[{item: 60,awardId: 11500,num: 2100}]}
+  - {minRank: 501,maxRank: 550,awards:[{item: 60,awardId: 11500,num: 1950}]}
+  - {minRank: 551,maxRank: 600,awards:[{item: 60,awardId: 11500,num: 1800}]}
+  - {minRank: 601,maxRank: 999999,awards:[{item: 60,awardId: 11500,num: 1650}]}

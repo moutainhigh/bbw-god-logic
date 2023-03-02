@@ -1,0 +1,32 @@
+key: 590
+desc: 番天印*1、九龙神火罩*1、金葫芦*1、定神丹*1、阴阳镜*1、诛仙剑*1、莫邪宝剑*1、如意乾坤袋*1、乾坤弓*2
+isRandom: false
+goods:
+  - item: 60
+    good: 番天印
+    num: 1
+  - item: 60
+    good: 九龙神火罩
+    num: 1
+  - item: 60
+    good: 金葫芦
+    num: 1
+  - item: 60
+    good: 定神丹
+    num: 1
+  - item: 60
+    good: 阴阳镜
+    num: 1
+  - item: 60
+    good: 诛仙剑
+    num: 1
+  - item: 60
+    good: 莫邪宝剑
+    num: 1
+  - item: 60
+    good: 如意乾坤袋
+    num: 1
+  - item: 60
+    good: 乾坤弓
+    num: 2
+...

@@ -1,0 +1,5 @@
+#活动总览，登录有礼，不给糖就捣乱2，万圣餐厅，藏宝秘境，充值特惠，
+{{富甲1}}gm/server!addGameActivity?groups=0&types=10130,10020,13380,13390,13110,10150,10140,10030&begin=2022-10-26 00:00:00&end=2022-11-01 23:59:59
+#榜单 跨服消费日榜，总榜
+{{富甲1}}gm/server!addGameActivityRank?serverGroups=20&type=11030&begin=2022-10-26 00:00:00&end=2022-11-01 23:59:59
+{{富甲1}}gm/server!addGameActivityRank?serverGroups=20&type=11040&begin=2022-10-26 00:00:00&end=2022-11-01 23:59:59

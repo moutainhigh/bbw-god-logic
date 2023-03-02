@@ -1,0 +1,29 @@
+# 碧游宫权重配置
+# weight 权重，必须是整数 此处的10 表示 原始的1  9表示原始是0.9
+# 权重默认配置为10
+# CfgBYPalaceWeightEntity
+--- {id: 21159,chapterType: 60,name: 全-超度,weight: 9}
+--- {id: 21160,chapterType: 60,name: 全-封神,weight: 4}
+--- {id: 21161,chapterType: 60,name: 全-招财,weight: 5}
+--- {id: 21162,chapterType: 60,name: 全-封咒,weight: 4}
+--- {id: 21163,chapterType: 60,name: 全-蛊惑,weight: 15}
+--- {id: 21164,chapterType: 60,name: 全-禁术,weight: 4}
+--- {id: 21165,chapterType: 60,name: 全-长生,weight: 15}
+--- {id: 21166,chapterType: 60,name: 全-吸星,weight: 10}
+--- {id: 21185,chapterType: 60,name: 全-鼓舞,weight: 8}
+--- {id: 21183,chapterType: 60,name: 全-枷锁-连锁,weight: 11}
+--- {id: 21184,chapterType: 60,name: 全-钻地-地劫,weight: 11}
+--- {id: 21204,chapterType: 60,name: 全-妖术-绝杀,weight: 9}
+--- {id: 21205,chapterType: 60,name: 全-闪电-雷电,weight: 9}
+--- {id: 21206,chapterType: 60,name: 全-怨灵-咒怨,weight: 11}
+--- {id: 21207,chapterType: 60,name: 全-震慑,weight: 8}
+--- {id: 21214,chapterType: 60,name: 全-芒刺-战刺,weight: 10}
+--- {id: 21215,chapterType: 60,name: 全-回光-反射,weight: 11}
+--- {id: 21216,chapterType: 60,name: 全-挑拨-反间,weight: 11}
+--- {id: 21222,chapterType: 60,name: 全-激励,weight: 8}
+--- {id: 21233,chapterType: 60,name: 全-袍泽,weight: 8}
+--- {id: 21234,chapterType: 60,name: 全-悲愤,weight: 8}
+--- {id: 21235,chapterType: 60,name: 全-食尸,weight: 10}
+--- {id: 21281,chapterType: 60,name: 全-灵守,weight: 8}
+--- {id: 21282,chapterType: 60,name: 全-镜像,weight: 8}
+--- {id: 21289,chapterType: 60,name: 全-蚀月,weight: 4}

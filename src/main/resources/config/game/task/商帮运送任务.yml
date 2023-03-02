@@ -1,0 +1,9 @@
+---
+groupId: 150000
+#商帮运送任务
+tasks:
+   #awardId为空奖励为对应商帮声望
+  - {id: 150001,difficulty: 10,value: 1,awards: [{item: 60,num: 10},{item: 60,awardId: 50198, num: 10}],isValid: true}
+  - {id: 150002,difficulty: 20,value: 1,awards: [{item: 60,num: 20},{item: 60,awardId: 50198, num: 20}],isValid: true}
+  - {id: 150003,difficulty: 30,value: 1,awards: [{item: 60,num: 30},{item: 60,awardId: 50198, num: 30}],isValid: true}
+  - {id: 150004,difficulty: 40,value: 1,awards: [{item: 60,num: 40},{item: 60,awardId: 50198, num: 40}],isValid: true}

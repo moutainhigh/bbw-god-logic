@@ -1,0 +1,33 @@
+#小虎商店
+#CfgLittleTigerStoreEntity
+key: 唯一
+#奖励卡标识
+awardNum: [1,2,3]
+#刷新需要的小虎币
+refreshNeedLittleTigerCoin: 5000
+#刷新次数对应奖池概率 10普通奖池 20高级池 30特级奖励池
+refreshAndPoolPro:
+  - {minRefreshTimes: 1, maxRefreshTimes: 3, poolPro: [{id: 10, pro: 1000},{id: 20, pro: 0},{id: 30, pro: 0}]}
+  - {minRefreshTimes: 4, maxRefreshTimes: 60, poolPro: [{id: 10, pro: 995},{id: 20, pro: 5},{id: 30, pro: 0}]}
+  - {minRefreshTimes: 61, maxRefreshTimes: 61, poolPro: [{id: 10, pro: 0},{id: 20, pro: 1000},{id: 30, pro: 0}]}
+  - {minRefreshTimes: 62, maxRefreshTimes: 80, poolPro: [{id: 10, pro: 990},{id: 20, pro: 10},{id: 30, pro: 0}]}
+  - {minRefreshTimes: 81, maxRefreshTimes: 120, poolPro: [{id: 10, pro: 985},{id: 20, pro: 15},{id: 30, pro: 0}]}
+  - {minRefreshTimes: 121, maxRefreshTimes: 121, poolPro: [{id: 10, pro: 0},{id: 20, pro: 0},{id: 30, pro: 1000}]}
+  - {minRefreshTimes: 122, maxRefreshTimes: 9999, poolPro: [{id: 10, pro: 970},{id: 20, pro: 20},{id: 30, pro: 10}]}
+
+#奖池物品
+poolAndAwards:
+  - {poolId: 10, awards: [{item: 60,awardId: 11010,num: 8,probability: 50},{item: 60,awardId: 11010,num: 6,probability: 80},{item: 60,awardId: 10180,num: 9,probability: 50},{item: 60,awardId: 10180,num: 6,probability: 80},{item: 60,awardId: 11090,num: 5,probability: 50},{item: 60,awardId: 11090,num: 3,probability: 80},{item: 60,awardId: 20,num: 1,probability: 80},{item: 60,awardId: 60,num: 1,probability: 80},{item: 60,awardId: 10020,num: 20,probability: 80},{item: 60,awardId: 10020,num: 15,probability: 80},{item: 60,awardId: 10030,num: 5,probability: 50},{item: 60,awardId: 10030,num: 3,probability: 80},{item: 60,awardId: 210,num: 3,probability: 80},{item: 60,awardId: 260,num: 3,probability: 80}]}
+  - {poolId: 20, awards: [{item: 60,awardId: 11400,num: 1,probability: 350},{item: 60,awardId: 11060,num: 1,probability: 300},{item: 40,probability: 350}]}
+  - {poolId: 30, awards: [{item: 60,awardId: 11410,num: 1,probability: 930},{item: 60,awardId: 50010,num: 1,probability: 50},{item: 40,probability: 20}]}
+
+#卡牌池
+cardsPool:
+  - {poolId: 20, cards: [{item: 40, awardId: 334},{item: 40, awardId: 335},{item: 40, awardId: 336},{item: 40, awardId: 434},{item: 40, awardId: 526},{item: 40, awardId: 535},{item: 40, awardId: 130},{item: 40, awardId: 233},{item: 40, awardId: 345},{item: 40, awardId: 438}]}
+  - {poolId: 30, cards: [{item: 40, awardId: 147},{item: 40, awardId: 243},{item: 40, awardId: 255},{item: 40, awardId: 345},{item: 40, awardId: 443},{item: 40, awardId: 541},{item: 40, awardId: 144},{item: 40, awardId: 344},{item: 40, awardId: 246},{item: 40, awardId: 450},{item: 40, awardId: 546}]}
+
+#累计刷新奖励
+cumulativeRefreshAwards:
+  - {refreshTimes: 150, awards: [{item: 60,awardId: 50010,num: 1}]}
+  - {refreshTimes: 90, awards: [{item: 60,awardId: 11410,num: 1}]}
+  - {refreshTimes: 30, awards: [{item: 60,awardId: 11060,num: 1}]}

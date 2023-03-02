@@ -1,0 +1,18 @@
+---
+#策略名称
+key: 村庄_一般情况
+#策略描述
+desc: 一定概率可能获得，并按星级概率随机一张卡牌(way=0)
+#结果限制
+maxSize: 1
+selectors:
+  - key: 3星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 5}
+  - key: 2星卡
+    condition: {star: 2,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 5}
+  - key: 1星卡
+    condition: {star: 1,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 100}
+...

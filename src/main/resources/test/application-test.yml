@@ -1,0 +1,120 @@
+spring:
+  session: #session保存方式设置
+    store-type: redis
+    timeout: 7200
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/god_game?serverTimezone=UTC&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: root
+      initial-size: 5
+      max-active: 256
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      aop-patterns: com.bbw.god.login.*,com.bbw.god.db.pool.*
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: lsj@zf
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+  kafka:
+    bootstrap-servers: 39.108.138.41:9093
+    producer:
+      # 重试次数
+      retries: 0
+      #procedure要求leader在考虑完成请求之前收到的确认数，用于控制发送记录在服务端的持久化，其值可以为如下：
+      #acks = 0 如果设置为零，则生产者将不会等待来自服务器的任何确认，该记录将立即添加到套接字缓冲区并视为已发送。在这种情况下，无法保证服务器已收到记录，并且重试配置将不会生效（因为客户端通常不会知道任何故障），为每条记录返回的偏移量始终设置为-1。
+      #acks = 1 这意味着leader会将记录写入其本地日志，但无需等待所有副本服务器的完全确认即可做出回应，在这种情况下，如果leader在确认记录后立即失败，但在将数据复制到所有的副本服务器之前，则记录将会丢失。
+      #acks = all 这意味着leader将等待完整的同步副本集以确认记录，这保证了只要至少一个同步副本服务器仍然存活，记录就不会丢失，这是最强有力的保证，这相当于acks = -1的设置。
+      #可以设置的值为：all, -1, 0, 1
+      acks: 0
+      # 批量大小 16K
+      batch-size: 16384
+      # 生产端缓冲区大小 32M
+      buffer-memory: 33554432
+      # 系列化
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # 基于SASL的安全配置
+      security:
+        protocol: SASL_PLAINTEXT
+      properties:
+        sasl.mechanism: PLAIN
+        sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="producer" password="Producer@110308";
+logging:
+  file: logs/spring/spring.log
+  path: D:/tomcat85/logs/
+  log-root-path: D:/tomcat85/logs/
+server:
+  tomcat:
+    accesslog:
+      buffered: true #使用缓存，定期刷新到日志文件
+      directory: D:/tomcat85/logs/accesslog #日志路径
+      enabled: true #开关
+      file-date-format: .yyyy-MM-dd #日志名称包含的轮转的时间戳格式
+      pattern: "%{X-Forwarded-For}i|%t| %r |%{postdata}r|%s|%b|%T" #common #通用 %h %l %u %t “%r” %s %b
+      prefix: access_log #前缀
+      rename-on-rotate: false #是否延迟到玩家切换时才在文件名包含时间戳
+      request-attributes-enabled: false #
+      rotate: true #指定是否启用日志轮转。默认为true。这个参数决定是否需要切换切换日志文件，如果被设置为false，则日志文件不会切换，即所有文件打到同一个日志文件中，并且file-date-format参数也会被忽略
+      suffix: .log #后缀
+    remote-ip-header: x-forwarded-for
+    protocol-header: x-forwarded-proto
+    port-header: X-Forwarded-Port
+  compression:
+    enabled: true
+    mime-types:
+      - application/json
+      - application/xml
+      - text/html
+      - text/xml
+      - text/plain
+  use-forward-headers: true
+bbw-god:
+  db-batchSize: 1000 #区服数据批量提交一次性最多数量
+  load-all-user-data-one-time: true #一次性载入所有玩家数据。如果为false则只载入GameUser对象数据，仅在第一获取某一类型UserData的时候再载入此类型全部数据到redis
+  run-schedule: true #启动定时任务引擎
+  game-data-result-days: 10 #提前生成多少天的结果数据
+  health-check-days: 7 #提前健康检查
+  redis-userdata-in-days: 5 #redis中缓存的多少天内登录的用户数据
+  ws-base-url: http://127.0.0.1:7082/godWS/
+  newGameUser: #新角色资源初始值开发环境用
+    copper: 100000000 #铜钱50000
+    gold: 10000000 #元宝0
+    dice: 10000 #体力30
+  chanjie:
+    open: true #开启阐截斗法
+    beginTime: "21:00:00" #战斗开始时间
+    endTime: "22:00:00" #战斗结束时间
+    useWeapon: false #是否允许使用法宝
+  #redis 设置
+  multi-redis:
+    common:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password:    # 密码（默认为空）
+      timeout: 6000ms  # 连接超时时长（毫秒）
+      lettuce:
+        pool:
+          max-active: 2000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          minIdle: 5
+          maxIdle: 50

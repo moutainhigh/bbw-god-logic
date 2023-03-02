@@ -1,0 +1,26 @@
+key: 50477
+desc: 随机获得以下奖励之一：素纱、红乌木、五彩线、水晶石
+isRandom: true
+categoryNum: 1
+goods: 
+  -
+    item: 60
+    good: 素纱
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 红乌木
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 五彩线
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 水晶石
+    num: 1
+    prop: 2500
+...

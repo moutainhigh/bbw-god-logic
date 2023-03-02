@@ -1,0 +1,91 @@
+---
+#初始化技能
+initSkills:
+  # skill 技能id  percentage：百分比  100%=》10000
+  - {skill: 1090,percentage: 300}
+  - {skill: 101,percentage: 700}
+  - {skill: 102,percentage: 700}
+  - {skill: 3010,percentage: 800}
+  - {skill: 4001,percentage: 800}
+  - {skill: 4117,percentage: 900}
+  - {skill: 1012,percentage: 900}
+  - {skill: 3008,percentage: 900}
+  - {skill: 3005,percentage: 1000}
+  - {skill: 3004,percentage: 1000}
+  - {skill: 3006,percentage: 1000}
+  - {skill: 3007,percentage: 1000}
+#初始0级技能=自愈
+initSkill0: 3130
+initAtk: 100
+initHp: 100
+#初始化阶级加成  100% =》10000
+initBaseHvAddition: 1000
+#属性点重置需要元宝数量
+resetAddPointNeedGod: 300
+#解锁属性所需元宝
+unlockPropertyNeedGod: 800
+#解锁新的技能组所需元宝
+unlockNewSkillsGroupNeedGod: 500
+upHvConditions:
+  # {hv: 阶级,min: 最低上限,topLimit: 最高上限,consume: 每次消耗数量,add: 加成值,needLingZhi: 总需要的灵芝数量}
+  - {hv: 0,topLimit: 100,consume: 1,add: 10,needLingZhi: 10}
+  - {hv: 1,topLimit: 300,consume: 2,add: 10,needLingZhi: 40}
+  - {hv: 2,topLimit: 500,consume: 2,add: 10,needLingZhi: 40}
+  - {hv: 3,topLimit: 700,consume: 3,add: 10,needLingZhi: 60}
+  - {hv: 4,topLimit: 950,consume: 3,add: 10,needLingZhi: 75}
+  - {hv: 5,topLimit: 1200,consume: 3,add: 10,needLingZhi: 75}
+  - {hv: 6,topLimit: 1450,consume: 4,add: 10,needLingZhi: 100}
+  - {hv: 7,topLimit: 1700,consume: 4,add: 10,needLingZhi: 100}
+  - {hv: 8,topLimit: 1950,consume: 4,add: 10,needLingZhi: 100}
+  - {hv: 9,topLimit: 2200,consume: 4,add: 10,needLingZhi: 100}
+  - {hv: 10,topLimit: 2500,consume: 5,add: 10,needLingZhi: 150}
+
+#满阶
+topLimitHv: 10
+#经验和等级对应
+exps:
+  # lv等级  等级对应需要的经验
+  - {lv: 1,exp: 1100}
+  - {lv: 2,exp: 7600}
+  - {lv: 3,exp: 34600}
+  - {lv: 4,exp: 68200}
+  - {lv: 5,exp: 105200}
+  - {lv: 6,exp: 183000}
+  - {lv: 7,exp: 271000}
+  - {lv: 8,exp: 422000}
+  - {lv: 9,exp: 678000}
+  - {lv: 10,exp: 966600}
+  - {lv: 11,exp: 1646400}
+  - {lv: 12,exp: 2424000}
+  - {lv: 13,exp: 3495600}
+  - {lv: 14,exp: 5057200}
+  - {lv: 15,exp: 6730800}
+  - {lv: 16,exp: 9748400}
+  - {lv: 17,exp: 13102000}
+  - {lv: 18,exp: 16455600}
+  - {lv: 19,exp: 19809200}
+  - {lv: 20,exp: 23162800}
+  - {lv: 21,exp: 26516400}
+  - {lv: 22,exp: 29870000}
+  - {lv: 23,exp: 33223600}
+  - {lv: 24,exp: 36577200}
+  - {lv: 25,exp: 39930800}
+  - {lv: 26,exp: 43284400}
+  - {lv: 27,exp: 46638000}
+  - {lv: 28,exp: 49991600}
+  - {lv: 29,exp: 53345200}
+  - {lv: 30,exp: 56698800}
+  - {lv: 31,exp: 60052400}
+  - {lv: 32,exp: 65082800}
+  - {lv: 33,exp: 73131440}
+  - {lv: 34,exp: 86814128}
+  - {lv: 35,exp: 111442966}
+  - {lv: 36,exp: 158237759}
+  - {lv: 37,exp: 251827345}
+  - {lv: 38,exp: 448365476}
+  - {lv: 39,exp: 880749363}
+  - {lv: 40,exp: 1875232303}
+#满级
+topLimitLv: 40
+...
+

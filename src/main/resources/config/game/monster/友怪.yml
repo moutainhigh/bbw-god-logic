@@ -1,0 +1,8 @@
+#友怪相关配置
+#CfgMonster
+---
+key: 唯一
+#系统自动生成的好友的怪物的等级
+monsterDefaultLevel: 4
+#帮好友打怪冷却时间 秒
+monsterColdTime: 600

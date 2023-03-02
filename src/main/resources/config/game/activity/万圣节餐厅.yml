@@ -1,0 +1,45 @@
+#万圣节餐厅
+#CfgHalloweenRestaurant
+key: 唯一
+#接受订单上限
+acceptOrderLimit: 2
+#盘子初始化 0：已解锁,为放置食物 -1：未解锁
+plateInits: [0,0,0,0,-1,-1,-1,-1,-1]
+#解锁需要法宝（糖果） 盘子个数=》糖果消耗数量
+unlockPlateNeedTreasureNums:
+  4: 10
+  5: 15
+  6: 20
+  7: 40
+  8: 60
+
+#解锁盘子需要法宝（糖果）
+unlockPlateNeedTreasure: 50420
+#食物合成 食物=》下一级食物
+foodCompounds:
+  50421: 50422
+  50422: 50423
+  50423: 50424
+  50424: 50425
+  50425: 50426
+  50426: 50427
+  50427: 50428
+#食物商品id 食物=》商品id
+foodMallIds:
+  50421: 740002
+  50422: 740003
+  50423: 740004
+  50424: 740005
+  50425: 740006
+  50426: 740007
+  50427: 740008
+  50428: 740009
+#食物合成需要数量
+foodCompoundNeedNum: 2
+#盘子产出法宝
+plateOutPutTreasure: 50420
+#盘子每小时产出
+plateOutPutNumPerHour: 5
+#订单有效时间
+orderValidTime: 2
+

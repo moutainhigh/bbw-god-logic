@@ -1,0 +1,19 @@
+# 【富甲】猫耳服配置
+#组ID
+groupId: 110
+#APP使用的产品分组
+appProductGroupId: 1
+#微信公众号使用的产品分组
+wechatProductGroupId: 2
+#强联网http地址
+wsUrl: http://pvp.bamboowind.cn:7181/godWS/
+#玩家竞技ip
+fsFightIps:
+  - 120.24.165.28
+  - 100.120.94.56
+  - 100.120.94.52
+  - 100.120.59.132
+  - 100.120.59.168
+  - 100.120.94.59
+  - 39.108.136.120
+  - 172.18.128.9

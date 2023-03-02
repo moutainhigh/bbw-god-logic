@@ -1,0 +1,16 @@
+---
+groupId: 131000
+#特殊限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 131001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "村民的诉求",value: 1,awards: [{item: 60, awardId: 50163, num: 2},{item: 60, awardId: 50164, num: 3}],isValid: true}
+  - {id: 131002,seqGroup: 8000,seq: 2,type: 120,difficulty: 20,name: "村民的诉求",value: 1,awards: [{item: 60, awardId: 50163, num: 3},{item: 60, awardId: 50164, num: 4}],isValid: true}
+  - {id: 131003,seqGroup: 8000,seq: 3,type: 120,difficulty: 30,name: "村民的诉求",value: 1,awards: [{item: 60, awardId: 50163, num: 4},{item: 60, awardId: 50164, num: 5}],isValid: true}
+...

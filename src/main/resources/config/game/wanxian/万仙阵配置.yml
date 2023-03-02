@@ -1,0 +1,243 @@
+# 万仙阵配置 CfgWanXian
+---
+key: 唯一
+#默认召唤师等级
+defaultPlayerLv: 100
+#默认卡牌数量
+defaultCardNum: 20
+#默认卡牌等级
+defaultCardLv: 20
+#默认卡牌阶级
+defaultCardHv: 10
+#默认赛事
+#racePlans:
+#  - {beginSeason: 20200608, endSeason: 0, plans: [9010,9020,9020,9030,9040,9050,9060,9070,9080,9090,9100]}
+#  - {beginSeason: 20200622, endSeason: 20990101, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180]}
+#  ①9010　金系赛（第1周）：仅能使用金系神将参赛
+#  ②9020　牧野赛（第2周）：参赛队伍必须拥有20张神将
+#  ③9030　木系赛（第3周）：仅能使用木系神将参赛
+#  ④9040　小兵赛（第4周）：仅能使用1星神将和2星神将参赛
+#  ⑤9050　水系赛（第5周）：仅能使用水系神将参赛
+#  ⑥9060　中坚赛（第6周）：仅能使用3星神将和4星神将参赛
+#  ⑦9070　火系赛（第7周）：仅能使用火系神将参赛
+#  ⑧9080　初阶赛（第8周）：战斗时神将调整为0阶10级
+#  ⑨9100　土系赛（第9周）：仅能使用土系神将参赛
+#  ⑩9090　僭主赛（第10周）：无法使用五张王者神将参与比赛
+#  ⑪9130　金乱斗（第11周）：仅能使用金系神将参赛，至少上阵15名神将，不能上姬昌。
+#  ⑬9110　背水赛（第12周）：召唤师血量调整为18w，本场战斗中复活、回魂、封神技能无效。
+#  ⑫9140　木乱斗（第13周）：仅能使用木系神将参赛，至少上阵15名神将，不能上姜桓楚。
+#  ⑮9120　法师赛（第14周）：召唤师血量调整为18w，本场战斗中所有法术伤害翻倍。
+#  ⑭9150　水乱斗（第15周）：仅能使用水系神将参赛，至少上阵15名神将，不能上崇侯虎。
+#  ⑰9190　攻城赛（第16周）：召唤师血量为80万，所有卡牌获得100%复活效果且神疗、治愈技能无效，第十回合强制 结束。
+#  ⑯9160　火乱斗（第17周）：仅能使用火系神将参赛，至少上阵15名神将，不能上鄂崇禹。
+#  ⑰9200　神仙战（第18周）：随机抽取20张卡牌，如该玩家未获得，降为0阶10级。
+#  ⑱9170　土乱斗（第19周）：仅能使用土系神将参赛，至少上阵15名神将，不能上纣王。
+#  ⑲9180　大乱斗（第20周）：每种属性的卡牌各上4张。
+#firstSpecialSeason: 20200608
+#赛事配置
+raceConfig:
+  - groupId: 16 #平台号 买量
+    open: true
+    closBeginSeason: 20200101 # 关闭赛季起始
+    closEndSeason: 20200101 #关闭赛季结束  当open=true时 且不在[closBeginSeason,closEndSeason]之间的赛区 都是开启状态,
+    #例如关闭下周的赛事，当前这周的保留，则closBeginSeason为下周1的日期，closEndSeason为结束关闭的日期
+    firstSeason: 20200525 #第一届普通赛季开始时间
+    firstSpecialSeason: 20200608 #第一届特色赛开始时间
+    specialSeasonPlans: # 特色赛安排
+      - {beginSeason: 20200622, endSeason: 20201109, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9110,9120]}
+      - {beginSeason: 20201116, endSeason: 20990101, plans: [9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180,9010,9020,9030,9040,9050,9060,9070,9080,9100]}
+  - groupId: 17 #平台号 买量
+    open: true
+    closBeginSeason: 20200101 # 关闭赛季起始
+    closEndSeason: 20200101 #关闭赛季结束  当open=true时 且不在[closBeginSeason,closEndSeason]之间的赛区 都是开启状态
+    firstSeason: 20200525 #第一届普通赛季开始时间
+    firstSpecialSeason: 20200608 #第一届特色赛开始时间
+    specialSeasonPlans: # 特色赛安排
+      - {beginSeason: 20200622, endSeason: 20201109, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9110,9120]}
+      - {beginSeason: 20201116, endSeason: 20990101, plans: [9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180,9010,9020,9030,9040,9050,9060,9070,9080,9100]}
+  - groupId: 20 #平台号 渠道
+    open: true
+    closBeginSeason: 20200101 # 关闭赛季起始
+    closEndSeason: 20200101 #关闭赛季结束  当open=true时 且不在[closBeginSeason,closEndSeason]之间的赛区 都是开启状态
+    firstSeason: 20200525 #第一届普通赛季开始时间
+    firstSpecialSeason: 20200608 #第一届特色赛开始时间
+    specialSeasonPlans: # 特色赛安排
+      - {beginSeason: 20200622, endSeason: 20201109, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9110,9120]}
+      - {beginSeason: 20201116, endSeason: 20990101, plans: [9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180,9010,9020,9030,9040,9050,9060,9070,9080,9100]}
+  - groupId: 50 #平台号 游动
+    open: false
+    closBeginSeason: 20200101 # 关闭赛季起始
+    closEndSeason: 20200101 #关闭赛季结束  当open=true时 且不在[closBeginSeason,closEndSeason]之间的赛区 都是开启状态
+    firstSeason: 20201123 #第一届普通赛季开始时间
+    firstSpecialSeason: 20201123 #第一届特色赛开始时间
+    specialSeasonPlans: # 特色赛安排
+      - {beginSeason: 20201123, endSeason: 20990101, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180]}
+  - groupId: 1 #平台号 开发
+    open: false
+    closBeginSeason: 20200101 # 关闭赛季起始
+    closEndSeason: 20200101 #关闭赛季结束  当open=true时 且不在[closBeginSeason,closEndSeason]之间的赛区 都是开启状态
+    firstSeason: 20200525 #第一届普通赛季开始时间
+    firstSpecialSeason: 20200608 #第一届特色赛开始时间
+    specialSeasonPlans: # 特色赛安排
+      - {beginSeason: 20200622, endSeason: 20201109, plans: [9010,9020,9030,9040,9050,9060,9070,9080,9100,9090,9110,9120]}
+      - {beginSeason: 20201116, endSeason: 20990101, plans: [9090,9130,9110,9140,9120,9150,9190,9160,9200,9170,9180,9010,9020,9030,9040,9050,9060,9070,9080,9100]}
+
+#邮件信息
+emails:
+  - {id: 110,title: '万仙阵%s失利',content: '亲爱的召唤师：在本次万仙阵对阵中，您已止步【%s】。希望您下次再接再厉，获得更好的成绩。'}
+  - {id: 120,title: '万仙阵%s夺冠',content: '亲爱的召唤师：恭喜您在本届万仙阵中夺得冠军，您的事迹将在众仙殿中久久传唱。'}
+#常规赛奖励信息
+awardList:
+  - begin: 0
+    end: 0
+    seasonAwards:
+      - pid: 101
+        memo: "常规赛第1名 铜钱*50w，魂源*27 混沌仙石*12  宝箱*1"
+        minRank: 1
+        maxRank: 1
+        awards:
+          - {num: 500000, item: 20}
+          - {num: 27, item: 60, awardId: 10180}
+          - {num: 12, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41001}
+      - pid: 102
+        memo: "常规赛第2名 铜钱*40w，魂源*24 混沌仙石*10  宝箱*1"
+        minRank: 2
+        maxRank: 2
+        awards:
+          - {num: 400000, item: 20}
+          - {num: 24, item: 60, awardId: 10180}
+          - {num: 10, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41002}
+      - pid: 103
+        memo: "常规赛第3~4名 铜钱*30w，魂源*21 混沌仙石*8  宝箱*1"
+        minRank: 3
+        maxRank: 4
+        awards:
+          - {num: 300000, item: 20}
+          - {num: 21, item: 60, awardId: 10180}
+          - {num: 8, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41003}
+      - pid: 104
+        memo: "常规赛第5~8名 铜钱*25w，魂源*18 混沌仙石*6  宝箱*1"
+        minRank: 5
+        maxRank: 8
+        awards:
+          - {num: 250000, item: 20}
+          - {num: 18, item: 60, awardId: 10180}
+          - {num: 6, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41004}
+      - pid: 105
+        memo: "常规赛第9~16名 铜钱*20w，魂源*15 混沌仙石*4  宝箱*1"
+        minRank: 9
+        maxRank: 16
+        awards:
+          - {num: 200000, item: 20}
+          - {num: 15, item: 60, awardId: 10180}
+          - {num: 4, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41005}
+      - pid: 106
+        memo: "常规赛第17~32名 铜钱*15w，魂源*12 混沌仙石*3  宝箱*1"
+        minRank: 17
+        maxRank: 32
+        awards:
+          - {num: 150000, item: 20}
+          - {num: 12, item: 60, awardId: 10180}
+          - {num: 3, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41006}
+      - pid: 107
+        memo: "常规赛第33~64名 铜钱*10w，魂源*9 混沌仙石*2  宝箱*1"
+        minRank: 33
+        maxRank: 64
+        awards:
+          - {num: 100000, item: 20}
+          - {num: 9, item: 60, awardId: 10180}
+          - {num: 2, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41007}
+      - pid: 108
+        memo: "常规赛64名以后 铜钱*10w，魂源*3 混沌仙石*1  宝箱*1"
+        minRank: 65
+        maxRank: 9999999
+        awards:
+          - {num: 100000, item: 20}
+          - {num: 3, item: 60, awardId: 10180}
+          - {num: 1, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 41008}
+#特色赛奖励
+awardSpecialList:
+  - begin: 0
+    end: 0
+    seasonAwards:
+      - pid: 101
+        memo: "特色赛第1名 铜钱*50w，魂源*27 混沌仙石*12  宝箱*1"
+        minRank: 1
+        maxRank: 1
+        awards:
+          - {num: 500000, item: 20}
+          - {num: 27, item: 60, awardId: 10180}
+          - {num: 12, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42001}
+      - pid: 102
+        memo: "特色赛第2名 铜钱*40w，魂源*24 混沌仙石*10  宝箱*1"
+        minRank: 2
+        maxRank: 2
+        awards:
+          - {num: 400000, item: 20}
+          - {num: 24, item: 60, awardId: 10180}
+          - {num: 10, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42002}
+      - pid: 103
+        memo: "特色赛第3~4名 铜钱*30w，魂源*21 混沌仙石*8  宝箱*1"
+        minRank: 3
+        maxRank: 4
+        awards:
+          - {num: 300000, item: 20}
+          - {num: 21, item: 60, awardId: 10180}
+          - {num: 8, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42003}
+      - pid: 104
+        memo: "特色赛第5~8名 铜钱*25w，魂源*18 混沌仙石*6  宝箱*1"
+        minRank: 5
+        maxRank: 8
+        awards:
+          - {num: 250000, item: 20}
+          - {num: 18, item: 60, awardId: 10180}
+          - {num: 6, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42004}
+      - pid: 105
+        memo: "特色赛第9~16名 铜钱*20w，魂源*15 混沌仙石*4  宝箱*1"
+        minRank: 9
+        maxRank: 16
+        awards:
+          - {num: 200000, item: 20}
+          - {num: 15, item: 60, awardId: 10180}
+          - {num: 4, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42005}
+      - pid: 106
+        memo: "特色赛第17~32名 铜钱*15w，魂源*12 混沌仙石*3  宝箱*1"
+        minRank: 17
+        maxRank: 32
+        awards:
+          - {num: 150000, item: 20}
+          - {num: 12, item: 60, awardId: 10180}
+          - {num: 3, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42006}
+      - pid: 107
+        memo: "特色赛第33~64名 铜钱*10w，魂源*9 混沌仙石*2  宝箱*1"
+        minRank: 33
+        maxRank: 64
+        awards:
+          - {num: 100000, item: 20}
+          - {num: 9, item: 60, awardId: 10180}
+          - {num: 2, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42007}
+      - pid: 108
+        memo: "特色赛64名以后 铜钱*10w，魂源*3 混沌仙石*1  宝箱*1"
+        minRank: 65
+        maxRank: 9999999
+        awards:
+          - {num: 100000, item: 20}
+          - {num: 3, item: 60, awardId: 10180}
+          - {num: 1, item: 60, awardId: 10030}
+          - {num: 1,item: 60,awardId: 42008}
+...

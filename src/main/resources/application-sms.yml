@@ -1,0 +1,6 @@
+spring:
+  sms:
+    signature: 竹风软件 		#签名
+    template: SMS_165118902 #短信模板id
+    accessKeyId: LTAISnWpBI1TfSVn
+    accessKeySecret: Q7X6mn1tESF3cdlvpJn5W6nbokEfFW

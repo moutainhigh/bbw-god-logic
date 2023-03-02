@@ -1,0 +1,58 @@
+#神仙大会
+#CfgSxdh
+key: 唯一
+numToShow: 20 #排行榜显示人数
+freeTimesPerDay: 3 #每日免费次数
+needTicket: 3 #每场战斗需要的门票
+roboterLevelDiffLimit: 10 #匹配一类机器人的等级差限制
+seasonBeginHour: 8 # -39 #赛季开始,相对每月1号0点
+seasonEndHour: 21 #赛季结束,相对每月1号0点
+openBeginHour: 8 #每日开放开始时间
+openEndHour: 2 #每日开放结束时间
+resetMallRecordDate: 08210000
+beanExpireDate: 08205959
+beanBoughtLimit: 1000
+fightCardNum: 18
+#########战区
+#minOpenDay ~ maxOpenDay 指定开服天数范围内的为一个战区
+#openAfterDays 多少天后开启
+#战区一的minOpenDay用负数，保证跨月提前开服初始化的区服可以正常加入新神仙大会的赛季
+zones:
+  - {id: 10,name: 战区1,minOpenDay: -30,maxOpenDay: 90,openAfterDay: -10,initBlood: 18000}
+  - {id: 20,name: 战区2,minOpenDay: 91,maxOpenDay: 300,openAfterDay: 150,initBlood: 28000}
+  - {id: 30,name: 战区3,minOpenDay: 301,openAfterDay: 360,initBlood: 38000}
+#########段位加分
+segmentScoreAwards:
+  #gap 段位间隔，负数表示我比对方高，正数表示对方比我高
+  #winScore胜利积分，failScore失败积分
+  - {minGap: -9999999,maxGap: -4,winScore: 2,failScore: -4}
+  - {minGap: -3,maxGap: -2,winScore: 4,failScore: -4}
+  - {minGap: -1,maxGap: 1,winScore: 6,failScore: -3}
+  #  - {minGap: 0,maxGap: 0,winScore: 6,failScore: -2}
+  #  - {minGap: 1,maxGap: 1,winScore: 5,failScore: -1}
+  - {minGap: 2,maxGap: 3,winScore: 8,failScore: 0}
+  - {minGap: 4,maxGap: 9999999,winScore: 10,failScore: 0}
+#########排名加分
+rankScoreAwards:
+  - {minGap: 5,maxGap: 9,winScore: 1,failScore: 0}
+  - {minGap: 10,maxGap: 29,winScore: 2,failScore: 0}
+  - {minGap: 30,maxGap: 49,winScore: 3,failScore: 0}
+  - {minGap: 50,maxGap: 9999999,winScore: 5,failScore: 0}
+#########丹药
+medicines:
+  - {id: 10910,name: 补神丹,unit: 1,price: 50}
+  - {id: 10920,name: 元气丹,unit: 1,price: 50}
+  - {id: 10930,name: 长生丹,unit: 1,price: 100}
+  - {id: 10940,name: 鹤龄丹,unit: 1,price: 100}
+  - {id: 10950,name: 扬武丹,unit: 1,price: 100}
+  #########赛季阶段
+seasonPhases:
+  # hasPhaseAwards 是否有阶段奖励 doubleScore 积分倍数 segments 段位
+  - {id: 10107,begin: 1,end: 7,prePhase: 13131,hasPhaseAwards: true,doubles: 1,segments: 普通,des: 1-7日}
+  - {id: 10814,begin: 8,end: 14,prePhase: 10107,hasPhaseAwards: true,doubles: 1,segments: 普通,des: 8-14日}
+  - {id: 11521,begin: 15,end: 21,prePhase: 10814,hasPhaseAwards: true,doubles: 1,segments: 普通,des: 15-21日}
+  - {id: 12228,begin: 22,end: 28,prePhase: 11521,hasPhaseAwards: true,doubles: 1,segments: 普通,des: 22-28日}
+  - {id: 12929,begin: 29,end: 29,prePhase: 12228,hasPhaseAwards: false,doubles: 2,segments: 冲刺,des: 今日}
+  - {id: 13030,begin: 30,end: 30,prePhase: 12228,hasPhaseAwards: false,doubles: 2,segments: 冲刺,des: 今日}
+  - {id: 13131,begin: 31,end: 31,prePhase: 12228,hasPhaseAwards: false,doubles: 2,segments: 冲刺,des: 今日}
+

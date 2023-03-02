@@ -1,0 +1,23 @@
+#CfgCardEquipmentRandomRuleEntity
+#战斗类型
+fightType: 80
+
+#至宝随机规则
+#zhiBaoId：至宝id
+#property：属性
+#skillGroup：技能组
+#additionRules  10:攻击，20防御，50：强度，60：韧度
+zhiBaos:
+  - {zhiBaoId: 1060,property: 0,skillGroup:[],additions: {10: 0,50: 0,60: 0}}
+  - {zhiBaoId: 2060,property: 0,skillGroup:[],additions: {20: 0,50: 0,60: 0}}
+
+
+#仙决随机规则
+#xianJueType：仙决类型
+#level：等级
+#quality：品质====>淬星
+#starMapProgress：星图进度
+#additionRules  10:攻击，20防御，30：强度，40：韧度
+xianJues:
+  - {xianJueType: 10,level: 0,quality: 60,starMapProgress: 0,additions: {10: 0,30: 0,40: 0}}
+  - {xianJueType: 20,level: 0,quality: 60,starMapProgress: 0,additions: {20: 0,30: 0,40: 0}}

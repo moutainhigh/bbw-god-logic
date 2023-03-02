@@ -1,0 +1,17 @@
+#客户端渠道编码,苹果官方渠道
+channelId: 78000
+#渠道产品ID与竹风产品ID映射。
+channelMap:
+  - {zfProductId: 11,innerId: ios20s10030}
+  - {zfProductId: 12,innerId: ios20s10031}
+  - {zfProductId: 13,innerId: ios20s10006}
+  - {zfProductId: 14,innerId: ios20s10018}
+  - {zfProductId: 15,innerId: ios20s10068}
+  - {zfProductId: 16,innerId: ios20s10098}
+  - {zfProductId: 17,innerId: ios20s10198}
+  - {zfProductId: 18,innerId: ios20s10328}
+  - {zfProductId: 19,innerId: ios20s10648}
+  - {zfProductId: 20,innerId: ios20s10030}
+  - {zfProductId: 21,innerId: ios20s10068}
+  - {zfProductId: 99001130,innerId: ios20s99001130}
+...

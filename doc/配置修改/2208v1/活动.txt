@@ -1,0 +1,4 @@
+#活动
+{{富甲1}}gm/server!addGameActivity?groups=0&types=10130,10020,11080,13340,13210,13330,11120,11110,10140,10030&begin=2022-08-26 00:00:00&end=2022-09-01 23:59:59
+{{富甲1}}gm/server!addGameActivity?groups=0&types=11111&begin=2022-08-26 00:00:00&end=2022-09-02 23:59:59
+{{富甲1}}gm/server!addGameActivity?groups=0&types=10130&begin=以更新时间为开始时间 00:00:00&end=2022-09-02 23:59:59

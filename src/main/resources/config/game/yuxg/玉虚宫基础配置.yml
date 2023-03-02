@@ -1,0 +1,116 @@
+#玉虚宫基础配置
+#CfgYuXGEntity
+key: 唯一
+#总概率10000
+#三种晶石初始升品概率
+sparInitialProbability:
+  50127: [1500,1000,750,450]
+  50128: [2500,1800,1250,750]
+  50129: [5000,3600,2500,1500]
+#符图和玉髓不同阶数可提供的基础经验
+fuTuAndYuSuiSupplyExp: [50,100,200,400,800]
+#开启新的符册需要的元宝
+unlockNewFuCeNeedGold: 500
+#使用熔炼值兑换晶石时需要消耗的熔炼值
+getSparNeedMeltValue: 1000
+#默认达到的许愿值=》必出符图
+defaultwishingValue: 80
+#默认每个许愿清单需要多个符图
+defaultFutuNum: 8
+#熔炼法宝产出晶石概率,增加的熔炼值
+meltPro:
+  #treasureStar 法宝等级 awardId 晶石id probabilit 产出概率 meltValue：熔炼值
+  - {treasureStar: 1,meltValue: 1,awards: [{awardId: 50127,item: 60,probability: 10000,num: 1},{awardId: 50128,item: 60,probability: 0,num: 1},{awardId: 50129,item: 60,probability: 0,num: 1}]}
+  - {treasureStar: 2,meltValue: 2,awards: [{awardId: 50127,item: 60,probability: 9500,num: 1},{awardId: 50128,item: 60,probability: 500,num: 1},{awardId: 50129,item: 60,probability: 0,num: 1}]}
+  - {treasureStar: 3,meltValue: 3,awards: [{awardId: 50127,item: 60,probability: 8000,num: 1},{awardId: 50128,item: 60,probability: 2000,num: 1},{awardId: 50129,item: 60,probability: 0,num: 1}]}
+  - {treasureStar: 4,meltValue: 4,awards: [{awardId: 50127,item: 60,probability: 5000,num: 1},{awardId: 50128,item: 60,probability: 5000,num: 1},{awardId: 50129,item: 60,probability: 0,num: 1}]}
+  - {treasureStar: 5,meltValue: 5,awards: [{awardId: 50127,item: 60,probability: 1000,num: 1},{awardId: 50128,item: 60,probability: 8900,num: 1},{awardId: 50129,item: 60,probability: 100,num: 1}]}
+#符图，玉髓产出概率
+prayProRuleOne:
+  # sparId:晶石id  fuTan：符首品阶(1-5 人黄玄地天） awards：产出奖励 awardType：产出类型 71符图 70玉髓 num：数量 probabilit：概率 prayConsumeSparNum 祈福消耗晶石数量
+  - {sparId: 50127,fuTan: 1,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 800},{awardType: 70,item: 60,quality: 1,num: 1,probability: 9200}]}
+  - {sparId: 50127,fuTan: 2,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 1440},{awardType: 70,item: 60,quality: 1,num: 1,probability: 6048},{awardType: 71,item: 60,quality: 2,num: 1,probability: 640},{awardType: 70,item: 60,quality: 2,num: 1,probability: 1872}]}
+  - {sparId: 50127,fuTan: 3,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 1152},{awardType: 70,item: 60,quality: 2,num: 1,probability: 6870},{awardType: 71,item: 60,quality: 3,num: 1,probability: 480},{awardType: 70,item: 60,quality: 3,num: 1,probability: 1498}]}
+  - {sparId: 50127,fuTan: 4,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 864},{awardType: 70,item: 60,quality: 3,num: 1,probability: 7693},{awardType: 71,item: 60,quality: 4,num: 1,probability: 320},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1123}]}
+  - {sparId: 50127,fuTan: 5,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 576},{awardType: 70,item: 60,quality: 4,num: 1,probability: 8515},{awardType: 71,item: 60,quality: 5,num: 1,probability: 160},{awardType: 70,item: 60,quality: 5,num: 1,probability: 749}]}
+  - {sparId: 50128,fuTan: 1,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 1200},{awardType: 70,item: 60,quality: 1,num: 1,probability: 8800}]}
+  - {sparId: 50128,fuTan: 2,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 2160},{awardType: 70,item: 60,quality: 1,num: 1,probability: 4936},{awardType: 71,item: 60,quality: 2,num: 1,probability: 960},{awardType: 70,item: 60,quality: 2,num: 1,probability: 1944}]}
+  - {sparId: 50128,fuTan: 3,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 1728},{awardType: 70,item: 60,quality: 2,num: 1,probability: 5997},{awardType: 71,item: 60,quality: 3,num: 1,probability: 720},{awardType: 70,item: 60,quality: 3,num: 1,probability: 1555}]}
+  - {sparId: 50128,fuTan: 4,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 1296},{awardType: 70,item: 60,quality: 3,num: 1,probability: 7058},{awardType: 71,item: 60,quality: 4,num: 1,probability: 480},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1166}]}
+  - {sparId: 50128,fuTan: 5,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 864},{awardType: 70,item: 60,quality: 4,num: 1,probability: 8118},{awardType: 71,item: 60,quality: 5,num: 1,probability: 240},{awardType: 70,item: 60,quality: 5,num: 1,probability: 778}]}
+  - {sparId: 50129,fuTan: 1,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 2400},{awardType: 70,item: 60,quality: 1,num: 1,probability: 7600}]}
+  - {sparId: 50129,fuTan: 2,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 4320},{awardType: 70,item: 60,quality: 1,num: 1,probability: 1168},{awardType: 71,item: 60,quality: 2,num: 1,probability: 1920},{awardType: 70,item: 60,quality: 2,num: 1,probability: 2592}]}
+  - {sparId: 50129,fuTan: 3,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 3456},{awardType: 70,item: 60,quality: 2,num: 1,probability: 3030},{awardType: 71,item: 60,quality: 3,num: 1,probability: 1440},{awardType: 70,item: 60,quality: 3,num: 1,probability: 2074}]}
+  - {sparId: 50129,fuTan: 4,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 2592},{awardType: 70,item: 60,quality: 3,num: 1,probability: 4893},{awardType: 71,item: 60,quality: 4,num: 1,probability: 960},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1555}]}
+  - {sparId: 50129,fuTan: 5,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 1728},{awardType: 70,item: 60,quality: 4,num: 1,probability: 6755},{awardType: 71,item: 60,quality: 5,num: 1,probability: 480},{awardType: 70,item: 60,quality: 5,num: 1,probability: 1037}]}
+
+#提升后的概率
+prayProRuleTwo:
+  # sparId:晶石id  fuTan：符首品阶(1-5 人黄玄地天） awards：产出奖励 awardType：产出类型 71符图 70玉髓 num：数量 probabilit：概率 prayConsumeSparNum 祈福消耗晶石数量
+  - {sparId: 50127,fuTan: 1,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 1200},{awardType: 70,item: 60,quality: 1,num: 1,probability: 8800}]}
+  - {sparId: 50127,fuTan: 2,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 2160},{awardType: 70,item: 60,quality: 1,num: 1,probability: 5808},{awardType: 71,item: 60,quality: 2,num: 1,probability: 960},{awardType: 70,item: 60,quality: 2,num: 1,probability: 1072}]}
+  - {sparId: 50127,fuTan: 3,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 1728},{awardType: 70,item: 60,quality: 2,num: 1,probability: 6054},{awardType: 71,item: 60,quality: 3,num: 1,probability: 720},{awardType: 70,item: 60,quality: 3,num: 1,probability: 1498}]}
+  - {sparId: 50127,fuTan: 4,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 1296},{awardType: 70,item: 60,quality: 3,num: 1,probability: 7101},{awardType: 71,item: 60,quality: 4,num: 1,probability: 480},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1123}]}
+  - {sparId: 50127,fuTan: 5,prayConsumeSparNum: 60,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 864},{awardType: 70,item: 60,quality: 4,num: 1,probability: 8147},{awardType: 71,item: 60,quality: 5,num: 1,probability: 240},{awardType: 70,item: 60,quality: 5,num: 1,probability: 749}]}
+  - {sparId: 50128,fuTan: 1,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 1600},{awardType: 70,item: 60,quality: 1,num: 1,probability: 8400}]}
+  - {sparId: 50128,fuTan: 2,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 2880},{awardType: 70,item: 60,quality: 1,num: 1,probability: 3896},{awardType: 71,item: 60,quality: 2,num: 1,probability: 1280},{awardType: 70,item: 60,quality: 2,num: 1,probability: 1944}]}
+  - {sparId: 50128,fuTan: 3,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 2304},{awardType: 70,item: 60,quality: 2,num: 1,probability: 5181},{awardType: 71,item: 60,quality: 3,num: 1,probability: 960},{awardType: 70,item: 60,quality: 3,num: 1,probability: 1555}]}
+  - {sparId: 50128,fuTan: 4,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 1728},{awardType: 70,item: 60,quality: 3,num: 1,probability: 6466},{awardType: 71,item: 60,quality: 4,num: 1,probability: 640},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1166}]}
+  - {sparId: 50128,fuTan: 5,prayConsumeSparNum: 10,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 1152},{awardType: 70,item: 60,quality: 4,num: 1,probability: 7750},{awardType: 71,item: 60,quality: 5,num: 1,probability: 320},{awardType: 70,item: 60,quality: 5,num: 1,probability: 778}]}
+  - {sparId: 50129,fuTan: 1,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 2800},{awardType: 70,item: 60,quality: 1,num: 1,probability: 7200}]}
+  - {sparId: 50129,fuTan: 2,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 1,num: 1,probability: 5040},{awardType: 70,item: 60,quality: 1,num: 1,probability: 128},{awardType: 71,item: 60,quality: 2,num: 1,probability: 2240},{awardType: 70,item: 60,quality: 2,num: 1,probability: 2592}]}
+  - {sparId: 50129,fuTan: 3,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 2,num: 1,probability: 4032},{awardType: 70,item: 60,quality: 2,num: 1,probability: 2214},{awardType: 71,item: 60,quality: 3,num: 1,probability: 1680},{awardType: 70,item: 60,quality: 3,num: 1,probability: 2074}]}
+  - {sparId: 50129,fuTan: 4,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 3,num: 1,probability: 1120},{awardType: 70,item: 60,quality: 3,num: 1,probability: 4301},{awardType: 71,item: 60,quality: 4,num: 1,probability: 1120},{awardType: 70,item: 60,quality: 4,num: 1,probability: 1555}]}
+  - {sparId: 50129,fuTan: 5,prayConsumeSparNum: 1,awards: [{awardType: 71,item: 60,quality: 4,num: 1,probability: 2016},{awardType: 70,item: 60,quality: 4,num: 1,probability: 6387},{awardType: 71,item: 60,quality: 5,num: 1,probability: 560},{awardType: 70,item: 60,quality: 5,num: 1,probability: 1037}]}
+#符图升级需要的经验 ** 品阶 -> 升级需要的经验
+fuTuUpgradeNeedExp:
+  1: [750,2050,4000,6750,10500,15550,22300,31300,43250,59000]
+  2: [950,2600,5050,8500,13200,19550,28000,39250,54200,73900]
+  3: [1200,3300,6400,10750,16650,24600,35200,49300,68000,92650]
+  4: [1500,4145,8050,13500,20900,30850,44100,61750,85150,116000]
+  5: [1900,5250,10150,17000,26250,38700,55300,77400,10650,145250]
+#法坛总等级对应开启的符图卡槽数量
+fuTuSlotNumAndFaTanAllLv:
+  - {faTanAllLv: 220,fuTuSlotNum: 15}
+  - {faTanAllLv: 200,fuTuSlotNum: 14}
+  - {faTanAllLv: 180,fuTuSlotNum: 13}
+  - {faTanAllLv: 160,fuTuSlotNum: 12}
+  - {faTanAllLv: 140,fuTuSlotNum: 11}
+  - {faTanAllLv: 120,fuTuSlotNum: 10}
+  - {faTanAllLv: 100,fuTuSlotNum: 9}
+  - {faTanAllLv: 80,fuTuSlotNum: 8}
+  - {faTanAllLv: 60,fuTuSlotNum: 7}
+  - {faTanAllLv: 50,fuTuSlotNum: 6}
+  - {faTanAllLv: 40,fuTuSlotNum: 5}
+#符图卡槽加成  攻击符图卡槽1效果加成50% 即fuTuSlotPos=1,rate 50, faTanTotalLevel即解锁该卡槽加成需要法坛所要达到的值
+fuTuSlotRates:
+  - {faTanTotalLevel: 260,fuTuSlotPos: 1,rate: 50}
+  - {faTanTotalLevel: 320,fuTuSlotPos: 2,rate: 50}
+  - {faTanTotalLevel: 380,fuTuSlotPos: 4,rate: 50}
+  - {faTanTotalLevel: 440,fuTuSlotPos: 5,rate: 50}
+  - {faTanTotalLevel: 500,fuTuSlotPos: 0,rate: 50}
+  - {faTanTotalLevel: 560,fuTuSlotPos: 6,rate: 50}
+  - {faTanTotalLevel: 600,fuTuSlotPos: 7,rate: 50}
+  - {faTanTotalLevel: 640,fuTuSlotPos: 9,rate: 50}
+  - {faTanTotalLevel: 680,fuTuSlotPos: 10,rate: 50}
+  - {faTanTotalLevel: 720,fuTuSlotPos: 8,rate: 50}
+  - {faTanTotalLevel: 760,fuTuSlotPos: 12,rate: 50}
+  - {faTanTotalLevel: 800,fuTuSlotPos: 13,rate: 50}
+  - {faTanTotalLevel: 840,fuTuSlotPos: 14,rate: 50}
+
+#faTanLv:法坛等级
+#fuTanLiftingProbability:概率提升的符坛
+#needFuTuNum：需要的符图的数量
+#needWishingValue:需要的许愿值
+
+faTanAllLvEffects:
+  - {faTanLv: 900,fuTanLiftingProbability: [1,2,3,4,5],needFuTuNum: 5,needWishingValue: 40}
+  - {faTanLv: 895,fuTanLiftingProbability: [1,2,3,4,5],needFuTuNum: 6,needWishingValue: 40}
+  - {faTanLv: 890,fuTanLiftingProbability: [1,2,3,4],needFuTuNum: 6,needWishingValue: 40}
+  - {faTanLv: 885,fuTanLiftingProbability: [1,2,3,4],needFuTuNum: 6,needWishingValue: 60}
+  - {faTanLv: 880,fuTanLiftingProbability: [1,2,3],needFuTuNum: 6,needWishingValue: 60}
+  - {faTanLv: 875,fuTanLiftingProbability: [1,2,3],needFuTuNum: 7,needWishingValue: 60}
+  - {faTanLv: 870,fuTanLiftingProbability: [1,2],needFuTuNum: 7,needWishingValue: 60}
+  - {faTanLv: 865,fuTanLiftingProbability: [1,2],needFuTuNum: 7}
+  - {faTanLv: 860,fuTanLiftingProbability: [1],needFuTuNum: 7}
+  - {faTanLv: 855,fuTanLiftingProbability: [1]}

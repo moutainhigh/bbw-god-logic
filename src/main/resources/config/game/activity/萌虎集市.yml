@@ -1,0 +1,44 @@
+#萌虎集市相关配置
+#CfgCuteTigerEntity
+key: 唯一
+#初始售出价格(单位：小虎币)
+initialSellingPrice:
+  - {treasureId: 50474, price: 500}
+  - {treasureId: 50475, price: 1000}
+  - {treasureId: 50476, price: 1500}
+#触发野怪宝箱概率
+yeGuaiTriggerPro: 40
+#野怪宝箱概率产出
+yeGuaiBoxOutPut: [{item: 60,awardId: 50474,num: 1,probability: 55},{item: 60,awardId: 50475,num: 1,probability: 30},{item: 60,awardId: 50476,num: 1,probability: 15}]
+#村庄触发概率
+cunZTriggerPro: 0
+#村庄产出
+cunZOutPut: [{item: 60,awardId: 50474,num: 1,probability: 40},{item: 60,awardId: 50475,num: 1,probability: 25},{item: 60,awardId: 50476,num: 1,probability: 15},{item: 60,awardId: 50207,num: 1,probability: 5},{item: 60,awardId: 50208,num: 1,probability: 15}]
+#特产触发概率
+specialsTriggerPro: 35
+#特产产出
+specialsOutPut: [{item: 60,awardId: 50474,num: 1,probability: 55},{item: 60,awardId: 50475,num: 1,probability: 35},{item: 60,awardId: 50476,num: 1,probability: 10}]
+#最大触发野地事件次数
+maxTriggerspecialYeDiTimes: 9
+#活动特殊野地事件概率(总概率1000)
+specialYeDiEventPro: 2
+#活动特殊野地事件
+specialYeDiEvent:
+  - {id: 1, treasureId: 50474, effect: 0.1, pro: 16, memo: "偶然听说某西域富商喜爱小汤圆，准备大量收购，【小汤圆】价格微涨10%。"}
+  - {id: 2, treasureId: 50475, effect: 0.1, pro: 12, memo: "偶然听说某西域富商喜爱年糕，准备大量收购，【年糕】价格微涨10%。"}
+  - {id: 3, treasureId: 50476, effect: 0.1, pro: 8, memo: "偶然听说某西域富商喜爱鱼饼，准备大量收购，【鱼饼】价格微涨10%。"}
+  - {id: 4, treasureId: 50474, effect: 0.2, pro: 9, memo: "剽窃国外交使臣吐槽小汤圆难吃，却妄图带回国申遗。【小汤圆】价格上涨20%。"}
+  - {id: 5, treasureId: 50475, effect: 0.2, pro: 7, memo: "剽窃国外交使臣吐槽年糕难吃，却妄图带回国申遗。【年糕】价格上涨20%。"}
+  - {id: 6, treasureId: 50476, effect: 0.2, pro: 5, memo: "剽窃国外交使臣吐槽鱼饼难吃，却妄图带回国申遗。【鱼饼】价格上涨20%。"}
+  - {id: 7, treasureId: 50474, effect: 0.3, pro: 4, memo: "小汤圆铺新来的店员美若天仙，被村民称为小汤圆西施，【小汤圆】价格暴涨30%。"}
+  - {id: 8, treasureId: 50475, effect: 0.3, pro: 3, memo: "年糕铺新来的店员美若天仙，被村民称为年糕西施，【年糕】价格暴涨30%。"}
+  - {id: 9, treasureId: 50476, effect: 0.3, pro: 2, memo: "鱼饼铺新来的店员美若天仙，被村民称为鱼饼西施，【鱼饼】价格暴涨30%。"}
+  - {id: 10, treasureId: 50474, effect: -0.1, pro: 10, memo: "由于小汤圆产量过剩，造成滞销，【小汤圆】价格微跌了10%。"}
+  - {id: 11, treasureId: 50475, effect: -0.1, pro: 7, memo: "由于年糕产量过剩，造成滞销，【年糕】价格微跌了10%。"}
+  - {id: 12, treasureId: 50476, effect: -0.1, pro: 4, memo: "由于鱼饼产量过剩，造成滞销，【鱼饼】价格微跌了10%。"}
+  - {id: 13, treasureId: 50474, effect: -0.2, pro: 5, memo: "小汤圆铺使用了劣质的小汤圆材料，口感大不如从前，【小汤圆】价格下跌20%。"}
+  - {id: 14, treasureId: 50475, effect: -0.2, pro: 3, memo: "年糕铺使用了劣质的年糕材料，口感大不如从前，【年糕】价格下跌20%。"}
+  - {id: 15, treasureId: 50476, effect: -0.2, pro: 1, memo: "鱼饼铺使用了劣质的鱼饼材料，口感大不如从前，【鱼饼】价格下跌20%。"}
+  - {id: 16, treasureId: 50474, effect: -0.3, pro: 2, memo: "村花结婚时，因小汤圆太难吃而拒绝继续参加婚礼，【小汤圆】价格暴跌30%。"}
+  - {id: 17, treasureId: 50475, effect: -0.3, pro: 1, memo: "村花结婚时，因年糕太难吃而拒绝继续参加婚礼，【年糕】价格暴跌30%。"}
+  - {id: 18, treasureId: 50476, effect: -0.3, pro: 1, memo: "村花结婚时，因鱼饼太难吃而拒绝继续参加婚礼，【鱼饼】价格暴跌30%。"}

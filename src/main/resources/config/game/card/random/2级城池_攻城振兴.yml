@@ -1,0 +1,25 @@
+#TODO
+#需要参数：神仙概率
+---
+#策略名称
+key: 2级城池_攻城振兴
+#策略描述
+# CityConfig.java 2级城卡牌掉率   { 5500, 2500, 2000, 0, 0 };
+desc: 按概率掉落一张本城可掉落的卡牌。每级别的城池对应一套概率；概率受神仙的影响
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors: 
+  -
+    key: 3星卡
+    condition: {star: 3,include: [$城池卡牌集]}
+    probability: {type: 1,value: 20}
+  -
+    key: 2星卡
+    condition: {star: 2,include: [$城池卡牌集]}
+    probability: {type: 1,value: 25}
+  -
+    key: 1星卡
+    condition: {star: 1,include: [$城池卡牌集]}
+    probability: {type: 1,value: 100}
+...

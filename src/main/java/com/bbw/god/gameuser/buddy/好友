@@ -1,0 +1,6 @@
+规则：
+1.好友数限制。等级10以下，可添加20个好友。等级10以上可添加 等级*2 数量的好友。BuddyService.getFriendLimit
+
+实现方法说明：
+AskBuddy：好友请求对象
+FriendBuddy:好友对象

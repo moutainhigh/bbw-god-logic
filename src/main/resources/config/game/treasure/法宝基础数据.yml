@@ -1,0 +1,1486 @@
+#法宝  CfgTreasureEntity
+#法宝  CfgTreasureEntity
+#注意=============BUFF预留ID  护身符BUFF  131000~145000预留
+# 地图法宝
+--- {id: 10,name: 财神珠,type: 10,star: 5,memo: "接下来200步内卖出特产溢价100%。"}
+--- {id: 20,name: 乾坤图,type: 10,star: 5,memo: "直接在可见范围中属于自己的城池多建一套建筑。"}
+--- {id: 30,name: 落宝金钱,type: 10,star: 5,memo: "接下来三场战斗，胜利则掉落随机法宝。"}
+--- {id: 50,name: 捆仙绳,type: 10,star: 5,memo: "免费绑走客栈或聚贤庄内出现的卡牌。"}
+--- {id: 60,name: 山河社稷图,type: 10,star: 4,memo: "到全地图任意地点。不能到有悬浮物的地点。"}
+--- {id: 80,name: 玉麒麟,type: 10,star: 5,memo: "加10个行动点。"}
+--- {id: 90,name: 定风珠,type: 10,star: 4,memo: "原地停留一回合。"}
+--- {id: 110,name: 风火轮,type: 10,star: 3,memo: "到地图可见范围内的任意地点。不能到有悬浮物的地点。"}
+--- {id: 120,name: 七香车,type: 10,star: 3,memo: "可控制下一次行动行走步数。"}
+--- {id: 130,name: 青鸾,type: 10,star: 2,memo: "接下来10次行动可用三个骰子。"}
+--- {id: 150,name: 四不像,type: 10,star: 2,memo: "接下来10次行动可用两个骰子。"}
+--- {id: 160,name: 漫步靴,type: 10,star: 1,memo: "下一个路口可选择行走方向。"}
+--- {id: 180,name: 送神符,type: 10,star: 1,memo: "送走附在身上的各类神仙。"}
+--- {id: 190,name: 回马枪,type: 10,star: 1,memo: "改变行进方向。"}
+#战斗法宝
+--- {id: 210,name: 番天印,type: 20,star: 5,memo: "直接选定敌方一张卡牌送入坟场，无视其金刚。"}
+--- {id: 220,name: 打神鞭,type: 20,star: 5,memo: "封杀敌方所有卡牌所有特技一回合。"}
+--- {id: 230,name: 阴阳镜,type: 20,star: 5,memo: "拉己方一张坟场中的卡牌回战场。"}
+--- {id: 240,name: 太极图,type: 20,star: 5,memo: "控制敌方一张卡牌一回合。"}
+--- {id: 250,name: 诛仙剑,type: 20,star: 5,memo: "装备卡牌攻防+500。"}
+--- {id: 260,name: 九龙神火罩,type: 20,star: 5,memo: "封杀敌方一张卡牌，使其不能攻击也不能阻挡。"}
+--- {id: 270,name: 莫邪宝剑,type: 20,star: 4,memo: "装备卡牌攻防+380。"}
+--- {id: 280,name: 招魂幡,type: 20,star: 4,memo: "每回合召唤一鬼兵进场。"}
+--- {id: 290,name: 戮仙剑,type: 20,star: 4,memo: "装备卡牌攻击+500且获得特技嗜血。"}
+--- {id: 300,name: 攒心钉,type: 20,star: 3,memo: "每回合针对敌方防御最低的卡牌，破除其250点永久防御。一场战斗限用1次。"}
+--- {id: 310,name: 乾坤尺,type: 20,star: 3,memo: "装备卡牌攻击+400且获得特技钻地。"}
+--- {id: 320,name: 紫金钵盂,type: 20,star: 3,memo: "使用回合己方所有卡牌均可上云台。"}
+--- {id: 330,name: 紫绫仙衣,type: 20,star: 3,memo: "己方所有卡牌防守+100。"}
+--- {id: 340,name: 绝仙剑,type: 20,star: 3,memo: "装备卡牌攻防各+250且获得特技穿刺。"}
+--- {id: 350,name: 乾坤弓,type: 20,star: 2,memo: "给敌方血槽造成450~800点伤害，一次战斗限三次。"}
+--- {id: 360,name: 震天箭,type: 20,star: 2,memo: "给敌方血槽造成500点伤害，一次战斗限三次。"}
+--- {id: 370,name: 红葫芦,type: 20,star: 1,memo: "补己方召唤师600点血，一次战斗限五次。"}
+--- {id: 380,name: 金葫芦,type: 20,star: 2,memo: "使用回合己方所有卡牌不会陷入异常状态。"}
+--- {id: 390,name: 陷仙剑,type: 20,star: 2,memo: "装备卡牌攻防各+200。"}
+--- {id: 400,name: 混元金斗,type: 20,star: 1,memo: "当前回合营地所有卡牌召唤成本-1，一场战斗限使用3次。"}
+--- {id: 410,name: 青云剑,type: 20,star: 1,memo: "装备卡牌攻防各+100。"}
+--- {id: 420,name: 定神丹,type: 20,star: 2,memo: "使用回合己方所有卡牌不会受威风、斥退、妖术的影响。"}
+--- {id: 430,name: 扫霞衣,type: 20,star: 4,memo: "装备卡牌防守+500。"}
+--- {id: 440,name: 五火神焰扇,type: 20,star: 4,memo: "给对方全体卡牌150~500点业火伤害（无视金刚和云台位）。"}
+--- {id: 450,name: 柴胡草,type: 20,star: 2,memo: "治疗一张卡牌受到的所有永久性伤害。一场战斗限用1次。"}
+--- {id: 460,name: 如意乾坤袋,type: 20,star: 1,memo: "可将当前营地中的卡牌全部换掉。"}
+--- {id: 470,name: 太极符印,type: 20,star: 2,memo: "装备后卡牌在战斗中获得无相技能。"}
+--- {id: 480,name: 火龙标,type: 20,star: 2,memo: "给予对方一张卡牌150点血的永久伤害。一次战斗限使用3次。"}
+--- {id: 490,name: 百毒痘,type: 20,star: 3,memo: "使对方一张卡牌中毒，每回合造成100点血的永久伤害。"}
+
+--- {id: 510,name: 宝箱,type: 30,star: null,memo: "可随机获得一件物品。"}
+--- {id: 520,name: 百宝箱,type: 30,star: null,memo: "可随机获得多件物品。"}
+--- {id: 530,name: 元宝福袋,type: 30,star: null,memo: ""}
+--- {id: 540,name: 铜钱袋,type: 30,star: null,memo: ""}
+--- {id: 550,name: 元素袋,type: 30,star: null,memo: ""}
+--- {id: 560,name: 体力包,type: 30,star: null,memo: ""}
+--- {id: 570,name: 进阶宝袋,type: 30,star: null,memo: ""}
+--- {id: 580,name: 符箓礼包,type: 30,star: null,memo: ""}
+--- {id: 590,name: 攻城略地礼包,type: 30,star: null,memo: ""}
+#礼包
+--- {id: 603,name: 韦护礼包,type: 33,star: null,memo: ""}
+--- {id: 606,name: 申公豹礼包,type: 33,star: null,memo: ""}
+--- {id: 609,name: 崇黑虎礼包,type: 33,star: null,memo: ""}
+--- {id: 612,name: 王天君礼包,type: 33,star: null,memo: ""}
+#万能灵石
+--- {id: 810,name: 一星灵石,type: 40,star: null,memo: "可代替任何一星卡牌灵石用来进阶卡牌，也可用来升级卡牌。"}
+--- {id: 820,name: 二星灵石,type: 40,star: null,memo: "可代替任何二星卡牌灵石用来进阶卡牌。"}
+--- {id: 830,name: 三星灵石,type: 40,star: null,memo: "可代替任何三星卡牌灵石用来进阶卡牌。"}
+--- {id: 840,name: 四星灵石,type: 40,star: null,memo: "可代替任何四星卡牌灵石用来进阶卡牌。"}
+--- {id: 850,name: 五星灵石,type: 40,star: null,memo: "可代替任何五星卡牌灵石用来进阶卡牌。"}
+--- {id: 10030,name: 混沌仙石,type: 41,star: null,memo: "仅卡牌进阶7级以上时使用"}
+#头像框
+--- {id: 31000,name: 默认框,type: 45,star: null,memo: ""}
+--- {id: 31010,name: 封神小仙*框,type: 45,star: null,memo: ""}
+--- {id: 31020,name: 卡牌大师*框,type: 45,star: null,memo: ""}
+--- {id: 31030,name: 最强召唤师*框,type: 45,star: null,memo: ""}
+--- {id: 31040,name: 降妖伏魔*框,type: 45,star: null,memo: ""}
+--- {id: 31050,name: 精英野怪*框,type: 45,star: null,memo: ""}
+--- {id: 31060,name: 钱多多*框,type: 45,star: null,memo: ""}
+--- {id: 31070,name: 神仙大会*天尊*头像框,type: 45,star: null,memo: ""}
+--- {id: 31071,name: 神仙大会*教主*头像框,type: 45,star: null,memo: ""}
+--- {id: 31072,name: 神仙大会*元神*头像框,type: 45,star: null,memo: ""}
+--- {id: 31073,name: 神仙大会*星君*头像框,type: 45,star: null,memo: ""}
+--- {id: 31074,name: 神仙大会*长老*头像框,type: 45,star: null,memo: ""}
+--- {id: 31075,name: 神仙大会*飞仙*头像框,type: 45,star: null,memo: ""}
+--- {id: 31076,name: 神仙大会*上仙*头像框,type: 45,star: null,memo: ""}
+--- {id: 31090,name: 端午佳节*框,type: 45,star: null,memo: ""}
+--- {id: 31100,name: 除魔卫道*框,type: 45,star: null,memo: ""}
+--- {id: 31110,name: 普天同庆*框,type: 45,star: null,memo: ""}
+--- {id: 31120,name: 凛冬将至*框,type: 45,star: null,memo: ""}
+--- {id: 31130,name: 元旦头像*框,type: 45,star: null,memo: ""}
+--- {id: 31140,name: 梦魇头像*框,type: 45,star: null,memo: ""}
+--- {id: 31150,name: 牛气冲天头像*框,type: 45,star: null,memo: ""}
+--- {id: 31160,name: 十周年头像*框,type: 45,star: null,memo: ""}
+--- {id: 31170,name: 劳动光荣*头像框,type: 45,star: null,memo: ""}
+--- {id: 31180,name: 洞天福地*框,type: 45,star: null,memo: ""}
+--- {id: 31190,name: 登临绝顶*框,type: 45,star: null,memo: ""}
+--- {id: 31200,name: 天道轮回*框,type: 45,star: null,memo: ""}
+--- {id: 31210,name: 万圣狂欢*框,type: 45,star: null,memo: ""}
+--- {id: 31220,name: 感恩有你*框,type: 45,star: null,memo: ""}
+--- {id: 31230,name: 百战百胜*框,type: 45,star: null,memo: ""}
+--- {id: 31240,name: 圣诞快乐*框,type: 45,star: null,memo: ""}
+--- {id: 31250,name: 虎虎生威*框,type: 45,star: null,memo: ""}
+--- {id: 31260,name: 花寄思语*框,type: 45,star: null,memo: ""}
+--- {id: 31270,name: 财气冲天*框,type: 45,star: null,memo: ""}
+--- {id: 31280,name: 春光无限*框,type: 45,star: null,memo: ""}
+--- {id: 31290,name: 寻龙探宝*框,type: 45,star: null,memo: ""}
+--- {id: 31300,name: 龙舟竞渡*框,type: 45,star: null,memo: ""}
+--- {id: 31310,name: 茶香泗溢*框,type: 45,star: null,memo: ""}
+--- {id: 31320,name: 冲杀破阵*框,type: 45,star: null,memo: ""}
+
+
+
+
+
+
+#头像
+--- {id: 3000,name: 初入商圈,type: 46,star: null,memo: ""}
+--- {id: 3010,name: 连锁富商,type: 46,star: null,memo: ""}
+--- {id: 3020,name: 一方财主,type: 46,star: null,memo: ""}
+--- {id: 3030,name: 商周巨富,type: 46,star: null,memo: ""}
+--- {id: 3040,name: 富可敌国,type: 46,star: null,memo: ""}
+--- {id: 3050,name: 封神首富,type: 46,star: null,memo: ""}
+--- {id: 3060,name: 卡牌大师,type: 46,star: null,memo: ""}
+--- {id: 3070,name: 最强召唤师,type: 46,star: null,memo: ""}
+--- {id: 3080,name: 年兽,type: 46,star: null,memo: ""}
+--- {id: 3090,name: 看妲己画像入神事件,type: 46,star: null,memo: ""}
+--- {id: 3100,name: 小偷光顾事件,type: 46,star: null,memo: ""}
+--- {id: 3110,name: 遇到强盗事件,type: 46,star: null,memo: ""}
+--- {id: 3120,name: 游魂头像,type: 46,star: null,memo: ""}
+--- {id: 3130,name: 冰霜雪怪,type: 46,star: null,memo: ""}
+--- {id: 3140,name: 盗宝贼寇,type: 46,star: null,memo: ""}
+--- {id: 3150,name: 迷仙引者,type: 46,star: null,memo: ""}
+--- {id: 3160,name: 极乐魔尊,type: 46,star: null,memo: ""}
+--- {id: 3170,name: 纣王蛮卫,type: 46,star: null,memo: ""}
+--- {id: 3180,name: 南瓜幽灵,type: 46,star: null,memo: ""}
+--- {id: 3190,name: 无敌战神,type: 46,star: null,memo: ""}
+--- {id: 3200,name: 村里的小孩,type: 46,star: null,memo: ""}
+--- {id: 3210,name: 第一神豪,type: 46,star: null,memo: ""}
+--- {id: 3220,name: 深渊恶魔（野怪）,type: 46,star: null,memo: ""}
+--- {id: 3230,name: 玄坛黑虎,type: 46,star: null,memo: ""}
+--- {id: 3250,name: 幼年年兽,type: 46,star: null,memo: ""}
+--- {id: 3260,name: 壮年年兽,type: 46,star: null,memo: ""}
+--- {id: 3270,name: 财神转世,type: 46,star: null,memo: ""}
+--- {id: 3280,name: 小冠族,type: 46,star: null,memo: ""}
+--- {id: 3290,name: 大冠族,type: 46,star: null,memo: ""}
+--- {id: 3300,name: 霉冠王,type: 46,star: null,memo: ""}
+--- {id: 3310,name: 古墓丽影,type: 46,star: null,memo: ""}
+--- {id: 3320,name: 药兽,type: 46,star: null,memo: ""}
+--- {id: 3330,name: 茶馆小生,type: 46,star: null,memo: ""}
+--- {id: 3340,name: 破阵小将,type: 46,star: null,memo: ""}
+--- {id: 3350,name: 孤寡青蛙,type: 46,star: null,memo: ""}
+--- {id: 3360,name: 科学怪人,type: 46,star: null,memo: ""}
+--- {id: 3370,name: 年兽王,type: 46,star: null,memo: ""}
+--- {id: 3380,name: 白虎眷属,type: 46,star: null,memo: ""}
+--- {id: 3390,name: 白虎,type: 46,star: null,memo: ""}
+--- {id: 3400,name: 青龙眷属,type: 46,star: null,memo: ""}
+--- {id: 3410,name: 青龙,type: 46,star: null,memo: ""}
+--- {id: 3420,name: 玄武眷属,type: 46,star: null,memo: ""}
+--- {id: 3430,name: 玄武,type: 46,star: null,memo: ""}
+--- {id: 3440,name: 朱雀眷属,type: 46,star: null,memo: ""}
+--- {id: 3450,name: 朱雀,type: 46,star: null,memo: ""}
+--- {id: 3460,name: 麒麟眷属,type: 46,star: null,memo: ""}
+--- {id: 3470,name: 麒麟,type: 46,star: null,memo: ""}
+
+#type=40 -> 礼包
+--- {id: 1000,name: 每周仙石礼包,type: 50,star: null,memo: ""}
+--- {id: 1001,name: 神仙大礼包,type: 50,star: null,memo: ""}
+--- {id: 1010,name: 每日元素包,type: 50,star: null,memo: ""}
+--- {id: 1030,name: 每日体力包,type: 50,star: null,memo: ""}
+--- {id: 1040,name: 每日商会礼包,type: 50,star: null,memo: ""}
+--- {id: 1050,name: 每日商令礼包,type: 50,star: null,memo: ""}
+--- {id: 1070,name: 每日神沙大礼包,type: 50,star: null,memo: ""}
+--- {id: 1110,name: 每周跑商礼包,type: 50,star: null,memo: ""}
+--- {id: 1120,name: 每周神沙礼包,type: 50,star: null,memo: ""}
+--- {id: 1130,name: 每周灵石,type: 50,star: null,memo: ""}
+--- {id: 1140,name: 每周城建礼包,type: 50,star: null,memo: ""}
+--- {id: 1150,name: 每周聚灵礼包,type: 50,star: null,memo: ""}
+--- {id: 1160,name: 每周商贸礼包,type: 50,star: null,memo: ""}
+
+
+
+
+
+#表情
+--- {id: 32001,name: 小布表情包,type: 47,star: null,memo: ""}
+--- {id: 32002,name: 阿毛表情包,type: 47,star: null,memo: ""}
+#通用
+--- {id: 70,name: 五彩石,type: 50,star: 1,memo: "打怪等待时间清零。"}
+--- {id: 170,name: 醒酒毡,type: 50,star: 1,memo: "重新战斗。"}
+--- {id: 205,name: 杏黄旗,type: 50,star: 2,memo: "增加竞技场挑战次数1次。"}
+--- {id: 10010,name: 聚仙旗,type: 50,star: null,memo: ""}
+--- {id: 10020,name: 神沙,type: 50,star: null,memo: ""}
+--- {id: 10040,name: 诛仙令,type: 50,star: 3,memo: ""}
+--- {id: 10050,name: 商会令牌,type: 50,star: null,memo: ""}
+--- {id: 10060,name: 特许交易券,type: 50,star: null,memo: ""}
+--- {id: 10080,name: 商会钱袋,type: 50,star: null,memo: ""}
+--- {id: 10100,name: 商会金币,type: 50,star: null,memo: ""}
+--- {id: 10110,name: 仙之源,type: 50,star: null,memo: ""}
+--- {id: 10120,name: 水源晶,type: 50,star: null,memo: ""}
+--- {id: 10130,name: 木源晶,type: 50,star: null,memo: ""}
+--- {id: 10140,name: 火源晶,type: 50,star: null,memo: ""}
+--- {id: 10150,name: 土源晶,type: 50,star: null,memo: ""}
+--- {id: 10160,name: 万物源晶,type: 50,star: null,memo: ""}
+--- {id: 10170,name: 唤神符,type: 50,star: null,memo: ""}
+--- {id: 10180,name: 魂源,type: 50,star: null,memo: ""}
+--- {id: 10190,name: 洗髓丹,type: 50,star: null,memo: ""}
+--- {id: 10200,name: 元宝消费积分,type: 50,star: null,memo: ""}
+--- {id: 10210,name: 魔王魂,type: 50,star: null,memo: ""}
+--- {id: 10215,name: 魔王骰子,type: 50,star: null,memo: ""}
+--- {id: 10910,name: 补神丹,type: 50,star: null,memo: "战败，不需扣分"}
+--- {id: 10920,name: 元气丹,type: 50,star: null,memo: "胜，获得分数翻倍（不会影响负者扣分）"}
+--- {id: 10930,name: 长生丹,type: 50,star: null,memo: "血量增长50%"}
+--- {id: 10940,name: 鹤龄丹,type: 50,star: null,memo: "每张卡牌基础防御+20"}
+--- {id: 10950,name: 扬武丹,type: 50,star: null,memo: "每张卡牌基础攻击+20"}
+--- {id: 11010,name: 通天残卷,type: 50,star: null,memo: ""}
+
+--- {id: 11050,name: 封神台积分,type: 50,star: null,memo: ""}
+--- {id: 11055,name: 诛仙阵积分,type: 50,star: null,memo: ""}
+--- {id: 11060,name: 传奇卷轴宝箱,type: 30,star: null,memo: ""}
+--- {id: 11061,name: 金鼠信物,type: 30,star: null,memo: ""}
+--- {id: 11065,name: 至尊秘传宝箱,type: 30,star: null,memo: ""}
+--- {id: 11066,name: 至尊秘传宝箱2,type: 30,star: null,memo: ""}
+--- {id: 11070,name: 行会贡献值,type: 50,star: null,memo: ""}
+--- {id: 11080,name: 仙豆,type: 50,star: null,memo: ""}
+--- {id: 11090,name: 夺宝抵用券,type: 50,star: null,memo: ""}
+--- {id: 11100,name: 幸运奖券,type: 50,star: null,memo: ""}
+--- {id: 11110,name: 夺宝积分,type: 50,star: null,memo: ""}
+--- {id: 11150,name: 奖券超级宝袋,type: 50,star: null,memo: ""}
+--- {id: 11160,name: 夺宝符,type: 50,star: null,memo: ""}
+--- {id: 11170,name: 神仙大会门票,type: 50,star: null,memo: ""}
+--- {id: 11180,name: 四星召唤符,type: 50,star: null,memo: ""}
+--- {id: 11190,name: 五星召唤符,type: 50,star: null,memo: ""}
+--- {id: 11210,name: 萌新抵用券,type: 50,star: null,memo: ""}
+--- {id: 11220,name: 上仙抵用券,type: 50,star: null,memo: ""}
+--- {id: 11230,name: 元宝首冲奖励,type: 50,star: null,memo: ""}
+--- {id: 11240,name: 夜叉信物,type: 50,star: null,memo: ""}
+--- {id: 11250,name: 夜明珠,type: 50,star: null,memo: ""}
+--- {id: 11260,name: 净心咒,type: 50,star: null,memo: ""}
+--- {id: 11270,name: 和平金鸽,type: 50,star: null,memo: ""}
+--- {id: 11280,name: 博饼券,type: 50,star: null,memo: ""}
+--- {id: 11290,name: 落羽信物,type: 50,star: null,memo: ""}
+--- {id: 11300,name: 状元奖券,type: 50,star: null,memo: ""}
+--- {id: 50011,name: 荣耀金币,type: 50,star: null,memo: ""}
+--- {id: 50012,name: 荣耀银币,type: 50,star: null,memo: ""}
+--- {id: 50198,name: 荣耀铜币,type: 50,star: null,memo: ""}
+
+--- {id: 11301,name: 仙人遗落的袋子1,type: 50,star: null,memo: ""}
+--- {id: 11302,name: 仙人遗落的袋子2,type: 50,star: null,memo: ""}
+--- {id: 11303,name: 仙人遗落的袋子3,type: 50,star: null,memo: ""}
+--- {id: 11304,name: 仙人遗落的袋子4,type: 50,star: null,memo: ""}
+--- {id: 11305,name: 仙人遗落的袋子5,type: 50,star: null,memo: ""}
+--- {id: 11306,name: 仙人遗落的袋子6,type: 50,star: null,memo: ""}
+--- {id: 11307,name: 仙人遗落的袋子7,type: 50,star: null,memo: ""}
+--- {id: 11308,name: 仙人遗落的袋子8,type: 50,star: null,memo: ""}
+--- {id: 11309,name: 仙人遗落的袋子9,type: 50,star: null,memo: ""}
+--- {id: 11310,name: 仙人遗落的袋子10,type: 50,star: null,memo: ""}
+--- {id: 11311,name: 仙人遗落的袋子11,type: 50,star: null,memo: ""}
+--- {id: 11312,name: 仙人遗落的袋子12,type: 50,star: null,memo: ""}
+--- {id: 11313,name: 仙人遗落的袋子13,type: 50,star: null,memo: ""}
+--- {id: 11314,name: 仙人遗落的袋子14,type: 50,star: null,memo: ""}
+--- {id: 11315,name: 仙人遗落的袋子15,type: 50,star: null,memo: ""}
+--- {id: 11316,name: 仙人遗落的袋子16,type: 50,star: null,memo: ""}
+--- {id: 11317,name: 仙人遗落的袋子17,type: 50,star: null,memo: ""}
+--- {id: 11318,name: 仙人遗落的袋子18,type: 50,star: null,memo: ""}
+--- {id: 11319,name: 仙人遗落的袋子19,type: 50,star: null,memo: ""}
+--- {id: 11320,name: 仙人遗落的袋子20,type: 50,star: null,memo: ""}
+--- {id: 11321,name: 仙人遗落的袋子21,type: 50,star: null,memo: ""}
+--- {id: 11322,name: 仙人遗落的袋子22,type: 50,star: null,memo: ""}
+--- {id: 11323,name: 仙人遗落的袋子23,type: 50,star: null,memo: ""}
+--- {id: 11324,name: 仙人遗落的袋子24,type: 50,star: null,memo: ""}
+--- {id: 11325,name: 仙人遗落的袋子25,type: 50,star: null,memo: ""}
+--- {id: 11326,name: 仙人遗落的袋子26,type: 50,star: null,memo: ""}
+--- {id: 11327,name: 仙人遗落的袋子27,type: 50,star: null,memo: ""}
+--- {id: 11328,name: 仙人遗落的袋子28,type: 50,star: null,memo: ""}
+--- {id: 11329,name: 仙人遗落的袋子29,type: 50,star: null,memo: ""}
+--- {id: 11330,name: 仙人遗落的袋子30,type: 50,star: null,memo: ""}
+
+--- {id: 11340,name: 纳贤令,type: 50,star: null,memo: ""}
+--- {id: 11350,name: 金之源,type: 50,star: null,memo: ""}
+--- {id: 11360,name: 木之源,type: 50,star: null,memo: ""}
+--- {id: 11370,name: 水之源,type: 50,star: null,memo: ""}
+--- {id: 11380,name: 火之源,type: 50,star: null,memo: ""}
+--- {id: 11390,name: 土之源,type: 50,star: null,memo: ""}
+--- {id: 11400,name: 炼技保护符,type: 50,star: null,memo: ""}
+--- {id: 11410,name: 随机高级卷轴,type: 50,star: null,memo: ""}
+--- {id: 11420,name: 小金砖,type: 50,star: null,memo: ""}
+--- {id: 11430,name: 筑基丹,type: 50,star: null,memo: ""}
+--- {id: 11440,name: 金元珠,type: 50,star: null,memo: ""}
+--- {id: 11450,name: 木元珠,type: 50,star: null,memo: ""}
+--- {id: 11460,name: 水元珠,type: 50,star: null,memo: ""}
+--- {id: 11470,name: 火元珠,type: 50,star: null,memo: ""}
+--- {id: 11480,name: 土元珠,type: 50,star: null,memo: ""}
+--- {id: 11490,name: 小金锤,type: 50,star: null,memo: ""}
+--- {id: 11500,name: 金豆,type: 50,star: null,memo: ""}
+
+--- {id: 11510,name: 神物-白虎牙,type: 50,star: null,memo: ""}
+--- {id: 11520,name: 神物-青龙鳞,type: 50,star: null,memo: ""}
+--- {id: 11530,name: 神物-朱雀羽,type: 50,star: null,memo: ""}
+--- {id: 11540,name: 神物-玄武壳,type: 50,star: null,memo: ""}
+--- {id: 11550,name: 神物-麒麟角,type: 50,star: null,memo: ""}
+--- {id: 11560,name: 分身经验丹,type: 50,star: null,memo: ""}
+--- {id: 11570,name: 超级经验丹,type: 50,star: null,memo: ""}
+--- {id: 11571,name: 时装升级丹,type: 50,star: null,memo: ""}
+--- {id: 11572,name: 神行符,type: 50,star: null,memo: ""}
+--- {id: 11573,name: 重塑金丹,type: 50,star: null,memo: ""}
+--- {id: 11580,name: 分身灵石,type: 50,star: null,memo: ""}
+--- {id: 11590,name: 升星石,type: 50,star: null,memo: ""}
+--- {id: 11600,name: 星光砂,type: 50,star: null,memo: ""}
+--- {id: 11610,name: 青天石,type: 50,star: null,memo: ""}
+
+--- {id: 11620,name: 狐妖尾巴,type: 50,star: null,memo: ""}
+--- {id: 11630,name: 孔雀羽毛,type: 50,star: null,memo: ""}
+--- {id: 11640,name: 猿猴獠牙,type: 50,star: null,memo: ""}
+--- {id: 11650,name: 牛魔尖角,type: 50,star: null,memo: ""}
+--- {id: 11660,name: 关卡钥匙,type: 50,star: null,memo: ""}
+--- {id: 11670,name: 迷仙洞镇守礼包,type: 50,star: null,memo: ""}
+--- {id: 11680,name: 五行神将礼包,type: 50,star: null,memo: ""}
+--- {id: 11690,name: 仙家宝袋1,type: 50,star: null,memo: ""}
+--- {id: 11691,name: 仙家宝袋2,type: 50,star: null,memo: ""}
+--- {id: 11692,name: 仙家宝袋3,type: 50,star: null,memo: ""}
+--- {id: 11693,name: 仙家宝袋4,type: 50,star: null,memo: ""}
+--- {id: 11694,name: 仙家宝袋5,type: 50,star: null,memo: ""}
+--- {id: 11695,name: 仙家宝袋6,type: 50,star: null,memo: ""}
+--- {id: 11696,name: 仙家宝袋7,type: 50,star: null,memo: ""}
+--- {id: 11697,name: 仙家宝袋8,type: 50,star: null,memo: ""}
+--- {id: 11698,name: 仙家宝袋9,type: 50,star: null,memo: ""}
+--- {id: 11699,name: 仙家宝袋10,type: 50,star: null,memo: ""}
+--- {id: 11700,name: 军符,type: 50,star: null,memo: ""}
+--- {id: 11720,name: 星图保护符,type: 50,star: null,memo: ""}
+--- {id: 11730,name: 至尊高级卷轴,type: 50,star: null,memo: ""}
+--- {id: 11740,name: 战令经验,type: 50,star: null,memo: ""}
+--- {id: 11750,name: 天工图,type: 50,star: null,memo: ""}
+--- {id: 11760,name: 通天令牌,type: 50,star: null,memo: ""}
+--- {id: 11770,name: 封神竞技勋章,type: 50,star: null,memo: ""}
+--- {id: 11780,name: 初级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11790,name: 中级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11800,name: 高级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11810,name: 史诗级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 50010,name: 随机秘传卷轴,type: 50,star: null,memo: ""}
+--- {id: 50125,name: 熔炉,type: 50,star: null,memo: ""}
+--- {id: 50126,name: 随机元素,type: 50,star: null,memo: ""}
+--- {id: 50133,name: 霹雳木,type: 50,star: null,memo: ""}
+--- {id: 50151,name: 金风飒飒礼包,type: 50,star: null,memo: ""}
+--- {id: 50152,name: 战令四星礼包,type: 50,star: null,memo: ""}
+--- {id: 50153,name: 战令三星礼包,type: 50,star: null,memo: ""}
+--- {id: 50154,name: 战令神兽礼包,type: 50,star: null,memo: ""}
+--- {id: 50155,name: 奖券一等奖宝箱,type: 50,star: null,memo: ""}
+--- {id: 50156,name: 战斗助力礼包,type: 50,star: null,memo: ""}
+--- {id: 50157,name: 双倍经验丹,type: 50,star: null,memo: ""}
+--- {id: 50158,name: 铜钱娃娃,type: 50,star: null,memo: ""}
+--- {id: 50159,name: 仙玉,type: 50,star: null,memo: ""}
+--- {id: 50160,name: 蜂王浆,type: 50,star: null,memo: ""}
+--- {id: 50161,name: 宝藏令,type: 50,star: null,memo: ""}
+--- {id: 50162,name: 双旦星,type: 50,star: null,memo: ""}
+--- {id: 50163,name: 村庄银币,type: 50,star: null,memo: ""}
+--- {id: 50164,name: 庆典积分,type: 50,star: null,memo: ""}
+--- {id: 50165,name: 庆典邀请卡,type: 50,star: null,memo: ""}
+--- {id: 50166,name: 金杯,type: 50,star: null,memo: ""}
+--- {id: 50167,name: 蜡烛,type: 50,star: null,memo: ""}
+--- {id: 50168,name: 铰链,type: 50,star: null,memo: ""}
+--- {id: 50169,name: 铁锭,type: 50,star: null,memo: ""}
+--- {id: 50170,name: 逗虎棒,type: 50,star: null,memo: ""}
+--- {id: 50171,name: 仙女棒,type: 50,star: null,memo: ""}
+#--- {id: 50172,name: 窜天猴,type: 50,star: null,memo: ""}
+#--- {id: 50173,name: 二踢脚,type: 50,star: null,memo: ""}
+--- {id: 50174,name: 大地红,type: 50,star: null,memo: ""}
+--- {id: 50175,name: 硝石,type: 50,star: null,memo: ""}
+--- {id: 50176,name: 硫磺,type: 50,star: null,memo: ""}
+--- {id: 50177,name: 木炭,type: 50,star: null,memo: ""}
+--- {id: 50178,name: 灵石,type: 50,star: null,memo: ""}
+--- {id: 50200,name: 小型鞭炮礼包,type: 50,star: null,memo: ""}
+--- {id: 50201,name: 中型鞭炮礼包,type: 50,star: null,memo: ""}
+--- {id: 50202,name: 大型鞭炮礼包,type: 50,star: null,memo: ""}
+--- {id: 50203,name: 木条,type: 50,star: null,memo: ""}
+--- {id: 50204,name: 许愿蜡烛,type: 50,star: null,memo: ""}
+--- {id: 50205,name: 薄纸,type: 50,star: null,memo: ""}
+--- {id: 50206,name: 藏宝图翻牌卡,type: 50,star: null,memo: ""}
+--- {id: 50207,name: 天灯奖券,type: 50,star: null,memo: ""}
+--- {id: 50208,name: 鲜花,type: 50,star: null,memo: ""}
+--- {id: 50209,name: 天灯,type: 50,star: null,memo: ""}
+--- {id: 50210,name: 大仙令牌,type: 50,star: null,memo: ""}
+--- {id: 50211,name: 老仙令牌,type: 50,star: null,memo: ""}
+--- {id: 50213,name: 修仙值,type: 50,star: null,memo: ""}
+
+--- {id: 41001,name: 万仙阵常规赛冠军宝箱,type: 50,star: null,memo: ""}
+--- {id: 41002,name: 万仙阵常规赛亚军宝箱,type: 50,star: null,memo: ""}
+--- {id: 41003,name: 万仙阵常规赛3至4名宝箱,type: 50,star: null,memo: ""}
+--- {id: 41004,name: 万仙阵常规赛5至8名宝箱,type: 50,star: null,memo: ""}
+--- {id: 41005,name: 万仙阵常规赛9至16名宝箱,type: 50,star: null,memo: ""}
+--- {id: 41006,name: 万仙阵常规赛17至32名宝箱,type: 50,star: null,memo: ""}
+--- {id: 41007,name: 万仙阵常规赛33至64名宝箱,type: 50,star: null,memo: ""}
+--- {id: 41008,name: 万仙阵常规赛64名以后宝箱,type: 50,star: null,memo: ""}
+--- {id: 42001,name: 万仙阵特色赛冠军宝箱,type: 50,star: null,memo: ""}
+--- {id: 42002,name: 万仙阵特色赛亚军宝箱,type: 50,star: null,memo: ""}
+--- {id: 42003,name: 万仙阵特色赛3至4名宝箱,type: 50,star: null,memo: ""}
+--- {id: 42004,name: 万仙阵特色赛5至8名宝箱,type: 50,star: null,memo: ""}
+--- {id: 42005,name: 万仙阵特色赛9至16名宝箱,type: 50,star: null,memo: ""}
+--- {id: 42006,name: 万仙阵特色赛17至32名宝箱,type: 50,star: null,memo: ""}
+--- {id: 42007,name: 万仙阵特色赛33至64名宝箱,type: 50,star: null,memo: ""}
+--- {id: 42008,name: 万仙阵特色赛64名以后宝箱,type: 50,star: null,memo: ""}
+
+
+--- {id: 50013,name: 东鲁法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50014,name: 徐州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50015,name: 白鹿岛法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50016,name: 兖州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50017,name: 蓬莱法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50018,name: 孟津法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50019,name: 九龙岛法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50020,name: 云间法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50021,name: 棋盘山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50022,name: 有穷法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50023,name: 人方法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50024,name: 汜叶法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50025,name: 斟寻法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50026,name: 斟灌法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50027,name: 曹邑法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50028,name: 金鳌岛法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50029,name: 芒池法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50030,name: 南都法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50031,name: 凤山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50032,name: 扬州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50033,name: 荆州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50034,name: 蛮阈法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50035,name: 苗疆法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50036,name: 火龙岛法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50037,name: 苍梧法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50038,name: 常羊法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50039,name: 河阴法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50040,name: 壑市法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50041,name: 流波山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50042,name: 巫沼法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50043,name: 夷越法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50044,name: 水峒法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50045,name: 河曲法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50046,name: 沙洲法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50047,name: 西歧法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50048,name: 蜀丘法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50049,name: 陈塘关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50050,name: 凉州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50051,name: 昆仑法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50052,name: 丰镐法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50053,name: 首阳法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50054,name: 绝龙岭法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50055,name: 西亳法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50056,name: 太华法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50057,name: 三津里法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50058,name: 即韦法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50059,name: 临羌法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50060,name: 泾谷法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50061,name: 羌西法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50062,name: 河西法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50063,name: 悬圃法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50064,name: 曹州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50065,name: 冀州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50066,name: 青州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50067,name: 营州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50068,name: 冥海法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50069,name: 崇城法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50070,name: 北海法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50071,name: 涿鹿法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50072,name: 桓山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50073,name: 并州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50074,name: 幽州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50075,name: 不死山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50076,name: 涂山法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50077,name: 朔方法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50078,name: 河上法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50079,name: 卫服法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50080,name: 马邑法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50081,name: 朝歌法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50082,name: 佳梦关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50083,name: 雍州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50084,name: 豫州法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50085,name: 游魂关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50086,name: 青龙关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50087,name: 三山关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50088,name: 渑池法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50089,name: 东莱法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50090,name: 轩辕台法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50091,name: 牧野法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50092,name: 有虞法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50093,name: 卫畿法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50094,name: 鸣条法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50095,name: 界牌关法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50096,name: 汜水法坛图纸,type: 52,star: null,memo: ""}
+--- {id: 50097,name: 穿云关法坛图纸,type: 52,star: null,memo: ""}
+
+#商帮
+--- {id: 50179,name: 得物袋,type: 50,star: null,memo: ""}
+--- {id: 50180,name: 铜铲子,type: 50,star: null,memo: ""}
+--- {id: 50181,name: 银铲子,type: 50,star: null,memo: ""}
+--- {id: 50182,name: 金铲子,type: 50,star: null,memo: ""}
+--- {id: 50183,name: 琉璃珠,type: 50,star: null,memo: ""}
+--- {id: 50184,name: 夜明珠,type: 50,star: null,memo: ""}
+--- {id: 50185,name: 老烟枪,type: 50,star: null,memo: ""}
+--- {id: 50186,name: 鼻烟壶,type: 50,star: null,memo: ""}
+--- {id: 50187,name: 小银锭,type: 50,star: null,memo: ""}
+--- {id: 50188,name: 大金元,type: 50,star: null,memo: ""}
+--- {id: 50189,name: 小马驹,type: 50,star: null,memo: ""}
+--- {id: 50190,name: 千里马,type: 50,star: null,memo: ""}
+--- {id: 50191,name: 玉耳坠,type: 50,star: null,memo: ""}
+--- {id: 50192,name: 玉发簪,type: 50,star: null,memo: ""}
+--- {id: 50199,name: 唤兽铃铛,type: 50,star: null,memo: ""}
+
+#万圣节
+--- {id: 50120,name: 熊熊软糖,type: 50,star: null,memo: ""}
+--- {id: 50121,name: 糖霜饼干,type: 50,star: null,memo: ""}
+--- {id: 50122,name: 怪味糖豆,type: 50,star: null,memo: ""}
+--- {id: 50123,name: 巫师帽,type: 50,star: null,memo: ""}
+--- {id: 50124,name: 飞天扫帚,type: 50,star: null,memo: ""}
+
+#感恩节
+--- {id: 50134,name: 小勺子,type: 50,star: null,memo: ""}
+--- {id: 50135,name: 烤火鸡,type: 50,star: null,memo: ""}
+--- {id: 50136,name: 南瓜派,type: 50,star: null,memo: ""}
+--- {id: 50137,name: 甜山芋,type: 50,star: null,memo: ""}
+--- {id: 50138,name: 玉米面包,type: 50,star: null,memo: ""}
+--- {id: 50139,name: 红莓苔子果酱,type: 50,star: null,memo: ""}
+--- {id: 50140,name: 食材1,type: 50,star: null,memo: ""}
+--- {id: 50141,name: 食材2,type: 50,star: null,memo: ""}
+--- {id: 50142,name: 食材3,type: 50,star: null,memo: ""}
+--- {id: 50143,name: 食材4,type: 50,star: null,memo: ""}
+--- {id: 50144,name: 食材5,type: 50,star: null,memo: ""}
+--- {id: 50145,name: 调料1,type: 50,star: null,memo: ""}
+--- {id: 50146,name: 调料2,type: 50,star: null,memo: ""}
+--- {id: 50147,name: 调料3,type: 50,star: null,memo: ""}
+--- {id: 50148,name: 调料4,type: 50,star: null,memo: ""}
+--- {id: 50149,name: 调料5,type: 50,star: null,memo: ""}
+--- {id: 50150,name: 感恩星,type: 50,star: null,memo: ""}
+
+#周年庆
+--- {id: 50217,name: 南瓜饼,type: 50,star: null,memo: ""}
+--- {id: 50218,name: 桂花糕,type: 50,star: null,memo: ""}
+--- {id: 50219,name: 桃花酥,type: 50,star: null,memo: ""}
+--- {id: 50220,name: 小虎币,type: 50,star: null,memo: ""}
+--- {id: 50221,name: 花神赋,type: 50,star: null,memo: ""}
+
+#清明
+--- {id: 50222,name: 符•百毒不侵,type: 50,star: null,memo: ""}
+--- {id: 50223,name: 符•诸邪退散,type: 50,star: null,memo: ""}
+--- {id: 50224,name: 符•爱拼才会赢,type: 50,star: null,memo: ""}
+--- {id: 50225,name: 符•平安无代志,type: 50,star: null,memo: ""}
+--- {id: 50226,name: 小型平安符礼包,type: 50,star: null,memo: ""}
+--- {id: 50227,name: 中型平安符礼包,type: 50,star: null,memo: ""}
+--- {id: 50228,name: 大型平安符礼包,type: 50,star: null,memo: ""}
+
+#梦魇女娲庙
+--- {id: 50232,name: 初级每日女娲礼包,type: 50,star: null,memo: ""}
+--- {id: 50233,name: 中级每日女娲礼包,type: 50,star: null,memo: ""}
+--- {id: 50234,name: 高级每日女娲礼包,type: 50,star: null,memo: ""}
+--- {id: 50235,name: 特级每日女娲礼包,type: 50,star: null,memo: ""}
+--- {id: 50236,name: 史诗级每日女娲礼包,type: 50,star: null,memo: ""}
+--- {id: 50237,name: 降魔杵,type: 50,star: null,memo: ""}
+--- {id: 50238,name: 水火棍,type: 50,star: null,memo: ""}
+--- {id: 50239,name: 日月珠,type: 50,star: null,memo: ""}
+--- {id: 50240,name: 天花结,type: 50,star: null,memo: ""}
+--- {id: 50241,name: 敕令印,type: 50,star: null,memo: ""}
+--- {id: 50242,name: 衍金残页,type: 50,star: null,memo: ""}
+--- {id: 50243,name: 衍木残页,type: 50,star: null,memo: ""}
+--- {id: 50244,name: 衍水残页,type: 50,star: null,memo: ""}
+--- {id: 50245,name: 衍火残页,type: 50,star: null,memo: ""}
+--- {id: 50246,name: 衍土残页,type: 50,star: null,memo: ""}
+--- {id: 50247,name: 鎏金牌1,type: 50,star: null,memo: ""}
+--- {id: 50248,name: 鎏金牌2,type: 50,star: null,memo: ""}
+--- {id: 50249,name: 鎏金牌3,type: 50,star: null,memo: ""}
+--- {id: 50250,name: 鎏金牌4,type: 50,star: null,memo: ""}
+--- {id: 50251,name: 鎏金牌5,type: 50,star: null,memo: ""}
+--- {id: 50252,name: 鎏金牌6,type: 50,star: null,memo: ""}
+--- {id: 50253,name: 鎏金牌7,type: 50,star: null,memo: ""}
+--- {id: 50254,name: 鎏金牌8,type: 50,star: null,memo: ""}
+--- {id: 50255,name: 落木牌1,type: 50,star: null,memo: ""}
+--- {id: 50256,name: 落木牌2,type: 50,star: null,memo: ""}
+--- {id: 50257,name: 落木牌3,type: 50,star: null,memo: ""}
+--- {id: 50258,name: 落木牌4,type: 50,star: null,memo: ""}
+--- {id: 50259,name: 落木牌5,type: 50,star: null,memo: ""}
+--- {id: 50260,name: 落木牌6,type: 50,star: null,memo: ""}
+--- {id: 50261,name: 落木牌7,type: 50,star: null,memo: ""}
+--- {id: 50262,name: 落木牌8,type: 50,star: null,memo: ""}
+--- {id: 50263,name: 清泉牌1,type: 50,star: null,memo: ""}
+--- {id: 50264,name: 清泉牌2,type: 50,star: null,memo: ""}
+--- {id: 50265,name: 清泉牌3,type: 50,star: null,memo: ""}
+--- {id: 50266,name: 清泉牌4,type: 50,star: null,memo: ""}
+--- {id: 50267,name: 清泉牌5,type: 50,star: null,memo: ""}
+--- {id: 50268,name: 清泉牌6,type: 50,star: null,memo: ""}
+--- {id: 50269,name: 清泉牌7,type: 50,star: null,memo: ""}
+--- {id: 50270,name: 清泉牌8,type: 50,star: null,memo: ""}
+--- {id: 50271,name: 炽炎牌1,type: 50,star: null,memo: ""}
+--- {id: 50272,name: 炽炎牌2,type: 50,star: null,memo: ""}
+--- {id: 50273,name: 炽炎牌3,type: 50,star: null,memo: ""}
+--- {id: 50274,name: 炽炎牌4,type: 50,star: null,memo: ""}
+--- {id: 50275,name: 炽炎牌5,type: 50,star: null,memo: ""}
+--- {id: 50276,name: 炽炎牌6,type: 50,star: null,memo: ""}
+--- {id: 50277,name: 炽炎牌7,type: 50,star: null,memo: ""}
+--- {id: 50278,name: 炽炎牌8,type: 50,star: null,memo: ""}
+--- {id: 50279,name: 烈石牌1,type: 50,star: null,memo: ""}
+--- {id: 50280,name: 烈石牌2,type: 50,star: null,memo: ""}
+--- {id: 50281,name: 烈石牌3,type: 50,star: null,memo: ""}
+--- {id: 50282,name: 烈石牌4,type: 50,star: null,memo: ""}
+--- {id: 50283,name: 烈石牌5,type: 50,star: null,memo: ""}
+--- {id: 50284,name: 烈石牌6,type: 50,star: null,memo: ""}
+--- {id: 50285,name: 烈石牌7,type: 50,star: null,memo: ""}
+--- {id: 50286,name: 烈石牌8,type: 50,star: null,memo: ""}
+--- {id: 50287,name: 韦护神格,type: 50,star: null,memo: ""}
+--- {id: 50288,name: 袁洪神格,type: 50,star: null,memo: ""}
+--- {id: 50289,name: 无当圣母神格,type: 50,star: null,memo: ""}
+--- {id: 50290,name: 天花娘娘神格,type: 50,star: null,memo: ""}
+--- {id: 50291,name: 龟灵圣母神格,type: 50,star: null,memo: ""}
+
+
+#积分类
+--- {id: 10090,name: 商会积分,type: 51,star: null,memo: ""}
+--- {id: 11015,name: 成就积分,type: 51,star: null,memo: ""}
+--- {id: 50193,name: 正财声望点,type: 51,star: null,memo: ""}
+--- {id: 50194,name: 招宝声望点,type: 51,star: null,memo: ""}
+--- {id: 50195,name: 招财声望点,type: 51,star: null,memo: ""}
+--- {id: 50196,name: 纳珍声望点,type: 51,star: null,memo: ""}
+--- {id: 50197,name: 利市声望点,type: 51,star: null,memo: ""}
+
+#卷宗
+--- {id: 20010,name: 万能符箓,type: 55,star: null,memo: ""}
+--- {id: 20110,name: 增力符,type: 55,star: null,memo: ""}
+--- {id: 20120,name: 大力符,type: 55,star: null,memo: ""}
+--- {id: 20130,name: 力神符,type: 55,star: null,memo: ""}
+--- {id: 20140,name: 威力符,type: 55,star: null,memo: ""}
+--- {id: 20150,name: 洪力符,type: 55,star: null,memo: ""}
+--- {id: 20160,name: 天力符,type: 55,star: null,memo: ""}
+--- {id: 20210,name: 补元符,type: 55,star: null,memo: ""}
+--- {id: 20220,name: 强元符,type: 55,star: null,memo: ""}
+--- {id: 20230,name: 元神符,type: 55,star: null,memo: ""}
+--- {id: 20240,name: 尚元符,type: 55,star: null,memo: ""}
+--- {id: 20250,name: 宙元符,type: 55,star: null,memo: ""}
+--- {id: 20260,name: 元阳符,type: 55,star: null,memo: ""}
+--- {id: 21001,name: 金-避雷,type: 56,star: null,memo: ""}
+--- {id: 21002,name: 金-心止,type: 56,star: null,memo: ""}
+--- {id: 21003,name: 金-自在,type: 56,star: null,memo: ""}
+--- {id: 21004,name: 金-真金,type: 56,star: null,memo: ""}
+--- {id: 21005,name: 金-定风,type: 56,star: null,memo: ""}
+--- {id: 21006,name: 金-返照,type: 56,star: null,memo: ""}
+--- {id: 21007,name: 金-自愈,type: 56,star: null,memo: ""}
+--- {id: 21008,name: 金-无相,type: 56,star: null,memo: ""}
+--- {id: 21009,name: 金-得道,type: 56,star: null,memo: ""}
+--- {id: 21010,name: 金-疾驰,type: 56,star: null,memo: ""}
+--- {id: 21011,name: 金-神剑,type: 56,star: null,memo: ""}
+--- {id: 21012,name: 金-奇袭,type: 56,star: null,memo: ""}
+--- {id: 21013,name: 金-突袭,type: 56,star: null,memo: ""}
+--- {id: 21014,name: 金-飞行,type: 56,star: null,memo: ""}
+--- {id: 21015,name: 金-穿刺,type: 56,star: null,memo: ""}
+--- {id: 21016,name: 金-修仙,type: 56,star: null,memo: ""}
+--- {id: 21017,name: 金-回光,type: 56,star: null,memo: ""}
+--- {id: 21018,name: 金-死斗,type: 56,star: null,memo: ""}
+--- {id: 21019,name: 金-嗜血,type: 56,star: null,memo: ""}
+--- {id: 21020,name: 金-升仙,type: 56,star: null,memo: ""}
+--- {id: 21021,name: 金-枷锁,type: 56,star: null,memo: ""}
+--- {id: 21022,name: 金-死士,type: 56,star: null,memo: ""}
+--- {id: 21023,name: 金-暴击,type: 56,star: null,memo: ""}
+--- {id: 21024,name: 金-闪电,type: 56,star: null,memo: ""}
+--- {id: 21025,name: 金-强水,type: 56,star: null,memo: ""}
+--- {id: 21026,name: 金-生水,type: 56,star: null,memo: ""}
+--- {id: 21027,name: 金-威风,type: 56,star: null,memo: ""}
+--- {id: 21028,name: 金-主帅,type: 56,star: null,memo: ""}
+--- {id: 21029,name: 金-联攻,type: 56,star: null,memo: ""}
+--- {id: 21030,name: 金-龙息,type: 56,star: null,memo: ""}
+--- {id: 21031,name: 木-避雷,type: 56,star: null,memo: ""}
+--- {id: 21032,name: 木-心止,type: 56,star: null,memo: ""}
+--- {id: 21033,name: 木-自在,type: 56,star: null,memo: ""}
+--- {id: 21034,name: 木-真金,type: 56,star: null,memo: ""}
+--- {id: 21035,name: 木-定风,type: 56,star: null,memo: ""}
+--- {id: 21036,name: 木-返照,type: 56,star: null,memo: ""}
+--- {id: 21037,name: 木-自愈,type: 56,star: null,memo: ""}
+--- {id: 21038,name: 木-飞狙,type: 56,star: null,memo: ""}
+--- {id: 21039,name: 木-无相,type: 56,star: null,memo: ""}
+--- {id: 21040,name: 木-修仙,type: 56,star: null,memo: ""}
+--- {id: 21041,name: 木-疾驰,type: 56,star: null,memo: ""}
+--- {id: 21042,name: 木-祛毒,type: 56,star: null,memo: ""}
+--- {id: 21043,name: 木-神疗,type: 56,star: null,memo: ""}
+--- {id: 21044,name: 木-飞行,type: 56,star: null,memo: ""}
+--- {id: 21045,name: 木-拦截,type: 56,star: null,memo: ""}
+--- {id: 21046,name: 木-穿刺,type: 56,star: null,memo: ""}
+--- {id: 21047,name: 木-治愈,type: 56,star: null,memo: ""}
+--- {id: 21048,name: 木-得道,type: 56,star: null,memo: ""}
+--- {id: 21049,name: 木-回光,type: 56,star: null,memo: ""}
+--- {id: 21050,name: 木-流毒,type: 56,star: null,memo: ""}
+--- {id: 21051,name: 木-入痘,type: 56,star: null,memo: ""}
+--- {id: 21052,name: 木-灭魄,type: 56,star: null,memo: ""}
+--- {id: 21053,name: 木-升仙,type: 56,star: null,memo: ""}
+--- {id: 21054,name: 木-枷锁,type: 56,star: null,memo: ""}
+--- {id: 21055,name: 木-死士,type: 56,star: null,memo: ""}
+--- {id: 21056,name: 木-灵动,type: 56,star: null,memo: ""}
+--- {id: 21057,name: 木-强火,type: 56,star: null,memo: ""}
+--- {id: 21058,name: 木-生火,type: 56,star: null,memo: ""}
+--- {id: 21059,name: 木-回魂,type: 56,star: null,memo: ""}
+--- {id: 21060,name: 木-复活,type: 56,star: null,memo: ""}
+--- {id: 21061,name: 木-联攻,type: 56,star: null,memo: ""}
+--- {id: 21062,name: 木-刚毅,type: 56,star: null,memo: ""}
+--- {id: 21063,name: 木-长生,type: 56,star: null,memo: ""}
+--- {id: 21064,name: 水-避雷,type: 56,star: null,memo: ""}
+--- {id: 21065,name: 水-心止,type: 56,star: null,memo: ""}
+--- {id: 21066,name: 水-自在,type: 56,star: null,memo: ""}
+--- {id: 21067,name: 水-真金,type: 56,star: null,memo: ""}
+--- {id: 21068,name: 水-定风,type: 56,star: null,memo: ""}
+--- {id: 21069,name: 水-返照,type: 56,star: null,memo: ""}
+--- {id: 21070,name: 水-自愈,type: 56,star: null,memo: ""}
+--- {id: 21071,name: 水-飞行,type: 56,star: null,memo: ""}
+--- {id: 21072,name: 水-无相,type: 56,star: null,memo: ""}
+--- {id: 21073,name: 水-得道,type: 56,star: null,memo: ""}
+--- {id: 21074,name: 水-疾驰,type: 56,star: null,memo: ""}
+--- {id: 21075,name: 水-神疗,type: 56,star: null,memo: ""}
+--- {id: 21076,name: 水-治愈,type: 56,star: null,memo: ""}
+--- {id: 21077,name: 水-吸血,type: 56,star: null,memo: ""}
+--- {id: 21078,name: 水-闪电,type: 56,star: null,memo: ""}
+--- {id: 21079,name: 水-噬魂,type: 56,star: null,memo: ""}
+--- {id: 21080,name: 水-修仙,type: 56,star: null,memo: ""}
+--- {id: 21081,name: 水-回光,type: 56,star: null,memo: ""}
+--- {id: 21082,name: 水-流毒,type: 56,star: null,memo: ""}
+--- {id: 21083,name: 水-入痘,type: 56,star: null,memo: ""}
+--- {id: 21084,name: 水-升仙,type: 56,star: null,memo: ""}
+--- {id: 21085,name: 水-拦截,type: 56,star: null,memo: ""}
+--- {id: 21086,name: 水-灵动,type: 56,star: null,memo: ""}
+--- {id: 21087,name: 水-怨灵,type: 56,star: null,memo: ""}
+--- {id: 21088,name: 水-死咒,type: 56,star: null,memo: ""}
+--- {id: 21089,name: 水-强木,type: 56,star: null,memo: ""}
+--- {id: 21090,name: 水-生木,type: 56,star: null,memo: ""}
+--- {id: 21091,name: 水-回魂,type: 56,star: null,memo: ""}
+--- {id: 21092,name: 水-妖术,type: 56,star: null,memo: ""}
+--- {id: 21093,name: 水-联攻,type: 56,star: null,memo: ""}
+--- {id: 21094,name: 水-销魂,type: 56,star: null,memo: ""}
+--- {id: 21095,name: 火-避雷,type: 56,star: null,memo: ""}
+--- {id: 21096,name: 火-心止,type: 56,star: null,memo: ""}
+--- {id: 21097,name: 火-自在,type: 56,star: null,memo: ""}
+--- {id: 21098,name: 火-真金,type: 56,star: null,memo: ""}
+--- {id: 21099,name: 火-定风,type: 56,star: null,memo: ""}
+--- {id: 21100,name: 火-返照,type: 56,star: null,memo: ""}
+--- {id: 21101,name: 火-自愈,type: 56,star: null,memo: ""}
+--- {id: 21102,name: 火-无相,type: 56,star: null,memo: ""}
+--- {id: 21103,name: 火-噬魂,type: 56,star: null,memo: ""}
+--- {id: 21104,name: 火-修仙,type: 56,star: null,memo: ""}
+--- {id: 21105,name: 火-疾驰,type: 56,star: null,memo: ""}
+--- {id: 21106,name: 火-祛毒,type: 56,star: null,memo: ""}
+--- {id: 21107,name: 火-奇袭,type: 56,star: null,memo: ""}
+--- {id: 21108,name: 火-飞行,type: 56,star: null,memo: ""}
+--- {id: 21109,name: 火-穿刺,type: 56,star: null,memo: ""}
+--- {id: 21110,name: 火-吸血,type: 56,star: null,memo: ""}
+--- {id: 21111,name: 火-闪电,type: 56,star: null,memo: ""}
+--- {id: 21112,name: 火-业火,type: 56,star: null,memo: ""}
+--- {id: 21113,name: 火-得道,type: 56,star: null,memo: ""}
+--- {id: 21114,name: 火-死士,type: 56,star: null,memo: ""}
+--- {id: 21115,name: 火-流毒,type: 56,star: null,memo: ""}
+--- {id: 21116,name: 火-业火-圣火,type: 56,star: null,memo: ""}
+--- {id: 21117,name: 火-魅惑,type: 56,star: null,memo: ""}
+--- {id: 21118,name: 火-枷锁,type: 56,star: null,memo: ""}
+--- {id: 21119,name: 火-怨灵,type: 56,star: null,memo: ""}
+--- {id: 21120,name: 火-瘟君,type: 56,star: null,memo: ""}
+--- {id: 21121,name: 火-强土,type: 56,star: null,memo: ""}
+--- {id: 21122,name: 火-生土,type: 56,star: null,memo: ""}
+--- {id: 21123,name: 火-妖术,type: 56,star: null,memo: ""}
+--- {id: 21124,name: 火-混元,type: 56,star: null,memo: ""}
+--- {id: 21125,name: 火-联攻,type: 56,star: null,memo: ""}
+--- {id: 21126,name: 火-死咒,type: 56,star: null,memo: ""}
+--- {id: 21127,name: 土-避雷,type: 56,star: null,memo: ""}
+--- {id: 21128,name: 土-心止,type: 56,star: null,memo: ""}
+--- {id: 21129,name: 土-自在,type: 56,star: null,memo: ""}
+--- {id: 21130,name: 土-真金,type: 56,star: null,memo: ""}
+--- {id: 21131,name: 土-定风,type: 56,star: null,memo: ""}
+--- {id: 21132,name: 土-返照,type: 56,star: null,memo: ""}
+--- {id: 21133,name: 土-自愈,type: 56,star: null,memo: ""}
+--- {id: 21134,name: 土-飞狙,type: 56,star: null,memo: ""}
+--- {id: 21135,name: 土-穿刺,type: 56,star: null,memo: ""}
+--- {id: 21136,name: 土-无相,type: 56,star: null,memo: ""}
+--- {id: 21137,name: 土-疾驰,type: 56,star: null,memo: ""}
+--- {id: 21138,name: 土-突袭,type: 56,star: null,memo: ""}
+--- {id: 21139,name: 土-飞行,type: 56,star: null,memo: ""}
+--- {id: 21141,name: 土-噬魂,type: 56,star: null,memo: ""}
+--- {id: 21142,name: 土-修仙,type: 56,star: null,memo: ""}
+--- {id: 21143,name: 土-得道,type: 56,star: null,memo: ""}
+--- {id: 21144,name: 土-死士,type: 56,star: null,memo: ""}
+--- {id: 21145,name: 土-嗜血,type: 56,star: null,memo: ""}
+--- {id: 21146,name: 土-入痘,type: 56,star: null,memo: ""}
+--- {id: 21147,name: 土-灭魄,type: 56,star: null,memo: ""}
+--- {id: 21148,name: 土-闪电,type: 56,star: null,memo: ""}
+--- {id: 21149,name: 土-死斗,type: 56,star: null,memo: ""}
+--- {id: 21150,name: 土-暴击,type: 56,star: null,memo: ""}
+--- {id: 21151,name: 土-瘟君,type: 56,star: null,memo: ""}
+--- {id: 21152,name: 土-强金,type: 56,star: null,memo: ""}
+--- {id: 21153,name: 土-生金,type: 56,star: null,memo: ""}
+--- {id: 21154,name: 土-威风,type: 56,star: null,memo: ""}
+--- {id: 21155,name: 土-联攻,type: 56,star: null,memo: ""}
+--- {id: 21156,name: 土-刚毅,type: 56,star: null,memo: ""}
+--- {id: 21157,name: 土-龙息,type: 56,star: null,memo: ""}
+--- {id: 21158,name: 土-钻地,type: 56,star: null,memo: ""}
+--- {id: 21159,name: 全-超度,type: 56,star: null,memo: ""}
+--- {id: 21160,name: 全-封神,type: 56,star: null,memo: ""}
+--- {id: 21161,name: 全-招财,type: 56,star: null,memo: ""}
+--- {id: 21162,name: 全-封咒,type: 56,star: null,memo: ""}
+--- {id: 21163,name: 全-蛊惑,type: 56,star: null,memo: ""}
+--- {id: 21164,name: 全-禁术,type: 56,star: null,memo: ""}
+--- {id: 21165,name: 全-长生,type: 56,star: null,memo: ""}
+--- {id: 21166,name: 全-吸星,type: 56,star: null,memo: ""}
+--- {id: 21167,name: 全-龙息,type: 56,star: null,memo: ""}
+--- {id: 21168,name: 土-殷洪-5级-刚毅,type: 56,star: null,memo: ""}
+--- {id: 21169,name: 金-火球,type: 56,star: null,memo: ""}
+--- {id: 21170,name: 金-护卫,type: 56,star: null,memo: ""}
+--- {id: 21171,name: 金-力盾,type: 56,star: null,memo: ""}
+--- {id: 21172,name: 木-护卫,type: 56,star: null,memo: ""}
+--- {id: 21173,name: 木-力盾,type: 56,star: null,memo: ""}
+--- {id: 21174,name: 水-护卫,type: 56,star: null,memo: ""}
+--- {id: 21175,name: 水-巫医,type: 56,star: null,memo: ""}
+--- {id: 21176,name: 水-飞狙-双狙,type: 56,star: null,memo: ""}
+--- {id: 21177,name: 火-火球,type: 56,star: null,memo: ""}
+--- {id: 21178,name: 火-护卫,type: 56,star: null,memo: ""}
+--- {id: 21179,name: 火-巫医,type: 56,star: null,memo: ""}
+--- {id: 21180,name: 土-护卫,type: 56,star: null,memo: ""}
+--- {id: 21181,name: 土-飞狙-双狙,type: 56,star: null,memo: ""}
+--- {id: 21182,name: 全-飞狙-双狙,type: 56,star: null,memo: ""}
+--- {id: 21183,name: 全-枷锁-连锁,type: 56,star: null,memo: ""}
+--- {id: 21184,name: 全-钻地-地劫,type: 56,star: null,memo: ""}
+--- {id: 21185,name: 全-鼓舞,type: 56,star: null,memo: ""}
+
+--- {id: 21186,name: 金-暴起,type: 56,star: null,memo: ""}
+--- {id: 21187,name: 金-法盾,type: 56,star: null,memo: ""}
+--- {id: 21188,name: 金-克敌,type: 56,star: null,memo: ""}
+--- {id: 21189,name: 木-暴起,type: 56,star: null,memo: ""}
+--- {id: 21190,name: 木-法盾,type: 56,star: null,memo: ""}
+--- {id: 21191,name: 木-克敌,type: 56,star: null,memo: ""}
+--- {id: 21192,name: 水-暴起,type: 56,star: null,memo: ""}
+--- {id: 21193,name: 水-宝鉴,type: 56,star: null,memo: ""}
+--- {id: 21194,name: 水-法盾,type: 56,star: null,memo: ""}
+--- {id: 21195,name: 水-克敌,type: 56,star: null,memo: ""}
+--- {id: 21196,name: 水-魅惑,type: 56,star: null,memo: ""}
+--- {id: 21197,name: 火-暴起,type: 56,star: null,memo: ""}
+--- {id: 21198,name: 火-法盾,type: 56,star: null,memo: ""}
+--- {id: 21199,name: 火-克敌,type: 56,star: null,memo: ""}
+--- {id: 21200,name: 土-暴起,type: 56,star: null,memo: ""}
+--- {id: 21201,name: 土-宝鉴,type: 56,star: null,memo: ""}
+--- {id: 21202,name: 土-法盾,type: 56,star: null,memo: ""}
+--- {id: 21203,name: 土-克敌,type: 56,star: null,memo: ""}
+--- {id: 21204,name: 全-妖术-绝杀,type: 56,star: null,memo: ""}
+--- {id: 21205,name: 全-闪电-雷电,type: 56,star: null,memo: ""}
+--- {id: 21206,name: 全-怨灵-咒怨,type: 56,star: null,memo: ""}
+--- {id: 21207,name: 全-震慑,type: 56,star: null,memo: ""}
+
+--- {id: 21208,name: 金-宝鉴,type: 56,star: null,memo: ""}
+--- {id: 21209,name: 金-偷营,type: 56,star: null,memo: ""}
+--- {id: 21210,name: 木-挑拨,type: 56,star: null,memo: ""}
+--- {id: 21211,name: 木-双狙,type: 56,star: null,memo: ""}
+--- {id: 21212,name: 水-挑拨,type: 56,star: null,memo: ""}
+--- {id: 21213,name: 火-偷营,type: 56,star: null,memo: ""}
+--- {id: 21214,name: 全-芒刺-战刺,type: 56,star: null,memo: ""}
+--- {id: 21215,name: 全-回光-反射,type: 56,star: null,memo: ""}
+--- {id: 21216,name: 全-挑拨-反间,type: 56,star: null,memo: ""}
+
+--- {id: 21217,name: 土-张奎-地劫-潜龙,type: 56,star: null,memo: ""}
+--- {id: 21218,name: 木-连环,type: 56,star: null,memo: ""}
+--- {id: 21219,name: 木-哪吒-5级-复活-乾坤,type: 56,star: null,memo: ""}
+--- {id: 21220,name: 木-哪吒-10级-混绫,type: 56,star: null,memo: ""}
+--- {id: 21221,name: 金-法身,type: 56,star: null,memo: ""}
+--- {id: 21222,name: 全-激励,type: 56,star: null,memo: ""}
+--- {id: 21223,name: 木-法身,type: 56,star: null,memo: ""}
+--- {id: 21224,name: 水-法身,type: 56,star: null,memo: ""}
+--- {id: 21225,name: 火-法身,type: 56,star: null,memo: ""}
+--- {id: 21226,name: 土-法身,type: 56,star: null,memo: ""}
+
+--- {id: 21227,name: 专属-影随,type: 56,star: null,memo: ""}
+--- {id: 21228,name: 金-杨戬-5级-混元-哮天,type: 56,star: null,memo: ""}
+--- {id: 21229,name: 专属-镜像,type: 56,star: null,memo: ""}
+--- {id: 21230,name: 水-崇侯虎-5级-金刚-金身,type: 56,star: null,memo: ""}
+--- {id: 21231,name: 水-兴法,type: 56,star: null,memo: ""}
+--- {id: 21232,name: 火-兴法,type: 56,star: null,memo: ""}
+--- {id: 21233,name: 全-袍泽,type: 56,star: null,memo: ""}
+--- {id: 21234,name: 全-悲愤,type: 56,star: null,memo: ""}
+--- {id: 21235,name: 全-食尸,type: 56,star: null,memo: ""}
+--- {id: 21236,name: 全-影随,type: 56,star: null,memo: ""}
+--- {id: 21237,name: 神·崇侯虎-5级-金刚-金罩,type: 56,star: null,memo: ""}
+--- {id: 21238,name: 全-金刚-金身,type: 56,star: null,memo: ""}
+--- {id: 21239,name: 木-暗蛊,type: 56,star: null,memo: ""}
+--- {id: 21240,name: 水-暗蛊,type: 56,star: null,memo: ""}
+--- {id: 21241,name: 火-炙焰,type: 56,star: null,memo: ""}
+--- {id: 21242,name: 水-妲己-5级-噬魂-吸阳,type: 56,star: null,memo: ""}
+--- {id: 21243,name: 木-玉鼎真人-10级-幻术-玄幻,type: 56,star: null,memo: ""}
+--- {id: 21244,name: 专属-让位,type: 56,star: null,memo: ""}
+--- {id: 21245,name: 专属-太极,type: 56,star: null,memo: ""}
+--- {id: 21246,name: 专属-落羽,type: 56,star: null,memo: ""}
+--- {id: 21247,name: 专属-斥退,type: 56,star: null,memo: ""}
+--- {id: 21248,name: 专属-金身,type: 56,star: null,memo: ""}
+--- {id: 21249,name: 金-圣·姜子牙-10级-封神-奉神金-圣·姜子牙-10级-封神-奉神,type: 56,star: null,memo: "" }
+--- {id: 21250,name: 金-解毒,type: 56,star: null,memo: "" }
+--- {id: 21251,name: 木-解毒,type: 56,star: null,memo: "" }
+--- {id: 21252,name: 水-解毒,type: 56,star: null,memo: "" }
+--- {id: 21253,name: 火-解毒,type: 56,star: null,memo: "" }
+--- {id: 21254,name: 土-解毒,type: 56,star: null,memo: "" }
+--- {id: 21255,name: 金-毒矢,type: 56,star: null,memo: "" }
+--- {id: 21256,name: 木-毒矢,type: 56,star: null,memo: "" }
+--- {id: 21257,name: 水-毒矢,type: 56,star: null,memo: "" }
+--- {id: 21258,name: 火-毒矢,type: 56,star: null,memo: "" }
+--- {id: 21259,name: 土-毒矢,type: 56,star: null,memo: "" }
+--- {id: 21260,name: 金-毒镖,type: 56,star: null,memo: "" }
+--- {id: 21261,name: 木-毒镖,type: 56,star: null,memo: "" }
+--- {id: 21262,name: 水-毒镖,type: 56,star: null,memo: "" }
+--- {id: 21263,name: 火-毒镖,type: 56,star: null,memo: "" }
+--- {id: 21264,name: 土-毒镖,type: 56,star: null,memo: "" }
+--- {id: 21265,name: 金-神医,type: 56,star: null,memo: "" }
+--- {id: 21266,name: 木-神医,type: 56,star: null,memo: "" }
+--- {id: 21267,name: 水-神医,type: 56,star: null,memo: "" }
+--- {id: 21268,name: 火-神医,type: 56,star: null,memo: "" }
+--- {id: 21269,name: 土-神医,type: 56,star: null,memo: "" }
+--- {id: 21270,name: 全-无相-太极,type: 56,star: null,memo: "" }
+--- {id: 21271,name: 水-神·赵公明-5级-伏虎,type: 56,star: null,memo: "" }
+--- {id: 21272,name: 金-怒意,type: 56,star: null,memo: "" }
+--- {id: 21273,name: 火-怒意,type: 56,star: null,memo: "" }
+--- {id: 21274,name: 土-坚毅,type: 56,star: null,memo: "" }
+--- {id: 21275,name: 木-坚毅,type: 56,star: null,memo: "" }
+--- {id: 21276,name: 金-神·韦护-0级-突袭-突击,type: 56,star: null,memo: "" }
+--- {id: 21277,name: 木-神·袁洪-0级-流毒-幻术,type: 56,star: null,memo: "" }
+--- {id: 21278,name: 水-神·无当圣母-10级-死咒-殇咒,type: 56,star: null,memo: "" }
+--- {id: 21279,name: 火-神·天花娘娘-5级-入痘-痘仙,type: 56,star: null,memo: "" }
+--- {id: 21280,name: 土-神·龟灵圣母-5级-飞狙-金刚,type: 56,star: null,memo: "" }
+--- {id: 21281,name: 全-灵守,type: 56,star: null,memo: "" }
+--- {id: 21282,name: 全-镜像,type: 56,star: null,memo: "" }
+--- {id: 21283,name: 专属-王者,type: 56,star: null,memo: "" }
+--- {id: 21284,name: 火-神·赤精子-10级-诛仙-诛绝,type: 56,star: null,memo: "" }
+--- {id: 21285,name: 专属-痊愈,type: 56,star: null,memo: "" }
+--- {id: 21286,name: 金-火枪,type: 56,star: null,memo: "" }
+--- {id: 21287,name: 火-火枪,type: 56,star: null,memo: "" }
+--- {id: 21288,name: 火-炙焰-烈焰,type: 56,star: null,memo: "" }
+--- {id: 21289,name: 全-蚀月,type: 56,star: null,memo: "" }
+
+#活动道具
+--- {id: 10220,name: 二踢脚,type: 50,star: null,memo: ""}
+--- {id: 10225,name: 震天响,type: 50,star: null,memo: ""}
+--- {id: 10230,name: 满地红,type: 50,star: null,memo: ""}
+--- {id: 10235,name: 窜天猴,type: 50,star: null,memo: ""}
+--- {id: 10240,name: 冲天炮,type: 50,star: null,memo: ""}
+--- {id: 11020,name: 梅,type: 50,star: null,memo: ""}
+--- {id: 11025,name: 兰,type: 50,star: null,memo: ""}
+--- {id: 11030,name: 竹,type: 50,star: null,memo: ""}
+--- {id: 11035,name: 菊,type: 50,star: null,memo: ""}
+--- {id: 11040,name: 莲花,type: 50,star: null,memo: ""}
+--- {id: 11045,name: 牡丹,type: 50,star: null,memo: ""}
+
+--- {id: 11201,name: 七彩花,type: 50,star: null,memo: ""}
+--- {id: 11202,name: 挖宝铲子,type: 50,star: null,memo: ""}
+--- {id: 11203,name: 字帖-竹,type: 50,star: null,memo: ""}
+--- {id: 11204,name: 字帖-风,type: 50,star: null,memo: ""}
+--- {id: 11205,name: 字帖-周,type: 50,star: null,memo: ""}
+--- {id: 11206,name: 字帖-年,type: 50,star: null,memo: ""}
+--- {id: 11207,name: 字帖-庆,type: 50,star: null,memo: ""}
+--- {id: 11208,name: 赛马积分,type: 50,star: null,memo: ""}
+--- {id: 11209,name: 小花洒,type: 50,star: null,memo: ""}
+#劳动节活动
+--- {id: 11216,name: 幸运硬币,type: 50,star: null,memo: ""}
+--- {id: 11211,name: 字帖-劳,type: 50,star: null,memo: ""}
+--- {id: 11212,name: 字帖-动,type: 50,star: null,memo: ""}
+--- {id: 11213,name: 字帖-最,type: 50,star: null,memo: ""}
+--- {id: 11214,name: 字帖-光,type: 50,star: null,memo: ""}
+--- {id: 11215,name: 字帖-荣,type: 50,star: null,memo: ""}
+#你好啊夏天
+--- {id: 11221,name: 字帖-你,type: 50,star: null,memo: ""}
+--- {id: 11222,name: 字帖-好,type: 50,star: null,memo: ""}
+--- {id: 11223,name: 字帖-啊,type: 50,star: null,memo: ""}
+--- {id: 11224,name: 字帖-夏,type: 50,star: null,memo: ""}
+--- {id: 11225,name: 字帖-天,type: 50,star: null,memo: ""}
+#端午节活动道具
+--- {id: 12001,name: 龙舟,type: 50,star: null,memo: ""}
+--- {id: 12002,name: 粽子,type: 50,star: null,memo: ""}
+--- {id: 12003,name: 艾菖,type: 50,star: null,memo: ""}
+--- {id: 12004,name: 风筝,type: 50,star: null,memo: ""}
+--- {id: 12005,name: 五色丝线,type: 50,star: null,memo: ""}
+--- {id: 12006,name: 端午香囊,type: 50,star: null,memo: ""}
+--- {id: 12007,name: 赛舟积分,type: 50,star: null,memo: ""}
+--- {id: 11710,name: 龙舟鼓槌,type: 50,star: null,memo: ""}
+--- {id: 50302,name: 煎堆,type: 50,star: null,memo: ""}
+--- {id: 50303,name: 绿豆糕,type: 50,star: null,memo: ""}
+--- {id: 50304,name: 大粽子,type: 50,star: null,memo: ""}
+
+#中秋节
+--- {id: 50098,name: 字帖-中,type: 50,star: null,memo: ""}
+--- {id: 50099,name: 字帖-秋,type: 50,star: null,memo: ""}
+--- {id: 50100,name: 字帖-家,type: 50,star: null,memo: ""}
+--- {id: 50101,name: 字帖-团,type: 50,star: null,memo: ""}
+--- {id: 50102,name: 字帖-圆,type: 50,star: null,memo: ""}
+
+#国庆节
+--- {id: 50110,name: 金钥匙,type: 50,star: null,memo: ""}
+
+#盛夏活动
+--- {id: 50308,name: 小扇子,type: 50,star: null,memo: ""}
+--- {id: 50309,name: 喷水手枪,type: 50,star: null,memo: ""}
+--- {id: 50310,name: 降温冰袋,type: 50,star: null,memo: ""}
+--- {id: 50311,name: 气球水蛋,type: 50,star: null,memo: ""}
+--- {id: 50312,name: 小型盛夏礼包,type: 50,star: null,memo: ""}
+--- {id: 50313,name: 中型盛夏礼包,type: 50,star: null,memo: ""}
+--- {id: 50314,name: 大型盛夏礼包,type: 50,star: null,memo: ""}
+
+#七夕
+--- {id: 50315,name: 布布的信物,type: 50,star: null,memo: ""}
+--- {id: 50316,name: 绵绵的信物,type: 50,star: null,memo: ""}
+--- {id: 50317,name: 莹莹的信物,type: 50,star: null,memo: ""}
+--- {id: 50318,name: 欣欣的信物,type: 50,star: null,memo: ""}
+--- {id: 50319,name: 思思的信物,type: 50,star: null,memo: ""}
+--- {id: 50320,name: 玫瑰,type: 50,star: null,memo: ""}
+
+#中秋
+--- {id: 50321,name: 糍粑,type: 50,star: null,memo: ""}
+--- {id: 50322,name: 月饼,type: 50,star: null,memo: ""}
+--- {id: 50323,name: 醉蟹,type: 50,star: null,memo: ""}
+
+
+#卡牌装备
+--- {id: 50331,name: 一星金仙决,type: 50,star: null,memo: ""}
+--- {id: 50332,name: 一星木仙决,type: 50,star: null,memo: ""}
+--- {id: 50333,name: 一星水仙决,type: 50,star: null,memo: ""}
+--- {id: 50334,name: 一星火仙决,type: 50,star: null,memo: ""}
+--- {id: 50335,name: 一星土仙决,type: 50,star: null,memo: ""}
+--- {id: 50336,name: 二星金仙决,type: 50,star: null,memo: ""}
+--- {id: 50337,name: 二星木仙决,type: 50,star: null,memo: ""}
+--- {id: 50338,name: 二星水仙决,type: 50,star: null,memo: ""}
+--- {id: 50339,name: 二星火仙决,type: 50,star: null,memo: ""}
+--- {id: 50340,name: 二星土仙决,type: 50,star: null,memo: ""}
+--- {id: 50341,name: 三星金仙决,type: 50,star: null,memo: ""}
+--- {id: 50342,name: 三星木仙决,type: 50,star: null,memo: ""}
+--- {id: 50343,name: 三星水仙决,type: 50,star: null,memo: ""}
+--- {id: 50344,name: 三星火仙决,type: 50,star: null,memo: ""}
+--- {id: 50345,name: 三星土仙决,type: 50,star: null,memo: ""}
+--- {id: 50346,name: 四星金仙决,type: 50,star: null,memo: ""}
+--- {id: 50347,name: 四星木仙决,type: 50,star: null,memo: ""}
+--- {id: 50348,name: 四星水仙决,type: 50,star: null,memo: ""}
+--- {id: 50349,name: 四星火仙决,type: 50,star: null,memo: ""}
+--- {id: 50350,name: 四星土仙决,type: 50,star: null,memo: ""}
+--- {id: 50351,name: 五星金仙决,type: 50,star: null,memo: ""}
+--- {id: 50352,name: 五星木仙决,type: 50,star: null,memo: ""}
+--- {id: 50353,name: 五星水仙决,type: 50,star: null,memo: ""}
+--- {id: 50354,name: 五星火仙决,type: 50,star: null,memo: ""}
+--- {id: 50355,name: 五星土仙决,type: 50,star: null,memo: ""}
+--- {id: 50356,name: 猴儿酒,type: 50,star: null,memo: ""}
+--- {id: 50357,name: 竹叶青,type: 50,star: null,memo: ""}
+--- {id: 50358,name: 凡品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50359,name: 中品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50360,name: 上品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50361,name: 精品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50362,name: 极品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50363,name: 仙品炼制图纸,type: 50,star: null,memo: ""}
+--- {id: 50364,name: 金雷竹,type: 50,star: null,memo: ""}
+--- {id: 50365,name: 养魂木,type: 50,star: null,memo: ""}
+--- {id: 50366,name: 紫炎真根,type: 50,star: null,memo: ""}
+--- {id: 50367,name: 地魄玄石,type: 50,star: null,memo: ""}
+--- {id: 50368,name: 冥华紫晶,type: 50,star: null,memo: ""}
+--- {id: 50369,name: 归元玄晶,type: 50,star: null,memo: ""}
+--- {id: 50370,name: 九窍灵翠,type: 50,star: null,memo: ""}
+--- {id: 50371,name: 竹青火,type: 50,star: null,memo: ""}
+--- {id: 50372,name: 天狼妖炎,type: 50,star: null,memo: ""}
+--- {id: 50373,name: 幽冥紫炎,type: 50,star: null,memo: ""}
+--- {id: 50374,name: 涅槃之火,type: 50,star: null,memo: ""}
+--- {id: 50375,name: 红莲业火,type: 50,star: null,memo: ""}
+--- {id: 50376,name: 九天神火,type: 50,star: null,memo: ""}
+--- {id: 50377,name: 注灵石,type: 50,star: null,memo: ""}
+--- {id: 50378,name: 凡品器胚,type: 50,star: null,memo: ""}
+--- {id: 50379,name: 中品器胚,type: 50,star: null,memo: ""}
+--- {id: 50380,name: 上品器胚,type: 50,star: null,memo: ""}
+--- {id: 50381,name: 精品器胚,type: 50,star: null,memo: ""}
+--- {id: 50382,name: 极品器胚,type: 50,star: null,memo: ""}
+--- {id: 50383,name: 仙品器胚,type: 50,star: null,memo: ""}
+--- {id: 50384,name: 凡品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50385,name: 中品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50386,name: 上品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50387,name: 精品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50388,name: 极品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50389,name: 仙品宝胚,type: 50,star: null,memo: ""}
+--- {id: 50390,name: 金系本源,type: 50,star: null,memo: ""}
+--- {id: 50391,name: 木系本源,type: 50,star: null,memo: ""}
+--- {id: 50392,name: 水系本源,type: 50,star: null,memo: ""}
+--- {id: 50393,name: 火系本源,type: 50,star: null,memo: ""}
+--- {id: 50394,name: 土系本源,type: 50,star: null,memo: ""}
+--- {id: 50395,name: 玉虚神水,type: 50,star: null,memo: ""}
+--- {id: 50396,name: 金创药,type: 50,star: null,memo: ""}
+--- {id: 50397,name: 复活草,type: 50,star: null,memo: ""}
+--- {id: 50398,name: 还原图,type: 50,star: null,memo: ""}
+--- {id: 50399,name: 初级复阵图,type: 50,star: null,memo: ""}
+--- {id: 50400,name: 中级复阵图,type: 50,star: null,memo: ""}
+--- {id: 50401,name: 高级复阵图,type: 50,star: null,memo: ""}
+--- {id: 50408,name: 破阵玉牌,type: 50,star: null,memo: ""}
+--- {id: 50409,name: 简单精英宝箱,type: 50,star: null,memo: ""}
+--- {id: 50410,name: 简单BOSS宝箱,type: 50,star: null,memo: ""}
+--- {id: 50411,name: 普通精英宝箱,type: 50,star: null,memo: ""}
+--- {id: 50412,name: 普通BOSS宝箱,type: 50,star: null,memo: ""}
+--- {id: 50413,name: 困难精英宝箱,type: 50,star: null,memo: ""}
+--- {id: 50414,name: 困难BOSS宝箱,type: 50,star: null,memo: ""}
+--- {id: 50415,name: 噩梦精英宝箱,type: 50,star: null,memo: ""}
+--- {id: 50416,name: 噩梦BOSS宝箱,type: 50,star: null,memo: ""}
+--- {id: 50417,name: 地狱精英宝箱,type: 50,star: null,memo: ""}
+--- {id: 50418,name: 地狱BOSS宝箱,type: 50,star: null,memo: ""}
+--- {id: 50419,name: 随机本源,type: 50,star: null,memo: ""}
+--- {id: 50496,name: 圣兽挑战令,type: 50,star: null,memo: ""}
+
+
+#国庆
+--- {id: 50402,name: 墨色锦鲤,type: 50,star: null,memo: ""}
+--- {id: 50403,name: 红白锦鲤,type: 50,star: null,memo: ""}
+--- {id: 50404,name: 三色锦鲤,type: 50,star: null,memo: ""}
+--- {id: 50405,name: 中华大锦鲤,type: 50,star: null,memo: ""}
+--- {id: 50406,name: 许愿币,type: 50,star: null,memo: ""}
+--- {id: 50407,name: 花束,type: 50,star: null,memo: ""}
+
+#万圣
+--- {id: 50420,name: 糖果,type: 50,star: null,memo: ""}
+--- {id: 50421,name: 芝士奶酪,type: 50,star: null,memo: ""}
+--- {id: 50422,name: 鸡肉Taco,type: 50,star: null,memo: ""}
+--- {id: 50423,name: 奶香切片,type: 50,star: null,memo: ""}
+--- {id: 50424,name: 酥脆曲奇,type: 50,star: null,memo: ""}
+--- {id: 50425,name: 蜜糖舒芙蕾,type: 50,star: null,memo: ""}
+--- {id: 50426,name: 草莓挞挞,type: 50,star: null,memo: ""}
+--- {id: 50427,name: 醇香酥茶,type: 50,star: null,memo: ""}
+--- {id: 50428,name: 糖果南瓜桶,type: 50,star: null,memo: ""}
+--- {id: 50429,name: 万圣南瓜,type: 50,star: null,memo: ""}
+
+#绿茵风云
+--- {id: 50430,name: 竞猜券,type: 50,star: null,memo: ""}
+--- {id: 50431,name: 竞猜币,type: 50,star: null,memo: ""}
+--- {id: 50432,name: 绿茵时装兑换令,type: 50,star: null,memo: ""}
+
+#2022感恩节
+--- {id: 50433,name: 初级种子包,type: 50,star: null,memo: ""}
+--- {id: 50434,name: 中级种子包,type: 50,star: null,memo: ""}
+--- {id: 50435,name: 高级种子包,type: 50,star: null,memo: ""}
+--- {id: 50436,name: 初级肥料包,type: 50,star: null,memo: ""}
+--- {id: 50437,name: 中级肥料包,type: 50,star: null,memo: ""}
+--- {id: 50438,name: 高级肥料包,type: 50,star: null,memo: ""}
+--- {id: 50439,name: 葵花向阳,type: 50,star: null,memo: ""}
+--- {id: 50440,name: 幽谷铃兰,type: 50,star: null,memo: ""}
+--- {id: 50441,name: 胭脂朱梅,type: 50,star: null,memo: ""}
+--- {id: 50442,name: 月月常红,type: 50,star: null,memo: ""}
+--- {id: 50443,name: 早樱承恩,type: 50,star: null,memo: ""}
+--- {id: 50444,name: 向日葵,type: 50,star: null,memo: ""}
+--- {id: 50445,name: 铃兰花,type: 50,star: null,memo: ""}
+--- {id: 50446,name: 梅花,type: 50,star: null,memo: ""}
+--- {id: 50447,name: 月季花,type: 50,star: null,memo: ""}
+--- {id: 50448,name: 樱花,type: 50,star: null,memo: ""}
+--- {id: 50449,name: 山茶花,type: 50,star: null,memo: ""}
+
+#冬暮日
+--- {id: 50450,name: 小碗狗粮,type: 50,star: null,memo: ""}
+--- {id: 50451,name: 小狗牌,type: 50,star: null,memo: ""}
+--- {id: 50452,name: 蘑菇,type: 50,star: null,memo: ""}
+--- {id: 50453,name: 石蕊,type: 50,star: null,memo: ""}
+--- {id: 50454,name: 鹿草,type: 50,star: null,memo: ""}
+--- {id: 50455,name: 浆果,type: 50,star: null,memo: ""}
+
+
+#圣诞2022
+--- {id: 50456,name: 章鱼触手,type: 50,star: null,memo: ""}
+--- {id: 50457,name: 驯鹿角,type: 50,star: null,memo: ""}
+--- {id: 50458,name: 魔法羽毛,type: 50,star: null,memo: ""}
+--- {id: 50459,name: 小兔耳,type: 50,star: null,memo: ""}
+--- {id: 50460,name: 驯鹿的馈赠,type: 50,star: null,memo: ""}
+--- {id: 50461,name: 圣诞花环-款式1,type: 50,star: null,memo: ""}
+--- {id: 50462,name: 圣诞花环-款式2,type: 50,star: null,memo: ""}
+--- {id: 50463,name: 圣诞花环-款式3,type: 50,star: null,memo: ""}
+--- {id: 50464,name: 水晶球-款式1,type: 50,star: null,memo: ""}
+--- {id: 50465,name: 水晶球-款式2,type: 50,star: null,memo: ""}
+--- {id: 50466,name: 水晶球-款式3,type: 50,star: null,memo: ""}
+--- {id: 50467,name: 姜饼人-款式1,type: 50,star: null,memo: ""}
+--- {id: 50468,name: 姜饼人-款式2,type: 50,star: null,memo: ""}
+--- {id: 50469,name: 姜饼人-款式3,type: 50,star: null,memo: ""}
+--- {id: 50470,name: 礼物精灵-款式1,type: 50,star: null,memo: ""}
+--- {id: 50471,name: 礼物精灵-款式2,type: 50,star: null,memo: ""}
+--- {id: 50472,name: 礼物精灵-款式3,type: 50,star: null,memo: ""}
+--- {id: 50473,name: 杂货券,type: 50,star: null,memo: ""}
+
+#元旦2023
+--- {id: 50474,name: 小汤圆,type: 50,star: null,memo: ""}
+--- {id: 50475,name: 年糕,type: 50,star: null,memo: ""}
+--- {id: 50476,name: 鱼饼,type: 50,star: null,memo: ""}
+
+#瑞兔迎新2023
+--- {id: 50477,name: 瑞兔的馈赠,type: 50,star: null,memo: ""}
+--- {id: 50478,name: 素纱,type: 50,star: null,memo: ""}
+--- {id: 50479,name: 红乌木,type: 50,star: null,memo: ""}
+--- {id: 50480,name: 五彩线,type: 50,star: null,memo: ""}
+--- {id: 50481,name: 水晶石,type: 50,star: null,memo: ""}
+--- {id: 50482,name: 脸谱-款式1,type: 50,star: null,memo: ""}
+--- {id: 50483,name: 脸谱-款式2,type: 50,star: null,memo: ""}
+--- {id: 50484,name: 脸谱-款式3,type: 50,star: null,memo: ""}
+--- {id: 50485,name: 中国结-款式1,type: 50,star: null,memo: ""}
+--- {id: 50486,name: 中国结-款式2,type: 50,star: null,memo: ""}
+--- {id: 50487,name: 中国结-款式3,type: 50,star: null,memo: ""}
+--- {id: 50488,name: 香木扇-款式1,type: 50,star: null,memo: ""}
+--- {id: 50489,name: 香木扇-款式2,type: 50,star: null,memo: ""}
+--- {id: 50490,name: 香木扇-款式3,type: 50,star: null,memo: ""}
+--- {id: 50491,name: 木雕-款式1,type: 50,star: null,memo: ""}
+--- {id: 50492,name: 木雕-款式2,type: 50,star: null,memo: ""}
+--- {id: 50493,name: 木雕-款式3,type: 50,star: null,memo: ""}
+
+#元宵2023
+--- {id: 50494,name: 红萝卜,type: 50,star: null,memo: ""}
+--- {id: 50495,name: 钻石消费积分道具,type: 50,star: null,memo: ""}
+
+#龙抬头2023
+--- {id: 50497,name: 生肖碰碰卡,type: 50,star: null,memo: ""}
+--- {id: 50498,name: 逍遥酿,type: 50,star: null,memo: ""}
+--- {id: 50499,name: 生肖挑战积分,type: 50,star: null,memo: ""}
+--- {id: 50500,name: 传奇符图宝箱,type: 50,star: null,memo: ""}
+
+#兑换所需多种物品
+--- {id: 30005,name: 辞旧迎新所需物品1,type: 60,star: null,memo: "二踢脚*3、窜天猴*1"}
+--- {id: 30010,name: 辞旧迎新所需物品2,type: 60,star: null,memo: "二踢脚*10、窜天猴*3、冲天炮*1"}
+--- {id: 30015,name: 辞旧迎新所需物品3,type: 60,star: null,memo: "震天响*5、满地红*1"}
+--- {id: 30020,name: 周年庆所需物品1,type: 60,star: null,memo: "梅*3、兰*1"}
+--- {id: 30025,name: 周年庆所需物品2,type: 60,star: null,memo: "梅*10、兰*3、竹*1"}
+--- {id: 30030,name: 周年庆所需物品3,type: 60,star: null,memo: "兰*15、竹*5、菊*1"}
+--- {id: 30035,name: 周年庆所需物品4,type: 60,star: null,memo: "莲花*5、牡丹*1"}
+--- {id: 30060,name: 周年庆集字所需物品1,type: 60,star: null,memo: "字帖-庆*1"}
+--- {id: 30065,name: 周年庆集字所需物品2,type: 60,star: null,memo: "字帖-竹*1、字帖-风*1"}
+--- {id: 30070,name: 周年庆集字所需物品3,type: 60,star: null,memo: "字帖-周*5、字帖-年*5、字帖-庆*1"}
+--- {id: 30075,name: 周年庆集字所需物品4,type: 60,star: null,memo: "字帖-竹*2、字帖-风*2、字帖-周*1、字帖-年*1"}
+--- {id: 30080,name: 周年庆集字所需物品5,type: 60,star: null,memo: "字帖-竹*10、字帖-风*10、字帖-周*5、字帖-年*5、字帖-庆*1"}
+--- {id: 30091,name: 劳动节集字所需物品1,type: 60,star: null,memo: "字帖-最*1"}
+--- {id: 30092,name: 劳动节集字所需物品2,type: 60,star: null,memo: "字帖-劳*1、字帖-动*1"}
+--- {id: 30093,name: 劳动节集字所需物品3,type: 60,star: null,memo: "字帖-最*1、字帖-光*5、字帖-荣*5"}
+--- {id: 30094,name: 劳动节集字所需物品4,type: 60,star: null,memo: "字帖-劳*2、字帖-动*2、字帖-光*1、字帖-荣*1"}
+--- {id: 30095,name: 劳动节集字所需物品5,type: 60,star: null,memo: "字帖-劳*10、字帖-动*10、字帖-最*1、字帖-光*5、字帖-荣*5"}
+--- {id: 30096,name: 劳动节集字所需物品6,type: 60,star: null,memo: "字帖-最*1、字帖-光*8、字帖-荣*8"}
+--- {id: 30097,name: 劳动节集字所需物品7,type: 60,star: null,memo: "字帖-劳*3、字帖-动*3、字帖-光*2、字帖-荣*2"}
+--- {id: 30098,name: 劳动节集字所需物品8,type: 60,star: null,memo: "字帖-劳*20、字帖-动*20、字帖-最*1、字帖-光*10、字帖-荣*10"}
+--- {id: 30101,name: 夏天集字所需物品1,type: 60,star: null,memo: "字帖-啊*1"}
+--- {id: 30102,name: 夏天集字所需物品2,type: 60,star: null,memo: "字帖-夏*1、字帖-天*1"}
+--- {id: 30103,name: 夏天集字所需物品3,type: 60,star: null,memo: "字帖-夏*5、字帖-天*5、字帖-啊*1"}
+--- {id: 30104,name: 夏天集字所需物品4,type: 60,star: null,memo: "字帖-你*2、字帖-好*2、字帖-夏*1、字帖-天*1"}
+--- {id: 30105,name: 夏天集字所需物品5,type: 60,star: null,memo: "字帖-你*10、字帖-好*10、字帖-啊*1、字帖-夏*5、字帖-天*5"}
+--- {id: 30106,name: 中秋集字所需物品1,type: 60,star: null,memo: "字帖-家*1"}
+--- {id: 30107,name: 中秋集字所需物品2,type: 60,star: null,memo: "字帖-团*1、字帖-圆*1"}
+--- {id: 30108,name: 中秋集字所需物品3,type: 60,star: null,memo: "字帖-家*1、字帖-团*5、字帖-圆*5"}
+--- {id: 30109,name: 中秋集字所需物品4,type: 60,star: null,memo: "字帖-中*2、字帖-秋*2、字帖-团*1、字帖-圆*1"}
+--- {id: 30110,name: 中秋集字所需物品5,type: 60,star: null,memo: "字帖-中*10、字帖-秋*10、字帖-家*1、字帖-团*5、字帖-圆*5"}
+--- {id: 30111,name: 万圣派对所需物品1,type: 60,star: null,memo: "熊熊软糖*15、糖霜饼干*10"}
+--- {id: 30112,name: 万圣派对所需物品2,type: 60,star: null,memo: "熊熊软糖*30、糖霜饼干*20"}
+--- {id: 30113,name: 万圣派对所需物品3,type: 60,star: null,memo: "熊熊软糖*60、糖霜饼干*40"}
+--- {id: 30114,name: 万圣派对所需物品4,type: 60,star: null,memo: "熊熊软糖*150、糖霜饼干*100"}
+--- {id: 30115,name: 万圣派对所需物品5,type: 60,star: null,memo: "熊熊软糖*1"}
+--- {id: 30116,name: 万圣派对所需物品6,type: 60,star: null,memo: "糖霜饼干*1"}
+#--- {id: 30117,name: 万圣派对所需物品7,type: 60,star: null,memo: "怪味糖豆*1"}
+--- {id: 30118,name: 万圣派对所需物品8,type: 60,star: null,memo: "怪味糖豆*1"}
+--- {id: 30119,name: 万圣派对所需物品9,type: 60,star: null,memo: "怪味糖豆*2"}
+--- {id: 30120,name: 万圣派对所需物品10,type: 60,star: null,memo: "怪味糖豆*3"}
+--- {id: 30121,name: 万圣派对所需物品11,type: 60,star: null,memo: "巫师帽*1"}
+--- {id: 30122,name: 万圣派对所需物品12,type: 60,star: null,memo: "巫师帽*2"}
+--- {id: 30123,name: 万圣派对所需物品13,type: 60,star: null,memo: "巫师帽*5"}
+--- {id: 30124,name: 万圣派对所需物品14,type: 60,star: null,memo: "飞天扫帚*1"}
+--- {id: 30125,name: 万圣派对所需物品15,type: 60,star: null,memo: "飞天扫帚*2"}
+--- {id: 30126,name: 万圣派对所需物品16,type: 60,star: null,memo: "飞天扫帚*5"}
+--- {id: 30127,name: 感恩兑换所需物品1,type: 60,star: null,memo: "感恩星*1"}
+--- {id: 30128,name: 感恩兑换所需物品2,type: 60,star: null,memo: "感恩星*2"}
+--- {id: 30129,name: 感恩兑换所需物品3,type: 60,star: null,memo: "感恩星*5"}
+--- {id: 30130,name: 威震九州所需物品1,type: 60,star: null,memo: "仙女棒*2"}
+--- {id: 30131,name: 威震九州所需物品2,type: 60,star: null,memo: "仙女棒*1、窜天猴*1"}
+--- {id: 30132,name: 威震九州所需物品3,type: 60,star: null,memo: "窜天猴*2"}
+--- {id: 50212,name: 天灯所需物品,type: 60,star: null,memo: "木条*1、许愿蜡烛*1、薄纸*1"}
+--- {id: 50214,name: 合服狂欢所需物品1,type: 60,star: null,memo: "大仙令牌*1"}
+--- {id: 50215,name: 合服狂欢所需物品2,type: 60,star: null,memo: "大仙令牌*50、老仙令牌*1"}
+--- {id: 50216,name: 合服狂欢所需物品3,type: 60,star: null,memo: "老仙令牌*1"}
+--- {id: 50229,name: 無啥代志所需物品1,type: 60,star: null,memo: "符•百毒不侵*2"}
+--- {id: 50230,name: 無啥代志所需物品2,type: 60,star: null,memo: "符•百毒不侵*1、符•诸邪退散*1"}
+--- {id: 50231,name: 無啥代志所需物品3,type: 60,star: null,memo: "符•诸邪退散*2"}
+--- {id: 50292,name: 封神祭坛所需物品1,type: 60,star: null,memo: "韦护神格*1、降魔杵*30"}
+--- {id: 50293,name: 封神祭坛所需物品2,type: 60,star: null,memo: "袁洪神格*1、水火棍*30"}
+--- {id: 50294,name: 封神祭坛所需物品3,type: 60,star: null,memo: "无当圣母神格*1、日月珠*30"}
+--- {id: 50295,name: 封神祭坛所需物品4,type: 60,star: null,memo: "天花娘娘神格*1、天花结*30"}
+--- {id: 50296,name: 封神祭坛所需物品6,type: 60,star: null,memo: "龟灵圣母神格*1、敕令印*30"}
+--- {id: 50297,name: 封神祭坛所需物品6,type: 60,star: null,memo: "韦护神格*1、衍金残页*30"}
+--- {id: 50298,name: 封神祭坛所需物品7,type: 60,star: null,memo: "袁洪神格*1、衍木残页*30"}
+--- {id: 50299,name: 封神祭坛所需物品8,type: 60,star: null,memo: "无当圣母神格*1、衍水残页*30"}
+--- {id: 50300,name: 封神祭坛所需物品9,type: 60,star: null,memo: "天花娘娘神格*1、衍火残页*30"}
+--- {id: 50301,name: 封神祭坛所需物品10,type: 60,star: null,memo: "龟灵圣母神格*1、衍土残页*30"}
+
+#任务宝箱
+#0-14级宝箱
+--- {id: 701,name: 每日任务宝箱1-1,type: 35,star: null,memo: ""}
+--- {id: 702,name: 每日任务宝箱1-2,type: 35,star: null,memo: ""}
+--- {id: 703,name: 每日任务宝箱1-3,type: 35,star: null,memo: ""}
+--- {id: 704,name: 每日任务宝箱1-4,type: 35,star: null,memo: ""}
+--- {id: 705,name: 每日任务宝箱1-5,type: 35,star: null,memo: ""}
+#20-39级宝箱
+--- {id: 706,name: 每日任务宝箱2-1,type: 35,star: null,memo: ""}
+--- {id: 707,name: 每日任务宝箱2-2,type: 35,star: null,memo: ""}
+--- {id: 708,name: 每日任务宝箱2-3,type: 35,star: null,memo: ""}
+--- {id: 709,name: 每日任务宝箱2-4,type: 35,star: null,memo: ""}
+--- {id: 710,name: 每日任务宝箱2-5,type: 35,star: null,memo: ""}
+#40级以上宝箱
+--- {id: 711,name: 每日任务宝箱3-1,type: 35,star: null,memo: ""}
+--- {id: 712,name: 每日任务宝箱3-2,type: 35,star: null,memo: ""}
+--- {id: 713,name: 每日任务宝箱3-3,type: 35,star: null,memo: ""}
+--- {id: 714,name: 每日任务宝箱3-4,type: 35,star: null,memo: ""}
+--- {id: 715,name: 每日任务宝箱3-5,type: 35,star: null,memo: ""}
+#15-19级宝箱
+--- {id: 716,name: 每日任务宝箱4-1,type: 35,star: null,memo: ""}
+--- {id: 717,name: 每日任务宝箱4-2,type: 35,star: null,memo: ""}
+--- {id: 718,name: 每日任务宝箱4-3,type: 35,star: null,memo: ""}
+--- {id: 719,name: 每日任务宝箱4-4,type: 35,star: null,memo: ""}
+--- {id: 720,name: 每日任务宝箱4-5,type: 35,star: null,memo: ""}
+
+#封神令
+--- {id: 90010,name: 崇侯虎封神令,type: 99,star: null,memo: ""}
+--- {id: 90020,name: 杨戬封神令,type: 99,star: null,memo: ""}
+--- {id: 90030,name: 哪吒封神令,type: 99,star: null,memo: ""}
+--- {id: 90040,name: 张奎封神令,type: 99,star: null,memo: ""}
+--- {id: 90050,name: 孔雀明王封神令,type: 99,star: null,memo: ""}
+--- {id: 90060,name: 妲己入魔令,type: 99,star: null,memo: ""}
+--- {id: 90070,name: 玉鼎真人封神令,type: 99,star: null,memo: ""}
+--- {id: 90080,name: 姜子牙入圣令,type: 99,star: null,memo: ""}
+--- {id: 90090,name: 赵公明封神令,type: 99,star: null,memo: ""}
+--- {id: 90100,name: 韦护封神令,type: 99,star: null,memo: ""}
+--- {id: 90110,name: 袁洪封神令,type: 99,star: null,memo: ""}
+--- {id: 90120,name: 无当圣母封神令,type: 99,star: null,memo: ""}
+--- {id: 90130,name: 天花娘娘封神令,type: 99,star: null,memo: ""}
+--- {id: 90140,name: 龟灵圣母封神令,type: 99,star: null,memo: ""}
+--- {id: 90150,name: 赤精子封神令,type: 99,star: null,memo: ""}
+--- {id: 90160,name: 金睛白虎封神令,type: 99,star: null,memo: ""}
+--- {id: 90170,name: 孟章苍龙封神令,type: 99,star: null,memo: ""}
+--- {id: 90180,name: 重甲玄武封神令,type: 99,star: null,memo: ""}
+--- {id: 90190,name: 金銮火凤封神令,type: 99,star: null,memo: ""}
+#--- {id: 90200,name: 慈航道人封神令,type: 99,star: null,memo: ""}
+#群体封神令
+--- {id: 90210,name: 神力横扫封神令,type: 98,star: null,memo: ""}
+
+
+#装备
+--- {id: 100010,name: 武器,type: 100,star: null,memo: ""}
+--- {id: 100020,name: 衣服,type: 100,star: null,memo: ""}
+--- {id: 100030,name: 项链,type: 100,star: null,memo: ""}
+--- {id: 100040,name: 戒指,type: 100,star: null,memo: ""}
+
+#神兽
+--- {id: 110010,name: 海东青,type: 110,star: null,memo: ""}
+--- {id: 110020,name: 比翼鸟,type: 110,star: null,memo: ""}
+--- {id: 110030,name: 逍遥马,type: 111,star: null,memo: ""}
+--- {id: 110040,name: 真金兽,type: 111,star: null,memo: ""}
+--- {id: 110050,name: 独角兽,type: 111,star: null,memo: ""}
+--- {id: 110060,name: 刺冠枭,type: 110,star: null,memo: ""}
+--- {id: 110070,name: 剔雪貂,type: 111,star: null,memo: ""}
+--- {id: 110080,name: 风灵鹫,type: 110,star: null,memo: ""}
+--- {id: 110090,name: 射月鹰,type: 110,star: null,memo: ""}
+--- {id: 110100,name: 幻的卢,type: 111,star: null,memo: ""}
+--- {id: 110110,name: 掠日隼,type: 110,star: null,memo: ""}
+--- {id: 110120,name: 驺虞兽,type: 111,star: null,memo: ""}
+--- {id: 110130,name: 金蛟龙,type: 110,star: null,memo: ""}
+--- {id: 110140,name: 貔貅,type: 111,star: null,memo: ""}
+--- {id: 110150,name: 虓虎,type: 111,star: null,memo: ""}
+--- {id: 110160,name: 翎聿,type: 110,star: null,memo: ""}
+--- {id: 110170,name: 幻影,type: 111,star: null,memo: ""}
+--- {id: 110180,name: 药兽,type: 111,star: null,memo: ""}
+--- {id: 110190,name: 黄龙,type: 110,star: null,memo: ""}
+--- {id: 110200,name: 麒麟,type: 111,star: null,memo: ""}
+--- {id: 110210,name: 华鹊,type: 110,star: null,memo: ""}
+--- {id: 110220,name: 麖,type: 111,star: null,memo: ""}
+--- {id: 110230,name: 灯魅,type: 110,star: null,memo: ""}
+#时装
+--- {id: 120010,name: 法术分身,type: 120,star: null,memo: ""}
+--- {id: 120020,name: 诗酒年华,type: 120,star: null,memo: ""}
+--- {id: 120030,name: 金风飒飒,type: 120,star: null,memo: ""}
+--- {id: 120040,name: 风起霓裳,type: 120,star: null,memo: ""}
+--- {id: 120050,name: 乘风破浪,type: 120,star: null,memo: ""}
+--- {id: 120060,name: 绿茵时装,type: 120,star: null,memo: ""}
+
+
+#符图
+--- {id: 230010,name: 一阶玉髓,type: 70,star: null,memo: ""}
+--- {id: 230020,name: 二阶玉髓,type: 70,star: null,memo: ""}
+--- {id: 230030,name: 三阶玉髓,type: 70,star: null,memo: ""}
+--- {id: 230040,name: 四阶玉髓,type: 70,star: null,memo: ""}
+--- {id: 230050,name: 五阶玉髓,type: 70,star: null,memo: ""}
+
+--- {id: 231001,name: 火盾符图,type: 71,star: null,memo: ""}
+--- {id: 231002,name: 雷盾符图,type: 71,star: null,memo: ""}
+--- {id: 231003,name: 毒盾符图,type: 71,star: null,memo: ""}
+--- {id: 231004,name: 护盾符图,type: 71,star: null,memo: ""}
+--- {id: 231005,name: 雷纹符图,type: 71,star: null,memo: ""}
+--- {id: 231006,name: 毒纹符图,type: 71,star: null,memo: ""}
+--- {id: 231007,name: 火纹符图,type: 71,star: null,memo: ""}
+--- {id: 231008,name: 刃纹符图,type: 71,star: null,memo: ""}
+--- {id: 231009,name: 禁法符图,type: 71,star: null,memo: ""}
+--- {id: 231010,name: 升仙符图,type: 71,star: null,memo: ""}
+--- {id: 231011,name: 禁天符图,type: 71,star: null,memo: ""}
+
+--- {id: 231101,name: 健体符图,type: 71,star: null,memo: ""}
+--- {id: 231102,name: 克火符图,type: 71,star: null,memo: ""}
+--- {id: 231103,name: 震慑符图,type: 71,star: null,memo: ""}
+--- {id: 231104,name: 鼓舞符图,type: 71,star: null,memo: ""}
+--- {id: 231105,name: 激将符图,type: 71,star: null,memo: ""}
+--- {id: 231106,name: 穿刺符图,type: 71,star: null,memo: ""}
+--- {id: 231107,name: 蛊惑符图,type: 71,star: null,memo: ""}
+--- {id: 231108,name: 得道符图,type: 71,star: null,memo: ""}
+--- {id: 231109,name: 飞天符图,type: 71,star: null,memo: ""}
+--- {id: 231110,name: 无相符图,type: 71,star: null,memo: ""}
+--- {id: 231111,name: 掩杀符图,type: 71,star: null,memo: ""}
+
+--- {id: 231201,name: 灵动符图,type: 71,star: null,memo: ""}
+--- {id: 231202,name: 自愈符图,type: 71,star: null,memo: ""}
+--- {id: 231203,name: 军师符图,type: 71,star: null,memo: ""}
+--- {id: 231204,name: 神剑符图,type: 71,star: null,memo: ""}
+--- {id: 231205,name: 固灵符图,type: 71,star: null,memo: ""}
+--- {id: 231206,name: 固定符图,type: 71,star: null,memo: ""}
+--- {id: 231207,name: 治愈符图,type: 71,star: null,memo: ""}
+--- {id: 231208,name: 解禁符图,type: 71,star: null,memo: ""}
+
+--- {id: 231301,name: 不动符图,type: 71,star: null,memo: ""}
+--- {id: 231302,name: 红砂符图,type: 71,star: null,memo: ""}
+--- {id: 231303,name: 固地符图,type: 71,star: null,memo: ""}
+--- {id: 231304,name: 侵蚀符图,type: 71,star: null,memo: ""}
+#--- {id: 231305,name: 晦星符图,type: 71,star: null,memo: ""}
+--- {id: 231306,name: 辟土符图,type: 71,star: null,memo: ""}
+--- {id: 231307,name: 冷箭符图,type: 71,star: null,memo: ""}
+
+--- {id: 231401,name: 挑离符图,type: 71,star: null,memo: ""}
+--- {id: 231402,name: 斩魂符图,type: 71,star: null,memo: ""}
+--- {id: 231403,name: 长生符图,type: 71,star: null,memo: ""}
+--- {id: 231404,name: 疾军符图,type: 71,star: null,memo: ""}
+--- {id: 231405,name: 召魂符图,type: 71,star: null,memo: ""}
+
+--- {id: 232001,name: 神针符图,type: 71,star: null,memo: ""}
+--- {id: 232002,name: 神针符图,type: 71,star: null,memo: ""}
+--- {id: 232003,name: 神针符图,type: 71,star: null,memo: ""}
+--- {id: 232004,name: 神针符图,type: 71,star: null,memo: ""}
+--- {id: 232005,name: 神针符图,type: 71,star: null,memo: ""}
+--- {id: 232101,name: 飞花符图,type: 71,star: null,memo: ""}
+--- {id: 232102,name: 飞花符图,type: 71,star: null,memo: ""}
+--- {id: 232103,name: 飞花符图,type: 71,star: null,memo: ""}
+--- {id: 232104,name: 飞花符图,type: 71,star: null,memo: ""}
+--- {id: 232105,name: 飞花符图,type: 71,star: null,memo: ""}
+--- {id: 232201,name: 凝冰符图,type: 71,star: null,memo: ""}
+--- {id: 232202,name: 凝冰符图,type: 71,star: null,memo: ""}
+--- {id: 232203,name: 凝冰符图,type: 71,star: null,memo: ""}
+--- {id: 232204,name: 凝冰符图,type: 71,star: null,memo: ""}
+--- {id: 232205,name: 凝冰符图,type: 71,star: null,memo: ""}
+--- {id: 232301,name: 炽炎符图,type: 71,star: null,memo: ""}
+--- {id: 232302,name: 炽炎符图,type: 71,star: null,memo: ""}
+--- {id: 232303,name: 炽炎符图,type: 71,star: null,memo: ""}
+--- {id: 232304,name: 炽炎符图,type: 71,star: null,memo: ""}
+--- {id: 232305,name: 炽炎符图,type: 71,star: null,memo: ""}
+--- {id: 232401,name: 烈石符图,type: 71,star: null,memo: ""}
+--- {id: 232402,name: 烈石符图,type: 71,star: null,memo: ""}
+--- {id: 232403,name: 烈石符图,type: 71,star: null,memo: ""}
+--- {id: 232404,name: 烈石符图,type: 71,star: null,memo: ""}
+--- {id: 232405,name: 烈石符图,type: 71,star: null,memo: ""}
+
+--- {id: 233001,name: 鎏金符图,type: 71,star: null,memo: ""}
+--- {id: 233002,name: 鎏金符图,type: 71,star: null,memo: ""}
+--- {id: 233003,name: 鎏金符图,type: 71,star: null,memo: ""}
+--- {id: 233004,name: 鎏金符图,type: 71,star: null,memo: ""}
+--- {id: 233005,name: 鎏金符图,type: 71,star: null,memo: ""}
+--- {id: 233101,name: 落木符图,type: 71,star: null,memo: ""}
+--- {id: 233102,name: 落木符图,type: 71,star: null,memo: ""}
+--- {id: 233103,name: 落木符图,type: 71,star: null,memo: ""}
+--- {id: 233104,name: 落木符图,type: 71,star: null,memo: ""}
+--- {id: 233105,name: 落木符图,type: 71,star: null,memo: ""}
+--- {id: 233201,name: 甘霖符图,type: 71,star: null,memo: ""}
+--- {id: 233202,name: 甘霖符图,type: 71,star: null,memo: ""}
+--- {id: 233203,name: 甘霖符图,type: 71,star: null,memo: ""}
+--- {id: 233204,name: 甘霖符图,type: 71,star: null,memo: ""}
+--- {id: 233205,name: 甘霖符图,type: 71,star: null,memo: ""}
+--- {id: 233301,name: 燎原符图,type: 71,star: null,memo: ""}
+--- {id: 233302,name: 燎原符图,type: 71,star: null,memo: ""}
+--- {id: 233303,name: 燎原符图,type: 71,star: null,memo: ""}
+--- {id: 233304,name: 燎原符图,type: 71,star: null,memo: ""}
+--- {id: 233305,name: 燎原符图,type: 71,star: null,memo: ""}
+--- {id: 233401,name: 净土符图,type: 71,star: null,memo: ""}
+--- {id: 233402,name: 净土符图,type: 71,star: null,memo: ""}
+--- {id: 233403,name: 净土符图,type: 71,star: null,memo: ""}
+--- {id: 233404,name: 净土符图,type: 71,star: null,memo: ""}
+--- {id: 233405,name: 净土符图,type: 71,star: null,memo: ""}
+
+--- {id: 234001,name: 固本符图,type: 71,star: null,memo: ""}
+--- {id: 234002,name: 固本符图,type: 71,star: null,memo: ""}
+--- {id: 234003,name: 固本符图,type: 71,star: null,memo: ""}
+--- {id: 234004,name: 固本符图,type: 71,star: null,memo: ""}
+--- {id: 234005,name: 固本符图,type: 71,star: null,memo: ""}
+
+--- {id: 50127,name: 残晶,type: 72,star: null,memo: ""}
+--- {id: 50128,name: 天晶,type: 72,star: null,memo: ""}
+--- {id: 50129,name: 血晶,type: 72,star: null,memo: ""}
+--- {id: 50130,name: 玄阶符首,type: 73,star: null,memo: ""}
+--- {id: 50131,name: 地阶符首,type: 73,star: null,memo: ""}
+--- {id: 50132,name: 天阶符首,type: 73,star: null,memo: ""}
+
+#摇一摇
+--- {id: 50305,name: 初级福利,type: 50,star: null,memo: ""}
+--- {id: 50306,name: 中级福利,type: 50,star: null,memo: ""}
+--- {id: 50307,name: 高级福利,type: 50,star: null,memo: ""}
+#注意=============BUFF预留ID  护身符BUFF  131000~145000预留

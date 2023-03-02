@@ -1,0 +1,24 @@
+#####腾讯企业邮箱#####
+spring:
+  mail:
+    host: smtp.qq.com #邮件发送服务器的主机
+    port: 465 #邮件发送服务器的端口
+    from: 1927701463@qq.com #邮件发送服务器的用户名
+    pass: zhufeng22170008 #密码
+    username: 1927701463@qq.com
+    password: zhufeng22170008
+    personal: 富甲封神传 #发送者显示名称
+    to: #配置多人的时候要特别注意是否使用了英文的","分隔
+      coder: xiaoyi20@qq.com,1061434963@qq.com  #程序员
+      operator: 1927701463@qq.com,478869236@qq.com,990909106@qq.com  #运营人员
+      manager:  lsj@bamboowind.com,lsj@bamboowind.cn #管理人员
+    debug: true
+    protocol: smtp #发送邮件协议
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 465 #端口号465或587
+    properties.mail.display.sendmail: 富甲封神传 #可以任意
+    properties.mail.display.sendname: 富甲封神传 #可以任意
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8

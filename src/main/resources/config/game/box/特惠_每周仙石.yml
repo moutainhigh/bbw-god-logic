@@ -1,0 +1,15 @@
+#箱子标识
+key: 1000
+#箱子描述
+desc: 混沌仙石*1、附赠：夺宝抵用券*1
+#是否随机
+isRandom: false
+#物品
+goods:
+  - item: 60 #道具
+    good: 混沌仙石
+    num: 1
+  - item: 60 #道具
+    good: 夺宝抵用券
+    num: 1
+...

@@ -1,0 +1,29 @@
+#野地事件
+#CfgYeDiEventEntity
+--- {id: 1,probability: 0,type: 0,name: "无事，打个盹"}
+--- {id: 2,probability: 3,type: 10,name: "鉴于您深得民心，【XX】的富户决定再次向您上缴**份基本税收（24000~18万）",memo: "5～8份"}
+--- {id: 3,probability: 5,type: 10,name: "【XX】人性化的管理制度初见成效，矿场多生产**份【XX元素】进献",memo: "1份"}
+--- {id: 4,probability: 4,type: 10,name: "路边有只小动物很可怜的样子，正要抱走收养，却发现它变成传说中大伙梦寐以求的【四不像】"}
+--- {id: 5,probability: 3,type: 10,name: "运气来了挡也挡不住啊，用弹弓打鸟竟然捕获了临阵逃跑的至宝：【青鸾】"}
+--- {id: 6,probability: 5,type: 10,name: "低头走路有惊喜，捡到**铜钱",memo: "lv*500"}
+--- {id: 7,probability: 6,type: -10,name: "看妲己画像入神，被大兵抓住，需缴纳**保证金",memo: "lv*500［送子观音可避免］"}
+--- {id: 8,probability: 3,type: 10,name: "忽悠路边小白，按市场最高价卖掉身上所有特产"}
+--- {id: 9,probability: 5,type: 10,name: "送迷路的老奶奶回家，赠送你**件特产。",memo: "前20级,1个高级，前60级1~2个高级，60级以上2个高级（获得时显示价值）"}
+--- {id: 10,probability: 5,type: 10,name: "仙人指路，还赠送了个【****】",memo: "（35，35，27，3，0）"}
+--- {id: 11,probability: 5,type: 10,name: "吃了店老板开的小灶，腰不疼了，腿不酸了，今天一气能多走了3步"}
+--- {id: 12,probability: 2,type: -10,name: "被路边大妈忽悠，按市场买入价卖出身上所有特产",memo: "按特产最高比率"}
+--- {id: 13,probability: 5,type: -10,name: "小偷光顾，损失**件特产。",memo: "随机特产，前20级,1个，前60级1~2个，60级以上2个［送子观音可避免］"}
+--- {id: 14,probability: 3,type: -10,name: "此路是有开，此树是我栽……强盗从此过，留下**铜钱方得放行",memo: "lv*1200［送子观音可避免］"}
+--- {id: 15,probability: 5,type: 10,name: "偶遇土豪以**倍收购【**】。您出售了**件。",memo: "随机1种普通特产4倍基本价特卖或1种高级特产2倍基本价卖。无视财神珠效果"}
+--- {id: 16,probability: 5,type: 10,name: "从神仙老爷那获得了个幸运号，在猜猜猜中获得***铜钱",memo: "（10,60）*360"}
+--- {id: 17,probability: 5,type: 0,name: "传送",memo: "到区域外任意地点，但不触发该地点的玩法"}
+--- {id: 18,probability: 5,type: 0,name: "押押乐元素提示",memo: "提示今日押押乐必出的元素之一"}
+--- {id: 19,probability: 5,type: 20,name: "仙人授业",memo: "随机在玩家卡牌库中选择一张卡牌，为其增加10%的经验，数值去尾取整千（下限1000点，上限20000点）初始等待时间10分钟，每增加1000点经验增加5分钟。"}
+--- {id: 20,probability: 6,type: 20,name: "云游商人",memo: "玩家可在规定时间内购买折扣道具。规定时间截止（60分钟）或购买了商品，该奇遇将在奇遇总览界面消失。"}
+--- {id: 21,probability: 3,type: 10,name: "竹间之风",memo: "竹间偶遇风神显圣，顿生清凉之感。下回合摇骰子必为最大点数。"}
+--- {id: 22,probability: 3,type: 0,name: "天师借法",memo: "遇妖祟挡道，使用天师借法随机召唤神仙前来，但最终结果往往扑朔迷离。"}
+--- {id: 23,probability: 2,type: 0,name: "造化弄人",memo: "修炼仙术有所顿悟，但需战胜心魔才可成就大道。"}
+--- {id: 24,probability: 2,type: 0,name: "匪患猖獗",memo: "纣王禁卫军乔装为强盗四处打劫。下一次野战必定为精英野怪。"}
+--- {id: 25,probability: 2,type: 10,name: "诸神遗迹",memo: "发现上古战场，幸运的获得战利品。"}
+--- {id: 26,probability: 2,type: 0,name: "回城",memo: "随机传送回任意已占领城池。"}
+--- {id: 27,probability: 1,type: -10,name: "寸步难行",memo: "路过沼泽地，下回合步数强制为1步。"}

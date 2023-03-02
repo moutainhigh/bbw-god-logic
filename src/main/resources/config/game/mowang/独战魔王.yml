@@ -1,0 +1,114 @@
+# 独占魔王配置
+#CfgAloneMaou
+---
+key: 唯一
+beginTime: 123000 #开始时间
+endTime: 122959 #结束时间
+resetTimesLimit: 1 #可重置次数
+resetGold: 500 #重置元宝
+freeAttackTimes: 25 #免费攻击次数
+cardLimit: 3 #参战卡牌数
+maous: #魔王层级数据
+  - {id: 1,level: 1,blood: 10000,shieldDefence: 0,shield: 0,mauSkills:[99999],limitRound: 99999}
+  - {id: 2,level: 2,blood: 30000,shieldDefence: 0,shield: 0,mauSkills:[200],limitRound: 99999}
+  - {id: 3,level: 3,blood: 50000,shieldDefence: 0,shield: 0,mauSkills:[301],limitRound: 99999}
+  - {id: 4,level: 4,blood: 80000,shieldDefence: 0,shield: 0,mauSkills:[401],limitRound: 99999}
+  - {id: 5,level: 5,blood: 100000,shieldDefence: 0,shield: 0,mauSkills:[402],limitRound: 99999}
+  - {id: 6,level: 6,blood: 130000,shieldDefence: 0,shield: 0,mauSkills:[502],limitRound: 15}
+  - {id: 7,level: 7,blood: 160000,shieldDefence: 0,shield: 0,mauSkills:[100],limitRound: 15}
+  - {id: 8,level: 8,blood: 200000,shieldDefence: 0,shield: 0,mauSkills:[503],limitRound: 15}
+  - {id: 9,level: 9,blood: 200000,shieldDefence: 0,shield: 0,mauSkills:[302],limitRound: 15}
+  - {id: 10,level: 10,blood: 200000,shieldDefence: 0,shield: 50000,mauSkills:[503,501,504],limitRound: 20}
+maouDiceProbs: #彩蛋获得魔王骰子概率
+  - {minAccBlood: 0,maxAccBlood: 59999,prob: 0}
+  - {minAccBlood: 60000,maxAccBlood: 79999,prob: 3}
+  - {minAccBlood: 80000,maxAccBlood: 99999,prob: 6}
+  - {minAccBlood: 100000,maxAccBlood: 119999,prob: 10}
+  - {minAccBlood: 120000,maxAccBlood: 139999,prob: 15}
+  - {minAccBlood: 140000,maxAccBlood: 159999,prob: 20}
+  - {minAccBlood: 160000,maxAccBlood: 199999,prob: 25}
+  - {minAccBlood: 200000,maxAccBlood: 999999,prob: 100}
+maouLevelAwards: #魔王层级奖励
+  - {maouLevel: 1, type: 10, awards: [{item: 20,num: 10000}]}
+  - {maouLevel: 1, type: 20, awards: [{item: 20,num: 10000}]}
+  - {maouLevel: 1, type: 30, awards: [{item: 20,num: 10000}]}
+  - {maouLevel: 1, type: 40, awards: [{item: 20,num: 10000}]}
+  - {maouLevel: 1, type: 50, awards: [{item: 20,num: 10000}]}
+
+  - {maouLevel: 2, type: 10, awards: [{awardId: 10020,item: 60,num: 2}]}
+  - {maouLevel: 2, type: 20, awards: [{awardId: 10020,item: 60,num: 2}]}
+  - {maouLevel: 2, type: 30, awards: [{awardId: 10020,item: 60,num: 2}]}
+  - {maouLevel: 2, type: 40, awards: [{awardId: 10020,item: 60,num: 2}]}
+  - {maouLevel: 2, type: 50, awards: [{awardId: 10020,item: 60,num: 2}]}
+
+  - {maouLevel: 3, type: 10, awards: [{awardId: 10210,item: 60,num: 10}]}
+  - {maouLevel: 3, type: 20, awards: [{awardId: 10210,item: 60,num: 10}]}
+  - {maouLevel: 3, type: 30, awards: [{awardId: 10210,item: 60,num: 10}]}
+  - {maouLevel: 3, type: 40, awards: [{awardId: 10210,item: 60,num: 10}]}
+  - {maouLevel: 3, type: 50, awards: [{awardId: 10210,item: 60,num: 10}]}
+
+  - {maouLevel: 4, type: 10, awards: [{item: 20,num: 50000}]}
+  - {maouLevel: 4, type: 20, awards: [{item: 20,num: 50000}]}
+  - {maouLevel: 4, type: 30, awards: [{item: 20,num: 50000}]}
+  - {maouLevel: 4, type: 40, awards: [{item: 20,num: 50000}]}
+  - {maouLevel: 4, type: 50, awards: [{item: 20,num: 50000}]}
+
+  - {maouLevel: 5, type: 10, awards: [{awardId: 10210,item: 60,num: 30}]}
+  - {maouLevel: 5, type: 20, awards: [{awardId: 10210,item: 60,num: 30}]}
+  - {maouLevel: 5, type: 30, awards: [{awardId: 10210,item: 60,num: 30}]}
+  - {maouLevel: 5, type: 40, awards: [{awardId: 10210,item: 60,num: 30}]}
+  - {maouLevel: 5, type: 50, awards: [{awardId: 10210,item: 60,num: 30}]}
+
+  - {maouLevel: 6, type: 10, awards: [{awardId: 10180,item: 60,num: 1}]}
+  - {maouLevel: 6, type: 20, awards: [{awardId: 10180,item: 60,num: 1}]}
+  - {maouLevel: 6, type: 30, awards: [{awardId: 10180,item: 60,num: 1}]}
+  - {maouLevel: 6, type: 40, awards: [{awardId: 10180,item: 60,num: 1}]}
+  - {maouLevel: 6, type: 50, awards: [{awardId: 10180,item: 60,num: 1}]}
+
+  - {maouLevel: 7, type: 10, awards: [{awardId: 10210,item: 60,num: 50}]}
+  - {maouLevel: 7, type: 20, awards: [{awardId: 10210,item: 60,num: 50}]}
+  - {maouLevel: 7, type: 30, awards: [{awardId: 10210,item: 60,num: 50}]}
+  - {maouLevel: 7, type: 40, awards: [{awardId: 10210,item: 60,num: 50}]}
+  - {maouLevel: 7, type: 50, awards: [{awardId: 10210,item: 60,num: 50}]}
+
+  - {maouLevel: 8, type: 10, awards: [{awardId: 139,item: 40,num: 1}]}
+  - {maouLevel: 8, type: 20, awards: [{awardId: 241,item: 40,num: 1}]}
+  - {maouLevel: 8, type: 30, awards: [{awardId: 343,item: 40,num: 1}]}
+  - {maouLevel: 8, type: 40, awards: [{awardId: 439,item: 40,num: 1}]}
+  - {maouLevel: 8, type: 50, awards: [{awardId: 539,item: 40,num: 1}]}
+
+  - {maouLevel: 9, type: 10, awards: [{awardId: 10210,item: 60,num: 70}]}
+  - {maouLevel: 9, type: 20, awards: [{awardId: 10210,item: 60,num: 70}]}
+  - {maouLevel: 9, type: 30, awards: [{awardId: 10210,item: 60,num: 70}]}
+  - {maouLevel: 9, type: 40, awards: [{awardId: 10210,item: 60,num: 70}]}
+  - {maouLevel: 9, type: 50, awards: [{awardId: 10210,item: 60,num: 70}]}
+
+  - {maouLevel: 10, type: 10, awards: [{awardId: 570,item: 60,num: 3}]}
+  - {maouLevel: 10, type: 20, awards: [{awardId: 570,item: 60,num: 3}]}
+  - {maouLevel: 10, type: 30, awards: [{awardId: 570,item: 60,num: 3}]}
+  - {maouLevel: 10, type: 40, awards: [{awardId: 570,item: 60,num: 3}]}
+  - {maouLevel: 10, type: 50, awards: [{awardId: 570,item: 60,num: 3}]}
+effectSkills: #生效的技能:强金、强木、强水、强火、强土、联攻、嗜血、暴击、道法、金刚、神剑、太极
+  - 3119
+  - 3120
+  - 3121
+  - 3122
+  - 3123
+  - 2201
+  - 4203
+  - 4104
+  - 3126
+  - 3001
+  - 4114
+  - 4116
+  #新增 鼓舞 激励 自在
+  - 3136
+  - 3156
+  - 3004
+
+effectGroups: #生效的组合：黄家军、陈塘家、梅山七怪、九曲黄河阵
+  - 2002
+  - 2003
+  - 2010
+  - 2004
+...

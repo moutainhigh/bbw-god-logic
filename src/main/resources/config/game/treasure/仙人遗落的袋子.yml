@@ -1,0 +1,41 @@
+#仙人遗落的袋子相关配置
+#注：
+#其中需求前1~3次必定出388元宝，前4~7次必定出588元宝。
+#必得未拥有四星卡牌：仅限0类、1类、2类
+#必得未拥有普五卡牌：仅限普五
+setting:
+  - {id: 3,minIndex: 1,maxIndex: 3}
+  - {id: 4,minIndex: 4,maxIndex: 7}
+awardsPool:
+  - {id: 1,name: 元宝*88,awards:[{item: 10,num: 88}]}
+  - {id: 2,name: 元宝*188,awards:[{item: 10,num: 188}]}
+  - {id: 3,name: 元宝*388,awards:[{item: 10,num: 388}]}
+  - {id: 4,name: 元宝*588,awards:[{item: 10,num: 588}]}
+  - {id: 5,name: 必得未拥有四星卡牌*1,awards:[{item: 40,num: 1,star: 4,isSpecial: 1,isNotOwn: 1}]}
+  - {id: 6,name: 必得未拥有四星卡牌*1,awards:[{item: 40,num: 1,star: 4,isSpecial: 1,isNotOwn: 1}]}
+  - {id: 7,name: 必得未拥有四星卡牌*1,awards:[{item: 40,num: 1,star: 4,isSpecial: 1,isNotOwn: 1}]}
+  - {id: 8,name: 必得未拥有四星卡牌*1,awards:[{item: 40,num: 1,star: 4,isSpecial: 1,isNotOwn: 1}]}
+  - {id: 9,name: 必得未拥有普五卡牌*1,awards:[{item: 40,num: 1,star: 5,isSpecial: 0,isNotOwn: 1}]}
+  - {id: 10,name: 仙之源*1,awards:[{item: 60,awardId: 10110,num: 1}]}
+  - {id: 11,name: 仙之源*1,awards:[{item: 60,awardId: 10110,num: 1}]}
+  - {id: 12,name: 仙之源*2,awards:[{item: 60,awardId: 10110,num: 2}]}
+  - {id: 13,name: 仙之源*3,awards:[{item: 60,awardId: 10110,num: 3}]}
+  - {id: 14,name: 夺宝抵用券*1,awards:[{item: 60,awardId: 11090,num: 1}]}
+  - {id: 15,name: 夺宝抵用券*1,awards:[{item: 60,awardId: 11090,num: 1}]}
+  - {id: 16,name: 夺宝抵用券*2,awards:[{item: 60,awardId: 11090,num: 2}]}
+  - {id: 17,name: 夺宝抵用券*3,awards:[{item: 60,awardId: 11090,num: 3}]}
+  - {id: 18,name: 魂源*3,awards:[{item: 60,awardId: 10180,num: 3}]}
+  - {id: 19,name: 魂源*3,awards:[{item: 60,awardId: 10180,num: 3}]}
+  - {id: 20,name: 魂源*5,awards:[{item: 60,awardId: 10180,num: 5}]}
+  - {id: 21,name: 魂源*8,awards:[{item: 60,awardId: 10180,num: 8}]}
+  - {id: 22,name: 唤神符*1,awards:[{item: 60,awardId: 10170,num: 1}]}
+  - {id: 23,name: 聚仙旗*2,awards:[{item: 60,awardId: 10010,num: 2}]}
+  - {id: 24,name: 幸运奖券*1,awards:[{item: 60,awardId: 11100,num: 1}]}
+  - {id: 25,name: 山河社稷图*1,awards:[{item: 60,awardId: 60,num: 1}]}
+  - {id: 26,name: 传奇卷轴宝箱*1,awards:[{item: 60,awardId: 11060,num: 1}]}
+  - {id: 27,name: 风火轮*2,awards:[{item: 60,awardId: 110,num: 2}]}
+  - {id: 28,name: 九龙神火罩*1,awards:[{item: 60,awardId: 260,num: 1}]}
+  - {id: 29,name: 番天印*1,awards:[{item: 60,awardId: 210,num: 1}]}
+  - {id: 30,name: 落宝金钱*1,awards:[{item: 60,awardId: 30,num: 1}]}
+
+

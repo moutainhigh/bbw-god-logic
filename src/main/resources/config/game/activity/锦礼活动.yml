@@ -1,0 +1,39 @@
+#CfgBrocadeGiftConfig
+#锦礼活动配置文件
+key: 唯一
+#可投注的次数上限
+maxBetTimes: 5
+#对应轮次及奖励
+turns:
+
+  - {id: 1010, turn: 1, type: 10, begin: 2023-02-09 00:00:00, beginDraw: 2023-02-09 00:00:00, end: 2023-02-09 21:00:00,drawNeedTreasure: 50207,num: 3,awards: [{awardId: 11065,item: 60,num: 1}]}
+  - {id: 6040, turn: 2, type: 60, begin: 2023-02-09 21:00:00, beginDraw: 2023-02-09 21:05:00, end: 2023-02-11 21:00:00,drawNeedTreasure: 50207,num: 3,awards: [{awardId: 11065,item: 60,num: 1}]}
+  - {id: 6050, turn: 3, type: 60, begin: 2023-02-11 21:00:00, beginDraw: 2023-02-11 21:05:00, end: 2023-02-13 21:00:00,drawNeedTreasure: 50207,num: 3,awards: [{awardId: 11065,item: 60,num: 1}]}
+  - {id: 6060, turn: 4, type: 60, begin: 2023-02-13 21:00:00, beginDraw: 2023-02-13 21:05:00, end: 2023-02-14 21:00:00,drawNeedTreasure: 50207,num: 3,awards: [{awardId: 11065,item: 60,num: 1}]}
+
+  - {id: 2010, turn: 1, type: 20, begin: 2023-02-09 00:00:00, beginDraw: 2023-02-09 00:00:00, end: 2023-02-09 20:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50132,item: 60,num: 1}]}
+  - {id: 7040, turn: 2, type: 70, begin: 2023-02-09 20:00:00, beginDraw: 2023-02-09 20:05:00, end: 2023-02-11 20:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50132,item: 60,num: 1}]}
+  - {id: 7050, turn: 3, type: 70, begin: 2023-02-11 20:00:00, beginDraw: 2023-02-11 20:05:00, end: 2023-02-13 20:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50132,item: 60,num: 1}]}
+  - {id: 7060, turn: 4, type: 70, begin: 2023-02-13 20:00:00, beginDraw: 2023-02-13 20:05:00, end: 2023-02-14 20:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50132,item: 60,num: 1}]}
+
+  - {id: 3010, turn: 1, type: 30, begin: 2023-02-09 00:00:00, beginDraw: 2023-02-09 00:00:00, end: 2023-02-09 19:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50011,item: 60,num: 1}]}
+  - {id: 8040, turn: 2, type: 80, begin: 2023-02-09 19:00:00, beginDraw: 2023-02-09 19:05:00, end: 2023-02-11 19:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50011,item: 60,num: 1}]}
+  - {id: 8050, turn: 3, type: 80, begin: 2023-02-11 19:00:00, beginDraw: 2023-02-11 19:05:00, end: 2023-02-13 19:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50011,item: 60,num: 1}]}
+  - {id: 8060, turn: 4, type: 80, begin: 2023-02-13 19:00:00, beginDraw: 2023-02-13 19:05:00, end: 2023-02-14 19:00:00,drawNeedTreasure: 50207,num: 2,awards: [{awardId: 50011,item: 60,num: 1}]}
+
+  - {id: 4010, turn: 1, type: 40, begin: 2023-02-09 00:00:00, beginDraw: 2023-02-09 00:00:00, end: 2023-02-09 18:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 11060,item: 60,num: 1}]}
+  - {id: 9040, turn: 2, type: 90, begin: 2023-02-09 18:00:00, beginDraw: 2023-02-09 18:05:00, end: 2023-02-11 18:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 11060,item: 60,num: 1}]}
+  - {id: 9050, turn: 3, type: 90, begin: 2023-02-11 18:00:00, beginDraw: 2023-02-11 18:05:00, end: 2023-02-13 18:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 11060,item: 60,num: 1}]}
+  - {id: 9060, turn: 4, type: 90, begin: 2023-02-13 18:00:00, beginDraw: 2023-02-13 18:05:00, end: 2023-02-14 18:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 11060,item: 60,num: 1}]}
+
+  - {id: 5010, turn: 1, type: 50, begin: 2023-02-09 00:00:00, beginDraw: 2023-02-09 00:00:00, end: 2023-02-09 17:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 10110,item: 60,num: 9}]}
+  - {id: 10040, turn: 2, type: 100, begin: 2023-02-09 17:00:00, beginDraw: 2023-02-09 17:05:00, end: 2023-02-11 17:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 10110,item: 60,num: 9}]}
+  - {id: 10050, turn: 3, type: 100, begin: 2023-02-11 17:00:00, beginDraw: 2023-02-11 17:05:00, end: 2023-02-13 17:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 10110,item: 60,num: 9}]}
+  - {id: 10060, turn: 4, type: 100, begin: 2023-02-13 17:00:00, beginDraw: 2023-02-13 17:05:00, end: 2023-02-14 17:00:00,drawNeedTreasure: 50207,num: 1,awards: [{awardId: 10110,item: 60,num: 9}]}
+#参与奖
+participateAwards:
+  - {prob: 2,awards: [{awardId: 11090,item: 60,num: 1}]}
+  - {prob: 8,awards: [{awardId: 530,item: 60,num: 1}]}
+  - {prob: 10,awards: [{awardId: 11010,item: 60,num: 3}]}
+  - {prob: 20,awards: [{awardId: 50158,item: 60,num: 1}]}
+  - {prob: 60,awards: [{awardId: 10180,item: 60,num: 1}]}

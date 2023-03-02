@@ -1,0 +1,316 @@
+#卡牌
+#CfgCardEntity
+#金属性
+--- {id: 101,canDeify: true,name: 姜子牙,type: 10,star: 5,attack: 600,hp: 710,zeroSkill: 3102,fiveSkill: 3113,tenSkill: 3104,group: 0,way: 0,comment: "中国历史上的头衔是杰出政治家、军事家和谋略家。在封神大陆中是封神榜名单的唯一官方权威发言人。\n获得途径：金之池、太一府、女娲庙"}
+--- {id: 102,canDeify: true,name: 杨戬,type: 10,star: 5,attack: 700,hp: 820,zeroSkill: 4001,fiveSkill: 1005,tenSkill: 4501,group: 0,way: 1,comment: "姜子牙的师侄，擅长七十三变，最擅长的是一秒钟变帅哥。\n获得途径：金之池"}
+--- {id: 103,name: 姬发,type: 10,star: 4,attack: 390,hp: 530,zeroSkill: 1003,fiveSkill: 0,tenSkill: 3107,group: 0,way: 0,comment: "即周武王，西周的创建者，以实力证明幸运数字8还是有用的。"}
+--- {id: 104,name: 雷震子,type: 10,star: 4,attack: 490,hp: 450,zeroSkill: 3108,fiveSkill: 101,tenSkill: 4301,group: 0,way: 0,comment: "姬昌第一百子，因误食转基因产品（仙杏），生出风雷双翅。"}
+--- {id: 105,name: 李靖,type: 10,star: 4,attack: 420,hp: 540,zeroSkill: 3103,fiveSkill: 3112,tenSkill: 3001,group: 2003,way: 4,comment: "山海关总兵，传说中的托塔天王。到他的塔里免费观光是每个妖精的梦想。"}
+--- {id: 106,canDeify: true,name: 韦护,type: 10,star: 4,attack: 440,hp: 550,zeroSkill: 4112,fiveSkill: 4113,tenSkill: 0,group: 0,way: 1,comment: "金庭山玉屋洞道行天尊的弟子，辅助西周灭商，肉身成圣，现已长驻各大寺庙成为首席护法。\n获得途径：金之池"}
+--- {id: 107,name: 黄天化,type: 10,star: 4,attack: 480,hp: 520,zeroSkill: 4301,fiveSkill: 0,tenSkill: 4112,group: 2002,way: 0,comment: "黄飞虎长子，用攒心钉战胜四大天王一战成名。"}
+--- {id: 108,name: 周公旦,type: 10,star: 4,attack: 370,hp: 500,zeroSkill: 1090,fiveSkill: 3103,tenSkill: 3116,group: 0,way: 4,comment: "不喜欢有人叫他的正式名字——姬旦，其实他的志向一直是做个圣人。"}
+--- {id: 109,name: 金吒,type: 10,star: 3,attack: 310,hp: 360,zeroSkill: 3112,fiveSkill: 0,tenSkill: 3201,group: 2003,way: 0,comment: "李靖长子，最早习得老爸枷锁绝技。"}
+--- {id: 110,name: 武吉,type: 10,star: 3,attack: 290,hp: 360,zeroSkill: 3102,fiveSkill: 4113,tenSkill: 0,group: 0,way: 0,comment: "因被姜子牙看到，几年内从樵夫到将军，励志典范。"}
+--- {id: 111,name: 黄天祥,type: 10,star: 3,attack: 320,hp: 360,zeroSkill: 4301,fiveSkill: 0,tenSkill: 4201,group: 2002,way: 0,comment: "黄飞虎之子，无法术的超级猛将，拥有唯一以凡人击败仙人的战绩。"}
+--- {id: 112,name: 彻地夫人,type: 10,star: 3,attack: 270,hp: 330,zeroSkill: 3201,fiveSkill: 1202,tenSkill: 3121,group: 0,way: 0,comment: "窦荣之妻，武艺超群，且智谋不凡，封神授月魁星。"}
+--- {id: 113,name: 姬伯邑考,type: 10,star: 3,attack: 240,hp: 310,zeroSkill: 1090,fiveSkill: 1202,tenSkill: 0,group: 0,way: 0,comment: "周文王的嫡长子，被封神后，成为玉皇大帝的原型。"}
+--- {id: 114,name: 南宫适,type: 10,star: 3,attack: 260,hp: 330,zeroSkill: 4112,fiveSkill: 0,tenSkill: 4203,group: 0,way: 4,comment: "西周开国功臣，高级武官，眼光都能秒人。"}
+--- {id: 115,name: 金睛兽,type: 10,star: 2,attack: 190,hp: 240,zeroSkill: 101,fiveSkill: 0,tenSkill: 3124,group: 0,way: 0,comment: "曾经在西歧作为一种很牛叉的异兽被膜拜，后被北崇名将崇黑虎抓去当坐骑。"}
+--- {id: 116,name: 白鹤仙子,type: 10,star: 2,attack: 170,hp: 220,zeroSkill: 101,fiveSkill: 0,tenSkill: 3103,group: 0,way: 0,comment: "选择白鹤作为宠物后果然显得更具品味。"}
+--- {id: 117,name: 护周上将,type: 10,star: 2,attack: 180,hp: 190,zeroSkill: 4301,fiveSkill: 0,tenSkill: 4201,group: 0,way: 0,comment: "西歧能统军的士官，只有穿得上厚重的盔甲才能授此殊荣。"}
+--- {id: 118,name: 虎贲卫士,type: 10,star: 2,attack: 180,hp: 180,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "西歧步兵中的高级兵种，经常集团作战。"}
+--- {id: 119,name: 散宜生,type: 10,star: 2,attack: 160,hp: 200,zeroSkill: 3103,fiveSkill: 0,tenSkill: 1090,group: 0,way: 0,comment: "周文王的智多星。"}
+--- {id: 120,name: 昆仑山散仙,type: 10,star: 2,attack: 150,hp: 180,zeroSkill: 101,fiveSkill: 0,tenSkill: 3113,group: 0,way: 0,comment: "选择在空气质量极佳的昆仑山修行果然事半功倍。"}
+--- {id: 121,name: 西岐歌姬,type: 10,star: 1,attack: 90,hp: 110,zeroSkill: 0,fiveSkill: 3106,tenSkill: 0,group: 0,way: 0,comment: "只有商业发达的西歧才能成为高雅艺术发展的土壤。"}
+--- {id: 122,name: 修行道士,type: 10,star: 1,attack: 110,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 1004,group: 0,way: 0,comment: "低调奢华有内涵的修行者。"}
+--- {id: 123,name: 天马,type: 10,star: 1,attack: 120,hp: 110,zeroSkill: 101,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "被西歧人驯服后成为神奇的飞行部队。"}
+--- {id: 124,name: 西岐兵,type: 10,star: 1,attack: 100,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 1202,group: 0,way: 0,comment: "西歧国普通士兵，教官说既然来造反就不会怕死了。"}
+--- {id: 125,name: 窦荣,type: 10,star: 4,attack: 510,hp: 660,zeroSkill: 4203,fiveSkill: 4202,tenSkill: 4201,group: 0,way: 2,comment: "游魂关的总兵官，超级肌肉男，传说中的武曲星。\n获得途径：签到卡、万物卡池"}
+--- {id: 126,name: 姬昌,type: 10,star: 5,attack: 980,hp: 900,zeroSkill: 1003,fiveSkill: 2201,tenSkill: 3111,group: 0,way: 4,comment: "周文王，西歧的统治者，善长八卦，对封神大陆政治格局不止猜中了开头，还猜中了结果。\n获得途径：【唯一途径】完成成就·一统江山"}
+--- {id: 127,canDeify: true,name: 恶来,type: 10,star: 4,attack: 420,hp: 570,zeroSkill: 1202,fiveSkill: 0,tenSkill: 4111,group: 2015,way: 4,comment: "商纣王的臣子，蜚廉之子，以勇力而闻名。后世三国典韦有古之恶来之称。\n【唯一途径】奇珍-礼包"}
+--- {id: 128,canDeify: true,name: 蜚廉,type: 10,star: 4,attack: 510,hp: 450,zeroSkill: 4301,fiveSkill: 3002,tenSkill: 0,group: 2015,way: 4,comment: "恶来之父，也是秦朝人的祖先。\n【唯一途径】奇珍-礼包"}
+--- {id: 129,name: 日游神,type: 10,star: 4,attack: 450,hp: 530,zeroSkill: 1090,fiveSkill: 3113,tenSkill: 4501,group: 0,way: 2,comment: "她总在白天出现，而且从不接受搭讪。传说碰到她的人会交好运，也有一种说法能遇上她本身就是好运了。\n获得途径：签到卡、万物卡池"}
+--- {id: 130,name: 鱼凫,type: 10,star: 4,attack: 470,hp: 580,zeroSkill: 3103,fiveSkill: 4203,tenSkill: 3002,group: 0,way: 4,comment: "传说中的西方第二帝，继往开来的领路人，带领西蜀国走向新时代。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 131,name: 黄龙真人,type: 10,star: 4,attack: 450,hp: 520,zeroSkill: 3103,fiveSkill: 3101,tenSkill: 2201,group: 0,way: 2,comment: "阐教十二仙之一，性格外向，非常注重阐教尊严。每次大战基本都是提前到场。\n获得途径：首次充值奖励"}
+--- {id: 132,name: 道行天尊,type: 10,star: 5,attack: 540,hp: 690,zeroSkill: 3125,fiveSkill: 3001,tenSkill: 3126,group: 0,way: 4,comment: "阐教十二仙之一，其刻苦修练的主业是如何让队友更厉害。\n获得途径：【唯一途径】完成成就·师之尊者"}
+--- {id: 133,name: 金光仙,type: 10,star: 4,attack: 470,hp: 540,zeroSkill: 4112,fiveSkill: 3108,tenSkill: 4202,group: 0,way: 2,comment: "通天教主弟子，原型为金毛犼。在封神之战中战败，被慈航道人抓去当了坐骑。\n获得途径：签到卡、万物卡池"}
+--- {id: 134,name: 金箍仙,type: 10,star: 4,attack: 460,hp: 550,zeroSkill: 1004,fiveSkill: 4001,tenSkill: 3112,group: 0,way: 2,comment: "截教通天教主座下弟子之一，万仙阵中用金箍套住黄龙真人。\n获得途径：签到卡、万物卡池"}
+--- {id: 135,name: 刺客,type: 10,star: 1,attack: 130,hp: 100,zeroSkill: 0,fiveSkill: 4104,tenSkill: 0,group: 0,way: 4,comment: "在一个伸手不见五指的夜晚，我悄悄带走你的脑袋。\n获得途径：【唯一途径】商会商店兑换"}
+--- {id: 136,name: 锦鲤,type: 10,star: 2,attack: 180,hp: 180,zeroSkill: 0,fiveSkill: 3201,tenSkill: 101,group: 0,way: 4,comment: "传说，跳过那道龙门我们就会变成龙，这都是龙门口那只爱吃鱼的猫放出的风声。\n获得途径：【唯一途径】商会商店兑换"}
+--- {id: 137,name: 毕环,type: 10,star: 3,attack: 310,hp: 300,zeroSkill: 3201,fiveSkill: 1202,tenSkill: 0,group: 2014,way: 1,comment: "殷洪二龙山所收四天君老四。\n获得途径：金之池"}
+--- {id: 138,name: 辛环,type: 10,star: 3,attack: 320,hp: 320,zeroSkill: 101,fiveSkill: 0,tenSkill: 3107,group: 2016,way: 4,comment: "闻仲手下黄花山四天君之二，可以飞天作战。\n获得途径：【唯一途径】行会商店"}
+--- {id: 139,name: 亢金龙,type: 10,star: 3,attack: 330,hp: 280,zeroSkill: 101,fiveSkill: 0,tenSkill: 2201,group: 0,way: 4,comment: "二十八宿之一，天星下凡。\n获得途径：【唯一途径】独战魔王击败第8层金之魔王"}
+--- {id: 140,name: 虚日鼠,type: 10,star: 1,attack: 90,hp: 80,zeroSkill: 0,fiveSkill: 1090,tenSkill: 0,group: 0,way: 4,comment: "二十八星宿之一，庚子年招财卡。\n获得途径：【唯一途径】2020年春节活动"}
+--- {id: 141,name: 凿齿,type: 10,star: 3,attack: 330,hp: 300,zeroSkill: 1012,fiveSkill: 4114,tenSkill: 4201,group: 2017,way: 4,comment: "剑齿虎好不容易活到上古时期，被后羿射死了。\n获得途径：万仙阵"}
+--- {id: 142,canDeify: true,name: 金睛白虎,type: 10,star: 5,attack: 610,hp: 680,zeroSkill: 1012,fiveSkill: 3009,tenSkill: 3143,group: 2019,way: 4,comment: "白白的老虎，不是你想的那样."}
+--- {id: 143,name: 李奇,type: 10,star: 3,attack: 280,hp: 330,zeroSkill: 3127,fiveSkill: 3009,tenSkill: 1007,group: 2018,way: 4,comment: "吕岳二弟子，可以让人发燥。"}
+--- {id: 144,name: 黄天禄,type: 10,star: 3,attack: 310,hp: 350,zeroSkill: 4117,fiveSkill: 0,tenSkill: 3145,group: 2002,way: 1,comment: "黄飞虎次子，光芒经常被他大哥掩盖。获得途径：金之池"}
+--- {id: 145,name: 龙环,type: 10,star: 3,attack: 310,hp: 330,zeroSkill: 0,fiveSkill: 5002,tenSkill: 3151,group: 0,way: 4,comment: "黄飞虎四大家将之一，死后被封西斗星官。"}
+--- {id: 146,name: 金毛童子,type: 10,star: 2,attack: 190,hp: 210,zeroSkill: 0,fiveSkill: 0,tenSkill: 3148,group: 0,way: 4,comment: "杨戬收服的徒儿。"}
+--- {id: 147,name: 栢鉴,type: 10,star: 4,attack: 430,hp: 510,zeroSkill: 3007,fiveSkill: 1010,tenSkill: 1207,group: 0,way: 4,comment: "原为蚩尤手下游魂，后跟随姜子牙接引魂魄入封神台。"}
+--- {id: 148,name: 乾坤圈精元,type: 10,star: 2,attack: 160,hp: 180,zeroSkill: 3013,fiveSkill: 0,tenSkill: 1201,group: 0,way: 4,comment: "这可是上古神器，藏着沟通阴阳的秘密。（卡牌美工注意，主体要显眼画出乾坤圈）"}
+--- {id: 149,name: 牛金牛,type: 10,star: 1,attack: 120,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 3202,group: 0,way: 4,comment: "二十八星宿之一。牛年下凡。"}
+--- {id: 150,name: 斥候,type: 10,star: 2,attack: 170,hp: 200,zeroSkill: 102,fiveSkill: 4112,tenSkill: 0,group: 0,way: 4,comment: "砍一刀就跑，来追我呀。"}
+--- {id: 151,name: 金眼驼,type: 10,star: 2,attack: 190,hp: 200,zeroSkill: 3127,fiveSkill: 3010,tenSkill: 0,group: 0,way: 4,comment: ""}
+--- {id: 152,name: 普贤真人,type: 10,star: 5,attack: 610,hp: 700,zeroSkill: 4114,fiveSkill: 4451,tenSkill: 3161,group: 0,way: 4,comment: ""}
+--- {id: 153,name: 太颠,type: 10,star: 3,attack: 300,hp: 320,zeroSkill: 4505,fiveSkill: 0,tenSkill: 4501,group: 0,way: 4,comment: "周朝大臣，武王执剑护卫。\n获得途径：【唯一途径】奇珍-战令"}
+--- {id: 154,name: 闳夭,type: 10,star: 3,attack: 290,hp: 300,zeroSkill: 0,fiveSkill: 1207,tenSkill: 3166,group: 0,way: 4,comment: ""}
+--- {id: 155,name: 辛免,type: 10,star: 3,attack: 320,hp: 310,zeroSkill: 0,fiveSkill: 4104,tenSkill: 1020,group: 0,way: 4,comment: ""}
+--- {id: 156,name: 姮娥仙子,type: 10,star: 4,attack: 480,hp: 540,zeroSkill: 3108,fiveSkill: 6002,tenSkill: 6004,group: 0,way: 4,comment: "就是今日传说中的嫦娥，在月亮上很不好惹，不信问猪八戒。"}
+--- {id: 157,name: 地走星,type: 10,star: 3,attack: 280,hp: 320,zeroSkill: 4603,fiveSkill: 102,tenSkill: 0,group: 0,way: 4,comment: "名为顾宗，封神榜七十二天煞之一。\n获得途径：【唯一途径】奇珍-战令"}
+
+#木属性
+--- {id: 201,canDeify: true,name: 哪吒,type: 20,star: 5,attack: 630,hp: 670,zeroSkill: 4201,fiveSkill: 1201,tenSkill: 4301,group: 2003,way: 4,comment: "灵珠子转世，李靖三子，封神大陆的现象级明星，后又在西游记等剧走穴客串。\n获得途径：木之池、太一府、女娲庙"}
+--- {id: 202,name: 句芒,type: 20,star: 5,attack: 530,hp: 1000,zeroSkill: 3108,fiveSkill: 3103,tenSkill: 3201,group: 0,way: 1,comment: "中国远古神话中的木神，热爱和平，也绝不容侵犯。\n获得途径：木之池"}
+--- {id: 203,name: 桃花星,type: 20,star: 4,attack: 350,hp: 620,zeroSkill: 3102,fiveSkill: 3103,tenSkill: 1002,group: 0,way: 0,comment: "即张奎的夫人高兰英，不止貌美如花，而且法术高强。"}
+--- {id: 204,canDeify: true,name: 袁洪,type: 20,star: 4,attack: 450,hp: 630,zeroSkill: 3124,fiveSkill: 3201,tenSkill: 3122,group: 2010,way: 4,comment: "梅山七杰之首，号为灵圣，民间盛传他会七十二变。"}
+--- {id: 205,name: 申公豹,type: 20,star: 4,attack: 350,hp: 550,zeroSkill: 0,fiveSkill: 1002,tenSkill: 3105,group: 0,way: 1,comment: "与姜子牙同拜于元始天尊门下，人生的主要意义就是与姜子牙抬杠并成为其一生的宿敌。\n获得途径：木之池"}
+--- {id: 206,name: 木吒,type: 20,star: 4,attack: 400,hp: 580,zeroSkill: 3102,fiveSkill: 4501,tenSkill: 3112,group: 2003,way: 4,comment: "李靖次子。师从普贤真人，出师较晚，但学艺甚精。"}
+--- {id: 207,name: 游法师,type: 20,star: 4,attack: 390,hp: 580,zeroSkill: 1202,fiveSkill: 3103,tenSkill: 3201,group: 0,way: 0,comment: "外来的和尚会念经，游历四方的法师学来了北方先进的治愈术。"}
+--- {id: 208,name: 魔礼海,type: 20,star: 4,attack: 410,hp: 650,zeroSkill: 0,fiveSkill: 3108,tenSkill: 4001,group: 2006,way: 0,comment: "魔家四将之一，神通广大，手持玉琵琶，封神授多闻天王。"}
+--- {id: 209,name: 琵琶精,type: 20,star: 3,attack: 280,hp: 360,zeroSkill: 4202,fiveSkill: 1002,tenSkill: 3117,group: 2005,way: 4,comment: "玉石琵琶化身的妖怪，与狐狸精和九头雉鸡精一同受女娲命让纣王体验声色犬马的生活。"}
+--- {id: 210,name: 杨森,type: 20,star: 3,attack: 210,hp: 360,zeroSkill: 3102,fiveSkill: 0,tenSkill: 3113,group: 2009,way: 0,comment: "截教门人，西海九龙岛练气士，与王魔、高友乾、李兴霸合称“九龙岛四圣”。"}
+--- {id: 211,name: 常昊,type: 20,star: 3,attack: 240,hp: 350,zeroSkill: 0,fiveSkill: 4001,tenSkill: 3112,group: 2010,way: 0,comment: "梅山七怪之一，万年道行的蛇精，民间传说只有后世的许仙知道她的要害在哪。"}
+--- {id: 212,name: 朱子真,type: 20,star: 3,attack: 230,hp: 390,zeroSkill: 0,fiveSkill: 3001,tenSkill: 4112,group: 2010,way: 0,comment: "梅山七怪之一，从她的身材很少人能看出是只野猪精。"}
+--- {id: 213,name: 顺风耳,type: 20,star: 3,attack: 220,hp: 330,zeroSkill: 4501,fiveSkill: 0,tenSkill: 3113,group: 2008,way: 0,comment: "原是棋盘山上的柳鬼，商纣王手下大将高觉，耳听八方，没有人敢在背后说他坏话。"}
+--- {id: 214,name: 千里眼,type: 20,star: 3,attack: 210,hp: 350,zeroSkill: 3102,fiveSkill: 0,tenSkill: 1004,group: 2008,way: 0,comment: "原是棋盘山上的桃精，商纣王手下大将高明，眼观千里，最烦恼的是看到很多不该看的东西。"}
+--- {id: 215,name: 杨显,type: 20,star: 2,attack: 150,hp: 230,zeroSkill: 3102,fiveSkill: 0,tenSkill: 3112,group: 2010,way: 0,comment: "梅山七怪之一，身为羊怪。只看上半身还是很讨人喜欢的。"}
+--- {id: 216,name: 戴礼,type: 20,star: 2,attack: 160,hp: 220,zeroSkill: 4112,fiveSkill: 3124,tenSkill: 0,group: 2010,way: 0,comment: "梅山七怪之一，是个狗怪，经常冒充老虎。"}
+--- {id: 217,name: 金大升,type: 20,star: 2,attack: 140,hp: 250,zeroSkill: 0,fiveSkill: 3201,tenSkill: 1090,group: 2010,way: 0,comment: "梅山七怪之一，身为野牛精，工作很勤恳。 。"}
+--- {id: 218,name: 吴龙,type: 20,star: 2,attack: 160,hp: 200,zeroSkill: 0,fiveSkill: 3001,tenSkill: 3109,group: 2010,way: 0,comment: "梅山七怪之一，知名蜈蚣精，每天都在发愁赚钱买草鞋。"}
+--- {id: 219,name: 孙天君,type: 20,star: 2,attack: 150,hp: 190,zeroSkill: 4113,fiveSkill: 0,tenSkill: 4202,group: 2001,way: 0,comment: "十绝阵中化血阵阵主。"}
+--- {id: 220,name: 女娲祭祀,type: 20,star: 2,attack: 140,hp: 230,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "女娲神庙中司掌祭祀的女神，越多香火她越是给力。"}
+--- {id: 221,name: 花翎鸟,type: 20,star: 1,attack: 100,hp: 160,zeroSkill: 101,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "碧霄娘娘的坐骑，跟主人一样爱美。"}
+--- {id: 222,name: 白面猿猴,type: 20,star: 1,attack: 110,hp: 150,zeroSkill: 3101,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "伯邑考进贡给纣王的三宝之一，是个得道千年的白猿，能辩人间妖魅。"}
+--- {id: 223,name: 地狮,type: 20,star: 1,attack: 120,hp: 150,zeroSkill: 0,fiveSkill: 0,tenSkill: 4302,group: 0,way: 0,comment: "杨森的坐骑，天生具备钻地奇术。"}
+--- {id: 224,name: 神射手,type: 20,star: 1,attack: 110,hp: 110,zeroSkill: 3102,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "东鲁国训练射法精准的美女成为卫戍部队的主力。"}
+--- {id: 225,name: 羽翼仙,type: 20,star: 4,attack: 420,hp: 610,zeroSkill: 101,fiveSkill: 0,tenSkill: 1008,group: 0,way: 4,comment: "原型是只大鹏雕，有千年道行，真正的“鸟人”。\n获得途径：好友邀请活动"}
+--- {id: 226,name: 姜桓楚,type: 20,star: 5,attack: 880,hp: 1030,zeroSkill: 3201,fiveSkill: 1202,tenSkill: 3111,group: 0,way: 4,comment: "商纣天下八百镇诸侯之首，东伯侯。将东土建设得富强繁华。\n获得途径：【唯一途径】完成成就·广厦万间"}
+--- {id: 227,name: 菡芝仙,type: 20,star: 4,attack: 300,hp: 600,zeroSkill: 3201,fiveSkill: 0,tenSkill: 4115,group: 0,way: 3,comment: "截教门人，隐居于东海金鳌岛，与十天君、三宵娘娘皆为好友，封神授助风神。\n获得途径：暂无获取途径"}
+--- {id: 228,name: 扫把星,type: 20,star: 3,attack: 240,hp: 340,zeroSkill: 3124,fiveSkill: 3201,tenSkill: 1204,group: 0,way: 1,comment: "即姜子牙之妻马氏，成为不祥的代名词。\n获得途径：万物卡池"}
+--- {id: 229,name: 余化,type: 20,star: 4,attack: 460,hp: 550,zeroSkill: 4001,fiveSkill: 4112,tenSkill: 4203,group: 0,way: 2,comment: "汜水关副将，人送外号七首将军，可称封神榜上第一神刀。\n获得途径：签到卡、万物卡池"}
+--- {id: 230,name: 蚕丛,type: 20,star: 4,attack: 410,hp: 660,zeroSkill: 3103,fiveSkill: 4202,tenSkill: 2201,group: 0,way: 2,comment: "传说中的西方大帝，独具慧眼地发现原来蚕丝还能做丝绸。\n获得途径：签到卡、万物卡池"}
+--- {id: 231,name: 灵宝法师,type: 20,star: 4,attack: 400,hp: 600,zeroSkill: 3102,fiveSkill: 3124,tenSkill: 3201,group: 0,way: 2,comment: "阐教十二哪吒一，愣是没有收过弟子，也许法宝就是他的弟子吧。\n获得途径：签到卡、万物卡池"}
+--- {id: 232,name: 白泽,type: 20,star: 4,attack: 430,hp: 510,zeroSkill: 4203,fiveSkill: 4001,tenSkill: 1201,group: 0,way: 2,comment: "昆仑圣兽，每次出现都意味着圣人出现。\n获得途径：签到卡、万物卡池"}
+--- {id: 233,name: 毕方,type: 20,star: 4,attack: 420,hp: 530,zeroSkill: 3109,fiveSkill: 3110,tenSkill: 3117,group: 0,way: 4,comment: "中国古代传说中的火灾之兆。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 234,name: 灵牙仙,type: 20,star: 4,attack: 430,hp: 680,zeroSkill: 4201,fiveSkill: 4001,tenSkill: 3108,group: 0,way: 2,comment: "在万仙阵中败给普贤真人，南极仙翁将其打回黄牙老象的原型，赐给普贤真人当坐骑。\n获得途径：签到卡、万物卡池"}
+--- {id: 235,name: 毗卢仙,type: 20,star: 4,attack: 410,hp: 670,zeroSkill: 3102,fiveSkill: 1004,tenSkill: 3124,group: 0,way: 2,comment: "通天教主门下，实力不明，被西方教主收复。\n获得途径：签到卡、万物卡池"}
+--- {id: 236,canDeify: true,name: 孟章苍龙,type: 20,star: 5,attack: 580,hp: 950,zeroSkill: 101,fiveSkill: 3201,tenSkill: 4104,group: 2019,way: 0,comment: "金銮火凤是最强云台尊者？那是你还不知道我这来自东方的神秘力量。\n获得途径：【唯一途径】太一府、女娲庙"}
+--- {id: 237,name: 刘甫,type: 20,star: 3,attack: 280,hp: 350,zeroSkill: 0,fiveSkill: 3131,tenSkill: 1203,group: 2014,way: 1,comment: "殷洪二龙山所收四天君老二。\n获得途径：木之池"}
+--- {id: 238,name: 太鸾,type: 20,star: 3,attack: 300,hp: 300,zeroSkill: 0,fiveSkill: 4301,tenSkill: 4113,group: 0,way: 0,comment: "邓九公麾下的先行官，发起狠来谁也打不过"}
+--- {id: 239,name: 姜文焕,type: 20,star: 4,attack: 500,hp: 510,zeroSkill: 4104,fiveSkill: 4113,tenSkill: 4301,group: 0,way: 4,comment: "姜桓楚之子，年轻气盛，千战千胜，纣王最头疼的克星。\n获得途径：【唯一途径】商会商店兑换"}
+--- {id: 240,name: 张节,type: 20,star: 3,attack: 260,hp: 360,zeroSkill: 2201,fiveSkill: 4201,tenSkill: 0,group: 2016,way: 4,comment: "闻仲手下黄花山四天君之三。\n获得途径：【唯一途径】行会商店兑换"}
+--- {id: 241,name: 角木蛟,type: 20,star: 3,attack: 250,hp: 360,zeroSkill: 3130,fiveSkill: 0,tenSkill: 2201,group: 0,way: 4,comment: "二十八宿之一，天星下凡。\n获得途径：【唯一途径】独战魔王击败第8层木之魔王"}
+--- {id: 242,name: 女娲化蛇,type: 20,star: 5,attack: 700,hp: 990,zeroSkill: 4104,fiveSkill: 4115,tenSkill: 4111,group: 0,way: 4,comment: "她来自远古，是最终大BOSS的化身。\n获得途径：【唯一途径】完成成就·女娲化蛇"}
+--- {id: 243,name: 女娲灵守,type: 20,star: 4,attack: 400,hp: 680,zeroSkill: 5001,fiveSkill: 4501,tenSkill: 3133,group: 0,way: 4,comment: "女娲庙中的神秘守卫，当你要在庙墙上题诗的时候她就会出来教训你。\n获得途径：【唯一途径】2020年春节活动"}
+--- {id: 244,name: 云霞兽,type: 20,star: 2,attack: 150,hp: 220,zeroSkill: 101,fiveSkill: 102,tenSkill: 0,group: 0,way: 4,comment: "清虚道德真君送给杨任的神兽，可自生云霞，特别拉风。\n获得途径：【唯一途径】完成成就·封神挚友"}
+--- {id: 245,name: 修蛇,type: 20,star: 3,attack: 220,hp: 380,zeroSkill: 5001,fiveSkill: 1205,tenSkill: 1201,group: 2017,way: 4,comment: "上古时期后羿射死的六怪之一，主要特点就是长。\n获得途径：【唯一途径】万现阵"}
+--- {id: 246,name: 苏全忠,type: 20,star: 3,attack: 340,hp: 350,zeroSkill: 4117,fiveSkill: 3154,tenSkill: 0,group: 0,way: 1,comment: "苏护之子，有万夫不当之勇。\n获得途径：木之池"}
+--- {id: 247,canDeify: true,name: 玉鼎真人,type: 20,star: 5,attack: 580,hp: 780,zeroSkill: 3006,fiveSkill: 4501,tenSkill: 3142,group: 0,way: 4,comment: "杨戬之师，阐教十二仙之一，传授杨戬变幻之术。\n获得途径：【唯一途径】许愿池卡牌"}
+--- {id: 248,name: 周信,type: 20,star: 3,attack: 250,hp: 340,zeroSkill: 5002,fiveSkill: 3009,tenSkill: 1007,group: 2018,way: 4,comment: "吕岳大弟子，可以让人头疼。"}
+--- {id: 249,name: 腾蛇,type: 20,star: 4,attack: 410,hp: 570,zeroSkill: 101,fiveSkill: 3010,tenSkill: 1013,group: 0,way: 4,comment: "也称飞蛇，可以腾云驾雾，在灵兽界地位仅次于四灵。【出处】白虎活动"}
+--- {id: 250,name: 叔齐,type: 20,star: 1,attack: 120,hp: 160,zeroSkill: 0,fiveSkill: 0,tenSkill: 1014,group: 0,way: 4,comment: "谢绝王位的孤竹大佬，跟哥哥伯夷以崇高道德感化武王失败。【出处】行会积分50w"}
+--- {id: 251,name: 巫医,type: 20,star: 1,attack: 110,hp: 160,zeroSkill: 0,fiveSkill: 0,tenSkill: 3141,group: 0,way: 4,comment: "放轻松放轻松，祖传的手艺连你脑袋都接得上。"}
+--- {id: 252,name: 吴谦,type: 20,star: 3,attack: 270,hp: 350,zeroSkill: 3102,fiveSkill: 3108,tenSkill: 6002,group: 0,way: 4,comment: "黄飞虎四大家将之一，善用铁戟，被封为豹尾星。"}
+--- {id: 253,name: 白莲童子,type: 20,star: 2,attack: 140,hp: 240,zeroSkill: 0,fiveSkill: 0,tenSkill: 3153,group: 0,way: 4,comment: "准提道人的弟子。"}
+--- {id: 254,name: 鸿鹄,type: 20,star: 2,attack: 150,hp: 210,zeroSkill: 101,fiveSkill: 0,tenSkill: 3145,group: 0,way: 4,comment: "琼霄娘娘的坐骑，据说理想是“我要飞得更高。"}
+--- {id: 255,name: 板角青牛,type: 20,star: 4,attack: 420,hp: 650,zeroSkill: 3140,fiveSkill: 3156,tenSkill: 3143,group: 0,way: 4,comment: "太上老君之坐骑，乃是上古瑞兽，头顶额心正中长有一根冲天牛角。"}
+--- {id: 256,name: 姜环,type: 20,star: 3,attack: 290,hp: 280,zeroSkill: 1012,fiveSkill: 4104,tenSkill: 3144,group: 0,way: 4,comment: ""}
+--- {id: 257,name: 蚊道人,type: 20,star: 1,attack: 120,hp: 150,zeroSkill: 3160,fiveSkill: 0,tenSkill: 0,group: 0,way: 4,comment: ""}
+--- {id: 261,name: 姜皇后,type: 20,star: 3,attack: 250,hp: 340,zeroSkill: 3103,fiveSkill: 3004,tenSkill: 3147,group: 0,way: 4,comment: ""}
+--- {id: 262,name: 萧升,type: 20,star: 3,attack: 250,hp: 330,zeroSkill: 5002,fiveSkill: 3134,tenSkill: 1018,group: 0,way: 4,comment: ""}
+--- {id: 263,name: 桂精,type: 20,star: 1,attack: 100,hp: 150,zeroSkill: 0,fiveSkill: 0,tenSkill: 103,group: 0,way: 4,comment: "在月亮之上，似乎处处都有它的身影。 \n【唯一途径】奇珍-礼遇"}
+
+
+#水属性
+--- {id: 301,canDeify: true,name: 妲己,type: 30,star: 5,attack: 580,hp: 790,zeroSkill: 1002,fiveSkill: 3110,tenSkill: 3106,group: 2005,way: 1,comment: "垄断多年的殷商选美冠军，美得没人忍心实名举报她是只狐狸精。\n获得途径：水之池"}
+--- {id: 302,canDeify: true,name: 赵公明,type: 30,star: 5,attack: 620,hp: 700,zeroSkill: 1090,fiveSkill: 3001,tenSkill: 1003,group: 0,way: 0,comment: "代表截教统率大军与姜子牙对阵，失败后专心做神仙且研究方向正确，成为财神的本尊。\n获得途径：水之池、太一府、女娲庙"}
+--- {id: 303,name: 云霄,type: 30,star: 4,attack: 400,hp: 580,zeroSkill: 1002,fiveSkill: 0,tenSkill: 3106,group: 2004,way: 0,comment: "赵公明之妹，外表看来娴淑持家，很容易着了她法宝金蛟剪的道儿。"}
+--- {id: 304,name: 崇黑虎,type: 30,star: 4,attack: 400,hp: 530,zeroSkill: 0,fiveSkill: 4001,tenSkill: 1001,group: 0,way: 1,comment: "殷商北伯侯崇侯虎的弟弟，被封曹州侯，宠物为铁嘴神鹰。\n获得途径：水之池"}
+--- {id: 305,name: 邓婵玉,type: 30,star: 4,attack: 430,hp: 550,zeroSkill: 3101,fiveSkill: 102,tenSkill: 3106,group: 0,way: 0,comment: "邓九公之女，貌美如花，性格刚烈，谁惹了她经常会遭五彩石暗算。"}
+--- {id: 306,name: 龙吉公主,type: 30,star: 4,attack: 390,hp: 500,zeroSkill: 3108,fiveSkill: 3103,tenSkill: 3105,group: 0,way: 0,comment: "昊天上帝与瑶池金母之女，洪锦之妻，掌管水的女仙，封神授为红鸾星君。"}
+--- {id: 307,name: 九天玄女,type: 30,star: 4,attack: 420,hp: 620,zeroSkill: 101,fiveSkill: 2201,tenSkill: 3120,group: 0,way: 4,comment: "精通兵法，是天上掌管各种天书和传授兵法的神。"}
+--- {id: 308,name: 魔礼红,type: 30,star: 4,attack: 420,hp: 610,zeroSkill: 0,fiveSkill: 3001,tenSkill: 3103,group: 2006,way: 0,comment: "魔家四将之一，手执“混元伞”。封神授广目天王。"}
+--- {id: 309,name: 碧霄,type: 30,star: 3,attack: 250,hp: 330,zeroSkill: 3103,fiveSkill: 0,tenSkill: 3106,group: 2004,way: 4,comment: "赵公明之妹，排行第三，坐骑花翎鸟。"}
+--- {id: 310,name: 琼霄,type: 30,star: 3,attack: 240,hp: 350,zeroSkill: 3103,fiveSkill: 0,tenSkill: 1002,group: 2004,way: 0,comment: "赵公明之妹，排行第二，坐骑鸿鹄。"}
+--- {id: 311,name: 袁天君,type: 30,star: 3,attack: 220,hp: 310,zeroSkill: 0,fiveSkill: 4113,tenSkill: 3112,group: 2001,way: 0,comment: "十绝阵中寒冰阵阵主。"}
+--- {id: 312,name: 姚天君,type: 30,star: 3,attack: 230,hp: 290,zeroSkill: 0,fiveSkill: 3110,tenSkill: 1002,group: 2001,way: 0,comment: "十绝阵中落魂阵阵主，曾将姜子牙的三魂七魄摄去。"}
+--- {id: 313,name: 洪锦,type: 30,star: 3,attack: 260,hp: 330,zeroSkill: 3108,fiveSkill: 0,tenSkill: 3115,group: 0,way: 0,comment: "殷商三山关总兵，精通奇门遁甲，与龙吉公主结良缘。封神后成为龙德星君。"}
+--- {id: 314,name: 李兴霸,type: 30,star: 3,attack: 230,hp: 320,zeroSkill: 101,fiveSkill: 0,tenSkill: 1004,group: 2009,way: 0,comment: "截教门人，西海九龙岛练气士，与王魔、杨森、高友乾合称“九龙岛四圣”。"}
+--- {id: 315,name: 鲸龙,type: 30,star: 2,attack: 140,hp: 230,zeroSkill: 101,fiveSkill: 3108,tenSkill: 0,group: 0,way: 0,comment: "每次它的出现都会带来风雨交加，所以总有不明觉厉的百姓将它与真龙搞混。"}
+--- {id: 316,name: 邑姜,type: 30,star: 2,attack: 130,hp: 200,zeroSkill: 3103,fiveSkill: 0,tenSkill: 3112,group: 0,way: 0,comment: "姜姓，齐太公吕尚之女。周武王姬发的王后，治愈系皇室成员又能母仪天下。"}
+--- {id: 317,name: 神龟,type: 30,star: 2,attack: 100,hp: 260,zeroSkill: 0,fiveSkill: 4001,tenSkill: 3201,group: 0,way: 0,comment: "据说有好几代国王伺养它试图知道它到底能活到几岁，后来都先它而去了。"}
+--- {id: 318,name: 鱼人女卫,type: 30,star: 2,attack: 160,hp: 200,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "鱼人是朔北水泽的特殊人种，女卫们信奉团结就是力量。"}
+--- {id: 319,name: 神鲸,type: 30,star: 2,attack: 150,hp: 230,zeroSkill: 0,fiveSkill: 3201,tenSkill: 0,group: 0,way: 0,comment: "鱼人最早捕食这个物种就发现所有法术都会被厚实的皮弹回，所以称之为神鲸。"}
+--- {id: 320,name: 鱼人侍女,type: 30,star: 2,attack: 120,hp: 180,zeroSkill: 0,fiveSkill: 0,tenSkill: 3113,group: 0,way: 0,comment: "鱼人是朔北水泽的特殊人种，只有长相温柔的才能吸收为礼仪小姐。"}
+--- {id: 321,name: 白熊,type: 30,star: 1,attack: 100,hp: 160,zeroSkill: 0,fiveSkill: 4113,tenSkill: 0,group: 0,way: 0,comment: "极北之地才有的庞大物种，主要特点是临死前会很生气。"}
+--- {id: 322,name: 鱼人女妖,type: 30,star: 1,attack: 100,hp: 140,zeroSkill: 0,fiveSkill: 3103,tenSkill: 0,group: 0,way: 0,comment: "鱼人是朔北水泽的特殊人种，能进化成妖也是一种缘份。"}
+--- {id: 323,name: 黑虎,type: 30,star: 1,attack: 110,hp: 160,zeroSkill: 0,fiveSkill: 4203,tenSkill: 0,group: 0,way: 0,comment: "种族一般，但颜色变黑后果然很吓人。"}
+--- {id: 324,name: 小仙女,type: 30,star: 1,attack: 60,hp: 90,zeroSkill: 1004,fiveSkill: 0,tenSkill: 3113,group: 0,way: 0,comment: "仙女虽小，法术俱全。"}
+--- {id: 325,canDeify: true,name: 崇侯虎,type: 30,star: 5,attack: 920,hp: 680,zeroSkill: 4001,fiveSkill: 3001,tenSkill: 3111,group: 0,way: 4,comment: "商纣天下八百镇诸侯之一，北伯侯，深居简出，难得一窥真容。\n获得途径：【唯一途径】开服第二周充值排行活动"}
+--- {id: 326,name: 九尾狐王,type: 30,star: 4,attack: 380,hp: 520,zeroSkill: 3201,fiveSkill: 0,tenSkill: 3106,group: 0,way: 3,comment: "据说狐狸能炼出九尾就将成为狐王，更成为无数少年的梦中情人。\n获得途径：连续登录7天活动"}
+--- {id: 327,name: 鬼道士,type: 30,star: 3,attack: 260,hp: 270,zeroSkill: 1201,fiveSkill: 0,tenSkill: 1002,group: 0,way: 1,comment: "很少人知道他，之所以被称为鬼道士，主要是因为他长得跟鬼一样。\n获得途径：万物卡池"}
+--- {id: 328,name: 玉面银狐,type: 30,star: 5,attack: 590,hp: 760,zeroSkill: 3106,fiveSkill: 1004,tenSkill: 3105,group: 0,way: 1,comment: "三千年修得的狐狸精中的极品，无法轻易被伤害。\n获得途径：万物卡池"}
+--- {id: 329,name: 碧云,type: 30,star: 2,attack: 140,hp: 210,zeroSkill: 0,fiveSkill: 3102,tenSkill: 4115,group: 0,way: 4,comment: "龙吉公主的徒儿。\n获得途径：封神台积分兑换"}
+--- {id: 330,name: 厉鬼,type: 30,star: 1,attack: 110,hp: 120,zeroSkill: 0,fiveSkill: 1204,tenSkill: 0,group: 0,way: 4,comment: "她们坚信自己死了战斗力会更强大。\n获得途径：封神台积分兑换"}
+--- {id: 331,canDeify: true,name: 无当圣母,type: 30,star: 4,attack: 400,hp: 520,zeroSkill: 3102,fiveSkill: 4202,tenSkill: 1203,group: 0,way: 2,comment: "截教通天教主坐下四位首席大弟子之一，万仙阵出场，来历与去向都十分神秘。\n获得途径：签到卡、万物卡池"}
+--- {id: 332,name: 雉鸡精,type: 30,star: 2,attack: 160,hp: 200,zeroSkill: 0,fiveSkill: 3106,tenSkill: 0,group: 0,way: 4,comment: "鸡精中比较高贵的一种，最讨厌别人称她们为野鸡。\n获得途径：封神台积分兑换"}
+--- {id: 333,name: 韩毒龙,type: 30,star: 3,attack: 250,hp: 310,zeroSkill: 101,fiveSkill: 3124,tenSkill: 0,group: 0,way: 1,comment: "道行天尊弟子，从小就学会了高深的擒龙之术，可是龙在哪呢？\n获得途径：水之池"}
+--- {id: 334,name: 敖广,type: 30,star: 4,attack: 440,hp: 550,zeroSkill: 3103,fiveSkill: 4501,tenSkill: 1202,group: 2012,way: 4,comment: "东海龙王，在认识孙悟空之前，独家掌握着一柱擎天的神器。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 335,name: 敖闰,type: 30,star: 4,attack: 420,hp: 490,zeroSkill: 3101,fiveSkill: 3102,tenSkill: 2201,group: 2012,way: 4,comment: "西海龙王，因为身怀宝珠，所以管得特别宽。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 336,name: 敖顺,type: 30,star: 4,attack: 410,hp: 470,zeroSkill: 4001,fiveSkill: 1002,tenSkill: 3112,group: 2012,way: 4,comment: "北海龙王，生性冷冰冰，掌管雪、冰雹、 冷冻、冰霜等，难怪没有子嗣。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 337,name: 螭龙,type: 30,star: 4,attack: 400,hp: 480,zeroSkill: 4001,fiveSkill: 1004,tenSkill: 4111,group: 0,way: 2,comment: "水精，能避火，龙的家族中层干部。\n获得途径：签到卡、万物卡池"}
+--- {id: 338,name: 乌云仙,type: 30,star: 4,attack: 490,hp: 520,zeroSkill: 4001,fiveSkill: 0,tenSkill: 3107,group: 0,way: 2,comment: "虽然是只金须鳌鱼，武器却是大锤，凶猛得很。\n获得途径：签到卡、万物卡池"}
+--- {id: 339,name: 长耳定光仙,type: 30,star: 4,attack: 410,hp: 500,zeroSkill: 3103,fiveSkill: 3102,tenSkill: 3106,group: 0,way: 2,comment: "主动背叛截教的一个二代弟子，逃到西方佛教，被准提、接引列为定光欢喜佛。\n获得途径：签到卡、万物卡池"}
+--- {id: 340,name: 余元,type: 30,star: 4,attack: 390,hp: 450,zeroSkill: 3110,fiveSkill: 4203,tenSkill: 3001,group: 0,way: 2,comment: "余化的师傅，金灵圣母门下，拥有金刚不坏之身，但却是封神里最没脑的代表。\n获得途径：签到卡、万物卡池"}
+--- {id: 341,name: 庞洪,type: 30,star: 3,attack: 300,hp: 300,zeroSkill: 0,fiveSkill: 4113,tenSkill: 4104,group: 2014,way: 1,comment: "殷洪二龙山所收四天君老大。\n获得途径：水之池"}
+--- {id: 342,name: 陶荣,type: 30,star: 3,attack: 240,hp: 300,zeroSkill: 3101,fiveSkill: 3108,tenSkill: 3110,group: 2016,way: 4,comment: "闻仲手下黄花山四天君之四。\n获得途径：【唯一途径】行会商店兑换"}
+--- {id: 343,name: 箕水豹,type: 30,star: 3,attack: 240,hp: 320,zeroSkill: 3003,fiveSkill: 0,tenSkill: 2201,group: 0,way: 4,comment: "二十八宿之一，天星下凡。\n获得途径：【唯一途径】独战魔王击败第8层水之魔王"}
+--- {id: 344,name: 玄武仙师,type: 30,star: 3,attack: 250,hp: 360,zeroSkill: 5001,fiveSkill: 3103,tenSkill: 1009,group: 0,way: 1,comment: "迷仙洞护法之一，传说中善良的人进洞可以得到她的护佑。\n获得途径：水之池"}
+--- {id: 345,name: 狰狞,type: 30,star: 3,attack: 250,hp: 300,zeroSkill: 0,fiveSkill: 3135,tenSkill: 1011,group: 0,way: 4,comment: "五尾一角，类赤豹，上古凶兽，异常凶猛。\n获得途径：【唯一途径】竹风9周年庆活动"}
+--- {id: 346,name: 大风,type: 30,star: 3,attack: 290,hp: 300,zeroSkill: 101,fiveSkill: 1012,tenSkill: 4115,group: 2017,way: 4,comment: "上古时期后羿射死的六怪之一，在天上的时候还是很拉风的。\n获得途径：【唯一途径】万仙阵"}
+--- {id: 347,canDeify: true,name: 重甲玄武,type: 30,star: 5,attack: 660,hp: 800,zeroSkill: 3011,fiveSkill: 3140,tenSkill: 4502,group: 2019,way: 4,comment: "四灵之一，有蛇有龟，可攻可受，镇守北方的至高灵物。\n获得途径：【唯一途径】完成成就·灵兽现形"}
+--- {id: 348,name: 敖丙,type: 30,star: 3,attack: 310,hp: 320,zeroSkill: 3004,fiveSkill: 0,tenSkill: 1205,group: 0,way: 4,comment: "没错，我就是官二代，我爸是东海龙王，在海里飙车从来不怕抓。"}
+--- {id: 349,name: 杨文辉,type: 30,star: 3,attack: 230,hp: 280,zeroSkill: 3127,fiveSkill: 3124,tenSkill: 1007,group: 2018,way: 4,comment: "吕岳四弟子，可以让人遭瘟。"}
+--- {id: 350,name: 巡海夜叉,type: 30,star: 3,attack: 280,hp: 290,zeroSkill: 3144,fiveSkill: 3130,tenSkill: 4112,group: 0,way: 4,comment: "我很丑，但我很温柔，保证咬一口就会死，让你被吃时不会疼。"}
+--- {id: 351,name: 广法天尊,type: 30,star: 5,attack: 700,hp: 680,zeroSkill: 3202,fiveSkill: 3147,tenSkill: 3155,group: 0,way: 4,comment: "昆仑玉虚十二仙之一，金吒之师，后成为佛教文殊菩萨。"}
+--- {id: 352,name: 黄明,type: 30,star: 3,attack: 270,hp: 340,zeroSkill: 0,fiveSkill: 3010,tenSkill: 3146,group: 0,way: 4,comment: "黄飞虎四大家将之一，智勇双全，被封神为“伏龙星”。"}
+--- {id: 353,name: 白云童子,type: 30,star: 2,attack: 150,hp: 210,zeroSkill: 4117,fiveSkill: 0,tenSkill: 3144,group: 0,way: 4,comment: "金仙的弟子。"}
+--- {id: 354,name: 马元,type: 30,star: 4,attack: 390,hp: 510,zeroSkill: 4203,fiveSkill: 3148,tenSkill: 3152,group: 0,way: 4,comment: "骷髅山白骨洞一气仙，脑后长一骨爪，特别变态爱吃人心。"}
+--- {id: 355,name: 混天绫灵神,type: 30,star: 1,attack: 90,hp: 110,zeroSkill: 0,fiveSkill: 0,tenSkill: 1015,group: 0,way: 4,comment: "我知道这是块好布料，喜欢捆绑诱惑的来试试。（卡牌美工注意，主体要显眼画出混天绫）"}
+--- {id: 356,name: 彩云仙子,type: 30,star: 4,attack: 410,hp: 520,zeroSkill: 3144,fiveSkill: 3011,tenSkill: 3902,group: 0,way: 4,comment: "不好惹的仙子，惹恼她会戳你眼睛。"}
+--- {id: 357,name: 冤魂,type: 30,star: 1,attack: 90,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 3150,group: 0,way: 4,comment: ""}
+--- {id: 358,name: 殷素知,type: 30,star: 3,attack: 220,hp: 330,zeroSkill: 3130,fiveSkill: 3120,tenSkill: 3115,group: 2003,way: 4,comment: ""}
+--- {id: 359,name: 崇应彪,type: 30,star: 3,attack: 240,hp: 310,zeroSkill: 1012,fiveSkill: 103,tenSkill: 3151,group: 0,way: 4,comment: ""}
+--- {id: 360,name: 玄坛黑虎,type: 30,star: 4,attack: 500,hp: 490,zeroSkill: 1012,fiveSkill: 3135,tenSkill: 4451,group: 0,way: 4,comment: ""}
+--- {id: 361,name: 袁福通,type: 30,star: 4,attack: 500,hp: 600,zeroSkill: 3150,fiveSkill: 1205,tenSkill: 4505,group: 0,way: 4,comment: ""}
+--- {id: 362,name: 太阴星君,type: 30,star: 5,attack: 600,hp: 630,zeroSkill: 3172,fiveSkill: 6004,tenSkill: 1102,group: 0,way: 4,comment: "月球的实力统治者，对地球女性影响很大。"}
+#--- {id: 363,name: 慈航道人,type: 30,star: 5,attack: 650,hp: 660,zeroSkill: 3141,fiveSkill: 1022,tenSkill: 1205,group: 0,way: 4,comment: "阐教十二金仙之一，后来从道人直接化身大慈大悲观音菩萨。"}
+--- {id: 364,name: 崇应鸾,type: 30,star: 3,attack: 250,hp: 350,zeroSkill: 3201,fiveSkill: 1013,tenSkill: 3013,group: 0,way: 4,comment: "标准官二代，继任北伯侯。"}
+
+
+#火属性
+--- {id: 401,canDeify: true,name: 金銮火凤,type: 40,star: 5,attack: 610,hp: 780,zeroSkill: 101,fiveSkill: 3109,tenSkill: 1201,group: 2019,way: 0,comment: "凤山的主人，涅槃后能招唤天火毁灭一切。\n获得途径：火之池、太一府、女娲庙"}
+--- {id: 402,name: 火灵圣母,type: 40,star: 5,attack: 580,hp: 720,zeroSkill: 4202,fiveSkill: 3112,tenSkill: 3001,group: 0,way: 1,comment: "截教关键人物，亲自训练出三千能驾驭三昧火的火龙兵，更兼隐身特技，单挑群战都表现非凡。\n获得途径：火之池"}
+--- {id: 403,name: 金光圣母,type: 40,star: 4,attack: 470,hp: 490,zeroSkill: 3108,fiveSkill: 3109,tenSkill: 3118,group: 2001,way: 4,comment: "十绝阵中金光阵阵主。"}
+--- {id: 404,name: 杨任,type: 40,star: 4,attack: 470,hp: 500,zeroSkill: 3109,fiveSkill: 3113,tenSkill: 1202,group: 0,way: 0,comment: "眼中长手，手中长眼，钻地的张奎最怕被他洞察。"}
+--- {id: 405,name: 胡喜媚,type: 40,star: 4,attack: 380,hp: 540,zeroSkill: 4202,fiveSkill: 1201,tenSkill: 3106,group: 2005,way: 0,comment: "轩辕三妖中排行第二，千年九头雉鸡精。哪怕是九头鸟也能魅惑人，成为女娲整形手术的典型案例。"}
+--- {id: 406,name: 王天君,type: 40,star: 4,attack: 480,hp: 520,zeroSkill: 3124,fiveSkill: 3001,tenSkill: 3110,group: 2001,way: 1,comment: "十绝阵中红水阵阵主。\n获得途径：火之池"}
+--- {id: 407,name: 魔礼青,type: 40,star: 4,attack: 530,hp: 520,zeroSkill: 0,fiveSkill: 3109,tenSkill: 3001,group: 2006,way: 0,comment: "魔家四将之一，神通广大，手持青锋宝剑，封神授增长天王。"}
+--- {id: 408,name: 鄂顺,type: 40,star: 4,attack: 470,hp: 460,zeroSkill: 1202,fiveSkill: 4112,tenSkill: 3123,group: 0,way: 0,comment: "鄂崇禹长子。封神授北斗星官之贪狼星。"}
+--- {id: 409,name: 王魔,type: 40,star: 3,attack: 310,hp: 280,zeroSkill: 0,fiveSkill: 4202,tenSkill: 3107,group: 2009,way: 0,comment: "截教门人，西海九龙岛练气士，与杨森、高友乾、李兴霸合称“九龙岛四圣”。"}
+--- {id: 410,name: 张天君,type: 40,star: 3,attack: 350,hp: 270,zeroSkill: 4113,fiveSkill: 0,tenSkill: 1002,group: 2001,way: 0,comment: "十绝阵中红砂阵阵主。"}
+--- {id: 411,name: 苏护,type: 40,star: 3,attack: 320,hp: 310,zeroSkill: 4112,fiveSkill: 4001,tenSkill: 0,group: 0,way: 0,comment: "北伯侯治下冀州侯。苏妲己的父亲，他也一直疑惑自己家哪来这么好的美貌基因。"}
+--- {id: 412,name: 罗宣,type: 40,star: 3,attack: 280,hp: 290,zeroSkill: 3108,fiveSkill: 3109,tenSkill: 0,group: 0,way: 4,comment: "火德星君，神通广大，曾火烧西歧城。"}
+--- {id: 413,name: 郑伦,type: 40,star: 3,attack: 270,hp: 320,zeroSkill: 0,fiveSkill: 3124,tenSkill: 3112,group: 2007,way: 0,comment: "守护寺庙的门神之一，形象威武凶猛，能鼻哼白气制敌。"}
+--- {id: 414,name: 陈奇,type: 40,star: 3,attack: 280,hp: 280,zeroSkill: 0,fiveSkill: 1002,tenSkill: 3109,group: 2007,way: 0,comment: "守护寺庙的门神之一，形象威武凶猛，能口哈黄气擒将。"}
+--- {id: 415,name: 董天君,type: 40,star: 2,attack: 220,hp: 190,zeroSkill: 101,fiveSkill: 0,tenSkill: 3110,group: 2001,way: 0,comment: "十绝阵中风吼阵阵主。"}
+--- {id: 416,name: 白天君,type: 40,star: 2,attack: 220,hp: 190,zeroSkill: 3124,fiveSkill: 0,tenSkill: 3109,group: 2001,way: 0,comment: "十绝阵中烈焰阵阵主。"}
+--- {id: 417,name: 五云驼,type: 40,star: 2,attack: 200,hp: 190,zeroSkill: 0,fiveSkill: 3108,tenSkill: 3103,group: 0,way: 0,comment: "截教门下金灵圣母及余元的坐骑。"}
+--- {id: 418,name: 秦天君,type: 40,star: 2,attack: 190,hp: 230,zeroSkill: 101,fiveSkill: 0,tenSkill: 1204,group: 2001,way: 0,comment: "十绝阵中天绝阵阵主。"}
+--- {id: 419,name: 花狐貂,type: 40,star: 2,attack: 190,hp: 190,zeroSkill: 101,fiveSkill: 4501,tenSkill: 0,group: 0,way: 0,comment: "佳梦关魔礼寿的法宝。宝囊中如同白鼠。飞出可以吃人，最大的悲剧是误食了杨戬。"}
+--- {id: 420,name: 南鄂巫女,type: 40,star: 2,attack: 170,hp: 190,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "能在理论上权威解读南鄂巫术，但没人见过她们施法。"}
+--- {id: 421,name: 火龙兵,type: 40,star: 1,attack: 130,hp: 100,zeroSkill: 0,fiveSkill: 3110,tenSkill: 0,group: 0,way: 0,comment: "火灵圣母训练的特种兵，人人都掌握三昧真火。"}
+--- {id: 422,name: 拜火教徒,type: 40,star: 1,attack: 100,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 3109,group: 0,way: 0,comment: "南方百姓少有不崇信火的。"}
+--- {id: 423,name: 赤烟驹,type: 40,star: 1,attack: 90,hp: 110,zeroSkill: 0,fiveSkill: 3108,tenSkill: 0,group: 0,way: 0,comment: "火德星君正神罗宣的坐骑，学得一身闪电特技。"}
+--- {id: 424,name: 鬼兵,type: 40,star: 1,attack: 80,hp: 70,zeroSkill: 0,fiveSkill: 4202,tenSkill: 1201,group: 0,way: 0,comment: "你打不过我们的，因为我们本来就是鬼。"}
+--- {id: 425,name: 鄂崇禹,type: 40,star: 5,attack: 980,hp: 960,zeroSkill: 3109,fiveSkill: 4201,tenSkill: 3111,group: 0,way: 4,comment: "商纣天下八百镇诸侯之一，南伯侯。总镇南方二百路诸侯，封神授天马星。\n获得途径：【唯一途径】完成成就·世界英雄"}
+--- {id: 426,name: 巡夜女使,type: 40,star: 4,attack: 490,hp: 480,zeroSkill: 101,fiveSkill: 4112,tenSkill: 3110,group: 0,way: 2,comment: "敢于晚上出来巡夜的杰出女性，不止是胆大还必须有真功夫。\n获得途径：万物卡池"}
+--- {id: 427,name: 梅伯,type: 40,star: 3,attack: 280,hp: 350,zeroSkill: 0,fiveSkill: 1203,tenSkill: 3002,group: 0,way: 1,comment: "商朝司徒，赠太师，在冒颜进谏纣王后经历了血与火的考验。\n获得途径：万物卡池"}
+--- {id: 428,name: 赤云,type: 40,star: 2,attack: 130,hp: 220,zeroSkill: 0,fiveSkill: 4501,tenSkill: 4115,group: 0,way: 4,comment: "龙吉公主的徒儿。\n获得途径：暂无获得途径"}
+--- {id: 429,name: 星月女卫,type: 40,star: 4,attack: 430,hp: 510,zeroSkill: 3108,fiveSkill: 3201,tenSkill: 1201,group: 0,way: 2,comment: "巡夜女使的闺蜜，相比巡夜，她更喜欢驱动星月之光照亮黑夜。\n获得途径：签到卡、万物卡池"}
+--- {id: 430,canDeify: true,name: 孔雀明王,type: 40,star: 5,attack: 720,hp: 720,zeroSkill: 3201,fiveSkill: 3112,tenSkill: 3125,group: 0,way: 4,comment: "即殷商元帅孔宣，身怀五色神光绝技，手下败将有姜子牙、哪吒、杨戬等。\n获得途径：封神台积分兑换"}
+--- {id: 431,name: 夜游神,type: 40,star: 4,attack: 460,hp: 500,zeroSkill: 4001,fiveSkill: 1204,tenSkill: 2201,group: 0,way: 2,comment: "黑夜给了她黑色的面罩，以致没有人见过她神秘而幽怨的真面目。\n获得途径：签到卡、万物卡池"}
+--- {id: 432,name: 薛恶虎,type: 40,star: 3,attack: 290,hp: 290,zeroSkill: 3101,fiveSkill: 3102,tenSkill: 0,group: 0,way: 1,comment: "道行天尊弟子，不要被名字吓到，其实他的外号是好喵。\n获得途径：火之池"}
+--- {id: 433,name: 五夷散人,type: 40,star: 4,attack: 480,hp: 500,zeroSkill: 1090,fiveSkill: 3201,tenSkill: 2201,group: 0,way: 2,comment: "以为他带的落宝金钱是给大家发红包的，其实是来抢红包的。\n获得途径：签到卡、万物卡池"}
+--- {id: 434,name: 敖钦,type: 40,star: 4,attack: 470,hp: 520,zeroSkill: 3109,fiveSkill: 3108,tenSkill: 1004,group: 2012,way: 4,comment: "南海龙王，是条赤龙，控制着火灾、人间二昧真火和闪电。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 435,canDeify: true,name: 天花娘娘,type: 40,star: 4,attack: 460,hp: 510,zeroSkill: 0,fiveSkill: 3127,tenSkill: 3131,group: 0,way: 3,comment: "想不长痘，求我呀。惹我生气，叫你浑身都是痘。\n获得途径：开服第三天封神台排行榜"}
+--- {id: 436,name: 苟章,type: 40,star: 3,attack: 320,hp: 290,zeroSkill: 4203,fiveSkill: 0,tenSkill: 4104,group: 2014,way: 1,comment: "殷洪二龙山所收四天君老三。\n获得途径：火之池"}
+--- {id: 437,name: 邓忠,type: 40,star: 3,attack: 310,hp: 300,zeroSkill: 0,fiveSkill: 4104,tenSkill: 4111,group: 2016,way: 4,comment: "闻仲手下黄花山四天君老大。\n获得途径：【唯一途径】行会商店兑换"}
+--- {id: 438,name: 魔童,type: 40,star: 1,attack: 110,hp: 90,zeroSkill: 0,fiveSkill: 0,tenSkill: 1102,group: 0,way: 4,comment: "早知道碰一下都会倒霉，当初就不该把她从炉里放出来。\n获得途径：【唯一途径】19年万圣节活动"}
+--- {id: 439,name: 尾火虎,type: 40,star: 3,attack: 360,hp: 250,zeroSkill: 3004,fiveSkill: 0,tenSkill: 2201,group: 0,way: 4,comment: "二十八宿之一，天星下凡。\n获得途径：【唯一途径】独战魔王击败第8层火之魔王"}
+--- {id: 440,name: 猰貐,type: 40,star: 3,attack: 360,hp: 260,zeroSkill: 5002,fiveSkill: 3004,tenSkill: 3112,group: 2017,way: 4,comment: "上古时期后羿射死的六怪之一，是人面、牛身、马足的怪物。\n获得途径：【唯一途径】万仙阵"}
+--- {id: 441,name: 九婴,type: 40,star: 3,attack: 350,hp: 290,zeroSkill: 3132,fiveSkill: 3130,tenSkill: 3133,group: 2017,way: 4,comment: "上古时期后羿射死的六怪之一，西游记里叫九头虫。\n获得途径：【唯一途径】万仙阵"}
+--- {id: 442,name: 云中子,type: 40,star: 5,attack: 680,hp: 710,zeroSkill: 4114,fiveSkill: 3125,tenSkill: 3137,group: 0,way: 4,comment: "雷震子的师傅，用通天神火柱烧死闻太师。\n获得途径：【唯一途径】商会商店"}
+--- {id: 443,name: 度厄真人,type: 40,star: 4,attack: 500,hp: 500,zeroSkill: 3006,fiveSkill: 3010,tenSkill: 3138,group: 0,way: 4,comment: "西昆仑散仙，郑伦与李靖之师，可都是前任。\n获得途径：【唯一途径】端午节活动"}
+--- {id: 444,name: 孙焰红,type: 40,star: 3,attack: 320,hp: 300,zeroSkill: 3139,fiveSkill: 0,tenSkill: 3102,group: 0,way: 4,comment: "乃邓九公麾下的部将，能口吐烈火，随封神后，封为血光星。"}
+--- {id: 445,name: 嘲风,type: 40,star: 3,attack: 330,hp: 270,zeroSkill: 4501,fiveSkill: 4111,tenSkill: 0,group: 0,way: 4,comment: "龙的第三子，好险又好望，谁也打不着。"}
+--- {id: 446,name: 朱天麟,type: 40,star: 3,attack: 290,hp: 290,zeroSkill: 3132,fiveSkill: 3009,tenSkill: 1007,group: 2018,way: 4,comment: "吕岳三弟子，可以让人昏迷。"}
+--- {id: 447,name: 伯夷,type: 40,star: 2,attack: 180,hp: 200,zeroSkill: 0,fiveSkill: 1014,tenSkill: 0,group: 0,way: 4,comment: "谢绝王位的孤竹大佬，跟弟弟叔齐以崇高道德感化武王失败。【出处】封神台积分50万"}
+--- {id: 448,name: 周纪,type: 40,star: 3,attack: 320,hp: 310,zeroSkill: 4117,fiveSkill: 0,tenSkill: 3150,group: 0,way: 4,comment: "黄飞虎四大家将之一，善用大斧子，死后被封南斗星官。"}
+--- {id: 449,name: 水火童子,type: 40,star: 2,attack: 190,hp: 200,zeroSkill: 3139,fiveSkill: 0,tenSkill: 6002,group: 0,way: 4,comment: "火云洞弟子。"}
+--- {id: 450,name: 刘环,type: 40,star: 3,attack: 320,hp: 340,zeroSkill: 3139,fiveSkill: 0,tenSkill: 3128,group: 0,way: 1,comment: "九龙岛练气士，跟罗宣一起火烧西岐。【出处】火之卡池"}
+--- {id: 456,name: 小哪吒,type: 40,star: 2,attack: 200,hp: 200,zeroSkill: 0,fiveSkill: 3901,tenSkill: 0,group: 2003,way: 4,comment: "魔童降世，仗着太乙真人送的法宝，调皮得亲爹都不认识了"}
+--- {id: 457,name: 火尖枪锻匠,type: 40,star: 3,attack: 300,hp: 280,zeroSkill: 3139,fiveSkill: 4201,tenSkill: 4301,group: 0,way: 4,comment: "魔童降世，仗着太乙真人送的法宝，调皮得亲爹都不认识了"}
+--- {id: 458,name: 食尸鬼,type: 40,star: 2,attack: 140,hp: 200,zeroSkill: 3130,fiveSkill: 0,tenSkill: 3152,group: 0,way: 4,comment: "新鲜的尸体又来了，我们又要活过来了。\n【唯一途径】梦魇世界迷仙洞"}
+--- {id: 459,name: 灵坛护法,type: 40,star: 4,attack: 460,hp: 530,zeroSkill: 5001,fiveSkill: 3010,tenSkill: 3141,group: 0,way: 4,comment: ""}
+--- {id: 460,name: 马善,type: 40,star: 4,attack: 470,hp: 480,zeroSkill: 3109,fiveSkill: 3159,tenSkill: 1205,group: 0,way: 4,comment: ""}
+--- {id: 461,name: 金灵圣母,type: 40,star: 5,attack: 780,hp: 690,zeroSkill: 3016,fiveSkill: 3149,tenSkill: 1207,group: 0,way: 4,comment: "通天教主爱徒，女仙之首，闻仲余元的师傅，一人可以单挑文殊普贤慈航。\n获得途径：【唯一途径】荣耀商铺兑换"}
+--- {id: 462,name: 高继能,type: 40,star: 4,attack: 490,hp: 510,zeroSkill: 3127,fiveSkill: 3902,tenSkill: 3165,group: 0,way: 4,comment: "孔宣手下大将，能放出毒蜈蜂伤人，黄天化死于他手，死后被封黑杀星。\n【唯一途径】奇珍-战令"}
+--- {id: 463,name: 陈九公,type: 40,star: 3,attack: 310,hp: 240,zeroSkill: 3132,fiveSkill: 5002,tenSkill: 1018,group: 0,way: 4,comment: "五路财神之一，招财使者。 \n【唯一途径】荣耀商店"}
+--- {id: 464,canDeify: true,name: 赤精子,type: 40,star: 5,attack: 700,hp: 690,zeroSkill: 3159,fiveSkill: 3013,tenSkill: 4119,group: 0,way: 4,comment: "阐教的大神，元始天尊布局中冲在前台的先锋。 \n【唯一途径】累计充值"}
+--- {id: 465,name: 小妖精,type: 40,star: 1,attack: 80,hp: 80,zeroSkill: 0,fiveSkill: 1021,tenSkill: 0,group: 0,way: 4,comment: "拥有千面妖姬的名号，没有人见过她真正的样子。\n【唯一途径】运营活动"}
+--- {id: 466,name: 望帝,type: 40,star: 4,attack: 450,hp: 500,zeroSkill: 1009,fiveSkill: 1004,tenSkill: 1014,group: 0,way: 4,comment: "古蜀国君主，让位后化作杜鹃鸟，悔不当初。\n【唯一途径】奇珍-战令"}
+--- {id: 467,name: 崔英,type: 40,star: 4,attack: 480,hp: 530,zeroSkill: 3159,fiveSkill: 0,tenSkill: 4120,group: 0,way: 4,comment: "北岳是我开，上面的树都是我栽。\n【唯一途径】奇珍-战令"}
+--- {id: 468,name: 房日兔,type: 40,star: 1,attack: 100,hp: 110,zeroSkill: 4603,fiveSkill: 0,tenSkill: 0,group: 0,way: 4,comment: "二十八星宿之一。"}
+
+#土属性
+--- {id: 501,name: 闻仲,type: 50,star: 5,attack: 680,hp: 880,zeroSkill: 1005,fiveSkill: 4203,tenSkill: 1001,group: 0,way: 1,comment: "纣王朝中太师，三朝元老大臣，文武双全，威仪并重。\n获得途径：土之池"}
+--- {id: 502,name: 黄飞虎,type: 50,star: 5,attack: 600,hp: 800,zeroSkill: 4112,fiveSkill: 3107,tenSkill: 1003,group: 2002,way: 0,comment: "殷商武成王，后反出朝歌，封神后成为泰山之神。\n获得途径：土之池、太一府、女娲庙"}
+--- {id: 503,name: 山神,type: 50,star: 4,attack: 500,hp: 650,zeroSkill: 4201,fiveSkill: 0,tenSkill: 3119,group: 0,way: 4,comment: "山中之主，常啸聚豪杰，骑虎出巡。"}
+--- {id: 504,name: 殷郊,type: 50,star: 4,attack: 450,hp: 580,zeroSkill: 1002,fiveSkill: 0,tenSkill: 3107,group: 0,way: 1,comment: "纣王长子，险被纣王所害，学得一身法术，带上仙家至宝后又受申公豹蛊惑反投纣王阵营。\n获得途径：土之池"}
+--- {id: 505,name: 邬文化,type: 50,star: 4,attack: 500,hp: 580,zeroSkill: 0,fiveSkill: 4001,tenSkill: 3001,group: 0,way: 0,comment: "纣王军中一个身高数丈的大汉，使用的一根排扒木作为兵器，封神授力士星。"}
+--- {id: 506,name: 魔礼寿,type: 50,star: 4,attack: 450,hp: 580,zeroSkill: 3101,fiveSkill: 0,tenSkill: 3001,group: 2006,way: 0,comment: "魔家四将之一，手持双鞭，囊里“紫金花狐貂”，封神授持国天王。"}
+--- {id: 507,name: 土行孙,type: 50,star: 4,attack: 430,hp: 520,zeroSkill: 4302,fiveSkill: 0,tenSkill: 4501,group: 0,way: 0,comment: "玉虚十二仙之一惧留孙的大弟子，身材矮小，以棍子为武器，擅长地下行走之术。"}
+--- {id: 508,name: 石矶娘娘,type: 50,star: 4,attack: 400,hp: 540,zeroSkill: 101,fiveSkill: 3124,tenSkill: 4202,group: 0,way: 0,comment: "截教通天教主的徒弟，原形为一块石头，却没有石头脑袋，修练得独道法术。"}
+--- {id: 509,name: 邓九公,type: 50,star: 3,attack: 330,hp: 390,zeroSkill: 0,fiveSkill: 0,tenSkill: 1003,group: 0,way: 0,comment: "成汤三山关总兵，邓婵玉之父。"}
+--- {id: 510,name: 商容,type: 50,star: 3,attack: 250,hp: 320,zeroSkill: 0,fiveSkill: 3001,tenSkill: 3114,group: 0,way: 0,comment: "商朝纣王时代的丞相，仁德无缺，因谏纣王撞柱而死。"}
+--- {id: 511,name: 龙须虎,type: 50,star: 3,attack: 270,hp: 360,zeroSkill: 4001,fiveSkill: 0,tenSkill: 3101,group: 0,way: 4,comment: "一只既有点像虎又有点像龙的灵物，体型硕大，出手有石。"}
+--- {id: 512,name: 高友乾,type: 50,star: 3,attack: 260,hp: 320,zeroSkill: 101,fiveSkill: 0,tenSkill: 4202,group: 2009,way: 0,comment: "截教门人，西海九龙岛练气士，与王魔、杨森、李兴霸合称“九龙岛四圣”。"}
+--- {id: 513,name: 殷洪,type: 50,star: 3,attack: 250,hp: 260,zeroSkill: 1005,fiveSkill: 0,tenSkill: 3105,group: 0,way: 0,comment: "纣王次子。与其兄殷郊经历相似，受申公豹蛊惑后反回纣王阵营。"}
+--- {id: 514,name: 赵天君,type: 50,star: 3,attack: 250,hp: 330,zeroSkill: 3108,fiveSkill: 0,tenSkill: 3112,group: 2001,way: 0,comment: "十绝阵中地烈阵阵主。"}
+--- {id: 515,name: 费仲,type: 50,star: 2,attack: 150,hp: 190,zeroSkill: 1090,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "奉御宣中谏大夫。奸臣，主要兴趣是揽财。"}
+--- {id: 516,name: 张桂芳,type: 50,star: 2,attack: 170,hp: 230,zeroSkill: 1202,fiveSkill: 0,tenSkill: 1002,group: 0,way: 0,comment: "殷商青龙关总兵，武艺过人，同时精通幻术，对纣王忠心耿耿，封神授丧门星。"}
+--- {id: 517,name: 方弼,type: 50,star: 2,attack: 180,hp: 230,zeroSkill: 0,fiveSkill: 3001,tenSkill: 1202,group: 2011,way: 0,comment: "商朝殷纣王的镇殿将军，封神授太岁部下日值众星之显道神。"}
+--- {id: 518,name: 方相,type: 50,star: 2,attack: 180,hp: 270,zeroSkill: 3110,fiveSkill: 0,tenSkill: 4001,group: 2011,way: 0,comment: "商朝殷纣王的镇殿将军，封神授太岁部下日值众星之开路神。"}
+--- {id: 519,name: 陛犴,type: 50,star: 2,attack: 180,hp: 230,zeroSkill: 0,fiveSkill: 3201,tenSkill: 0,group: 0,way: 0,comment: "传说中的龙九子之一，排行第七。平生好讼，却又有威力。"}
+--- {id: 520,name: 金鳌岛散仙,type: 50,star: 2,attack: 170,hp: 220,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "岛上修行，练就联攻的技能。"}
+--- {id: 521,name: 殷商舞女,type: 50,star: 1,attack: 80,hp: 100,zeroSkill: 0,fiveSkill: 3112,tenSkill: 0,group: 0,way: 0,comment: "超凡脱俗的舞技总能让小伙伴们惊呆了。"}
+--- {id: 522,name: 殷商死士,type: 50,star: 1,attack: 130,hp: 160,zeroSkill: 0,fiveSkill: 0,tenSkill: 1202,group: 0,way: 0,comment: "本为狱囚，经洗脑训练已随时准备好为守护朝歌而死。"}
+--- {id: 523,name: 花斑豹,type: 50,star: 1,attack: 120,hp: 150,zeroSkill: 0,fiveSkill: 4501,tenSkill: 0,group: 0,way: 0,comment: "特别矫健的身躯使人往往无法捕捉其运动的轨迹。"}
+--- {id: 524,name: 殷商兵,type: 50,star: 1,attack: 110,hp: 140,zeroSkill: 4112,fiveSkill: 0,tenSkill: 0,group: 0,way: 0,comment: "战斗力强大的中土百战之师。"}
+--- {id: 525,name: 纣王,type: 50,star: 5,attack: 1000,hp: 940,zeroSkill: 3107,fiveSkill: 3001,tenSkill: 3111,group: 0,way: 4,comment: "殷商的最高统治者，通过不断刷新底线以证明自己的强大和绝对权威。\n获得途径：【唯一途径】完成成就·封神传奇"}
+--- {id: 526,name: 比干,type: 50,star: 4,attack: 410,hp: 530,zeroSkill: 3201,fiveSkill: 1202,tenSkill: 2201,group: 0,way: 4,comment: "殷商亚相。身怀七窍玲珑心，传说中的文曲星。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 527,canDeify: true,name: 张奎,type: 50,star: 5,attack: 560,hp: 810,zeroSkill: 3101,fiveSkill: 4302,tenSkill: 3002,group: 0,way: 4,comment: "殷商渑池县守将，妻子是高兰英。善地行术，两擒杨戬，黄飞虎、崇黑虎、土行孙皆死于其手。\n获得途径：【唯一途径】累计充值活动"}
+--- {id: 528,name: 乌鸦兵,type: 50,star: 1,attack: 120,hp: 90,zeroSkill: 0,fiveSkill: 1203,tenSkill: 0,group: 0,way: 4,comment: "郑伦手下养3000乌鸦兵，擅长缚敌。\n获得途径：封神台积分兑换"}
+--- {id: 529,name: 晁田,type: 50,star: 3,attack: 270,hp: 350,zeroSkill: 2201,fiveSkill: 0,tenSkill: 0,group: 2013,way: 4,comment: "（纣王侍卫）不要惹我，我兄弟晁雷很厉害的。\n获得途径：封神台积分兑换"}
+--- {id: 530,name: 晁雷,type: 50,star: 3,attack: 250,hp: 360,zeroSkill: 3101,fiveSkill: 0,tenSkill: 3124,group: 2013,way: 4,comment: "（纣王侍卫）我哥叫晁田，有他罩着我什么都不怕。\n获得途径：封神台积分兑换"}
+--- {id: 531,name: 尤浑,type: 50,star: 2,attack: 160,hp: 180,zeroSkill: 3124,fiveSkill: 0,tenSkill: 0,group: 0,way: 4,comment: "纣王手下奸臣，与费仲齐名，民间说他尤其浑蛋。\n获得途径：【唯一途径】商会商店兑换"}
+--- {id: 532,canDeify: true,name: 龟灵圣母,type: 50,star: 4,attack: 340,hp: 680,zeroSkill: 4202,fiveSkill: 3101,tenSkill: 3106,group: 0,way: 2,comment: "身为截教三大圣母，因为太招蚊子,连精魄都被吸走了，最后竟没混上封神榜。\n获得途径：签到卡、万物卡池"}
+--- {id: 533,name: 山魈王,type: 50,star: 4,attack: 480,hp: 660,zeroSkill: 4001,fiveSkill: 4112,tenSkill: 4202,group: 0,way: 2,comment: "传说中是山里的独脚鬼怪，喜欢夜间出来吓人。\n获得途径：签到卡、万物卡池"}
+--- {id: 534,name: 虬首仙,type: 50,star: 4,attack: 520,hp: 560,zeroSkill: 4203,fiveSkill: 4112,tenSkill: 4301,group: 0,way: 2,comment: "通天教主门下狮精，颜值凶猛，攻击力也超强。\n获得途径：签到卡、万物卡池"}
+--- {id: 535,name: 吕岳,type: 50,star: 4,attack: 420,hp: 550,zeroSkill: 3124,fiveSkill: 1007,tenSkill: 1203,group: 2018,way: 4,comment: "九龙岛声名山炼气士，善用瘟疫法宝，被称为是瘟神鼻祖。\n获得途径：【唯一途径】许愿卡池"}
+--- {id: 536,name: 叛逆童子,type: 50,star: 1,attack: 100,hp: 100,zeroSkill: 0,fiveSkill: 0,tenSkill: 3131,group: 0,way: 4,comment: "她尝试倒练神功，没想到竟领悟封咒秘技。\n获得途径：【唯一途径】商会商店兑换"}
+--- {id: 537,name: 应龙,type: 50,star: 4,attack: 410,hp: 510,zeroSkill: 101,fiveSkill: 1009,tenSkill: 3128,group: 0,way: 4,comment: "上古传说中的带翼飞龙，曾下凡为黄帝大将斩杀蚩尤、夸父，助大禹治水。\n获得途径：【唯一途径】阐截斗法第一名奖励"}
+--- {id: 538,name: 五色神牛,type: 50,star: 2,attack: 180,hp: 240,zeroSkill: 0,fiveSkill: 0,tenSkill: 3136,group: 0,way: 4,comment: "黄飞虎的坐骑，每次骑上它，飞虎就特别精神。\n获得途径：【唯一途径】19年圣诞活动"}
+--- {id: 539,name: 氐土貉,type: 50,star: 3,attack: 280,hp: 330,zeroSkill: 3005,fiveSkill: 0,tenSkill: 2201,group: 0,way: 4,comment: "二十八宿之一，天星下凡。\n获得途径：【唯一途径】独战魔王击败第8层土之魔王"}
+--- {id: 540,name: 惧留孙,type: 50,star: 5,attack: 530,hp: 860,zeroSkill: 1205,fiveSkill: 3138,tenSkill: 4303,group: 0,way: 4,comment: "阐教十二金仙之一，捆绑和地行术的老祖宗。\n获得途径：【唯一途径】完成成就·玉宇琼楼Ⅱ"}
+--- {id: 541,name: 夔牛,type: 50,star: 4,attack: 430,hp: 560,zeroSkill: 3136,fiveSkill: 3137,tenSkill: 3008,group: 0,way: 4,comment: "洪荒神兽，无角一足，吼叫声如同雷鸣，其皮黄帝曾蒙为战鼓。\n获得途径：【唯一途径】竹风9周年庆活动"}
+--- {id: 542,name: 封豨,type: 50,star: 3,attack: 300,hp: 360,zeroSkill: 4502,fiveSkill: 3005,tenSkill: 3003,group: 2017,way: 4,comment: "上古时期后羿射死的六怪之一，野猪中的战斗机。\n获得途径：【唯一途径】万仙阵"}
+--- {id: 543,name: 徐芳,type: 50,star: 3,attack: 260,hp: 290,zeroSkill: 102,fiveSkill: 0,tenSkill: 1003,group: 0,way: 4,comment: "穿云关主将，界牌关守将徐盖之弟，忠于殷商。"}
+--- {id: 544,name: 黄飞彪,type: 50,star: 3,attack: 290,hp: 340,zeroSkill: 0,fiveSkill: 5001,tenSkill: 3148,group: 2002,way: 4,comment: "黄飞虎二弟，家传枪法，武艺高强，死于张奎之手。"}
+--- {id: 545,name: 金霞童子,type: 50,star: 2,attack: 170,hp: 220,zeroSkill: 0,fiveSkill: 0,tenSkill: 3147,group: 0,way: 4,comment: "云中子的弟子。"}
+--- {id: 546,name: 雷开,type: 50,star: 3,attack: 260,hp: 360,zeroSkill: 3132,fiveSkill: 3154,tenSkill: 0,group: 0,way: 1,comment: "商朝纣王麾下的亲随大将，名字比他好哥们殷破败吉利多了。"}
+--- {id: 548,name: 千里马,type: 50,star: 1,attack: 100,hp: 100,zeroSkill: 102,fiveSkill: 0,tenSkill: 0,group: 0,way: 4,comment: "它跑得太快了，主人都追不上。"}
+--- {id: 549,name: 鹿台亲兵,type: 50,star: 1,attack: 100,hp: 130,zeroSkill: 0,fiveSkill: 0,tenSkill: 3151,group: 0,way: 4,comment: "我不厉害，但我可以叫来很多兄弟。"}
+--- {id: 550,name: 卫队长,type: 50,star: 2,attack: 160,hp: 230,zeroSkill: 5001,fiveSkill: 0,tenSkill: 4117,group: 0,way: 4,comment: "为纣王保驾，见谁灭谁。"}
+--- {id: 551,name: 哮天犬,type: 50,star: 2,attack: 140,hp: 170,zeroSkill: 0,fiveSkill: 1013,tenSkill: 1102,group: 0,way: 4,comment: "杨戬的贴身宠物，擅长突如其来的一口。"}
+--- {id: 552,name: 邱引,type: 50,star: 4,attack: 470,hp: 650,zeroSkill: 4302,fiveSkill: 4111,tenSkill: 4104,group: 0,way: 4,comment: ""}
+--- {id: 553,name: 烛龙,type: 50,star: 5,attack: 540,hp: 680,zeroSkill: 3134,fiveSkill: 3158,tenSkill: 6002,group: 0,way: 4,comment: ""}
+--- {id: 554,name: 鲁雄,type: 50,star: 4,attack: 490,hp: 590,zeroSkill: 0,fiveSkill: 1003,tenSkill: 4451,group: 0,way: 4,comment: "商朝主帅，请缨主动讨伐西岐。\n获得途径：【唯一途径】奇珍-战令"}
+--- {id: 555,name: 万年鼋龙,type: 50,star: 4,attack: 490,hp: 670,zeroSkill: 3301,fiveSkill: 4502,tenSkill: 1205,group: 0,way: 4,comment: "洪荒时代，万年鼋龙就经常在黄河出没。万年鼋龙拥有龙头，龟身，凤爪，本体战斗力，还拥有极长的寿命。"}
+--- {id: 556,name: 陈桐,type: 50,star: 3,attack: 280,hp: 330,zeroSkill: 0,fiveSkill: 3302,tenSkill: 4201,group: 0,way: 4,comment: "潼关大帅，跟杨戬一样拿着三尖两刃刀，却没杨戬的命，被武成王一枪挑了。"}
+--- {id: 557,name: 闻聘,type: 50,star: 4,attack: 440,hp: 550,zeroSkill: 4117,fiveSkill: 3003,tenSkill: 1001,group: 0,way: 4,comment: "是人的时候很憋屈，可封神的时候，一下子就是中岳嵩山中天崇圣大帝。"}
+--- {id: 558,name: 郭宸,type: 50,star: 3,attack: 250,hp: 350,zeroSkill: 5001,fiveSkill: 1012,tenSkill: 4113,group: 0,way: 4,comment: "威武上将军，被封巨门星"}
+--- {id: 559,name: 玉兔,type: 50,star: 2,attack: 130,hp: 160,zeroSkill: 1008,fiveSkill: 0,tenSkill: 3143,group: 0,way: 4,comment: "月球上的吉祥物"}
+--- {id: 561,name: 犰狳,type: 50,star: 4,attack: 460,hp: 510,zeroSkill: 4603,fiveSkill: 1205,tenSkill: 1023,group: 0,way: 4,comment: "上古神兽，身形似兔，一见他，就会有螽斯铺天盖地而来，很难消灭。"}

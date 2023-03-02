@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>${logicName}日志下载</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="${request.contextPath}/statics/plugins/layui245/css/layui.css"  media="all">
+  <script src="${request.contextPath}/statics/bbw/jquery-3.0.0.min.js"></script>
+  <style> 
+body{ text-align:center} 
+.div{ margin:0 auto;} 
+</style> 
+</head>
+<body>
+<form name="ZFform" class="layui-form" action="${request.contextPath}/coder/serverlogs" >
+<fieldset class="layui-elem-field site-demo-button" style="margin-top: 30px;">
+  <legend>${logicName}日志下载</legend>
+  <div style="align:center">
+    <div class="layui-inline">
+      <label class="layui-form-label">日期选择</label>
+      <div class="layui-input-block">
+        <input type="text" name="date" id="date" lay-verify="date" placeholder="yyyy-MM-dd" autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-inline">
+      <input type="radio" name="all" value="0" title="主要日志" checked="">
+      <input type="radio" name="all" value="1" title="全部日志" >
+    </div>
+    <button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="clientDown">下载</button>
+  </div>
+</fieldset>
+<fieldset class="layui-elem-field site-demo-button" style="margin-top: 30px;">
+  <legend>单日志文件下载</legend>
+  <div style="align:center">
+  <div class="layui-form-item">
+    <div class="layui-input-block" >
+    <table width="100%" id="file-content" style="text-align:left">
+		
+	</table>
+    </div>
+  </div>
+   <div class="layui-form-item">
+	<button type="button" class="layui-btn" id="dwlog">下载选中文件</button>
+	<button type="button" class="layui-btn" id="dwaclog">下载accesslog文件</button>
+   </div>
+  </div>
+</fieldset>
+<fieldset class="layui-elem-field site-demo-button" style="margin-top: 30px;">
+  <legend>常用操作</legend>
+  <div style="align:center">
+   <div class="layui-inline">
+      <a class="layui-btn" href="./coder/clearCache">清除本机缓存</a>
+  </div>
+  </div>
+</fieldset>
+
+</form>
+<script src="${request.contextPath}/statics/plugins/layui245/layui.js" charset="utf-8"></script>
+<script>
+
+var form;
+$(function(){
+layui.use(['form', 'layedit', 'laydate'], function(){
+
+  form = layui.form;
+
+  var layer=layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate;
+
+  //日期
+  laydate.render({
+    elem: '#date'
+    ,value: new Date()
+  	,min: -7
+	  ,max: 0
+	   ,done: function(value, date, endDate){
+   sx();
+  }
+  });
+  //监听提交
+  form.on('submit(clientDown)', function(data){
+	  return true;
+  });
+//表单初始赋值
+  form.val('ZFform', {
+    "username": "贤心" // "name": "value"
+    ,"password": "123456"
+    ,"interest": 1
+    ,"like[write]": true //复选框选中状态
+    ,"close": true //开关状态
+    ,"sex": "女"
+    ,"desc": "我爱 layui"
+  })
+  sx();
+});
+	$("#dwlog").click(function(){
+		var date=$("#date").val();
+		var logStr="";
+		$("input[name='log-item']:checked").each(function() {
+			var val=$(this).val();
+			logStr+=val+"##";
+		});
+		if(logStr!=""){
+			window.location.href="${request.contextPath}/coder/downlogs?date="+date+"&logstr="+logStr;
+		}
+	});
+
+	$("#dwaclog").click(function(){
+		var date=$("#date").val();
+		window.location.href="${request.contextPath}/coder/down/accesslog?date="+date;
+	});
+
+})
+
+function sx(){
+ var date=$("#date").val();
+ $("#file-content").empty();
+ $.get("${request.contextPath}/coder/showLogs?date="+date,function(r){
+	if(r.res==0){
+		var row=0;
+		$.each(r.logs,function(index,name){
+			if(index==0 || index%4==0){
+				row++;
+				$("#file-content").append("<tr id='row"+row+"'></tr>");
+			}
+			$('#row'+row).append('<td><input type="checkbox" value="'+name+'" name="log-item" title="'+name+'"></td>');
+
+		});
+		form.render();
+	}
+ });
+}
+
+</script>
+</body>
+</html>

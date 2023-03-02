@@ -1,0 +1,19 @@
+#策略名称
+#TODO 已弃用
+key: 萌新礼包
+#策略描述
+desc: 按如下分组次序获得；分号前如果都获得了，则从分号后随机，否则随机一张分号前未拥有的；如果指定卡牌都拥有了，则随机一张指定卡。分组次序：101,201,302,401,502;102,202,301,402;501
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 1
+    condition: {star: 4,include: [$0类卡,$1类卡],exclude: [$角色卡牌集]}
+    probability: {type: 0,value: 100}
+  - key: 2
+    condition: {star: 4,include: [$2类卡],exclude: [$角色卡牌集]}
+    probability: {type: 0,value: 100}
+  - key: 3
+    condition: {star: 4,include: [$0类卡,$1类卡,$2类卡]}
+    probability: {type: 0,value: 100}
+...

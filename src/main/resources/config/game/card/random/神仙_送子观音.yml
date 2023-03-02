@@ -1,0 +1,14 @@
+#策略名称
+key: 神仙_送子观音
+#策略描述
+desc: 按概率随机1张卡牌
+#结果限制
+maxSize: 1
+selectors:
+  - key: 4星卡
+    condition: {star: 4,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 0.8}
+  - key: 3星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 100}
+...

@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "480a25f0-95a2-463e-a54e-3e9632dd8669",
+		"name": "god",
+		"description": "富甲游戏请求接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "测试",
+			"item": [
+				{
+					"name": "获取角色全部信息",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{god_url}}test!getGuInfo?guId=1",
+							"host": [
+								"{{god_url}}test!getGuInfo"
+							],
+							"query": [
+								{
+									"key": "guId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "活动",
+			"item": [
+				{
+					"name": "获取活动列表",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{god_url}}activity!listActivities?type=0&kind=0",
+							"host": [
+								"{{god_url}}activity!listActivities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "0",
+									"description": "type = null/0, kind != 20，获取活动列表；type = null/0, kind = 20，获取充值奖励活动列表；type = 值，获取特定活动详情"
+								},
+								{
+									"key": "kind",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "领取活动奖励",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{god_url}}activity!joinActivity?id=1",
+							"host": [
+								"{{god_url}}activity!joinActivity"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取冲榜活动列表",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{god_url}}activity!listRankActivities",
+							"host": [
+								"{{god_url}}activity!listRankActivities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取冲榜活动奖励",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{god_url}}activity!listRankersAwards?type=10010",
+							"host": [
+								"{{god_url}}activity!listRankersAwards"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "10010",
+									"description": "10000充值排行；10010富豪榜；10020元宝消耗榜；10030铜钱消耗榜；10040 体力消耗榜；10050 元素消耗榜；10060战斗宝箱榜"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "城市",
+			"item": [
+				{
+					"name": "客栈购买卡牌-city!recruitCard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{god_url}}city!recruitCard?cardId=101",
+							"host": [
+								"{{god_url}}city!recruitCard"
+							],
+							"query": [
+								{
+									"key": "cardId",
+									"value": "101"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "卡牌",
+			"item": [
+				{
+					"name": "编组",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{god_url}}card!setFightCards?cardIds=124,121,118,319",
+							"host": [
+								"{{god_url}}card!setFightCards"
+							],
+							"query": [
+								{
+									"key": "cardIds",
+									"value": "124,121,118,319"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "进入游戏 - account!login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{god_url}}account!login?userName=sdsa@qq.com&password=123456&serverId=1&channelCode=1001&loginType=10",
+					"host": [
+						"{{god_url}}account!login"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "sdsa@qq.com"
+						},
+						{
+							"key": "password",
+							"value": "123456"
+						},
+						{
+							"key": "serverId",
+							"value": "1"
+						},
+						{
+							"key": "channelCode",
+							"value": "1001"
+						},
+						{
+							"key": "loginType",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "摇骰子 - gu!shakeDice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{god_url}}gu!shakeDice?diceNum=1",
+					"host": [
+						"{{god_url}}gu!shakeDice"
+					],
+					"query": [
+						{
+							"key": "diceNum",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "创建角色 - gu!createRole",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{god_url}}gu!createRole?nickname=1&invitationCode=138wdf&sex=2&head=1&property=10",
+					"host": [
+						"{{god_url}}gu!createRole"
+					],
+					"query": [
+						{
+							"key": "nickname",
+							"value": "1"
+						},
+						{
+							"key": "invitationCode",
+							"value": "138wdf"
+						},
+						{
+							"key": "sex",
+							"value": "2"
+						},
+						{
+							"key": "head",
+							"value": "1"
+						},
+						{
+							"key": "property",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

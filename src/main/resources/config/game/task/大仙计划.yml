@@ -1,0 +1,54 @@
+---
+groupId: 180000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  #1日
+  - {id: 180101,type: 220,days: 1,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180102,type: 220,days: 1,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180103,type: 220,days: 1,name: "折扣优惠抽取折扣",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180104,type: 220,days: 1,name: "完成8个行会任务",value: 8,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180105,type: 220,days: 1,name: "获得5场本服斗法封神台",value: 5,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  #2
+  - {id: 180201,type: 220,days: 2,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180202,type: 220,days: 2,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180203,type: 220,days: 2,name: "使用5个地图法宝",value: 5,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180204,type: 220,days: 2,name: "城内出售50件特产",value: 50,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180205,type: 220,days: 2,name: "参加一次魔王降临",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  #3日
+  - {id: 180301,type: 220,days: 3,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180302,type: 220,days: 3,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180303,type: 220,days: 3,name: "碧游宫修炼10次",value: 10,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180304,type: 220,days: 3,name: "到鹿台升级卡牌2次",value: 2,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180305,type: 220,days: 3,name: "获得5场练兵战斗胜利",value: 5,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 40}],isValid: true}
+  #4日
+  - {id: 180401,type: 220,days: 4,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180402,type: 220,days: 4,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180403,type: 220,days: 4,name: "商铺夺宝10次",value: 10,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180404,type: 220,days: 4,name: "在游商馆购买20个特产",value: 20,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180405,type: 220,days: 4,name: "获得5场精英野怪战斗胜利",value: 5,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 40}],isValid: true}
+  #5日
+  - {id: 180501,type: 220,days: 5,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180502,type: 220,days: 5,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180503,type: 220,days: 5,name: "累计消费500元宝",value: 500,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180504,type: 220,days: 5,name: "在客栈购买20张卡牌",value: 20,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180505,type: 220,days: 5,name: "获得5场神仙大会战斗胜利",value: 5,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 40}],isValid: true}
+  #6日
+  - {id: 180601,type: 220,days: 6,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180602,type: 220,days: 6,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180603,type: 220,days: 6,name: "领取一次月卡奖励",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180604,type: 220,days: 6,name: "在秘宝阁购买20个法宝",value: 20,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180605,type: 220,days: 6,name: "独战魔王累计通过10层",value: 10,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 50}],isValid: true}
+  #7日
+  - {id: 180701,type: 220,days: 7,name: "登录游戏",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 10}],isValid: true}
+  - {id: 180702,type: 220,days: 7,name: "消耗300点体力",value: 300,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 20}],isValid: true}
+  - {id: 180703,type: 220,days: 7,name: "领取一次季卡奖励",value: 1,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180704,type: 220,days: 7,name: "完成2个村庄任务",value: 2,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 30}],isValid: true}
+  - {id: 180705,type: 220,days: 7,name: "完成3次商帮任务",value: 3,awards: [{item: 60,awardId: 50210,num: 1},{item: 60,awardId: 50213,num: 50}],isValid: true}
+boxs:
+  - {id: 180901,boxKey: 0,score: 100,awards: [{item: 60,awardId: 50158,num: 3}],isValid: true}
+  - {id: 180902,boxKey: 0,score: 250,awards: [{item: 60,awardId: 50156,num: 3}],isValid: true}
+  - {id: 180903,boxKey: 0,score: 400,awards: [{item: 60,awardId: 11010,num: 10}],isValid: true}
+  - {id: 180904,boxKey: 0,score: 600,awards: [{item: 60,awardId: 11090,num: 10}],isValid: true}
+  - {id: 180905,boxKey: 0,score: 850,awards: [{item: 60,awardId: 11410,num: 1}],isValid: true}
+...

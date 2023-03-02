@@ -1,0 +1,191 @@
+#梦魇迷仙洞配置
+#CfgNightmareMiXian
+key: 唯一
+#层主最小卡牌数
+levelOwnerMinCardNum: 10
+#最大挑战层数
+maxChallengeLayers: 60
+#每20分钟可恢复1层（单位：秒）
+incLayersSpeedSecond: 1200
+#宝箱奖励配置
+boxAwards:
+  # 铜钱 26%
+  - probability: 2600
+    awardEnum: 20
+    awardInfo:
+      - probability: 4000
+        awards: [{item: 20,num: 15000}]
+      - probability: 4500
+        awards: [ { item: 20,num: 18000 } ]
+      - probability: 1500
+        awards: [ { item: 20,num: 20000 } ]
+  # 卡牌
+  - probability: 2500
+    awardEnum: 40
+    awardInfo:
+      - probability: 1310
+        awards: [{item: 40,star: 1,num: 1}]
+      - probability: 3270
+        awards: [{item: 40,star: 2,num: 1}]
+      - probability: 4270
+        awards: [{item: 40,star: 3,num: 1}]
+      - probability: 1100
+        awards: [ { item: 40,star: 4,num: 1 } ]
+      - probability: 50
+        awards: [ { item: 40,star: 5,num: 1 } ]
+  # 元素
+  - probability: 1500
+    awardEnum: 50
+    awardInfo:
+      - probability: 10000
+        awards: [{item: 50,awardId: 0,num: 5}]
+  # 元宝
+  - probability: 1200
+    awardEnum: 10
+    awardInfo:
+      - probability: 1050
+        awards: [ { item: 10,num: 10 } ]
+      - probability: 2000
+        awards: [ { item: 10,num: 15 } ]
+      - probability: 2300
+        awards: [ { item: 10,num: 20 } ]
+      - probability: 2400
+        awards: [ { item: 10,num: 25 } ]
+      - probability: 1500
+        awards: [ { item: 10,num: 30 } ]
+      - probability: 400
+        awards: [ { item: 10,num: 35 } ]
+      - probability: 200
+        awards: [ { item: 10,num: 40 } ]
+      - probability: 100
+        awards: [ { item: 10,num: 45 } ]
+      - probability: 50
+        awards: [ { item: 10,num: 50 } ]
+  # 法宝
+  - probability: 2200
+    awardEnum: 60
+    awardInfo:
+      - probability: 2350
+        awards: [ { item: 60,star: 1, num: 1} ]
+      - probability: 2350
+        awards: [ { item: 60,star: 2, num: 1}  ]
+      - probability: 3700
+        awards: [ {item: 60,star: 3, num: 1}  ]
+      - probability: 1100
+        awards: [ {item: 60,star: 4, num: 1}  ]
+      - probability: 500
+        awards: [ {item: 60,star: 5, num: 1}  ]
+
+#概率组（铜钱、 卡牌、元素、元宝、法宝），根据每日元宝累计数
+probabilityGroups:
+    #每日元宝获得数累计0~300
+  - {minDailyGoldNum: 0,maxDailyGoldNum: 300,probabilities:[{item: 20,probability: 2600},{item: 40,probability: 2500},{item: 50,probability: 1500},{item: 10,probability: 1200},{item: 60,probability: 2200}]}
+    #每日元宝获得数累计301~600
+  - {minDailyGoldNum: 301,maxDailyGoldNum: 600,probabilities:[{item: 20,probability: 2600},{item: 40,probability: 2500},{item: 50,probability: 1700},{item: 10,probability: 1000},{item: 60,probability: 2200}]}
+    #每日元宝获得数累计601~900
+  - {minDailyGoldNum: 601,maxDailyGoldNum: 900,probabilities:[{item: 20,probability: 2800},{item: 40,probability: 2500},{item: 50,probability: 1700},{item: 10,probability: 800},{item: 60,probability: 2200}]}
+    #每日元宝获得数累计900以上
+  - {minDailyGoldNum: 901,maxDailyGoldNum: 10000,probabilities:[{item: 20,probability: 2800},{item: 40,probability: 2500},{item: 50,probability: 1700},{item: 10,probability: 600},{item: 60,probability: 2400}]}
+
+#层级数据  type: 陷阱150 巡使小队210 110泉水,120宝箱，140大门
+levelDataRules:
+  # 1~9层 生成数据格式为：5~7个陷阱  2~5个巡使小队  0~4个泉水  4~6个宝箱 1个大门
+  - minLevel: 1
+    maxLevel: 9
+    posData: [{type: 150,least: 5,most: 7},{type: 210,least: 2,most: 5},{type: 110,least: 0,most: 4},{type: 120,least: 4,most: 6},{type: 140,least: 1,most: 1}]
+  # 11~19层 生成数据格式为：6~8个陷阱  4~6个巡使小队  0~3个泉水  4~6个宝箱 1个大门
+  - minLevel: 11
+    maxLevel: 19
+    posData: [ { type: 150,least: 6,most: 8 },{ type: 210,least: 4,most: 6 },{ type: 110,least: 0,most: 3 },{ type: 120,least: 4,most: 6 } ,{type: 140,least: 1,most: 1}]
+  # 21~29层 生成数据格式为：7~8个陷阱  4~5个巡使小队 1个巡使头领 0~3个泉水  4~6个宝箱 1个大门
+  - minLevel: 21
+    maxLevel: 29
+    posData: [ { type: 150,least: 7,most: 8 },{ type: 210,least: 4,most: 5 },{type: 220,least: 1,most: 1},{ type: 110,least: 0,most: 3 },{ type: 120,least: 4,most: 6 },{type: 140,least: 1,most: 1} ]
+#熔炼奖励
+smeltAwards:
+  - probability: 100
+    awards: [ { item: 40,awardId: 458, num: 1 } ]
+  - probability: 200
+    awards: [ { item: 40,awardId: 357, num: 1 } ]
+  - probability: 5
+    awards: [ { item: 60,awardId: 11410, num: 1 } ]
+  - probability: 50
+    awards: [ { item: 60,awardId: 11060, num: 1 } ]
+  - probability: 700
+    awards: [ { item: 60,star: 5, num: 1 } ]
+  - probability: 800
+    awards: [ { item: 60,star: 4, num: 1 } ]
+  - probability: 950
+    awards: [ { item: 60,star: 3, num: 1 } ]
+  - probability: 900
+    awards: [ { item: 60,star: 2, num: 1 } ]
+  - probability: 100
+    awards: [ { item: 60,awardId: 850, num: 1 } ]
+  - probability: 300
+    awards: [ { item: 60,awardId: 840, num: 1 } ]
+  - probability: 900
+    awards: [ { item: 60,awardId: 830, num: 1 } ]
+  - probability: 495
+    awards: [ { item: 60,awardId: 11010, num: 2 } ]
+  - probability: 700
+    awards: [ { item: 60,awardId: 20110, num: 1 } ]
+  - probability: 700
+    awards: [ { item: 60,awardId: 20210, num: 1 } ]
+  - probability: 300
+    awards: [ { item: 60,awardId: 20120, num: 1 } ]
+  - probability: 300
+    awards: [ { item: 60,awardId: 20220, num: 1 } ]
+  - probability: 100
+    awards: [ { item: 60,awardId: 20130, num: 1 } ]
+  - probability: 100
+    awards: [ { item: 60,awardId: 20230, num: 1 } ]
+  - probability: 600
+    awards: [ { item: 60,awardId: 10180, num: 1 } ]
+  - probability: 1000
+    awards: [ { item: 60,awardId: 10020, num: 5 } ]
+  - probability: 700
+    awards: []
+
+#卡组
+jiangHuanCards:
+  - {id: 256,skill0: 4104,skill5: 1012,skill10: 3146,useScroll: 1}
+  - {id: 142,skill0: 1003,skill5: 3154,skill10: 3143,useScroll: 1}
+  - {id: 236,skill0: 101,skill5: 3140,skill10: 4501,useScroll: 1}
+  - {id: 242,skill0: 4104,skill5: 3151,skill10: 4111,useScroll: 1}
+  - {id: 347,skill0: 3011,skill5: 3140,skill10: 4501,useScroll: 1}
+  - {id: 302,skill0: 3105,skill5: 3001,skill10: 1003,useScroll: 1}
+  - {id: 401,skill0: 6002,skill5: 3125,skill10: 1201,useScroll: 1}
+  - {id: 502,skill0: 4112,skill5: 102,skill10: 1003,useScroll: 1}
+  - {id: 232,skill0: 102,skill5: 1009,skill10: 1201,useScroll: 1}
+  - {id: 239,skill0: 4104,skill5: 4113,skill10: 3152,useScroll: 1}
+  - {id: 243,skill0: 5001,skill5: 4501,skill10: 3140,useScroll: 1}
+  - {id: 255,skill0: 3140,skill5: 4501,skill10: 3143,useScroll: 1}
+  - {id: 205,skill0: 1201,skill5: 1002,skill10: 3105,useScroll: 1}
+  - {id: 308,skill0: 3105,skill5: 3001,skill10: 4501,useScroll: 1}
+  - {id: 429,skill0: 3108,skill5: 6002,skill10: 1201,useScroll: 1}
+  - {id: 350,skill0: 3146,skill5: 102,skill10: 4112,useScroll: 1}
+  - {id: 352,skill0: 3144,skill5: 3010,skill10: 3146,useScroll: 1}
+  - {id: 344,skill0: 4501,skill5: 3144,skill10: 1009,useScroll: 1}
+  - {id: 424,skill0: 0,skill5: 1206,skill10: 1201,useScroll: 1}
+  - {id: 330,skill0: 0,skill5: 1206,skill10: 1204,useScroll: 1}
+zhuLongCards:
+  - {id: 553,skill0: 3137,skill5: 3158,skill10: 6002,useScroll: 1}
+  - {id: 302,skill0: 3105,skill5: 3001,skill10: 1003,useScroll: 1}
+  - {id: 402,skill0: 101,skill5: 3138,skill10: 3001,useScroll: 1}
+  - {id: 401,skill0: 6002,skill5: 3125,skill10: 1201,useScroll: 1}
+  - {id: 430,skill0: 6002,skill5: 3138,skill10: 3125,useScroll: 1}
+  - {id: 442,skill0: 6002,skill5: 3125,skill10: 3137,useScroll: 1}
+  - {id: 502,skill0: 4112,skill5: 4302,skill10: 1003,useScroll: 1}
+  - {id: 527,skill0: 4111,skill5: 4302,skill10: 3002,useScroll: 1}
+  - {id: 107,skill0: 4301,skill5: 4104,skill10: 4112,useScroll: 1}
+  - {id: 127,skill0: 1202,skill5: 4301,skill10: 4111,useScroll: 1}
+  - {id: 128,skill0: 4301,skill5: 3002,skill10: 4111,useScroll: 1}
+  - {id: 104,skill0: 3137,skill5: 3152,skill10: 4301,useScroll: 1}
+  - {id: 239,skill0: 4104,skill5: 3152,skill10: 4301,useScroll: 1}
+  - {id: 206,skill0: 3102,skill5: 4501,skill10: 3138,useScroll: 1}
+  - {id: 308,skill0: 3105,skill5: 3001,skill10: 4501,useScroll: 1}
+  - {id: 407,skill0: 3104,skill5: 3125,skill10: 3001,useScroll: 1}
+  - {id: 403,skill0: 3137,skill5: 3125,skill10: 3118,useScroll: 1}
+  - {id: 507,skill0: 4302,skill5: 4111,skill10: 4501,useScroll: 1}
+  - {id: 252,skill0: 3102,skill5: 3137,skill10: 6002,useScroll: 1}
+  - {id: 412,skill0: 3137,skill5: 3125,skill10: 0,useScroll: 1}

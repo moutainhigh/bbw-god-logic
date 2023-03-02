@@ -1,0 +1,7 @@
+com.bbw.god.Cfg 
+单例，获取配置信息。
+
+根据ID获取 com.bbw.god.server.entity包下的 实例对象
+
+int id = 1;
+CfgChannelEntity entity = Cfg.INSTANCE.get(id, CfgChannelEntity.class);

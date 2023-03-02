@@ -1,0 +1,12 @@
+#箱子标识
+key: 1030
+#箱子描述
+desc: 体力
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 30 #体力
+    num: 60
+...

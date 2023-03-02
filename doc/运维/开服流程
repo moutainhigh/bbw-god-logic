@@ -1,0 +1,5 @@
+
+1、godmanager.server、god_game.cfg-server新增区服
+2、双击更新配置缓存reloadCfgFromDb
+3、调用区服数据初始化接口：server!initServerData?serverName=新服的名字
+4、双机更新区服缓存reloadCfgFromDb?reloadServerAndGameCache?serverNames=***

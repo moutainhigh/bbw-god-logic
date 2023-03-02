@@ -1,0 +1,26 @@
+#箱子标识
+key: 570
+#箱子描述
+desc: 随机1个灵石
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 五星灵石
+    num: 1
+    prop: 1000
+  -
+    item: 60 # 道具
+    good: 四星灵石
+    num: 1
+    prop: 3000
+  -
+    item: 60 # 道具
+    good: 三星灵石
+    num: 1
+    prop: 6000
+...

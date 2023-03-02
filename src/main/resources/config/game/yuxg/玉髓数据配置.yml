@@ -1,0 +1,8 @@
+#CfgYuSuiEntity
+#玉髓数据配置
+#玉髓道具id quality 阶数
+--- {yuSuiId: 230010, quality: 1}
+--- {yuSuiId: 230020, quality: 2}
+--- {yuSuiId: 230030, quality: 3}
+--- {yuSuiId: 230040, quality: 4}
+--- {yuSuiId: 230050, quality: 5}

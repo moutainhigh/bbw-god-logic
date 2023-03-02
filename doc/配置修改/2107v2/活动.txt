@@ -1,0 +1,17 @@
+添加活动配置数据
+DELETE FROM `god_game`.`cfg_activity` WHERE id IN(3101,3102,3103,3104,3105,3106,3107,3201,3202,3203);
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3101, 0, 12020, 10, 1, 1, '充值签到1', NULL, 1, '[{\"awardId\":530,\"item\":60,\"num\":1}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3102, 0, 12020, 10, 2, 2, '充值签到2', NULL, 2, '[{\"awardId\":11110,\"item\":60,\"num\":20}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3103, 0, 12020, 10, 3, 3, '充值签到3', NULL, 3, '[{\"awardId\":11010,\"item\":60,\"num\":1}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3104, 0, 12020, 10, 4, 4, '充值签到4', NULL, 4, '[{\"awardId\":11110,\"item\":60,\"num\":40}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3105, 0, 12020, 10, 5, 5, '充值签到5', NULL, 5, '[{\"awardId\":11100,\"item\":60,\"num\":1}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3106, 0, 12020, 10, 6, 6, '充值签到6', NULL, 6, '[{\"awardId\":10010,\"item\":60,\"num\":1}]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3107, 0, 12020, 10, 7, 7, '充值签到7', NULL, 7,'[{\"awardId\":140,\"item\":40,\"num\":1,\"probability\":15},{\"awardId\":149,\"item\":40,\"num\":1,\"probability\":13},{\"awardId\":11060,\"item\":60,\"num\":1,\"probability\":20},{\"awardId\":11400,\"item\":60,\"num\":1,\"probability\":2},{\"awardId\":10110,\"item\":60,\"num\":3,\"probability\":15},{\"awardId\":20010,\"item\":60,\"num\":1,\"probability\":15},{\"awardId\":10180,\"item\":60,\"num\":9,\"probability\":8},{\"awardId\":11090,\"item\":60,\"num\":5,\"probability\":7},{\"awardId\":20140,\"item\":60,\"num\":1,\"probability\":5}]', b'1');
+
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3201, 60, 12030, 20, 1, NULL, '新手助力', NULL, 0, '[]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3202, 60, 12031, 20, 1, NULL, '卡牌经验助力', NULL, 0, '[]', b'1');
+INSERT INTO `god_game`.`cfg_activity`(`id`, `parent_type`, `type`, `scope`, `serial`, `series`, `name`, `detail`, `need_value`, `awards`, `status`) VALUES (3203, 60, 12032, 20, 1, NULL, '卡牌经验助力', NULL, 0, '[]', b'1');
+
+手动创建活动
+充值签到
+gm/server!addGameActivity?groups=16,20&types=12020&begin=2021-08-20 14:50:00&end=2021-08-28 23:59:59

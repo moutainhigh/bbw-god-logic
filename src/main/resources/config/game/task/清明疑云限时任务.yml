@@ -1,0 +1,48 @@
+---
+groupId: 200000
+#万圣节限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 200001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "冠族来犯了",value: 1,awards: [{item: 20, num: 100000}],isValid: true}
+  - {id: 200002,seqGroup: 8000,seq: 2,type: 120,difficulty: 10,name: "无聊的玩笑",value: 1,awards: [{item: 60, awardId: 11010, num: 2}],isValid: true}
+  - {id: 200003,seqGroup: 8000,seq: 3,type: 120,difficulty: 10,name: "冠族又来犯",value: 1,awards: [{item: 60, awardId: 10020, num: 8}],isValid: true}
+  - {id: 200004,seqGroup: 8000,seq: 4,type: 120,difficulty: 10,name: "玩笑一而再",value: 1,awards: [{item: 60, awardId: 11090, num: 1}],isValid: true}
+  - {id: 200005,seqGroup: 8000,seq: 5,type: 130,difficulty: 10,name: "不打不成器",value: 1,awards: [{item: 60, awardId: 530, num: 1}],isValid: true}
+  - {id: 200006,seqGroup: 8000,seq: 6,type: 120,difficulty: 10,name: "冠族真来了",value: 1,awards: [{item: 20, num: 150000}],isValid: true}
+  - {id: 200007,seqGroup: 8000,seq: 7,type: 120,difficulty: 10,name: "肯定是玩笑",value: 1,awards: [{item: 60, awardId: 10020, num: 10}],isValid: true}
+  - {id: 200008,seqGroup: 8000,seq: 8,type: 120,difficulty: 10,name: "似乎不正常",value: 1,awards: [{item: 60, awardId: 11090, num: 1}],isValid: true}
+  - {id: 200009,seqGroup: 8000,seq: 9,type: 130,difficulty: 10,name: "惊险的一刻",value: 1,awards: [{item: 60, awardId: 50156, num: 1}],isValid: true}
+  - {id: 200010,seqGroup: 8000,seq: 10,type: 120,difficulty: 20,name: "我们还会来",value: 1,awards: [{item: 60, awardId: 580, num: 1}],isValid: true}
+  - {id: 200011,seqGroup: 8000,seq: 11,type: 120,difficulty: 20,name: "妖族的毒素",value: 1,awards: [{item: 60, awardId: 10110, num: 1}],isValid: true}
+  - {id: 200012,seqGroup: 8000,seq: 12,type: 120,difficulty: 20,name: "并未有好转",value: 1,awards: [{item: 20, num: 200000}],isValid: true}
+  - {id: 200013,seqGroup: 8000,seq: 13,type: 130,difficulty: 20,name: "拦路的猛虎",value: 1,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 200014,seqGroup: 8000,seq: 14,type: 120,difficulty: 20,name: "无效的草药",value: 1,awards: [{item: 60, awardId: 10020, num: 12}],isValid: true}
+  - {id: 200015,seqGroup: 8000,seq: 15,type: 120,difficulty: 20,name: "世外的高人",value: 1,awards: [{item: 60, awardId: 11090, num: 1}],isValid: true}
+  - {id: 200016,seqGroup: 8000,seq: 16,type: 120,difficulty: 20,name: "偶遇同乡人",value: 1,awards: [{item: 60, awardId: 11572, num: 3}],isValid: true}
+  - {id: 200017,seqGroup: 8000,seq: 17,type: 120,difficulty: 20,name: "幸得引路人",value: 1,awards: [{item: 60, awardId: 50160, num: 3}],isValid: true}
+  - {id: 200018,seqGroup: 8000,seq: 18,type: 120,difficulty: 20,name: "还是来了啊",value: 1,awards: [{item: 60, awardId: 50159, num: 2}],isValid: true}
+  - {id: 200019,seqGroup: 8000,seq: 19,type: 130,difficulty: 20,name: "谁都别想走",value: 1,awards: [{item: 60, awardId: 50158, num: 1}],isValid: true}
+  - {id: 200020,seqGroup: 8000,seq: 20,type: 120,difficulty: 30,name: "火烧眉毛了",value: 1,awards: [{item: 60, awardId: 11010, num: 3}],isValid: true}
+  - {id: 200021,seqGroup: 8000,seq: 21,type: 120,difficulty: 30,name: "终于回来了",value: 1,awards: [{item: 60, awardId: 11700, num: 4}],isValid: true}
+  - {id: 200022,seqGroup: 8000,seq: 22,type: 110,difficulty: 30,name: "冠族的挑衅",value: 1000,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 200023,seqGroup: 8000,seq: 23,type: 120,difficulty: 30,name: "疫情交给我",value: 1,awards: [{item: 60, awardId: 11090, num: 2}],isValid: true}
+  - {id: 200024,seqGroup: 8000,seq: 24,type: 120,difficulty: 30,name: "坚守的村民",value: 1,awards: [{item: 20, num: 400000}],isValid: true}
+  - {id: 200025,seqGroup: 8000,seq: 25,type: 120,difficulty: 30,name: "神奇的口罩",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 200026,seqGroup: 8000,seq: 26,type: 120,difficulty: 30,name: "八方来支援",value: 1,awards: [{item: 60, awardId: 10180, num: 9}],isValid: true}
+  - {id: 200027,seqGroup: 8000,seq: 27,type: 110,difficulty: 30,name: "冠族再进攻",value: 2000,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 200028,seqGroup: 8000,seq: 28,type: 120,difficulty: 30,name: "万万没想到",value: 1,awards: [{item: 60, awardId: 60, num: 1}],isValid: true}
+  - {id: 200029,seqGroup: 8000,seq: 29,type: 120,difficulty: 30,name: "短暂的休整",value: 1,awards: [{item: 20, num: 450000}],isValid: true}
+  - {id: 200030,seqGroup: 8000,seq: 30,type: 120,difficulty: 40,name: "突然的伤感",value: 1,awards: [{item: 60, awardId: 50131, num: 1}],isValid: true}
+  - {id: 200031,seqGroup: 8000,seq: 31,type: 120,difficulty: 40,name: "隐藏的阴谋",value: 1,awards: [{item: 60, awardId: 11010, num: 6}],isValid: true}
+  - {id: 200032,seqGroup: 8000,seq: 32,type: 120,difficulty: 40,name: "发现霉冠王",value: 1,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 200033,seqGroup: 8000,seq: 33,type: 130,difficulty: 40,name: "振我华夏魂",value: 1,awards: [{item: 60, awardId: 11410, num: 1}],isValid: true}
+  - {id: 200034,seqGroup: 8000,seq: 34,type: 120,difficulty: 40,name: "胜来之不易",value: 1,awards: [{item: 60, awardId: 50221, num: 10}],isValid: true}
+  - {id: 200035,seqGroup: 8000,seq: 35,type: 120,difficulty: 10,name: "赴春光无限",value: 1,awards: [{item: 60, awardId: 31280, num: 1}],isValid: true}
+...

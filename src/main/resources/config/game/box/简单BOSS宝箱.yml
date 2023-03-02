@@ -1,0 +1,26 @@
+#简单BOSS宝箱
+#箱子标识，对应
+key: 50410
+#箱子描述
+desc: 可获得：随机本源*2、金雷竹*2、养魂木*2、破阵玉牌*7。
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 # 道具
+    good: 随机本源
+    num: 2
+  -
+    item: 60 # 道具
+    good: 金雷竹
+    num: 2
+  -
+    item: 60 # 道具
+    good: 养魂木
+    num: 2
+  -
+    item: 60 # 道具
+    good: 破阵玉牌
+    num: 7
+...

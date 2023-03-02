@@ -1,0 +1,7 @@
+key: 唯一
+cards:
+ - {id: 258,name: 飞蚊,type: 20,star: 2,attack: 200,hp: 240,zeroSkill: 3160,fiveSkill: 4115,tenSkill: 0,group: 0}
+ - {id: 259,name: 巨蚊,type: 20,star: 3,attack: 320,hp: 390,zeroSkill: 3160,fiveSkill: 4115,tenSkill: 3133,group: 0}
+ - {id: 260,name: 龙蚊,type: 20,star: 4,attack: 510,hp: 620,zeroSkill: 4501,fiveSkill: 4115,tenSkill: 3133,group: 0}
+ - {id: 547,name: 麒麟,type: 50,star: 3,attack: 260,hp: 360,zeroSkill: 3132,fiveSkill: 3154,tenSkill: 0,group: 0}
+ - {id: 264,name: 螽斯,type: 20,star: 1,attack: 50,hp: 60,zeroSkill: 101,fiveSkill: 3110,tenSkill: 1205,group: 0} 

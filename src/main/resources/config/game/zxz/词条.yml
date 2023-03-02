@@ -1,0 +1,101 @@
+
+#词条Id:六位数，3开头
+# gear:档位为，没有档位就为0
+#highestLv:词条最高等级
+#type:10,普通词条，20：支援词条，30：特殊词条
+--- {entryId: 331001,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331002,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331003,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331004,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331005,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331006,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331007,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331008,gear: 1, highestLv: 15, type: 10}
+--- {entryId: 331009,gear: 1, highestLv: 15, type: 10}
+
+--- {entryId: 331101,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331102,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331103,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331104,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331105,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331106,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331107,gear: 2, highestLv: 15, type: 10}
+--- {entryId: 331108,gear: 2, highestLv: 15, type: 10}
+
+--- {entryId: 331201,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331202,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331203,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331204,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331205,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331206,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331207,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331208,gear: 3, highestLv: 15, type: 10}
+--- {entryId: 331209,gear: 3, highestLv: 5, type: 10}
+
+
+--- {entryId: 331301,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331302,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331303,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331304,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331305,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331306,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331307,gear: 4, highestLv: 15, type: 10}
+--- {entryId: 331308,gear: 4, highestLv: 15, type: 10}
+
+--- {entryId: 331401,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331402,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331403,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331404,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331405,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331406,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331407,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331408,gear: 5, highestLv: 15, type: 10}
+--- {entryId: 331409,gear: 5, highestLv: 15, type: 10}
+
+--- {entryId: 332001,gear: 0, highestLv: 5 , type: 20}
+--- {entryId: 332002,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332003,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332004,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332005,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332006,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332007,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332008,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332009,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332010,gear: 0, highestLv: 10, type: 20}
+--- {entryId: 332011,gear: 0, highestLv: 10, type: 20}
+
+#诅咒词条配置，type 40
+--- {entryId: 333001,gear: 0,highestLv: 10, type: 40}
+
+--- {entryId: 333101,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333102,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333103,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333104,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333105,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333106,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333107,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333108,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333109,gear: 1,highestLv: 1, type: 40}
+--- {entryId: 333110,gear: 1,highestLv: 1, type: 40}
+
+--- {entryId: 333201,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333202,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333203,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333204,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333205,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333206,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333207,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333208,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333209,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333210,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333211,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333212,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333213,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333214,gear: 2,highestLv: 1, type: 40}
+--- {entryId: 333215,gear: 2,highestLv: 1, type: 40}
+
+--- {entryId: 333301,gear: 3,highestLv: 1, type: 40}
+--- {entryId: 333302,gear: 3,highestLv: 1, type: 40}
+--- {entryId: 333303,gear: 3,highestLv: 1, type: 40}
+--- {entryId: 333304,gear: 3,highestLv: 1, type: 40}
+--- {entryId: 333305,gear: 3,highestLv: 1, type: 40}

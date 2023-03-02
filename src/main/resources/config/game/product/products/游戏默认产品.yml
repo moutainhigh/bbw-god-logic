@@ -1,0 +1,428 @@
+#富甲封神传默认的充值产品。
+#月卡的ID固定为11，速战卡ID固定为12。
+#CfgProductGroup
+#firstRate首次购买发放比例
+#1200054 华为速战卡 innerID
+---
+groupId: 1
+products:
+  - {id: 11,serial: 1,name: 月卡,quantity: 300,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 12,serial: 2,name: 速战卡,quantity: 300,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 13,serial: 3,name: 60元宝,quantity: 60,price: 6,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 14,serial: 4,name: 180元宝,quantity: 180,price: 18,extraNum: 10,firstRate: 1,isAvailable: true,recommend: false,isShow: false,isZhiChong: false}
+  - {id: 15,serial: 5,name: 680元宝,quantity: 680,price: 68,extraNum: 50,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 16,serial: 6,name: 980元宝,quantity: 980,price: 98,extraNum: 100,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 17,serial: 7,name: 1980元宝,quantity: 1980,price: 198,extraNum: 250,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 18,serial: 8,name: 3280元宝,quantity: 3280,price: 328,extraNum: 500,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 19,serial: 9,name: 6480元宝,quantity: 6480,price: 648,extraNum: 1200,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 20,serial: 4,name: 300元宝,quantity: 300,price: 30,extraNum: 20,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 21,serial: 1,name: 季卡,quantity: 680,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 22,serial: 6,name: 1280元宝,quantity: 1280,price: 128,extraNum: 150,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  #  - {id: 23,serial: 8,name: 4480元宝,quantity: 4480,price: 448,extraNum: 800,firstRate: 2,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 30,serial: 6,name: 永久季卡,quantity: 3960,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 31,serial: 6,name: 签到卡,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 32,serial: 6,name: 升级永久季卡,quantity: 3280,price: 130,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  #40~49供钻石使用
+  - {id: 40,serial: 1,name: 6钻石,quantity: 6,price: 6,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 41,serial: 2,name: 30钻石,quantity: 30,price: 30,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 42,serial: 3,name: 68钻石,quantity: 68,price: 68,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 43,serial: 4,name: 98钻石,quantity: 98,price: 98,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 44,serial: 5,name: 198钻石,quantity: 198,price: 198,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 45,serial: 6,name: 328钻石,quantity: 328,price: 328,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 46,serial: 7,name: 648钻石,quantity: 648,price: 648,extraNum: 0,firstRate: 2,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+
+  - {id: 60,serial: 61,name: 首冲6元宝,quantity: 60,price: 6,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 61,serial: 62,name: 首冲30元宝,quantity: 300,price: 30,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 62,serial: 63,name: 首冲98元宝,quantity: 980,price: 98,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 63,serial: 64,name: 首冲198元宝,quantity: 1980,price: 198,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+
+  - {id: 70,serial: 71,name: 梦魇世界首冲6元宝,quantity: 60,price: 6,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 71,serial: 72,name: 梦魇世界首冲30元宝,quantity: 300,price: 30,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 72,serial: 73,name: 梦魇世界首冲98元宝,quantity: 980,price: 98,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  - {id: 73,serial: 74,name: 梦魇世界首冲198元宝,quantity: 1980,price: 198,extraNum: 0,firstRate: 3,isAvailable: true,recommend: false,isShow: true,isZhiChong: false}
+  #零散的充值项目
+  - {id: 99001130,serial: 10,name: 每周灵石,quantity: 0,price: 18,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001210,serial: 10,name: 萌新礼包,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001211,serial: 10,name: 1元萌新礼包,quantity: 0,price: 1,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001281,serial: 10,name: 战斗助力,quantity: 0,price: 1,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001282,serial: 10,name: 进击助力,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001283,serial: 10,name: 法宝助力,quantity: 0,price: 12,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001600,serial: 10,name: 进阶令牌,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001610,serial: 10,name: 高级进阶令牌,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+
+
+  #  - {id: 99001000,serial: 10,name: 0元日礼包,quantity: 0,price: 0,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001006,serial: 10,name: 6元日礼包,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001031,serial: 10,name: 30元日礼包,quantity: 0,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+
+  - {id: 99001041,serial: 10,name: 每日夺宝礼包,quantity: 0,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001043,serial: 10,name: 每日招募礼包,quantity: 0,price: 90,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001044,serial: 10,name: 每日修道礼包,quantity: 0,price: 60,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001045,serial: 10,name: 每日升阶礼包,quantity: 0,price: 80,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001046,serial: 10,name: 每日祈符礼包,quantity: 0,price: 120,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  #- {id: 99001042,serial: 10,name: 每日升阶包,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  #- {id: 99001040,serial: 10,name: 每日福利礼包,quantity: 0,price: 0,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+
+  #  - {id: 99001100,serial: 10,name: 0元周礼包,quantity: 0,price: 0,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001170,serial: 10,name: 68元周礼包,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001172,serial: 10,name: 198元周礼包,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001174,serial: 10,name: 328元周礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001176,serial: 10,name: 448元周礼包,quantity: 0,price: 448,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+
+  # - {id: 99001101,serial: 1,name: 每周福利礼包,quantity: 0,price: 0,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 99001102,serial: 2,name: 每周保护礼包,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001103,serial: 3,name: 每周修体礼包,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001104,serial: 4,name: 每周夺宝礼包,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001105,serial: 5,name: 每周炼技礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001106,serial: 6,name: 每周修道礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001107,serial: 7,name: 每周保护礼包2,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001108,serial: 8,name: 每周星图礼包,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001109,serial: 9,name: 每周符首礼包,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001110,serial: 10,name: 每周符首礼包2,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001111,serial: 11,name: 每周祈符礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001112,serial: 12,name: 每周修炼礼包,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+
+  #  - {id: 99001300,serial: 10,name: 0元月礼包,quantity: 0,price: 0,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: false}
+  #  - {id: 99001310,serial: 10,name: 30元月礼包,quantity: 0,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001315,serial: 10,name: 68元月礼包,quantity: 0,price: 68,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001320,serial: 10,name: 198元月礼包,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001325,serial: 10,name: 328元月礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001330,serial: 10,name: 448元月礼包,quantity: 0,price: 448,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #  - {id: 99001335,serial: 10,name: 648元月礼包,quantity: 0,price: 648,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+
+  - {id: 99001291,serial: 10,name: 破军星,quantity: 0,price: 128,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001292,serial: 10,name: 神力横扫礼包,quantity: 0,price: 648,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #特惠礼包系列
+  - {id: 99001400,serial: 10,name: 特惠1元宝礼包,quantity: 0,price: 1,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+  - {id: 99001401,serial: 10,name: 特惠1元礼包,quantity: 0,price: 1,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001402,serial: 10,name: 特惠3元礼包,quantity: 0,price: 3,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001403,serial: 10,name: 特惠6元礼包,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001404,serial: 10,name: 特惠60元周套餐礼包,quantity: 0,price: 60,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #特惠礼包限时1系列
+  - {id: 99001500,serial: 1500,name: 648元招募礼包,quantity: 0,price: 648,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001501,serial: 1500,name: 328元招募礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001502,serial: 1500,name: 648元修道礼包,quantity: 0,price: 648,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001503,serial: 1500,name: 328元修道礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001504,serial: 1500,name: 648元保护礼包,quantity: 0,price: 648,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001505,serial: 1500,name: 328元保护礼包,quantity: 0,price: 328,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001506,serial: 1500,name: 卡牌特惠礼包,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001603,serial: 1,name: 新手福利礼包1,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001604,serial: 1,name: 新手福利礼包2,quantity: 0,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001605,serial: 1,name: 修炼特惠礼包3,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001606,serial: 1,name: 修炼特惠礼包4,quantity: 0,price: 128,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001607,serial: 1,name: 招募惊喜礼包1,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  - {id: 99001608,serial: 1,name: 招募惊喜礼包2,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}
+  #节日礼包-51
+  - {id: 99001801,serial: 1,name: 节日礼包6元福利,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001802,serial: 1,name: 节日礼包30元福利,quantity: 0,price: 30,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001803,serial: 1,name: 节日礼包98元福利,quantity: 0,price: 98,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+  - {id: 99001804,serial: 1,name: 节日礼包198元福利,quantity: 0,price: 198,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: true}
+
+productAward:
+  - productId: 99001130
+    memo: 每周灵石礼包：五星灵石*1、四星灵石*2、三星灵石*3、混沌仙石*3
+    awardList:
+      - {num: 1, item: 60, awardId: 850}
+      - {num: 2, item: 60, awardId: 840}
+      - {num: 3, item: 60, awardId: 830}
+      - {num: 3, item: 60, awardId: 10030}
+  - productId: 99001210
+    memo: 萌新礼包：四星召唤符*1、山河社稷图*1、铜钱*5万、神砂*5、体力*20
+    awardList:
+      - {num: 1, item: 60, awardId: 11180}
+      - {num: 1, item: 60, awardId: 60}
+      - {num: 50000, item: 20}
+      - {num: 5, item: 60, awardId: 10020}
+      - {num: 20, item: 30}
+  - productId: 99001211
+    memo: 1元萌新礼包：四星召唤符*1、山河社稷图*1、铜钱*5万、神砂*5、体力*20
+    awardList:
+      - {num: 1, item: 60, awardId: 11180}
+      - {num: 1, item: 60, awardId: 60}
+      - {num: 50000, item: 20}
+      - {num: 5, item: 60, awardId: 10020}
+      - {num: 20, item: 30}
+  - productId: 99001281
+    memo: 战斗助力礼包：随机三星卡*1、神砂*20、铜钱*10w
+    awardList:
+      - {num: 1, item: 40, star: 3, awardId: 0}
+      - {num: 20, item: 60, awardId: 10020}
+      - {num: 100000, item: 20}
+  - productId: 99001282
+    memo: 进击助力礼包：元宝福袋*1、玉麒麟*3、铜钱*50w
+    awardList:
+      - {num: 1, item: 60, awardId: 530}
+      - {num: 3, item: 60, awardId: 80}
+      - {num: 500000, item: 20}
+  - productId: 99001283
+    memo: 法宝助力礼包：山河社稷图*2、乾坤图*1、仙之源*3
+    awardList:
+      - {num: 2, item: 60, awardId: 60}
+      - {num: 1, item: 60, awardId: 20}
+      - {num: 3, item: 60, awardId: 10110}
+  - productId: 99001040
+    memo: 每日福利礼包：神砂*3、铜钱*5000
+    awardList:
+      - {num: 3, item: 60, awardId: 10020}
+      - {num: 5000, item: 20}
+  #  - productId: 99001006
+  #    memo: 6元日礼包：元宝*60、幸运奖券*1、玉麒麟*1、商会令牌*1
+  #    awardList:
+  #      - {num: 60, item: 10}
+  #      - {num: 1, item: 60, awardId: 11100}
+  #      - {num: 1, item: 60, awardId: 80}
+  #      - {num: 1, item: 60, awardId: 10050}
+  - productId: 99001041
+    memo: 30元每日夺宝礼包：元宝*300、夺宝抵用券*5
+    awardList:
+      - {num: 300, item: 10}
+      - {num: 5, item: 60, awardId: 11090}
+  - productId: 99001042
+    memo: 68元每日升阶礼包：元宝*680、魂源*15
+    awardList:
+      - {num: 680, item: 10}
+      - {num: 15, item: 60, awardId: 10180}
+  - productId: 99001043
+    memo: 90元每日招募礼包：元宝*900、指定招募道具【%s】
+    awardList:
+      - {num: 900, item: 10}
+
+  - productId: 99001101
+    memo: 0元每周福利礼包：仙之源*1、神砂*3
+    awardList:
+      - {num: 1, item: 60, awardId: 10110}
+      - {num: 1, item: 60, awardId: 10180}
+  #  - productId: 99001170
+  #    memo: 68元周礼包：仙之源*3、通天残卷*15、神砂*10
+  #    awardList:
+  #      - {num: 3, item: 60, awardId: 10110}
+  #      - {num: 15, item: 60, awardId: 11010}
+  #      - {num: 10, item: 60, awardId: 10020}
+  - productId: 99001102
+    memo: 98元每周保护礼包：元宝*980、炼技保护符*1
+    awardList:
+      - {num: 980, item: 10}
+      - {num: 1, item: 60, awardId: 11400}
+  - productId: 99001103
+    memo: 198元每周修体礼包：元宝*1980、指定道具【%s】
+    awardList:
+      - {num: 1980, item: 10}
+  - productId: 99001104
+    memo: 198元每周夺宝礼包：元宝*1980、夺宝抵用券*40
+    awardList:
+      - {num: 1980, item: 10}
+      - {num: 40, item: 60, awardId: 11090}
+  - productId: 99001105
+    memo: 328元每周炼技礼包：元宝*3280、指定道具【%s】
+    awardList:
+      - {num: 3280, item: 10}
+  - productId: 99001106
+    memo: 328元每周修道礼包：元宝*3280、通天残卷*90
+    awardList:
+      - {num: 3280, item: 10}
+      - {num: 90, item: 60, awardId: 11010}
+  - productId: 99001107
+    memo: 198元每周保护礼包2：元宝*1980、炼技保护符*2
+    awardList:
+      - { num: 1980, item: 10}
+      - { num: 2, item: 60, awardId: 11400}
+  - productId: 99001108
+    memo: 68元每周星图包：元宝*680、星图保护符*10
+    awardList:
+      - { num: 680, item: 10}
+      - { num: 10, item: 60, awardId: 11720}
+  - productId: 99001109
+    memo: 68元每周符首礼包：元宝*680、玄阶符首*2
+    awardList:
+      - { num: 680, item: 10}
+      - { num: 2, item: 60, awardId: 50130}
+  - productId: 99001110
+    memo: 98元每周符首礼包2：元宝*980、地阶符首*1
+    awardList:
+      - { num: 980, item: 10}
+      - { num: 1, item: 60, awardId: 50131}
+  - productId: 99001111
+    memo: 328元每周祈符礼包：元宝*3280、血晶*36
+    awardList:
+      - { num: 3280, item: 10}
+      - { num: 36, item: 60, awardId: 50129}
+  - productId: 99001112
+    memo: 198元每周修炼礼包：元宝*1980、通天令牌*1
+    awardList:
+      - { num: 1980, item: 10}
+      - { num: 1, item: 60, awardId: 11760}
+  #  - productId: 99001176
+  #    memo: 448元周礼包：魂源*80、通天残卷*105、神砂*70
+  #    awardList:
+  #      - {num: 80, item: 60, awardId: 10180}
+  #      - {num: 105, item: 60, awardId: 11010}
+  #      - {num: 70, item: 60, awardId: 10020}
+  #  - productId: 99001300
+  #    memo: 0元月礼包：魂源*3、通天残页*2
+  #    awardList:
+  #      - {num: 3, item: 60, awardId: 10180}
+  #      - {num: 2, item: 60, awardId: 11010}
+  #  - productId: 99001310
+  #    memo: 30元月礼包：元宝*300、魂源*5、通天残页*3
+  #    awardList:
+  #      - {num: 300, item: 10}
+  #      - {num: 5, item: 60, awardId: 10180}
+  #      - {num: 3, item: 60, awardId: 11010}
+  #  - productId: 99001315
+  #    memo: 68元月礼包：元宝*680、魂源*10、通天残页*6
+  #    awardList:
+  #      - {num: 680, item: 10}
+  #      - {num: 10, item: 60, awardId: 10180}
+  #      - {num: 6, item: 60, awardId: 11010}
+  #  - productId: 99001320
+  #    memo: 198元月礼包：元宝*1980、魂源*30、通天残页*18
+  #    awardList:
+  #      - {num: 1980, item: 10}
+  #      - {num: 30, item: 60, awardId: 10180}
+  #      - {num: 18, item: 60, awardId: 11010}
+  #  - productId: 99001325
+  #    memo: 328元月礼包：元宝*3280、魂源*50、通天残页*30
+  #    awardList:
+  #      - {num: 3280, item: 10}
+  #      - {num: 50, item: 60, awardId: 10180}
+  #      - {num: 30, item: 60, awardId: 11010}
+  #  - productId: 99001330
+  #    memo: 448元月礼包：元宝*4480、魂源*70、通天残页*42
+  #    awardList:
+  #      - {num: 4480, item: 10}
+  #      - {num: 70, item: 60, awardId: 10180}
+  #      - {num: 42, item: 60, awardId: 11010}
+  #  - productId: 99001335
+  #    memo: 648元月礼包：元宝*6480、魂源*100、通天残页*60
+  #    awardList:
+  #      - {num: 6480, item: 10}
+  #      - {num: 100, item: 60, awardId: 10180}
+  #      - {num: 60, item: 60, awardId: 11010}
+  - productId: 99001291
+    memo: 破军星：卡牌-苏全忠*1、三星灵石*50、神砂*50
+    awardList:
+      - {num: 1, item: 40,awardId: 246}
+      - {num: 50, item: 60, awardId: 830}
+      - {num: 50, item: 60, awardId: 10020}
+  - productId: 99001292
+    memo: 神力横扫礼包：元宝*6480、卡牌-恶来*1、卡牌-蜚廉*1、魂源*90
+    awardList:
+      - {num: 6480, item: 10}
+      - {num: 1, item: 40,awardId: 127}
+      - {num: 1, item: 40, awardId: 128}
+      - {num: 90, item: 60, awardId: 10180}
+
+  - productId: 99001400
+    memo: 奇珍特惠1元宝礼包：体力*30、铜钱*1万
+    awardList:
+      - {num: 30, item: 30}
+      - {num: 10000, item: 20}
+  - productId: 99001401
+    memo: 奇珍特惠1元礼包：元宝*10、仙之源*1、风火轮*1
+    awardList:
+      - {num: 10, item: 10}
+  - productId: 99001402
+    memo: 奇珍特惠3元宝*30、自选2种奖励 （可选范围：玄阶符首*1、随机符篆礼包*1、星图保护符*1、等级铜钱、战斗助力礼包*1）
+    awardList:
+      - {num: 30, item: 10}
+  - productId: 99001403
+    memo: 奇珍特惠6元礼包：元宝*60、自选3种奖励
+      可选范围：幸运奖券*1、魂源*1、商会令牌*1、时装升级丹*1、天晶*20
+    awardList:
+      - {num: 60, item: 10}
+  - productId: 99001603
+    memo: 新手福利礼包1：神砂*50、铜钱*40万、元宝*60
+    awardList:
+      - {num: 50, item: 60, awardId: 10020}
+      - {num: 400000, item: 20}
+      - {num: 60, item: 10}
+  - productId: 99001604
+    memo: 新手福利礼包2：神砂*560、铜钱*450万、元宝*300
+    awardList:
+      - {num: 560, item: 60, awardId: 10020}
+      - {num: 4500000, item: 20}
+      - {num: 300, item: 10}
+  - productId: 99001605
+    memo: 修炼特惠礼包3：练技保护符*1、通天残卷*38
+    awardList:
+      - {num: 1, item: 60, awardId: 11400}
+      - {num: 38, item: 60, awardId: 11010}
+  - productId: 99001606
+    memo: 修炼特惠礼包4：通天令牌*1、元宝1280
+    awardList:
+      - {num: 1, item: 60, awardId: 11760}
+      - {num: 1280, item: 10}
+  - productId: 99001607
+    memo: 招募惊喜礼包1：聚仙旗*8
+    awardList:
+      - {num: 8, item: 60, awardId: 10010}
+  - productId: 99001608
+    memo: 招募惊喜礼包2：唤神符*8、仙之缘*9
+    awardList:
+      - {num: 8, item: 60, awardId: 10170}
+      - {num: 9, item: 60, awardId: 10110}
+  - productId: 99001044
+    memo: 每日修道礼包：元宝*600、通天残卷*15
+    awardList:
+      - {num: 600, item: 10}
+      - {num: 15, item: 60, awardId: 11010}
+  - productId: 99001045
+    memo: 每日升阶礼包：元宝*800、魂源*30
+    awardList:
+      - {num: 800, item: 10}
+      - {num: 30, item: 60, awardId: 10180}
+  - productId: 99001046
+    memo: 每日祈符礼包：元宝*1200、血晶*12
+    awardList:
+      - {num: 1200, item: 10}
+      - {num: 12, item: 60, awardId: 50129}
+  - productId: 99000013
+    memo: 60元宝礼包：元宝*60
+    awardList:
+      - {num: 60, item: 10}
+  - productId: 99000020
+    memo: 300元宝礼包：元宝*300
+    awardList:
+      - {num: 300, item: 10}
+  - productId: 99000015
+    memo: 680元宝礼包：元宝*680
+    awardList:
+      - {num: 680, item: 10}
+  - productId: 99000016
+    memo: 980元宝礼包：元宝*980
+    awardList:
+      - {num: 980, item: 10}
+  - productId: 99000017
+    memo: 1980元宝礼包：元宝*1980
+    awardList:
+      - {num: 1980, item: 10}
+  - productId: 99000018
+    memo: 3280元宝礼包：元宝*3280
+    awardList:
+      - {num: 3280, item: 10}
+  - productId: 99000019
+    memo: 6480元宝礼包：元宝*6480
+    awardList:
+      - {num: 6480, item: 10}
+  - productId: 99001801
+    memo: 以下是您节日礼包6元福利奖励，请及时查收。
+    awardList:
+      - {num: 18, item: 1}
+  - productId: 99001802
+    memo: 以下是您节日礼包30元福利奖励，请及时查收。
+    awardList:
+      - {num: 90, item: 1}
+      - {num: 1, item: 60, awardId: 11400}
+  - productId: 99001803
+    memo: 以下是您节日礼包98元福利奖励，请及时查收。
+    awardList:
+      - {num: 294, item: 1}
+      - {num: 1, item: 60, awardId: 11400}
+      - {num: 1, item: 60, awardId: 11410}
+  - productId: 99001804
+    memo: 以下是您节日礼包198元福利奖励，请及时查收。
+    awardList:
+      - {num: 594, item: 1}
+      - {num: 2, item: 60, awardId: 11400}
+      - {num: 1, item: 60, awardId: 50010}
+...

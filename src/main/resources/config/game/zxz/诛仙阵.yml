@@ -1,0 +1,131 @@
+#新诛仙阵基本配置
+#CfgZxzEntity
+key: 唯一
+#开始维护时间
+beginMaintainDate: 2023-02-17 00:00:00
+#结束维护时间
+endMaintainDate: 2023-02-17 16:00:00
+
+unlockNeedUserLevel: 25
+unlockNeedCityLevel5: 5
+#榜单人数上限
+rankLimit: 50
+#保留几周的时间
+retainWeekNum: 5
+
+#区域的配置
+#progress：区域攻打进度,
+#eliteDropBoxNum：击败精英野怪可掉落的宝箱数量
+#chiefDropBoxNum：击败首领野怪可掉落的宝箱数量
+#frequency： 每个区域可以复活次数上限
+regionConfig:
+  - { progress: 6,eliteDropBoxNum: 1,chiefDropBoxNum: 1,reviveFrequency: 3}
+
+#区域之间的攻防比例
+#difficulty:难度类型
+#defenseRroport 攻防比例 %
+#reduceNum：减少数值
+regionDefenseProports:
+  - {difficulty: 10,addDefenseProport: 110,reduceDefenseProport: 0}
+  - {difficulty: 20,addDefenseProport: 120,reduceDefenseProport: 15}
+  - {difficulty: 30,addDefenseProport: 130,reduceDefenseProport: 15}
+  - {difficulty: 40,addDefenseProport: 140,reduceDefenseProport: 15}
+  - {difficulty: 50,addDefenseProport: 150,reduceDefenseProport: 15}
+#difficulty:难度类型：10：简单，20：普通，30：困难，40：噩梦，50：地狱
+#unlockNeedScore：开启条该难度所需要的分数
+#regions：区域Id
+#reduceCardLv:玩家卡牌压缩等级
+#entryGears:初始词条档位
+#entryGearLimit:词条档位上限
+#entryInitLv：词条初始等级
+#entryLvLimit：词条等级上限
+levels:
+  - {difficulty: 10,unlockNeedScore: 0,  regions: [101],reduceCardLv: 0,entryGears: [1],unlockEntryGearLimit: 3,entryInitLv: 1,entryLvLimit: 2 }
+  - {difficulty: 20,unlockNeedScore: 14, regions: [201,202],reduceCardLv: 5,entryGears: [1,2],unlockEntryGearLimit: 3,entryInitLv: 1,entryLvLimit: 4}
+  - {difficulty: 30,unlockNeedScore: 108,regions: [301,302,303],reduceCardLv: 10,entryGears: [1,2,3],unlockEntryGearLimit: 4,entryInitLv: 2,entryLvLimit: 6}
+  - {difficulty: 40,unlockNeedScore: 384,regions: [401,402,403,404],reduceCardLv: 15,entryGears: [1,2,3,4],unlockEntryGearLimit: 5,entryInitLv: 3,entryLvLimit: 8 }
+  - {difficulty: 50,unlockNeedScore: 548,regions: [501,502,503,504,505],reduceCardLv: 20,entryGears: [1,2,3,4,5],unlockEntryGearLimit: 5,entryInitLv: 4,entryLvLimit: 10 }
+
+
+
+
+#敌方野怪规则
+#difficulty:难度类型，10：简单，20：普通，30：困难，40：噩梦，50：地狱
+#defender:关卡
+#kind:种类类型,0：普通野怪，1：精英野怪，2：首领野怪
+#summonerLv：召唤师等级
+#bloodBarNum  血条
+#cardLv：卡牌等级
+#cardHv：卡牌阶数
+#skill:技能随机,0:技能不随机，1：技能随机
+#cards:卡牌随机
+#fuTus：符图随机 fuTuQualities
+defenderCardRules:
+  - {difficulty: 10,defender: 1, kind: 10,summonerLv: 80, bloodBarNum: 1, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4,5],num: 1},{stars: [1,2,3],num: 19}]}
+  - {difficulty: 10,defender: 2, kind: 10,summonerLv: 80, bloodBarNum: 1, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4,5],num: 1},{stars: [1,2,3],num: 19}]}
+  - {difficulty: 10,defender: 3, kind: 20,summonerLv: 80, bloodBarNum: 1, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 1},{ stars: [4,5],num: 1},{stars: [1,2,3],num: 18}]}
+  - {difficulty: 10,defender: 4, kind: 10,summonerLv: 80, bloodBarNum: 1, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4,5],num: 1},{stars: [1,2,3],num: 19}]}
+  - {difficulty: 10,defender: 5, kind: 10,summonerLv: 80, bloodBarNum: 1, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4,5],num: 1},{stars: [1,2,3],num: 19}]}
+  - {difficulty: 10,defender: 6, kind: 30,summonerLv: 80, bloodBarNum: 2, cardLv: 20,cardHv: 2, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 2},{stars: [4],num: 1},{stars: [1,2,3],num: 17}]}
+
+  - {difficulty: 20,defender: 1, kind: 10,summonerLv: 100, bloodBarNum: 1, cardLv: 20,cardHv: 4, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4],num: 1},{stars: [4,5],num: 3},{stars: [1,2,3],num: 16}]}
+  - {difficulty: 20,defender: 2, kind: 10,summonerLv: 100, bloodBarNum: 1, cardLv: 20,cardHv: 4, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4],num: 1},{stars: [4,5],num: 3},{stars: [1,2,3],num: 16}]}
+  - {difficulty: 20,defender: 3, kind: 20,summonerLv: 100, bloodBarNum: 1, cardLv: 20,cardHv: 4, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards:  [{stars: [5],num: 2},{stars: [4],num: 1 },{ stars: [4,5],num: 2},{stars: [1,2,3],num: 15}]}
+  - {difficulty: 20,defender: 4, kind: 10,summonerLv: 100, bloodBarNum: 1, cardLv: 20,cardHv: 4, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4],num: 1},{stars: [4,5],num: 3},{stars: [1,2,3],num: 16}]}
+  - {difficulty: 20,defender: 5, kind: 10,summonerLv: 100, bloodBarNum: 1, cardLv: 20,cardHv: 4, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [4],num: 1},{stars: [4,5],num: 3},{stars: [1,2,3],num: 16}]}
+  - {difficulty: 20,defender: 6, kind: 30,summonerLv: 100, bloodBarNum: 2, cardLv: 20,cardHv: 4, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 2},{stars: [4,5],num: 1},{stars: [1,2,3],num: 14}]}
+
+  - {difficulty: 30,defender: 1, kind: 10,summonerLv: 250, bloodBarNum: 1, cardLv: 20,cardHv: 6, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 1},{stars: [4],num: 2},{stars: [4,5],num: 4},{stars: [1,2,3],num: 13}]}
+  - {difficulty: 30,defender: 2, kind: 10,summonerLv: 250, bloodBarNum: 1, cardLv: 20,cardHv: 6, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 1},{stars: [4],num: 2},{stars: [4,5],num: 4},{stars: [1,2,3],num: 13}]}
+  - {difficulty: 30,defender: 3, kind: 20,summonerLv: 250, bloodBarNum: 2, cardLv: 20,cardHv: 6, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 2},{stars: [4,5],num: 3},{stars: [1,2,3],num: 12}]}
+  - {difficulty: 30,defender: 4, kind: 10,summonerLv: 250, bloodBarNum: 1, cardLv: 20,cardHv: 6, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 1},{stars: [4],num: 2},{stars: [4,5],num: 4},{stars: [1,2,3],num: 13}]}
+  - {difficulty: 30,defender: 5, kind: 10,summonerLv: 250, bloodBarNum: 1, cardLv: 20,cardHv: 6, skillRandom: 0, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]}],cards: [{stars: [5],num: 1},{stars: [4],num: 2},{stars: [4,5],num: 4},{stars: [1,2,3],num: 13}]}
+  - {difficulty: 30,defender: 6, kind: 30,summonerLv: 250, bloodBarNum: 2, cardLv: 20,cardHv: 6, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [3,4]}],cards: [{stars: [5],num: 4},{stars: [4],num: 3},{stars: [4,5],num: 2},{stars: [1,2,3],num: 11}]}
+
+  - {difficulty: 40,defender: 1, kind: 10,summonerLv: 400, bloodBarNum: 1, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 2},{stars: [4],num: 3},{stars: [4,5],num: 5},{stars: [1,2,3],num: 10}]}
+  - {difficulty: 40,defender: 2, kind: 10,summonerLv: 400, bloodBarNum: 1, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 2},{stars: [4],num: 3},{stars: [4,5],num: 5},{stars: [1,2,3],num: 10}]}
+  - {difficulty: 40,defender: 3, kind: 20,summonerLv: 400, bloodBarNum: 2, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [3,4]}],cards: [{stars: [5],num: 4},{stars: [4],num: 3},{ stars: [4,5],num: 4},{stars: [1,2,3],num: 9}]}
+  - {difficulty: 40,defender: 4, kind: 10,summonerLv: 400, bloodBarNum: 1, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 2},{stars: [4],num: 3},{stars: [4,5],num: 5},{stars: [1,2,3],num: 10}]}
+  - {difficulty: 40,defender: 5, kind: 10,summonerLv: 400, bloodBarNum: 1, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 2},{stars: [4],num: 3},{stars: [4,5],num: 5},{stars: [1,2,3],num: 10}]}
+  - {difficulty: 40,defender: 6, kind: 30,summonerLv: 400, bloodBarNum: 2, cardLv: 20,cardHv: 8, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [4,5]}],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [4,5],num: 3},{stars: [1,2,3],num: 8}]}
+
+  - {difficulty: 50,defender: 1, kind: 10,summonerLv: 700, bloodBarNum: 1, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 4},{stars: [4,5],num: 6},{stars: [1,2,3],num: 7}]}
+  - {difficulty: 50,defender: 2, kind: 10,summonerLv: 700, bloodBarNum: 1, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 4},{stars: [4,5],num: 6},{stars: [1,2,3],num: 7}]}
+  - {difficulty: 50,defender: 3, kind: 20,summonerLv: 700, bloodBarNum: 2, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [3,4]}],cards:  [{stars: [5],num: 5},{ stars: [4],num: 4},{stars: [4,5],num: 5},{stars: [1,2,3],num: 6}]}
+  - {difficulty: 50,defender: 4, kind: 10,summonerLv: 700, bloodBarNum: 1, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 4},{stars: [4,5],num: 6},{stars: [1,2,3],num: 7}]}
+  - {difficulty: 50,defender: 5, kind: 10,summonerLv: 700, bloodBarNum: 1, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [1,2,3]}],cards: [{stars: [5],num: 3},{stars: [4],num: 4},{stars: [4,5],num: 6},{stars: [1,2,3],num: 7}]}
+  - {difficulty: 50,defender: 6, kind: 30,summonerLv: 700, bloodBarNum: 3, cardLv: 20,cardHv: 10, skillRandom: 1, fuTus: [{fuTuTypes: [10,20,30],fuTuQualitys: [1,2,3,4,5]},{fuTuTypes: [40],fuTuQualitys: [4,5]}],cards: [{stars: [5],num: 6},{stars: [4],num: 5},{stars: [4,5],num: 4},{stars: [1,2,3],num: 5}]}
+
+
+#刷新时间表
+#difficulty：难度类型
+#refreshTime：刷新时间
+#weekDays：周几
+#hour:什么时间
+autoRefreshRules:
+  - {difficulty: 10,refreshTime:[{weekDays: [0],hour: 0}]}
+  - {difficulty: 20,refreshTime:[{weekDays: [0],hour: 0}]}
+  - {difficulty: 30,refreshTime:[{weekDays: [1],hour: 0},{weekDays: [4],hour: 12}]}
+  - {difficulty: 40,refreshTime:[{weekDays: [1],hour: 0},{weekDays: [4],hour: 12}]}
+  - {difficulty: 50,refreshTime:[{weekDays: [1],hour: 0}]}
+
+
+#复阵图消耗
+manualRefreshLevels:
+  - { difficulty: 10,needTreasure: 50399,num: 1 }
+  - { difficulty: 20,needTreasure: 50399,num: 1 }
+  - { difficulty: 30,needTreasure: 50400,num: 1 }
+  - { difficulty: 40,needTreasure: 50400,num: 1 }
+  - { difficulty: 50,needTreasure: 50401,num: 1 }
+
+
+
+#复活草
+revivals:
+  - { frequency: 1,needTreasure: 50397,num: 1 }
+  - { frequency: 2,needTreasure: 50397,num: 2 }
+  - { frequency: 3,needTreasure: 50397,num: 3 }
+
+
+#要过滤的符图id
+filterFutuIds: [231307]

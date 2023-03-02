@@ -1,0 +1,51 @@
+#CfgBusinessGangShippingTaskRules
+key: 唯一
+#加急概率翻倍需要的声望
+urgentDoubleNeedPrestige: 4000
+#specialId 特产id grade 等级 10低级 20中级 30高级
+specialsRules:
+  - {specialId: 9, grade: 10}
+  - {specialId: 2, grade: 10}
+  - {specialId: 1, grade: 10}
+  - {specialId: 6, grade: 10}
+  - {specialId: 8, grade: 10}
+  - {specialId: 4, grade: 10}
+  - {specialId: 3, grade: 10}
+  - {specialId: 5, grade: 10}
+  - {specialId: 7, grade: 10}
+  - {specialId: 10, grade: 10}
+  - {specialId: 19, grade: 20}
+  - {specialId: 11, grade: 20}
+  - {specialId: 23, grade: 20}
+  - {specialId: 16, grade: 20}
+  - {specialId: 12, grade: 20}
+  - {specialId: 22, grade: 200}
+  - {specialId: 21, grade: 20}
+  - {specialId: 13, grade: 20}
+  - {specialId: 18, grade: 20}
+  - {specialId: 14, grade: 20}
+  - {specialId: 17, grade: 20}
+  - {specialId: 24, grade: 20}
+  - {specialId: 15, grade: 20}
+  - {specialId: 34, grade: 30}
+  - {specialId: 31, grade: 30}
+  - {specialId: 32, grade: 30}
+  - {specialId: 37, grade: 30}
+  - {specialId: 38, grade: 30}
+  - {specialId: 35, grade: 30}
+  - {specialId: 36, grade: 30}
+  - {specialId: 25, grade: 30}
+  - {specialId: 39, grade: 30}
+  - {specialId: 40, grade: 30}
+taskRules:
+#difficulty 任务难度 specialtyNum 特产数量 shippingNum 运送数量  cityLvRange 城池等级分布 specialtyGrading 特产分级
+  - {difficulty: 10, specialtyNum: 1, shippingNum: 3, cityLvRange: [1,2,3,4,5] ,specialtyGrading:[{specialtyGrade: 10, probability: 100},{specialtyGrade: 20, probability: 0},{specialtyGrade: 30, probability: 0}]}
+  - {difficulty: 20, specialtyNum: 1, shippingNum: 3, cityLvRange: [1,2,3] ,specialtyGrading:[{specialtyGrade: 10, probability: 70},{specialtyGrade: 20, probability: 30},{specialtyGrade: 30, probability: 0}]}
+  - {difficulty: 30, specialtyNum: 1, shippingNum: 2, cityLvRange: [1,2,3,4,5] ,specialtyGrading:[{specialtyGrade: 10, probability: 50},{specialtyGrade: 20, probability: 50},{specialtyGrade: 30, probability: 0}]}
+  - {difficulty: 40, specialtyNum: 2, shippingNum: 2, cityLvRange: [1,2,3,4,5] ,specialtyGrading:[{specialtyGrade: 10, probability: 0},{specialtyGrade: 20, probability: 60},{specialtyGrade: 30, probability: 40}]}
+#任务难度对应加急概率
+taskUrgent:
+  10: 8
+  20: 6
+  30: 4
+  40: 2

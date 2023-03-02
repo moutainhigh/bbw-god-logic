@@ -1,0 +1,15 @@
+节日总览
+{{富甲1}}gm/server!addGameActivity?groups=0&types=13130&begin=2022-11-18 00:00:00&end=2022-11-22 23:59:59&sign=小雪
+
+登入签到
+{{富甲1}}gm/server!addGameActivity?groups=0&types=120&begin=2022-11-18 00:00:00&end=2022-11-22 23:59:59
+
+商城八折
+{{富甲1}}gm/server!addGameActivity?groups=0&types=210&begin=2022-11-18 00:00:00&end=2022-11-22 23:59:59
+
+双倍元宝
+{{富甲1}}gm/server!addGameActivity?groups=0&types=180&begin=2022-11-18 00:00:00&end=2022-11-22 23:59:59
+
+每日特惠
+{{富甲1}}gm/server!addGameActivity?groups=0&types=205&begin=2022-11-18 00:00:00&end=2022-11-22 23:59:59
+

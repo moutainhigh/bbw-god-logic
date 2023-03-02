@@ -1,0 +1,7 @@
+#CfgWarTokenBigAwards
+#战令大奖配置
+key: 唯一
+#基础大奖
+baseBigAwards: [{item: 60,awardId: 11680},{item: 60,awardId: 11699},{item: 60,awardId: 10010},{item: 60,awardId: 11700}]
+#进阶大奖
+supBigAwards: [{item: 40,awardId: 467},{item: 40,awardId: 364},{item: 60,awardId: 110220},{item: 60,awardId: 11720},{item: 60,awardId: 50221},{item: 60,awardId: 50012},{item: 60,awardId: 50010},{item: 60,awardId: 11410},{item: 60,awardId: 11060}]

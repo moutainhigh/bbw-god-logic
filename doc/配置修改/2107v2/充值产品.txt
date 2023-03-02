@@ -1,0 +1,4 @@
+  - {id: 31,serial: 6,name: 签到卡,quantity: 0,price: 6,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: true,isZhiChong: false}
+
+修改额度
+  - {id: 99001606,serial: 1,name: 修炼特惠礼包4,quantity: 0,price: 128,extraNum: 0,firstRate: 1,isAvailable: true,recommend: true,isShow: false,isZhiChong: true}

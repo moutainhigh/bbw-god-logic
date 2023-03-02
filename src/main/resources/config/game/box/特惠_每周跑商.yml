@@ -1,0 +1,21 @@
+#箱子标识
+key: 1110
+#箱子描述
+desc: 法宝
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 #道具
+    good: 风火轮
+    num: 1
+  -
+    item: 60 #道具
+    good: 回马枪
+    num: 3
+  -
+    item: 60 #道具
+    good: 漫步靴
+    num: 8
+...

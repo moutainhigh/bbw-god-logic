@@ -1,0 +1,58 @@
+#活动道具产出相关配置
+#CfgHolidayLaborGlorious
+key: 唯一
+#初始售出价格(单位：铜钱)
+initialSellingPrice:
+  - {treasureId: 50497, price: 5000}
+#事件总概率
+eventTotalPro: 1000
+#开宝箱每次上涨的价格
+pricePerIncrease: 5
+#普通野怪宝箱触发概率（百分比）
+normalYeGuaiBoxTriggerPro: 35
+#普通野怪宝箱产出（千分比）
+normalYeGuaiBoxOutput: [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#精英野怪宝箱触发概率（百分比）
+eliteYeGuaiBoxTriggerPro: 35
+#精英野怪宝箱产出（千分比）
+eliteYeGuaiBoxOutput: [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#野怪是否直接获得产出: 0 是 1否
+yeGuaiBoxIsDirectOutput: 1
+#特产触发概率（百分比）
+specialsTriggerPro: 25
+#特产触发双倍概率
+specialsTriggerDoublePro: 0
+#特产产出（千分比）
+specialsOutput: [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#村庄事件触发概率（千分比）
+cunZEventTriggerPro: 250
+#村庄事件宝箱触发概率（千分比）
+cunZEventBoxTriggerPro: 1000
+##村庄事件宝箱产出（千分比）
+cunZEventBoxOutput: [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#村庄是否直接获得产出: 0 是 1否
+cunZIsDirectOutput: 0
+#客栈事件触发概率（千分比）
+keZEventTriggerPro: 250
+#客栈事件宝箱触发概率（千分比）
+keZEventBoxTriggerPro: 1000
+##客栈事件宝箱产出（千分比）
+keZEventBoxOutput:  [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#客栈是否直接获得产出: 0 是 1否
+keZIsDirectOutput: 0
+#游商馆事件触发概率（千分比）
+youSGEventTriggerPro: 250
+#游商馆事件宝箱触发概率（千分比）
+youSGEventBoxTriggerPro: 1000
+##游商馆事件宝箱产出（千分比）
+youSGEventBoxOutput:  [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#游商馆是否直接获得产出: 0 是 1否
+youSGIsDirectOutput: 0
+##野怪战斗产出（千分比）
+yeGuaiFightOutput: [{item: 60,awardId: 50497,num: 1,probability: 1000}]
+#npc名称
+npcName: "孤寡青蛙"
+#npc头像
+headImg: 3350
+#野怪战斗产出数量
+yeGuaiFightOutputNum: 2

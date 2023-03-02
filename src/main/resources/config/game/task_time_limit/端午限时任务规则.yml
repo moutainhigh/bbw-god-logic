@@ -1,0 +1,57 @@
+#游戏全局相关配置
+#CfgTimeLimimitTaskRules
+---
+groupId: 210000
+maxTaskNum: 1
+# 元宝加速(秒)
+goldSpeedUpSeconds: 120
+# 神行符加速(秒)
+shenXSpeedUpSeconds: 1800
+# 常规任务有效时间(分)
+normalTaskWait: 99999
+# 战斗任务有效时间(分)
+fightTaskWait: 99999
+#条件对应陈功率
+conditionRate: 25
+# 星级成功率
+starSuccessRate: [0,1,3,5,8]
+# 卡牌等级间隔
+cardLevelSpacing: 4
+# 卡牌等级成功率
+cardLevelRate: 1
+# 精力重置时间
+cardVigorRestHour: 8
+#难度配置
+#需要的体力needDice 需要的精力needCardVigor 满足的星级needStar: 派发时间(分)dispatchTime 等待时间(分)waitTime:
+dispatchTaskConfigs:
+  10: {needDice: 3,needCardVigor: 2,needStar: 2,skillLevels1: [1,2,3],skillLevels2: [1,2,3],skillLevels3: [1,2,3],dispatchTime: 30,waitTime: 99999}
+  20: {needDice: 3,needCardVigor: 3,needStar: 3,skillLevels1: [1,2,3],skillLevels2: [1,2,3],skillLevels3: [1,2,3],dispatchTime: 60,waitTime: 99999}
+  30: {needDice: 6,needCardVigor: 4,needStar: 4,skillLevels1: [2,3,4],skillLevels2: [2,3,4],skillLevels3: [2,3,4],dispatchTime: 180,waitTime: 99999}
+  40: {needDice: 9,needCardVigor: 6,needStar: 5,skillLevels1: [3,4,5],skillLevels2: [3,4,5],skillLevels3: [3,4,5],dispatchTime: 360,waitTime: 99999}
+#难度额外奖励配置
+dispatchTaskExtraAward:
+  10: {awards: []}
+  20: {awards: []}
+  30: {awards: []}
+  40: {awards: []}
+#技能分级
+levelSkills:
+  1: [宝鉴,暴起,避雷,穿刺,得道,定风,法盾,返照,飞狙,疾驰,克敌,噬魂,无相,心止,修仙,真金,治愈,自愈,自在]
+  2: [法身,飞行,护卫,回光,火球,枷锁,拦截,流毒,奇袭,祛毒,入痘,闪电,神剑,神疗,嗜血,死士,突袭,吸血,业火]
+  3: [暴击,灵动,魅惑,灭魄,升仙,圣火,死斗,死咒,挑拨,偷营,威风,瘟君,巫医,妖术,怨灵,炙焰]
+  4: [暗蛊,复活,刚毅,回魂,混元,力盾,联攻,龙息,强火,强金,强木,强水,强土,生火,生金,生木,生水,生土,双狙,销魂,兴法,主帅,钻地]
+  5: [悲愤,超度,地劫,反间,反射,封神,封咒,蛊惑,鼓舞,激励,禁术,绝杀,雷电,连锁,袍泽,食尸,吸星,长生,招财,震慑,咒怨]
+fightersInfo:
+  210005: {head: 3320,nickname: 瞌睡的药兽,lv: 100,cardHvInterval: [1,1],cardLvInterval: [10,10],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [3,4,5],num: 5},{stars: [1,2,3,4,5],num: 6}]}
+  210010: {head: 115,nickname: 金睛兽,lv: 120,cardHvInterval: [3,3],cardLvInterval: [12,12],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [3,4,5],num: 5},{stars: [1,2,3,4,5],num: 6}]}
+  210018: {head: 315,nickname: 鲸龙,lv: 140,cardHvInterval: [5,5],cardLvInterval: [18,18],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [3,4,5],num: 5},{stars: [1,2,3,4,5],num: 6}]}
+  210022: {head: 3320,nickname: 生气的药兽,lv: 180,cardHvInterval: [7,7],cardLvInterval: [24,24],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [3,4,5],num: 5},{stars: [1,2,3,4,5],num: 6}]}
+  210032: {head: 3170,nickname: 隔壁村街溜子,lv: 240,cardHvInterval: [10,10],cardLvInterval: [30,30],cards: [{stars: [5],num: 5},{stars: [4],num: 4},{stars: [3,4,5],num: 5},{stars: [1,2,3,4,5],num: 6}]}
+
+attackersInfo:
+  210005: {lv: 120,cardHvInterval: [4,4],cardLvInterval: [12,12],cards: [{stars: [5],num: 5},{stars: [4],num: 6},{stars: [1,2,3],num: 7},{stars: [1,2,3,4,5],num: 12}]}
+  210010: {lv: 140,cardHvInterval: [5,5],cardLvInterval: [16,16],cards: [{stars: [5],num: 5},{stars: [4],num: 6},{stars: [1,2,3],num: 7},{stars: [1,2,3,4,5],num: 12}]}
+  210018: {lv: 160,cardHvInterval: [6,6],cardLvInterval: [20,20],cards: [{stars: [5],num: 5},{stars: [4],num: 6},{stars: [1,2,3],num: 7},{stars: [1,2,3,4,5],num: 12}]}
+  210022: {lv: 180,cardHvInterval: [7,7],cardLvInterval: [24,24],cards: [{stars: [5],num: 5},{stars: [4],num: 6},{stars: [1,2,3],num: 7},{stars: [1,2,3,4,5],num: 12}]}
+  210032: {lv: 240,cardHvInterval: [10,10],cardLvInterval: [30,30],cards: [{stars: [5],num: 5},{stars: [4],num: 6},{stars: [1,2,3],num: 7},{stars: [1,2,3,4,5],num: 12}]}
+...

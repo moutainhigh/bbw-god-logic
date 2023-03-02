@@ -1,0 +1,15 @@
+#策略名称
+key: 庙宇_上签
+#策略描述
+desc: 上签一般卡
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 三星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 60}
+  - key: 二星卡
+    condition: {star: 2,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 100}
+...

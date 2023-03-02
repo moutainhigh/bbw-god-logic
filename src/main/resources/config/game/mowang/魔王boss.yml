@@ -1,0 +1,85 @@
+# 魔王配置
+#CfgBossMaou
+---
+key: 唯一
+cardLimitPerType: 3 #各属性允许的参战卡牌数
+#攻击元宝
+goldToAttack: 10
+#多倍攻击激活时机
+bloodRateToActiveDoubleAttack: 50
+#多倍攻击元宝
+goldToDoubleAttack: 100
+#多倍攻击次数
+doubleTimes: 10
+#要展示的排名数
+rankerNumToShow: 10
+maous:
+  #attackTime: 120000 #可以打的时间(HHmmss)
+  #trailNoticeTime: #1800 #提前预告时间(秒)
+  #duration: 1800 #持续时间（秒）
+  #timePerRound #每回合持续多少时间
+  #totalRound总回合数
+  #roudToChangeType多少回合切换属性
+  #aloneMaouLevelNeed独占魔王达到多少级才可挑战
+  - {id: 10,maouLevel: 10,beginTime: 113000,attackTime: 120000,endTime: 123000,timePerRound: 10,totalRound: 180,roudToChangeType: 5,aloneMaouLevelsEnable: [1,2,3],initBlood: 2000000,memo: 混沌魔灵（低手区）}
+  - {id: 15,maouLevel: 10,beginTime: 183000,attackTime: 190000,endTime: 193000,timePerRound: 10,totalRound: 180,roudToChangeType: 5,aloneMaouLevelsEnable: [1,2,3],initBlood: 2000000,memo: 混沌魔灵（低手区）}
+  - {id: 20,maouLevel: 20,beginTime: 113000,attackTime: 120000,endTime: 123000,timePerRound: 10,totalRound: 180,roudToChangeType: 5,aloneMaouLevelsEnable: [4,5,6,7,8,9,10],initBlood: 2000000,memo: 深渊魔尊（高手区）}
+  - {id: 25,maouLevel: 20,beginTime: 183000,attackTime: 190000,endTime: 193000,timePerRound: 10,totalRound: 180,roudToChangeType: 5,aloneMaouLevelsEnable: [4,5,6,7,8,9,10],initBlood: 2000000,memo: 深渊魔尊（高手区）}
+minBlood: 1000000
+maxBlood: 3000000
+bloodRules:
+  # minTime~maxTime 在某个时段，minlostBloodRate~maxlostBloodRate 魔王损血率，bloodInc 血量变化
+  - {minTime: 0,maxTime: 300,minlostBloodRate: 100,maxlostBloodRate: 100,bloodInc: 500000}
+  - {minTime: 301,maxTime: 600,minlostBloodRate: 100,maxlostBloodRate: 100,bloodInc: 300000}
+  - {minTime: 601,maxTime: 900,minlostBloodRate: 100,maxlostBloodRate: 100,bloodInc: 100000}
+  - {minTime: 901,maxTime: 1800,minlostBloodRate: 100,maxlostBloodRate: 100,bloodInc: 0}
+  - {minTime: 1800,maxTime: 99999,minlostBloodRate: 90,maxlostBloodRate: 100,bloodInc: 0}
+  - {minTime: 1800,maxTime: 99999,minlostBloodRate: 70,maxlostBloodRate: 89,bloodInc: -400000}
+  - {minTime: 1800,maxTime: 99999,minlostBloodRate: 50,maxlostBloodRate: 69,bloodInc: -500000}
+  - {minTime: 1800,maxTime: 99999,minlostBloodRate: 0,maxlostBloodRate: 49,bloodInc: -800000}
+
+#击杀者奖励集
+killerAwards: [紫金钵盂,山河社稷图,九龙神火罩,莫邪宝剑,招魂幡,戮仙剑,财神珠,乾坤图,落宝金钱,番天印,打神鞭,阴阳镜,太极图,诛仙剑]
+#第一名卡牌奖励
+specialCardDates: [5,15,25]
+#排名奖励
+rankerAwards:
+  - {maouLevel: 10,minRank: 1,maxRank: 1,awards: [{awardId: 0,item: 50,num: 20},{item: 20,num: 200000}]}
+  - {maouLevel: 10,minRank: 2,maxRank: 2,awards: [{awardId: 0,item: 50,num: 18},{item: 20,num: 180000}]}
+  - {maouLevel: 10,minRank: 3,maxRank: 3,awards: [{awardId: 0,item: 50,num: 16},{item: 20,num: 160000}]}
+  - {maouLevel: 10,minRank: 4,maxRank: 6,awards: [{awardId: 0,item: 50,num: 14},{item: 20,num: 140000}]}
+  - {maouLevel: 10,minRank: 7,maxRank: 10,awards: [{awardId: 0,item: 50,num: 12},{item: 20,num: 120000}]}
+  - {maouLevel: 10,minRank: 11,maxRank: 20,awards: [{awardId: 0,item: 50,num: 10},{item: 20,num: 100000}]}
+  - {maouLevel: 10,minRank: 21,maxRank: 50,awards: [{awardId: 0,item: 50,num: 8},{item: 20,num: 80000}]}
+  - {maouLevel: 10,minRank: 51,maxRank: 9999,awards: [{awardId: 0,item: 50,num: 5},{item: 20,num: 60000}]}
+
+
+  - {maouLevel: 20,minRank: 1,maxRank: 1,awards: [{awardId: 10210,item: 60,num: 100},{item: 20,num: 200000}]}
+  - {maouLevel: 20,minRank: 2,maxRank: 2,awards: [{awardId: 10210,item: 60,num: 80},{item: 20,num: 180000}]}
+  - {maouLevel: 20,minRank: 3,maxRank: 3,awards: [{awardId: 10210,item: 60,num: 60},{item: 20,num: 160000}]}
+  - {maouLevel: 20,minRank: 4,maxRank: 6,awards: [{awardId: 10210,item: 60,num: 50},{item: 20,num: 140000}]}
+  - {maouLevel: 20,minRank: 7,maxRank: 10,awards: [{awardId: 10210,item: 60,num: 40},{item: 20,num: 120000}]}
+  - {maouLevel: 20,minRank: 11,maxRank: 20,awards: [{awardId: 10210,item: 60,num: 30},{item: 20,num: 100000}]}
+  - {maouLevel: 20,minRank: 21,maxRank: 50,awards: [{awardId: 10210,item: 60,num: 25},{item: 20,num: 80000}]}
+  - {maouLevel: 20,minRank: 51,maxRank: 9999,awards: [{awardId: 10210,item: 60,num: 20},{item: 20,num: 60000}]}
+
+
+#生效的技能:强金、强木、强水、强火、强土、联攻、嗜血、暴击、道法、太极
+effectSkills:
+  - 3119
+  - 3120
+  - 3121
+  - 3122
+  - 3123
+  - 2201
+  - 4203
+  - 4104
+  - 3126
+  - 4116
+
+#生效的组合：黄家军、陈塘家、梅山七怪
+effectGroups:
+  - 2002
+  - 2003
+  - 2010
+...

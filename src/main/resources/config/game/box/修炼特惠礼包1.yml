@@ -1,0 +1,8 @@
+key: 1601
+desc: 通天残卷*25
+isRandom: false
+goods:
+  - item: 60
+    good: 通天残卷
+    num: 25
+...

@@ -1,0 +1,18 @@
+#碧游宫符箓配置
+#CfgBYPalaceSymbolEntity
+#id符箓标识 name名称 type10加攻20加防 effect效果 copperToUpdate升级符箓价格
+#!!!同类型的符箓ID按颜色（低->高）增大
+--- {id: 20010,name: 万能符箓,type: 0,color: 灰,effect: 0,copperToNext: 0}
+--- {id: 20110,name: 增力符,type: 10,color: 绿,effect: 5,copperToNext: 100000}
+--- {id: 20120,name: 大力符,type: 10,color: 蓝,effect: 10,copperToNext: 200000}
+--- {id: 20130,name: 力神符,type: 10,color: 紫,effect: 20,copperToNext: 400000}
+--- {id: 20140,name: 威力符,type: 10,color: 橙,effect: 40,copperToNext: 800000}
+--- {id: 20150,name: 洪力符,type: 10,color: 金,effect: 80,copperToNext: 1500000}
+--- {id: 20160,name: 天力符,type: 10,color: 红,effect: 150,copperToNext: 0}
+--- {id: 20210,name: 补元符,type: 20,color: 绿,effect: 5,copperToNext: 100000}
+--- {id: 20220,name: 强元符,type: 20,color: 蓝,effect: 10,copperToNext: 200000}
+--- {id: 20230,name: 元神符,type: 20,color: 紫,effect: 20,copperToNext: 400000}
+--- {id: 20240,name: 尚元符,type: 20,color: 橙,effect: 40,copperToNext: 800000}
+--- {id: 20250,name: 宙元符,type: 20,color: 金,effect: 80,copperToNext: 1500000}
+--- {id: 20260,name: 元阳符,type: 20,color: 红,effect: 150,copperToNext: 0}
+...

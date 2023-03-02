@@ -1,0 +1,17 @@
+#箱子标识
+key: 50202
+#箱子描述
+desc: 大型鞭炮礼包
+isRandom: true
+categoryNum: 1
+#物品
+goods:
+  - item: 60
+    good: 二踢脚
+    num: 1
+    prop: 7000
+  - item: 60
+    good: 大地红
+    num: 1
+    prop: 3000
+...

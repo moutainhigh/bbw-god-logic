@@ -1,0 +1,10 @@
+---
+groupId: 80000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  - {id: 9010,seq: 1,type: 90,name: "累计18天参与巅峰对决",value: 18,awards: [{item: 150,num: 30}],isValid: true}
+  - {id: 9020,seq: 2,type: 90,name: "累计打掉100w召唤师血量",value: 1000000,awards: [{item: 150,num: 30}],isValid: true}
+  - {id: 9030,seq: 3,type: 90,name: "累计击杀1000张卡牌",value: 1000,awards: [{item: 150,num: 30}],isValid: true}
+  - {id: 9040,seq: 4,type: 90,name: "累计获得100场胜利",value: 100,awards: [{item: 150,num: 100}],isValid: true}
+...

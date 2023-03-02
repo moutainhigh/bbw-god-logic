@@ -1,0 +1,21 @@
+#CfgXianJia
+  #  第1次	仙之源*1  下一个宝袋
+--- {id: 11699,awards: [{item: 60,num: 1,awardId: 10110}]}
+  #  第2次	铜钱*20万 下一个宝袋
+--- {id: 11698,awards: [{item: 20,num: 200000}]}
+  #  第3次	288元宝 下一个宝袋
+--- {id: 11697,awards: [{item: 10,num: 288}]}
+  #  第4次	神砂*10 下一个宝袋
+--- {id: 11696,awards: [{item: 60,num: 10,awardId: 10020}]}
+  #  第5次	随机辣鸡三星卡牌*1 下一个宝袋
+--- {id: 11695,awards: [{item: 40,num: 1,awardId: 0,star: 3,isSpecial: 0}]}
+  #  第6次	军符*2 下一个宝袋
+--- {id: 11694,awards: [{item: 60,num: 2,awardId: 11700}]}
+  #  第7次	588元宝 下一个宝袋
+--- {id: 11693,awards: [{item: 10,num: 588}]}
+  #  第8次	随机辣鸡四星卡牌*1 下一个宝袋
+--- {id: 11692,awards: [{item: 40,num: 1,awardId: 0,star: 4,isSpecial: 0}]}
+  #  第9次	魂源*3 下一个宝袋
+--- {id: 11691,awards: [{item: 60,num: 3,awardId: 10180}]}
+  #  第10次	随机辣鸡五星卡牌*1
+--- {id: 11690,awards: [{item: 40,num: 1,awardId: 0,star: 5,isSpecial: 0}]}

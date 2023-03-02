@@ -1,0 +1,66 @@
+#客户端渠道编码,苹果官方渠道
+channelId: 79000
+#渠道产品ID与竹风产品ID映射。
+channelMap:
+  - {zfProductId: 11,innerId: zfme.11}
+  - {zfProductId: 12,innerId: zfme.11}
+  - {zfProductId: 13,innerId: zfme.34}
+  - {zfProductId: 15,innerId: zfme.15}
+  - {zfProductId: 16,innerId: zfme.16}
+  - {zfProductId: 17,innerId: zfme.17}
+  - {zfProductId: 18,innerId: zfme.18}
+  - {zfProductId: 19,innerId: zfme.19}
+  - {zfProductId: 20,innerId: zfme.11}
+  - {zfProductId: 21,innerId: zfme.15}
+  - { zfProductId: 30,innerId: zfme.17}
+
+  #  - {zfProductId: 99001130,innerId: 每周灵石,price: 18,}
+  - {zfProductId: 99001210,innerId: zfme.6}
+  - {zfProductId: 99001211,innerId: zfme.31}
+  - {zfProductId: 99001281,innerId: zfme.31}
+  - {zfProductId: 99001282,innerId: zfme.34}
+  #  - {zfProductId: 99001283,innerId: 法宝助力,price: 12}
+  #  - {zfProductId: 99001000,innerId: 0元日礼包,price: 0}
+  - {zfProductId: 99001006,innerId: zfme.34}
+  - {zfProductId: 99001031,innerId: zfme.11}
+  #  - {zfProductId: 99001100,innerId: 0元周礼包,price: 0}
+  - {zfProductId: 99001170,innerId: zfme.15}
+  - {zfProductId: 99001172,innerId: zfme.17}
+  - {zfProductId: 99001174,innerId: zfme.18}
+  #  - {zfProductId: 99001176,innerId: 448元周礼包,price: 448}
+  #  - {zfProductId: 99001300,innerId: 0元月礼包,price: 0}
+  - {zfProductId: 99001310,innerId: zfme.11}
+  - {zfProductId: 99001315,innerId: zfme.15}
+  - {zfProductId: 99001320,innerId: zfme.17}
+  - {zfProductId: 99001325,innerId: zfme.18}
+  #  - {zfProductId: 99001330,innerId: 448元月礼包,price: 448}
+  - {zfProductId: 99001335,innerId: zfme.19}
+  #  - {zfProductId: 99001291,innerId: 破军星,price: 128}
+  - {zfProductId: 99001292,innerId: zfme.19}
+  #特惠礼包
+  - {zfProductId: 99001401,innerId: zfme.31}
+  - {zfProductId: 99001402,innerId: zfme.32}
+  - {zfProductId: 99001403,innerId: zfme.34}
+  - {zfProductId: 99001404,innerId: zfme.33}
+  #每日礼包
+  - {zfProductId: 99001041,innerId: zfme.11}
+  - {zfProductId: 99001042,innerId: zfme.15}
+  - {zfProductId: 99001043,innerId: zfme.16}
+  #每周礼包
+  - {zfProductId: 99001102,innerId: zfme.16}
+  - {zfProductId: 99001103,innerId: zfme.17}
+  - {zfProductId: 99001104,innerId: zfme.17}
+  - {zfProductId: 99001105,innerId: zfme.18}
+  - {zfProductId: 99001106,innerId: zfme.18}
+  #首冲
+  - {zfProductId: 60,innerId: zfme.13 }
+  - {zfProductId: 61,innerId: zfme.11 }
+  - {zfProductId: 62,innerId: zfme.16 }
+  - {zfProductId: 63,innerId: zfme.17 }
+
+  #梦魇首冲
+  - {zfProductId: 70,innerId: zfme.13 }
+  - {zfProductId: 71,innerId: zfme.11 }
+  - {zfProductId: 72,innerId: zfme.16 }
+  - {zfProductId: 73,innerId: zfme.17 }
+...

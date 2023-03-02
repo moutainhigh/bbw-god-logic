@@ -1,0 +1,108 @@
+
+#符图数据配置
+# 符图道具fuTuId 符图阶数 符图类型 10 攻击 20防御 30血量 40技能
+--- {fuTuId: 231001, quality: 1, type: 40}
+--- {fuTuId: 231002, quality: 1, type: 40}
+--- {fuTuId: 231003, quality: 1, type: 40}
+--- {fuTuId: 231004, quality: 1, type: 40}
+--- {fuTuId: 231005, quality: 1, type: 40}
+--- {fuTuId: 231006, quality: 1, type: 40}
+--- {fuTuId: 231007, quality: 1, type: 40}
+--- {fuTuId: 231008, quality: 1, type: 40}
+--- {fuTuId: 231009, quality: 1, type: 40}
+--- {fuTuId: 231010, quality: 1, type: 40}
+--- {fuTuId: 231011, quality: 1, type: 40}
+
+--- {fuTuId: 231101, quality: 2, type: 40}
+--- {fuTuId: 231102, quality: 2, type: 40}
+--- {fuTuId: 231103, quality: 2, type: 40}
+--- {fuTuId: 231104, quality: 2, type: 40}
+--- {fuTuId: 231105, quality: 2, type: 40}
+--- {fuTuId: 231106, quality: 2, type: 40}
+--- {fuTuId: 231107, quality: 2, type: 40}
+--- {fuTuId: 231108, quality: 2, type: 40}
+--- {fuTuId: 231109, quality: 2, type: 40}
+--- {fuTuId: 231110, quality: 2, type: 40}
+--- {fuTuId: 231111, quality: 2, type: 40}
+
+--- {fuTuId: 231201, quality: 3, type: 40}
+--- {fuTuId: 231202, quality: 3, type: 40}
+--- {fuTuId: 231203, quality: 3, type: 40}
+--- {fuTuId: 231204, quality: 3, type: 40}
+--- {fuTuId: 231205, quality: 3, type: 40}
+--- {fuTuId: 231206, quality: 3, type: 40}
+--- {fuTuId: 231207, quality: 3, type: 40}
+--- {fuTuId: 231208, quality: 3, type: 40}
+
+--- {fuTuId: 231301, quality: 4, type: 40}
+--- {fuTuId: 231302, quality: 4, type: 40}
+--- {fuTuId: 231303, quality: 4, type: 40}
+--- {fuTuId: 231304, quality: 4, type: 40}
+#--- {fuTuId: 231305, quality: 4, type: 40}
+--- {fuTuId: 231306, quality: 4, type: 40}
+--- {fuTuId: 231307, quality: 4, type: 40}
+
+--- {fuTuId: 231401, quality: 5, type: 40}
+--- {fuTuId: 231402, quality: 5, type: 40}
+--- {fuTuId: 231404, quality: 5, type: 40}
+--- {fuTuId: 231405, quality: 5, type: 40}
+
+--- {fuTuId: 232001, quality: 1, type: 10}
+--- {fuTuId: 232002, quality: 2, type: 10}
+--- {fuTuId: 232003, quality: 3, type: 10}
+--- {fuTuId: 232004, quality: 4, type: 10}
+--- {fuTuId: 232005, quality: 5, type: 10}
+--- {fuTuId: 232101, quality: 1, type: 10}
+--- {fuTuId: 232102, quality: 2, type: 10}
+--- {fuTuId: 232103, quality: 3, type: 10}
+--- {fuTuId: 232104, quality: 4, type: 10}
+--- {fuTuId: 232105, quality: 5, type: 10}
+--- {fuTuId: 232201, quality: 1, type: 10}
+--- {fuTuId: 232202, quality: 2, type: 10}
+--- {fuTuId: 232203, quality: 3, type: 10}
+--- {fuTuId: 232204, quality: 4, type: 10}
+--- {fuTuId: 232205, quality: 5, type: 10}
+--- {fuTuId: 232301, quality: 1, type: 10}
+--- {fuTuId: 232302, quality: 2, type: 10}
+--- {fuTuId: 232303, quality: 3, type: 10}
+--- {fuTuId: 232304, quality: 4, type: 10}
+--- {fuTuId: 232305, quality: 5, type: 10}
+--- {fuTuId: 232401, quality: 1, type: 10}
+--- {fuTuId: 232402, quality: 2, type: 10}
+--- {fuTuId: 232403, quality: 3, type: 10}
+--- {fuTuId: 232404, quality: 4, type: 10}
+--- {fuTuId: 232405, quality: 5, type: 10}
+
+--- {fuTuId: 233001, quality: 1, type: 20}
+--- {fuTuId: 233002, quality: 2, type: 20}
+--- {fuTuId: 233003, quality: 3, type: 20}
+--- {fuTuId: 233004, quality: 4, type: 20}
+--- {fuTuId: 233005, quality: 5, type: 20}
+--- {fuTuId: 233101, quality: 1, type: 20}
+--- {fuTuId: 233102, quality: 2, type: 20}
+--- {fuTuId: 233103, quality: 3, type: 20}
+--- {fuTuId: 233104, quality: 4, type: 20}
+--- {fuTuId: 233105, quality: 5, type: 20}
+--- {fuTuId: 233201, quality: 1, type: 20}
+--- {fuTuId: 233202, quality: 2, type: 20}
+--- {fuTuId: 233203, quality: 3, type: 20}
+--- {fuTuId: 233204, quality: 4, type: 20}
+--- {fuTuId: 233205, quality: 5, type: 20}
+--- {fuTuId: 233301, quality: 1, type: 20}
+--- {fuTuId: 233302, quality: 2, type: 20}
+--- {fuTuId: 233303, quality: 3, type: 20}
+--- {fuTuId: 233304, quality: 4, type: 20}
+--- {fuTuId: 233305, quality: 5, type: 20}
+--- {fuTuId: 233401, quality: 1, type: 20}
+--- {fuTuId: 233402, quality: 2, type: 20}
+--- {fuTuId: 233403, quality: 3, type: 20}
+--- {fuTuId: 233404, quality: 4, type: 20}
+--- {fuTuId: 233405, quality: 5, type: 20}
+
+--- {fuTuId: 234001, quality: 1, type: 30}
+--- {fuTuId: 234002, quality: 2, type: 30}
+--- {fuTuId: 234003, quality: 3, type: 30}
+--- {fuTuId: 234004, quality: 4, type: 30}
+--- {fuTuId: 234005, quality: 5, type: 30}
+
+--- {fuTuId: 231403, quality: 5, type: 40}

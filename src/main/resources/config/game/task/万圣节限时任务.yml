@@ -1,0 +1,25 @@
+---
+groupId: 110000
+#万圣节限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 110001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "村庄疑云-庆典将至",value: 1,awards: [{item: 20, num: 200000}],isValid: true}
+  - {id: 110002,seqGroup: 8000,seq: 2,type: 130,difficulty: 10,name: "村庄疑云-地痞流氓",value: 1,awards: [{item: 60, awardId: 530, num: 2}],isValid: true}
+  - {id: 110003,seqGroup: 8000,seq: 3,type: 120,difficulty: 10,name: "村庄疑云-璀璨烟花",value: 1,awards: [{item: 20, num: 300000}],isValid: true}
+  - {id: 110004,seqGroup: 8000,seq: 4,type: 110,difficulty: 20,name: "村庄疑云-贪吃小孩",value: 20,awards: [{item: 60, awardId: 11010, num: 10}],isValid: true}
+  - {id: 110005,seqGroup: 8000,seq: 5,type: 120,difficulty: 20,name: "村庄疑云-突发变故",value: 1,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 110006,seqGroup: 8000,seq: 6,type: 130,difficulty: 20,name: "村庄疑云-暗中势力",value: 1,awards: [{item: 20, num: 800000}],isValid: true}
+  - {id: 110007,seqGroup: 8000,seq: 7,type: 120,difficulty: 20,name: "村庄疑云-探查真相",value: 1,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 110008,seqGroup: 8000,seq: 8,type: 110,difficulty: 30,name: "村庄疑云-意外线索",value: 20,awards: [{item: 20, num: 1000000}],isValid: true}
+  - {id: 110009,seqGroup: 8000,seq: 9,type: 120,difficulty: 30,name: "村庄疑云-十年回忆",value: 1,awards: [{item: 60, awardId: 11010, num: 30}],isValid: true}
+  - {id: 110010,seqGroup: 8000,seq: 10,type: 130,difficulty: 30,name: "村庄疑云-恩怨情仇",value: 1,awards: [{item: 60, awardId: 11410, num: 1}],isValid: true}
+  - {id: 110011,seqGroup: 8000,seq: 11,type: 120,difficulty: 30,name: "村庄疑云-如期而至",value: 1,awards: [{item: 60, awardId: 31210, num: 1}],isValid: true}
+
+...

@@ -1,0 +1,136 @@
+#封神台相关配置
+#CfgFst
+---
+key: 唯一
+#区服封神台解锁等级
+unlockLevel: 10
+#跨服封神台解锁等级
+unlockRank: 100
+#封神台每天免费次数
+freeTimes: 5
+#可攻击范围
+fireRange: 6
+#最大显示人数
+showCount: 6
+#控制玩家从低排行到高排行的快慢
+stepFactor: 50
+#可领取积分上限
+pointAwardLimit: 100000
+gameRobotsNum: 120
+serverRobotsNum: 300
+#19点30分00秒
+gameFstSettleBeginTime: 193000
+gameFstSettleEndTime: 194000
+#结算间隔天数
+gameFstSettleIntervalDay: 2
+#机器人基本信息
+robotsRule: 
+    - {num: 50,lv: 15,cardType: 1010,name: 守关星君}
+    - {num: 50,lv: 14,cardType: 1020,name: 守关上仙}
+    - {num: 50,lv: 13,cardType: 1030,name: 守关真人}
+    - {num: 50,lv: 12,cardType: 1040,name: 守关真人}
+    - {num: 50,lv: 11,cardType: 1050,name: 守关道士}
+    - {num: 50,lv: 10,cardType: 1060,name: 守关道士}
+#机器人卡组规则信息
+cardsRule: 
+    - {type: 1010,star: 2,lv: 5,hv: 0}
+    - {type: 1010,star: 2,lv: 5,hv: 0}
+    - {type: 1010,star: 2,lv: 5,hv: 0}
+    - {type: 1010,star: 2,lv: 5,hv: 0}
+    - {type: 1010,star: 2,lv: 10,hv: 0}
+    - {type: 1010,star: 2,lv: 10,hv: 0}
+    - {type: 1010,star: 3,lv: 5,hv: 0}
+    - {type: 1010,star: 3,lv: 5,hv: 0}
+    - {type: 1010,star: 3,lv: 5,hv: 0}
+    - {type: 1010,star: 3,lv: 10,hv: 0}
+    
+    - {type: 1020,star: 2,lv: 0,hv: 0}
+    - {type: 1020,star: 2,lv: 3,hv: 0}
+    - {type: 1020,star: 2,lv: 5,hv: 0}
+    - {type: 1020,star: 2,lv: 5,hv: 0}
+    - {type: 1020,star: 2,lv: 10,hv: 0}
+    - {type: 1020,star: 3,lv: 5,hv: 0}
+    - {type: 1020,star: 3,lv: 5,hv: 0}
+    - {type: 1020,star: 3,lv: 5,hv: 0}
+    - {type: 1020,star: 3,lv: 5,hv: 0}
+    
+    - {type: 1030,star: 1,lv: 5,hv: 0}
+    - {type: 1030,star: 1,lv: 5,hv: 0}
+    - {type: 1030,star: 2,lv: 3,hv: 0}
+    - {type: 1030,star: 2,lv: 5,hv: 0}
+    - {type: 1030,star: 2,lv: 5,hv: 0}
+    - {type: 1030,star: 2,lv: 5,hv: 0}
+    - {type: 1030,star: 3,lv: 5,hv: 0}
+    - {type: 1030,star: 3,lv: 5,hv: 0}
+    
+    - {type: 1040,star: 1,lv: 2,hv: 0}
+    - {type: 1040,star: 1,lv: 5,hv: 0}
+    - {type: 1040,star: 1,lv: 5,hv: 0}
+    - {type: 1040,star: 2,lv: 0,hv: 0}
+    - {type: 1040,star: 2,lv: 3,hv: 0}
+    - {type: 1040,star: 2,lv: 5,hv: 0}
+    - {type: 1040,star: 3,lv: 5,hv: 0}
+    
+    - {type: 1050,star: 1,lv: 0,hv: 0}
+    - {type: 1050,star: 1,lv: 2,hv: 0}
+    - {type: 1050,star: 2,lv: 0,hv: 0}
+    - {type: 1050,star: 2,lv: 3,hv: 0}
+    - {type: 1050,star: 2,lv: 5,hv: 0}
+    - {type: 1050,star: 3,lv: 5,hv: 0}
+   
+    - {type: 1060,star: 1,lv: 0,hv: 0}
+    - {type: 1060,star: 1,lv: 0,hv: 0}
+    - {type: 1060,star: 2,lv: 0,hv: 0}
+    - {type: 1060,star: 2,lv: 3,hv: 0}
+    - {type: 1060,star: 3,lv: 5,hv: 0}
+#跨服封神榜奖励
+gameFstRankingAwards:
+    #人榜
+    - {type: 100,min: 1,max: 1,num: 260}
+    - {type: 100,min: 2,max: 3,num: 240}
+    - {type: 100,min: 4,max: 6,num: 220}
+    - {type: 100,min: 7,max: 10,num: 200}
+    - {type: 100,min: 11,max: 20,num: 190}
+    - {type: 100,min: 21,max: 50,num: 180}
+    - {type: 100,min: 51,max: 80,num: 170}
+    - {type: 100,min: 81,max: 120,num: 160}
+    - {type: 100,min: 121,max: 99999,num: 150}
+    #黄榜
+    - { type: 110,min: 1,max: 1,num: 370 }
+    - { type: 110,min: 2,max: 3,num: 350 }
+    - { type: 110,min: 4,max: 6,num: 330 }
+    - { type: 110,min: 7,max: 10,num: 310 }
+    - { type: 110,min: 11,max: 20,num: 300 }
+    - { type: 110,min: 21,max: 50,num: 290 }
+    - { type: 110,min: 51,max: 80,num: 280 }
+    - { type: 110,min: 81,max: 120,num: 270 }
+    #玄榜
+    - { type: 120,min: 1,max: 1,num: 470 }
+    - { type: 120,min: 2,max: 3,num: 450 }
+    - { type: 120,min: 4,max: 6,num: 430 }
+    - { type: 120,min: 7,max: 10,num: 410 }
+    - { type: 120,min: 11,max: 20,num: 400 }
+    - { type: 120,min: 21,max: 50,num: 390 }
+    - { type: 120,min: 51,max: 80,num: 380 }
+    #地榜
+    - { type: 130,min: 1,max: 1,num: 570 }
+    - { type: 130,min: 2,max: 3,num: 540 }
+    - { type: 130,min: 4,max: 6,num: 520 }
+    - { type: 130,min: 7,max: 10,num: 500 }
+    - { type: 130,min: 11,max: 20,num: 490 }
+    - { type: 130,min: 21,max: 50,num: 480 }
+    #天榜
+    - { type: 140,min: 1,max: 1,num: 680 }
+    - { type: 140,min: 2,max: 3,num: 650 }
+    - { type: 140,min: 4,max: 6,num: 620 }
+    - { type: 140,min: 7,max: 10,num: 600 }
+    - { type: 140,min: 11,max: 20,num: 590 }
+
+gameFstPromotions:
+    # 类型   settle结算人数   promotion晋级人数 unclock开放人数条件
+    - { type: 100,settle: 120,promotion: 50,standing: 0, unlock: 0 }
+    - { type: 110,settle: 120,promotion: 30 ,standing: 40,unlock: 120 }
+    - { type: 120,settle: 80,promotion: 20  ,standing: 30,unlock: 200 }
+    - { type: 130,settle: 50,promotion: 10  ,standing: 20,unlock: 250 }
+    - { type: 140,settle: 20,promotion: 0  ,standing: 10,unlock: 270 }
+...

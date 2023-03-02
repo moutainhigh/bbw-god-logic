@@ -1,0 +1,69 @@
+#寻藏宝图
+#CfgTreasureTroveMap
+key: 唯一
+#翻牌需要翻牌卡数量
+flopNeedFlopCardNum: 1
+#连线奖励数量
+connectionAwardNum: 6
+#寻宝道具id
+treasureHuntPropId: 50206
+#翻牌奖励
+flopAwards:
+  - {id: 1000,prob: 70, awards: [{item: 20,num: 10000}]}
+  - {id: 1010,prob: 30, awards: [{item: 60,awardId: 10020,num: 1}]}
+#连线奖励规则
+#根据连线名称对应连线奖励下标。连线奖励名称有格子位置组成
+connectionAwardRules:
+  - {connectionName: 147,connectionAwardIndex: 0}
+  - {connectionName: 258,connectionAwardIndex: 1}
+  - {connectionName: 369,connectionAwardIndex: 2}
+  - {connectionName: 789,connectionAwardIndex: 3}
+  - {connectionName: 456,connectionAwardIndex: 4}
+  - {connectionName: 123,connectionAwardIndex: 5}
+#连线奖励
+connectionAwards:
+  - {id: 1000,awards: [{item: 20,num: 50000}]}
+  - {id: 1010,awards: [{item: 60,awardId: 10020,num: 5}]}
+  - {id: 1020,awards: [{item: 60,awardId: 11090,num: 1}]}
+  - {id: 1030,awards: [{item: 60,awardId: 11010,num: 1}]}
+  - {id: 1040,awards: [{item: 60,awardId: 50159,num: 1}]}
+  - {id: 1050,awards: [{item: 60,awardId: 11572,num: 2}]}
+  - {id: 1060,awards: [{item: 60,awardId: 10180,num: 1}]}
+  - {id: 1070,awards: [{item: 60,awardId: 80,num: 1}]}
+  - {id: 1080,awards: [{item: 60,awardId: 11600,num: 1}]}
+  - {id: 1090,awards: [{item: 60,awardId: 830,num: 1}]}
+  - {id: 1100,awards: [{item: 60,awardId: 840,num: 1}]}
+  - {id: 1110,awards: [{item: 60,awardId: 850,num: 1}]}
+  - {id: 1120,awards: [{item: 60,awardId: 210,num: 1}]}
+  - {id: 1130,awards: [{item: 60,awardId: 260,num: 1}]}
+  - {id: 1140,awards: [{item: 60,awardId: 60,num: 1}]}
+  - {id: 1150,awards: [{item: 60,awardId: 20110,num: 1}]}
+  - {id: 1160,awards: [{item: 60,awardId: 20210,num: 1}]}
+  - {id: 1170,awards: [{item: 60,awardId: 110,num: 1}]}
+  - {id: 1180,awards: [{item: 60,awardId: 10,num: 1}]}
+  - {id: 1190,awards: [{item: 60,awardId: 30,num: 1}]}
+
+#藏宝图信息
+treasureTroveMaps:
+  # level: 藏宝图等级
+  # minTurn: 使用该等级藏宝图的最小轮次
+  # maxTurn: 使用该等级藏宝图的最大轮次。999999相当于无限轮次
+  # collectAwards:集齐奖励
+  - {id: 20010,level: 1,minTurn: 1,maxTurn: 1,mapPieceNum: 2, collectAwards: [{item: 60,awardId: 10110,num: 9}]}
+  - {id: 20020,level: 1,minTurn: 2,maxTurn: 2,mapPieceNum: 2, collectAwards: [{item: 60,awardId: 10180,num: 9}]}
+  - {id: 20030,level: 1,minTurn: 3,maxTurn: 999999,mapPieceNum: 2, collectAwards: [{item: 60,awardId: 11010,num: 6}]}
+  - {id: 20040,level: 2,minTurn: 1,maxTurn: 1,mapPieceNum: 5, collectAwards: [{item: 60,awardId: 11400,num: 1}]}
+  - {id: 20050,level: 2,minTurn: 2,maxTurn: 2,mapPieceNum: 5, collectAwards: [{item: 60,awardId: 50131,num: 1}]}
+  - {id: 20060,level: 2,minTurn: 3,maxTurn: 999999,mapPieceNum: 5, collectAwards: [{item: 60,awardId: 11010,num: 15}]}
+  - {id: 20070,level: 3,minTurn: 1,maxTurn: 1,mapPieceNum: 10, collectAwards: [{item: 60,awardId: 11410,num: 1}]}
+  - {id: 20080,level: 3,minTurn: 2,maxTurn: 2,mapPieceNum: 10, collectAwards: [{item: 60,awardId: 11060,num: 1}]}
+  - {id: 20090,level: 3,minTurn: 3,maxTurn: 999999,mapPieceNum: 10, collectAwards: [{item: 60,awardId: 11010,num: 30}]}
+#目标奖励
+targets:
+  - {id: 110,mapPieceNum: 40,awards: [{item: 60,awardId: 50494,num: 2}]}
+  - {id: 120,mapPieceNum: 80,awards: [{item: 60,awardId: 50494,num: 2}]}
+  - {id: 130,mapPieceNum: 120,awards: [{item: 60,awardId: 50494,num: 2}]}
+  - {id: 140,mapPieceNum: 160,awards: [{item: 60,awardId: 50494,num: 4}]}
+  - {id: 150,mapPieceNum: 200,awards: [{item: 60,awardId: 11060,num: 1}]}
+  - {id: 160,mapPieceNum: 240,awards: [{item: 60,awardId: 50010,num: 1}]}
+

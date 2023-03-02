@@ -1,0 +1,11 @@
+#碧游宫篇配置
+#CfgBYPalaceChapterEntity
+#chapter篇  minTongTCJ最少通天残卷  maxTongTCJ最大通天残卷 skillScrollProb技能卷轴比例 typeSymbolProb属性符箓比例 universalSymbolProb万能符箓
+--- {chapter: 1,minTongTCJ: 22,maxTongTCJ: 26,costPerTime: 2,skillScrollProb: 20,typeSymbolProb: 80,universalSymbolProb: 0,symbols: [增力符,补元符]}
+--- {chapter: 2,minTongTCJ: 46,maxTongTCJ: 50,costPerTime: 3,skillScrollProb: 30,typeSymbolProb: 70,universalSymbolProb: 0,symbols: [增力符,大力符,补元符,强元符]}
+--- {chapter: 3,minTongTCJ: 72,maxTongTCJ: 78,costPerTime: 4,skillScrollProb: 50,typeSymbolProb: 50,universalSymbolProb: 0,symbols: [大力符,力神符,强元符,元神符]}
+--- {chapter: 4,minTongTCJ: 100,maxTongTCJ: 108,costPerTime: 4,skillScrollProb: 60,typeSymbolProb: 35,universalSymbolProb: 5,symbols: [力神符,威力符,元神符,尚元符]}
+--- {chapter: 5,minTongTCJ: 120,maxTongTCJ: 130,costPerTime: 5,skillScrollProb: 60,typeSymbolProb: 20,universalSymbolProb: 20,symbols: [威力符,洪力符,尚元符,宙元符]}
+--- {chapter: 98,minTongTCJ: 144,maxTongTCJ: 156,costPerTime: 6,skillScrollProb: 100,typeSymbolProb: 0,universalSymbolProb: 0,symbols: []}
+--- {chapter: 99,minTongTCJ: 144,maxTongTCJ: 156,costPerTime: 6,skillScrollProb: 100,typeSymbolProb: 0,universalSymbolProb: 0,symbols: []}
+...

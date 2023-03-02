@@ -1,0 +1,13 @@
+#####阿里企业邮箱#####
+spring:
+  mail:
+    host: smtp.mxhichina.com #邮件发送服务器的主机
+    password: Abling594209 #密码
+    username: lsj@bamboowind.cn
+    personal: 富甲封神传 #发送者显示名称
+    to: #配置多人的时候要特别注意是否使用了英文的","分隔
+      coder: lsj@bamboowind.cn,shq@bamboowind.cn  #程序员
+      operator: 1927701463@qq.com,478869236@qq.com,990909106@qq.com  #运营人员
+      manager:  lsj@bamboowind.cn,lsj@bamboowind.cn #管理人员
+    protocol: smtp #发送邮件协议
+    properties.mail.smtp.auth: true

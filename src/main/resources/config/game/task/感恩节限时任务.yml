@@ -1,0 +1,43 @@
+---
+groupId: 120000
+#万圣节限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 120001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "村庄疑云-初来乍到",value: 1,awards: [{item: 20, num: 100000}],isValid: true}
+  - {id: 120002,seqGroup: 8000,seq: 2,type: 130,difficulty: 10,name: "村庄疑云-猴子当大王",value: 1,awards: [{item: 60, awardId: 11010, num: 3}],isValid: true}
+  - {id: 120003,seqGroup: 8000,seq: 3,type: 120,difficulty: 10,name: "村庄疑云-赖皮的小孩",value: 1,awards: [{item: 60, awardId: 50134, num: 2}],isValid: true}
+  - {id: 120004,seqGroup: 8000,seq: 4,type: 110,difficulty: 10,name: "村庄疑云-大展厨艺",value: 5,awards: [{item: 60, awardId: 11090, num: 2}],isValid: true}
+  - {id: 120005,seqGroup: 8000,seq: 5,type: 120,difficulty: 10,name: "村庄疑云-回家吃饭",value: 1,awards: [{item: 60, awardId: 530, num: 1}],isValid: true}
+  - {id: 120006,seqGroup: 8000,seq: 6,type: 120,difficulty: 10,name: "村庄疑云-美味食物",value: 1,awards: [{item: 20, num: 100000}],isValid: true}
+  - {id: 120007,seqGroup: 8000,seq: 7,type: 130,difficulty: 20,name: "村庄疑云-鸿鹄来犯",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 120008,seqGroup: 8000,seq: 8,type: 120,difficulty: 20,name: "村庄疑云-被困村中",value: 1,awards: [{item: 60, awardId: 50134, num: 3}],isValid: true}
+  - {id: 120009,seqGroup: 8000,seq: 9,type: 110,difficulty: 20,name: "村庄疑云-饥饿的村民",value: 10,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 120010,seqGroup: 8000,seq: 10,type: 120,difficulty: 20,name: "村庄疑云-分发食物",value: 1,awards: [{item: 60, awardId: 580, num: 1}],isValid: true}
+  - {id: 120011,seqGroup: 8000,seq: 11,type: 120,difficulty: 20,name: "村庄疑云-瘟疫来袭",value: 1,awards: [{item: 20, num: 200000}],isValid: true}
+  - {id: 120012,seqGroup: 8000,seq: 12,type: 130,difficulty: 20,name: "村庄疑云-鸿鹄再犯",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 120013,seqGroup: 8000,seq: 13,type: 120,difficulty: 20,name: "村庄疑云-不是瘟疫",value: 1,awards: [{item: 60, awardId: 50134, num: 3}],isValid: true}
+  - {id: 120014,seqGroup: 8000,seq: 14,type: 120,difficulty: 20,name: "村庄疑云-查明病因",value: 1,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 120015,seqGroup: 8000,seq: 15,type: 120,difficulty: 20,name: "村庄疑云-自告奋勇",value: 1,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 120016,seqGroup: 8000,seq: 16,type: 120,difficulty: 30,name: "村庄疑云-危机四伏",value: 1,awards: [{item: 20, num: 300000}],isValid: true}
+  - {id: 120017,seqGroup: 8000,seq: 17,type: 130,difficulty: 30,name: "村庄疑云-修蛇领地",value: 1,awards: [{item: 60, awardId: 11010, num: 8}],isValid: true}
+  - {id: 120018,seqGroup: 8000,seq: 18,type: 120,difficulty: 30,name: "村庄疑云-采摘草药",value: 1,awards: [{item: 60, awardId: 50134, num: 5}],isValid: true}
+  - {id: 120019,seqGroup: 8000,seq: 19,type: 110,difficulty: 30,name: "村庄疑云-调虎离山",value: 15,awards: [{item: 60, awardId: 11090, num: 5}],isValid: true}
+  - {id: 120020,seqGroup: 8000,seq: 20,type: 120,difficulty: 30,name: "村庄疑云-摆脱追兵",value: 1,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 120021,seqGroup: 8000,seq: 21,type: 120,difficulty: 30,name: "村庄疑云-迷路了吗",value: 1,awards: [{item: 20, num: 300000}],isValid: true}
+  - {id: 120022,seqGroup: 8000,seq: 22,type: 120,difficulty: 30,name: "村庄疑云-发现异常",value: 1,awards: [{item: 60, awardId: 11010, num: 10}],isValid: true}
+  - {id: 120023,seqGroup: 8000,seq: 23,type: 120,difficulty: 30,name: "村庄疑云-真相大白",value: 1,awards: [{item: 60, awardId: 50134, num: 5}],isValid: true}
+  - {id: 120024,seqGroup: 8000,seq: 24,type: 120,difficulty: 30,name: "村庄疑云-追击神豪",value: 1,awards: [{item: 60, awardId: 11090, num: 5}],isValid: true}
+  - {id: 120025,seqGroup: 8000,seq: 25,type: 130,difficulty: 40,name: "村庄疑云-恶人显现",value: 1,awards: [{item: 60, awardId: 50130, num: 1}],isValid: true}
+  - {id: 120026,seqGroup: 8000,seq: 26,type: 120,difficulty: 40,name: "村庄疑云-争分夺秒",value: 1,awards: [{item: 20, num: 500000}],isValid: true}
+  - {id: 120027,seqGroup: 8000,seq: 27,type: 130,difficulty: 40,name: "村庄疑云-路遇拦截",value: 1,awards: [{item: 60, awardId: 50134, num: 8}],isValid: true}
+  - {id: 120028,seqGroup: 8000,seq: 28,type: 120,difficulty: 40,name: "村庄疑云-药到病除",value: 1,awards: [{item: 60, awardId: 11410, num: 1}],isValid: true}
+  - {id: 120029,seqGroup: 8000,seq: 29,type: 110,difficulty: 40,name: "村庄疑云-喜欢的食物",value: 5,awards: [{item: 60, awardId: 11090, num: 8}],isValid: true}
+  - {id: 120030,seqGroup: 8000,seq: 30,type: 120,difficulty: 10,name: "村庄疑云-最亮的星",value: 1,awards: [{item: 60, awardId: 31220, num: 1}],isValid: true} 
+...

@@ -1,0 +1,19 @@
+兑换要求
+--- {id: 30101,name: 夏天集字所需物品1,type: 60,star: null,memo: "字帖-啊*1"}
+--- {id: 30102,name: 夏天集字所需物品2,type: 60,star: null,memo: "字帖-夏*1、字帖-天*1"}
+--- {id: 30103,name: 夏天集字所需物品3,type: 60,star: null,memo: "字帖-夏*5、字帖-天*5、字帖-啊*1"}
+--- {id: 30104,name: 夏天集字所需物品4,type: 60,star: null,memo: "字帖-你*2、字帖-好*2、字帖-夏*1、字帖-天*1"}
+--- {id: 30105,name: 夏天集字所需物品5,type: 60,star: null,memo: "字帖-你*10、字帖-好*10、字帖-啊*1、字帖-夏*5、字帖-天*5"}
+兑换单元配置
+XIA_T_ZT_1("字帖-啊*1", 61),
+XIA_T_ZT_2("字帖-夏*1、字帖-天*1", 62),
+XIA_T_ZT_3("字帖-夏*5、字帖-天*5、字帖-啊*1", 63),
+XIA_T_ZT_4("字帖-你*2、字帖-好*2、字帖-夏*1、字帖-天*1", 64),
+XIA_T_ZT_5("字帖-你*10、字帖-好*10、字帖-啊*1、字帖-夏*5、字帖-天*5", 65),
+
+可兑换物品
+--- { id: 140310,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 3,serial: 1,unit: 61,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140320,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 20000,serial: 1,unit: 62,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140330,type: 140,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 1,unit: 63,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true }
+--- { id: 140340,type: 140,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 1,unit: 64,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140350,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 65,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true }

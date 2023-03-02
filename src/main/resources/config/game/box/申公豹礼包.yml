@@ -1,0 +1,14 @@
+key: 606
+desc: 卡牌-申公豹*1、铜钱*30w、金元素*50
+isRandom: false
+goods:
+  - item: 40
+    good: 申公豹
+    num: 1
+  - item: 20
+    good: 铜钱
+    num: 300000
+  - item: 50
+    good: 木
+    num: 50
+...

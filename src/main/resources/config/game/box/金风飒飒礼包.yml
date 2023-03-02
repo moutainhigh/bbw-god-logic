@@ -1,0 +1,56 @@
+#金风飒飒礼包
+#箱子标识，对应
+key: 50151
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 60 # 时装
+    good: 金风飒飒
+    num: 1
+    prop: 10
+  -
+    item: 60 # 道具
+    good: 仙之源
+    num: 2
+    prop: 490
+  -
+    item: 60 # 道具
+    good: 魂源
+    num: 4
+    prop: 500
+  -
+    item: 60 # 道具
+    good: 魂源
+    num: 2
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 通天残卷
+    num: 4
+    prop: 1500
+  -
+    item: 20 # 铜钱
+    num: 1000000
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 夺宝积分
+    num: 40
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 400
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 200
+    prop: 1500
+...

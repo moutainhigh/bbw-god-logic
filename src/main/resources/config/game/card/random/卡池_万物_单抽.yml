@@ -1,0 +1,24 @@
+#策略名称
+key: 卡池_万物_单抽
+#策略描述
+desc: 按概率获得万能灵石或者卡牌（way=0、2）
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 5星卡
+    condition: { star: 5,include: [ 玉面银狐 ] }
+    probability: { type: 0,value: 0.1 }
+  - key: 限定5星卡
+    condition: { star: 5,include: [ 杨戬,句芒,妲己,火灵圣母,闻仲 ] }
+    probability: { type: 0,value: 0.2 }
+  - key: 普通5星卡
+    condition: { star: 5,include: [ $0类卡 ] }
+    probability: { type: 0,value: 0.3 }
+  - key: 4星卡
+    condition: { star: 4,include: [ $0类卡,$1类卡,$2类卡 ],exclude: [ $排除卡牌 ] }
+    probability: { type: 0,value: 5 }
+  - key: 3星卡
+    condition: { star: 3,include: [ $0类卡,$1类卡,$2类卡,扫把星,梅伯,鬼道士 ],exclude: [ 黄天禄,苏全忠,雷开,薛恶虎,韩毒龙,玄武仙师,刘环 ] }
+    probability: { type: 0,value: 100 }
+...

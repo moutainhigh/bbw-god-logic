@@ -1,0 +1,28 @@
+# 黑市配置
+#CfgHeiS
+---
+key: 唯一
+#黑市一次产出多少个
+num: 3
+#黑市法宝列表
+treasures: 
+  #id法宝Id,name法宝，unit单位，price价格
+  - {id: 90,name: 定风珠,price: 18000}
+  - {id: 110,name: 风火轮,price: 21000}
+  - {id: 120,name: 七香车,price: 21000}
+  - {id: 130,name: 青鸾,price: 11000}
+  - {id: 150,name: 四不像,price: 4000}
+  - {id: 160,name: 漫步靴,price: 3200}
+  - {id: 170,name: 醒酒毡,price: 3000}
+  - {id: 180,name: 送神符,price: 2000}
+  - {id: 190,name: 回马枪,price: 2000}
+  - {id: 205,name: 杏黄旗,price: 3000}
+  - {id: 300,name: 攒心钉,price: 20000}
+  - {id: 330,name: 紫绫仙衣,price: 15000}
+  - {id: 350,name: 乾坤弓,price: 13000}
+  - {id: 360,name: 震天箭,price: 12000}
+  - {id: 370,name: 红葫芦,price: 9000}
+  - {id: 380,name: 金葫芦,price: 12000}
+  - {id: 410,name: 青云剑,price: 5000}
+  - {id: 420,name: 定神丹,price: 9000}
+...

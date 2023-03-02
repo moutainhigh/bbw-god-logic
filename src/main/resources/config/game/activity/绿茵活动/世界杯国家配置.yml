@@ -1,0 +1,37 @@
+#CfgCountry
+
+#countryId : 每个国家的编号
+#name:国家名称
+
+--- {countryId: 1,name: 卡塔尔}
+--- {countryId: 2,name: 厄瓜多尔}
+--- {countryId: 3,name: 塞内加尔}
+--- {countryId: 4,name: 荷兰}
+--- {countryId: 5,name: 英格兰}
+--- {countryId: 6,name: 伊朗}
+--- {countryId: 7,name: 美国}
+--- {countryId: 8,name: 威尔士}
+--- {countryId: 9,name: 阿根廷}
+--- {countryId: 10,name: 沙特阿拉伯}
+--- {countryId: 11,name: 墨西哥}
+--- {countryId: 12,name: 波兰}
+--- {countryId: 13,name: 法国}
+--- {countryId: 14,name: 丹麦}
+--- {countryId: 15,name: 突尼斯}
+--- {countryId: 16,name: 澳大利亚}
+--- {countryId: 17,name: 西班牙}
+--- {countryId: 18,name: 德国}
+--- {countryId: 19,name: 日本}
+--- {countryId: 20,name: 哥斯达黎加}
+--- {countryId: 21,name: 比利时}
+--- {countryId: 22,name: 加拿大}
+--- {countryId: 23,name: 摩洛哥}
+--- {countryId: 24,name: 克罗地亚}
+--- {countryId: 25,name: 巴西}
+--- {countryId: 26,name: 塞尔维亚}
+--- {countryId: 27,name: 瑞士}
+--- {countryId: 28,name: 喀麦隆}
+--- {countryId: 29,name: 葡萄牙}
+--- {countryId: 30,name: 加纳}
+--- {countryId: 31,name: 乌拉圭}
+--- {countryId: 32,name: 韩国}

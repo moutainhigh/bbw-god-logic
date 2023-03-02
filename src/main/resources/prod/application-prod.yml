@@ -1,0 +1,112 @@
+spring:
+  session: #session保存方式设置
+    store-type: redis
+    timeout: 7200
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      url: jdbc:mysql://rm-wz9bv437rb04kz00n.mysql.rds.aliyuncs.com:3306/god_game?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: god_logic
+      password: bbw@god123logic
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      aop-patterns: com.bbw.god.login.*,com.bbw.god.db.pool.*
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: lsj@zf
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+  task:
+    execution:
+      pool:
+        max-size: 1000 # 线程池最大的线程数，只有在缓冲队列满了之后才会申请超过核心线程数的线程
+        keep-alive: 60s # 允许线程的空闲时间。当超过了核心线程出之外的线程在空闲时间到达之后会被销毁
+        core-size: 8 # 线程池创建时候初始化的线程数
+        allow-core-thread-timeout: true # 是否允许核心线程超时
+        queue-capacity: 10000 # 用来缓冲执行任务的队列
+      thread-name-prefix: god-task- # 任务线程前缀
+      shutdown:
+        await-termination: true # 应用关闭时，是否等待定时任务执行完成。
+        await-termination-period: 60 # 应用关闭时，等待任务完成的最大时长，单位为秒。
+  kafka:
+    bootstrap-servers: 172.18.128.10:9092
+    producer:
+      # 重试次数
+      retries: 0
+      # 应答级别:多少个分区副本备份完成时向生产者发送ack确认(可选0、1、all/-1)
+      acks: 0
+      # 批量大小 16K
+      batch-size: 16384
+      # 生产端缓冲区大小 32M
+      buffer-memory: 33554432
+      # 系列化
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      security:
+        protocol: SASL_PLAINTEXT
+      properties:
+        sasl.mechanism: PLAIN
+        sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="producer" password="Producer@110308";
+logging:
+  file: logs/spring/spring.log
+  path: /www/tomcat9/logs/god
+  log-root-path: /www/tomcat9/logs/
+bbw-god:
+  db-batchSize: 1000 #区服数据批量提交一次性最多数量
+  load-all-user-data-one-time: true #一次性载入所有玩家数据。如果为false则只载入GameUser对象数据，仅在第一获取某一类型UserData的时候再载入此类型全部数据到redis
+  run-schedule: true #启动定时任务引擎
+  game-data-result-days: 10 #提前生成多少天的结果数据
+  health-check-days: 7 #提前健康检查
+  redis-userdata-in-days: 7 #redis中缓存的多少天内登录的用户数据
+  checking_ios_channels:
+    - {channelVersion: "ios20v396",initPos: 124,initDir: 4}
+    - {channelVersion: "ios30v396",initPos: 2701,initDir: 3}
+    - {channelVersion: "ios40v394",initPos: 2846,initDir: 3}
+  is-push-to-kafka: false
+  chanjie:
+    open: true #开启阐截斗法
+    beginTime: "20:00:00" #战斗开始时间
+    endTime: "21:00:00" #战斗结束时间
+    closeBeginDateTime: "2020-01-01 00:00:00"   #阐截斗法入口关闭起始时间
+    closeEndDateTime: "2020-01-01 00:00:00"   #阐截斗法入口关闭结束时间   当结算时间也处于该区间时，将不进行结算
+    useWeapon: false #是否允许使用法宝
+  #redis 设置
+  multi-redis:
+    common:
+      database: 0
+      host: r-wz9901c2885402c4.redis.rds.aliyuncs.com
+      port: 6379
+      password: bbw@server123redis #密码（默认为空）
+      timeout: 30000ms  # 连接超时时长（毫秒）
+      lettuce:
+        pool:
+          max-active: 200  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          max-idle: 50      # 连接池中的最大空闲连接
+          min-idle: 10       # 连接池中的最小空闲连接
+push:
+  numOfThread: 1
+  iosChannels:
+    - {chanel: 77000, certificate: /www/tomcat9/webapps/godLogic/WEB-INF/classes/config/ios_push/叫我召唤师推送.p12, pwd: 123}
+    - {chanel: 78000, certificate: /www/tomcat9/webapps/godLogic/WEB-INF/classes/config/ios_push/斗法封神传推送证书.p12, pwd: 123}
+    - {chanel: 79000, certificate: /www/tomcat9/webapps/godLogic/WEB-INF/classes/config/ios_push/召唤封神推送证书.p12, pwd: 123}
+    - {chanel: 80000, certificate: /www/tomcat9/webapps/godLogic/WEB-INF/classes/config/ios_push/富甲封神传推送证书.p12, pwd: 1234}

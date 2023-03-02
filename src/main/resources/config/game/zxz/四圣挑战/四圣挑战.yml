@@ -1,0 +1,130 @@
+#CfgFourSaintsEntity
+key: 唯一
+# 金 10；木 20；水 30；火 40；土50
+
+#金创药使用次数
+jinCYLimitNum: 10
+#复活草使用次数
+fuHCLimitNum: 3
+#免费刷新次数
+freeRefreshFrequency: 1
+
+#四圣挑战
+#challengeType 10：白虎，20：青龙，30：玄武，40：朱雀， 50：麒麟
+#unlockNeedScore 解锁评分
+#unlockDifficulty 解锁需要的难度
+#attributeLimit：属性限制编组卡牌
+#reduceCardLv：减少卡牌等级
+#LingCEntryLv：灵装词条等级
+#randomAttributeLimit 随机属性
+
+fourSaintsChallenges:
+  - {challengeType: 10,unlockNeedScore: 95,unlockDifficulty: 20,attributeLimit:[20,40],randomAttributeLimit:[10,30,50],reduceCardLv: 5,lingCEntryLv: 2}
+  - {challengeType: 20,unlockNeedScore: 336,unlockDifficulty: 30,attributeLimit:[10,50],randomAttributeLimit:[20,30,40],reduceCardLv: 10,lingCEntryLv: 3}
+  - {challengeType: 30,unlockNeedScore: 438,unlockDifficulty: 40,attributeLimit:[40,50],randomAttributeLimit:[10,20,30],reduceCardLv: 15,lingCEntryLv: 4}
+  - {challengeType: 40,unlockNeedScore: 336,unlockDifficulty: 30,attributeLimit:[10,30],randomAttributeLimit:[20,40,50],reduceCardLv: 10,lingCEntryLv: 3}
+  - {challengeType: 50,unlockNeedScore: -1,unlockDifficulty: -1,attributeLimit:[10,20,30,40,50],randomAttributeLimit:[10,20,30,40,50],reduceCardLv: 20,lingCEntryLv: 5}
+
+#challengeType 10：白虎，20：青龙，30：玄武，40：朱雀， 50：麒麟
+#defenderId:关卡id challengeType + kind + 第几关
+#kind：种类 10：眷属，20：圣兽
+#summonerLv：召唤师等级
+#bloodBarNum：血条
+#cardLv：卡牌等级
+#cardHv：卡牌阶级
+#skillRandom：技能随机
+defenderCardRules:
+  - {defenderId: 10101,challengeType: 10,kind: 10,summonerLv: 120,bloodBarNum: 2,cardLv: 32,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 10102,challengeType: 10,kind: 10,summonerLv: 120,bloodBarNum: 2,cardLv: 32,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 10103,challengeType: 10,kind: 10,summonerLv: 120,bloodBarNum: 2,cardLv: 32,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 10104,challengeType: 10,kind: 10,summonerLv: 120,bloodBarNum: 2,cardLv: 32,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 10105,challengeType: 10,kind: 10,summonerLv: 120,bloodBarNum: 2,cardLv: 32,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 10106,challengeType: 10,kind: 20,summonerLv: 120,bloodBarNum: 2,cardLv: 35,cardHv: 6,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{cardIds:[10142]},{stars: [4,4],num: 1},{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 3},{stars: [1,2],num: 3}]}
+
+  - {defenderId: 20101,challengeType: 20,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 20102,challengeType: 20,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 20103,challengeType: 20,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 20104,challengeType: 20,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 20105,challengeType: 20,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 20106,challengeType: 20,kind: 20,summonerLv: 300,bloodBarNum: 2,cardLv: 41,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{cardIds:[10236]},{stars: [4,4],num: 1},{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 3},{stars: [1,2],num: 3}]}
+
+  - {defenderId: 30101,challengeType: 30,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 44,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 30102,challengeType: 30,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 44,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 30103,challengeType: 30,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 44,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 30104,challengeType: 30,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 44,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 30105,challengeType: 30,kind: 10,summonerLv: 300,bloodBarNum: 2,cardLv: 44,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 30106,challengeType: 30,kind: 20,summonerLv: 300,bloodBarNum: 2,cardLv: 47,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{cardIds:[10347]},{stars: [4,4],num: 1},{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 3},{stars: [1,2],num: 3}]}
+
+  - {defenderId: 40101,challengeType: 40,kind: 10,summonerLv: 480,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 40102,challengeType: 40,kind: 10,summonerLv: 480,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 40103,challengeType: 40,kind: 10,summonerLv: 480,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 40104,challengeType: 40,kind: 10,summonerLv: 480,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 40105,challengeType: 40,kind: 10,summonerLv: 480,bloodBarNum: 2,cardLv: 38,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 40106,challengeType: 40,kind: 20,summonerLv: 480,bloodBarNum: 2,cardLv: 41,cardHv: 8,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{cardIds:[10401]},{stars: [4,4],num: 1},{stars: [4,5],num: 6},{stars: [3,4],num: 6},{stars: [2,3],num: 3},{stars: [1,2],num: 3}]}
+
+  - {defenderId: 50101,challengeType: 50,kind: 10,summonerLv: 840,bloodBarNum: 2,cardLv: 50,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [5,5],num: 6},{stars: [4,4],num: 4},{stars: [4,5],num: 4},{stars: [3,4],num: 8},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 50102,challengeType: 50,kind: 10,summonerLv: 840,bloodBarNum: 2,cardLv: 50,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [5,5],num: 6},{stars: [4,4],num: 4},{stars: [4,5],num: 4},{stars: [3,4],num: 8},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 50103,challengeType: 50,kind: 10,summonerLv: 840,bloodBarNum: 2,cardLv: 50,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [5,5],num: 6},{stars: [4,4],num: 4},{stars: [4,5],num: 4},{stars: [3,4],num: 8},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 50104,challengeType: 50,kind: 10,summonerLv: 840,bloodBarNum: 2,cardLv: 50,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [5,5],num: 6},{stars: [4,4],num: 4},{stars: [4,5],num: 4},{stars: [3,4],num: 8},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 50105,challengeType: 50,kind: 10,summonerLv: 840,bloodBarNum: 2,cardLv: 50,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{stars: [5,5],num: 6},{stars: [4,4],num: 4},{stars: [4,5],num: 4},{stars: [3,4],num: 8},{stars: [2,3],num: 4},{stars: [1,2],num: 4}]}
+  - {defenderId: 50106,challengeType: 50,kind: 20,summonerLv: 840,bloodBarNum: 3,cardLv: 56,cardHv: 10,skillRandom: 1, fuTus:[{fuTuTypes: [30,40],fuTuQualitys: [1,2,3,4,5]}] ,cards: [{cardIds:[10401,10347,10236,10142]},{stars: [5,5],num: 2},{stars: [4,4],num: 4},{stars: [4,5],num: 6},{stars: [3,4],num: 8},{stars: [2,3],num: 3},{stars: [1,2],num: 3}]}
+#四圣挑战奖励
+#challengeType 10：白虎，20：青龙，30：玄武，40：朱雀， 50：麒麟
+#exploratoryPoint 探索点
+#award 奖励
+fourSaintsAwads:
+  - {challengeType: 10,exploratoryPoint: 4,award:{item: 60,awardId: 90160,num: 1}}
+  - {challengeType: 20,exploratoryPoint: 4,award:{item: 60,awardId: 90170,num: 1}}
+  - {challengeType: 30,exploratoryPoint: 4,award:{item: 60,awardId: 90180,num: 1}}
+  - {challengeType: 40,exploratoryPoint: 4,award:{item: 60,awardId: 90190,num: 1}}
+  - {challengeType: 50,exploratoryPoint: 4,award:{item: 60,awardId: 21285,num: 1}}
+
+#自动刷新时间
+#weekDays 周几
+#hour 几点
+autoRefreshRules: {weekDay: 1,hour: 0}
+
+#随机词条规则
+#challengeType 挑战类型
+#lvUpperLimit 词条等级上限
+#lvStock 等级存量
+entryRandoms:
+  - {challengeType: 10,lvUpperLimit: 5,lvStock: 139}
+  - {challengeType: 20,lvUpperLimit: 7,lvStock: 221}
+  - {challengeType: 30,lvUpperLimit: 9,lvStock: 303}
+  - {challengeType: 40,lvUpperLimit: 7,lvStock: 221}
+  - {challengeType: 50,lvUpperLimit: 12,lvStock: 426}
+
+#要过滤的符图
+filterFutuIds: [231403]
+#要过滤的词条id
+filterEntryIds: [331209,331409]
+
+#词条随机加值规则
+#addLv：加值
+#probability：概率
+entryRandomAddLvRules: [{addLv: 0,probability: 50},{addLv: 1,probability: 15},{addLv: 2,probability: 8},{addLv: 3,probability: 5},{addLv: 4,probability: 8},{addLv: 5,probability: 15}]
+
+#四圣的头像名称配置
+#challengeType 挑战类型
+#kind 10 ：眷属，20：圣兽
+#name：名称
+#headImg：头像id
+nameAndHeadImgRules:
+  - {challengeType: 10,kind: 10,name: 白虎眷属,headImg: 3380}
+  - {challengeType: 10,kind: 20,name: 白虎,headImg: 3390}
+  - {challengeType: 20,kind: 10,name: 青龙眷属,headImg: 3400}
+  - {challengeType: 20,kind: 20,name: 青龙,headImg: 3410}
+  - {challengeType: 30,kind: 10,name: 玄武眷属,headImg: 3420}
+  - {challengeType: 30,kind: 20,name: 玄武,headImg: 3430}
+  - {challengeType: 40,kind: 10,name: 朱雀眷属,headImg: 3440}
+  - {challengeType: 40,kind: 20,name: 朱雀,headImg: 3450}
+  - {challengeType: 50,kind: 10,name: 麒麟眷属,headImg: 3460}
+  - {challengeType: 50,kind: 20,name: 麒麟,headImg: 3470}
+
+#随机卡牌位置技能不变
+randomCardSkillLimitRules:
+  - {cardId: 10142, pos: 0}
+  - {cardId: 10236, pos: 0}
+  - {cardId: 10347, pos: 0}
+  - {cardId: 10401, pos: 0}

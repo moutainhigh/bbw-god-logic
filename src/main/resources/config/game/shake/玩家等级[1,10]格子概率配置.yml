@@ -1,0 +1,33 @@
+#成就类别
+#CfgShakeProp
+key: 玩家等级[1,10]格子概率配置
+cityProps:
+  # name格子类别名，type类别，prop概率
+  - {name: 村庄,type: 10,prop: 10}
+  - {name: 野地,type: 20,prop: 10}
+  - {name: 5元宝福地,type: 30,prop: 10}
+  - {name: 10元宝福地,type: 33,prop: 10}
+  - {name: 30元宝福地,type: 36,prop: 10}
+  - {name: 界碑,type: 40,prop: 10}
+  - {name: 仙人洞,type: 50,prop: 10}
+  - {name: 客栈,type: 60,prop: 10}
+  - {name: 游商馆,type: 70,prop: 10}
+  - {name: 福临轩,type: 80,prop: 10}
+  - {name: 黑市,type: 100,prop: 10}
+  - {name: 矿山,type: 110,prop: 10}
+  - {name: 森林,type: 120,prop: 10}
+  - {name: 湖泊,type: 130,prop: 10}
+  - {name: 火山,type: 140,prop: 10}
+  - {name: 泥沼,type: 150,prop: 10}
+  - {name: 女娲庙,type: 160,prop: 10}
+  - {name: 庙宇,type: 170,prop: 10}
+  - {name: 太一府,type: 180,prop: 10}
+  - {name: 迷仙洞,type: 190,prop: 10}
+  - {name: 鹿台,type: 200,prop: 10}
+  - {name: 一级城,type: 210,prop: 10}
+  - {name: 二级城,type: 220,prop: 10}
+  - {name: 三级城,type: 230,prop: 10}
+  - {name: 四级城,type: 240,prop: 10}
+  - {name: 五级城,type: 250,prop: 10}
+
+

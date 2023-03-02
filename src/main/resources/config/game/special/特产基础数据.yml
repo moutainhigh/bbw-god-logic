@@ -1,0 +1,117 @@
+#特产
+#CfgSpecialEntity   excludeBag: true 可配置   true不占背包格子   excludeRandomEvent是否剔除随机事件
+--- {id: 1,name: 盐,type: 10,hierarchy: 1,price: 500,country: 20,sellingCities: "120,1317,919,928,1519,430,617,118,230,1528,1324,922"}
+--- {id: 2,name: 面,type: 10,hierarchy: 1,price: 600,country: 10,sellingCities: "5019,3817,5022,4030,3719,4321,3725,4117,5028,4318,4630"}
+--- {id: 3,name: 米,type: 10,hierarchy: 1,price: 1000,country: 40,sellingCities: "3406,3214,2201,2014,1902,1910,3201,3410,2901,2610,2908"}
+--- {id: 4,name: 亚麻,type: 10,hierarchy: 1,price: 1500,country: 30,sellingCities: "2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 5,name: 草药,type: 10,hierarchy: 1,price: 1750,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,1902,1910"}
+--- {id: 6,name: 鱼,type: 10,hierarchy: 1,price: 2000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519"}
+--- {id: 7,name: 石料,type: 10,hierarchy: 1,price: 2100,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926"}
+--- {id: 8,name: 鲜肉,type: 10,hierarchy: 1,price: 3000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2646,3434"}
+--- {id: 9,name: 猫,type: 10,hierarchy: 1,price: 3300,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725"}
+--- {id: 10,name: 紫色陶瓶,type: 10,hierarchy: 1,price: 4000,country: 50,sellingCities: "3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 11,name: 龟甲,type: 20,hierarchy: 1,price: 13000,country: 10,sellingCities: "5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725,5028,4318,4630"}
+--- {id: 12,name: 肚兜,type: 20,hierarchy: 1,price: 12500,country: 20,sellingCities: "730,417,1528,1324,922,120,1317,919,1519,617,230"}
+--- {id: 13,name: 瓷器,type: 20,hierarchy: 1,price: 16000,country: 30,sellingCities: "3246,3437,2733,2039,1942,2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 14,name: 玉如意,type: 20,hierarchy: 1,price: 15500,country: 40,sellingCities: "2308,2608,2414,1906,2714,3406,3214,2201,2014,1910,3410,2901,2610,2908"}
+--- {id: 15,name: 宫灯,type: 20,hierarchy: 1,price: 15000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 16,name: 青铜器,type: 20,hierarchy: 1,price: 14000,country: 20,sellingCities: "1024,126,1017,730,1528,1324,922,1317,919,928,1519,430,617,118"}
+--- {id: 17,name: 麝香,type: 20,hierarchy: 1,price: 13500,country: 40,sellingCities: "2308,2501,2414,1906,2714,3406,3214,2201,1902,3201,3410,2610,2908"}
+--- {id: 18,name: 狐裘,type: 20,hierarchy: 1,price: 14500,country: 30,sellingCities: "2346,2733,1942,3442,1934,2646,3434,1937,3039,2636,3033"}
+--- {id: 19,name: 丝绸,type: 20,hierarchy: 1,price: 12000,country: 10,sellingCities: "3722,4617,5019,3817,4321,3725,4117,5028,4318"}
+--- {id: 20,name: 纣王扳指,type: 20,hierarchy: 1,price: 20000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 21,name: 水晶,type: 20,hierarchy: 1,price: 16500,country: 30,sellingCities: "2539,3246,2346,3437,2039,2433,1934,3434,2046,2636,3033"}
+--- {id: 22,name: 鹿角,type: 20,hierarchy: 1,price: 17000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519,430,118,230"}
+--- {id: 23,name: 玛瑙,type: 20,hierarchy: 1,price: 17500,country: 10,sellingCities: "3722,4617,5025,3728,4328,3817,5022,4030,3719,4321,3725,4117,5028,4630"}
+--- {id: 24,name: 翡翠,type: 20,hierarchy: 1,price: 18000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,2201,2014,1902,1910,3201,3410,2901"}
+--- {id: 25,name: 真·纣王扳指,type: 20,hierarchy: 1,price: 30000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}
+--- {id: 31,name: 海珀,type: 30,hierarchy: 1,price: 26000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,430,617"}
+--- {id: 32,name: 龙珠,type: 30,hierarchy: 1,price: 54000,country: 20,sellingCities: "1024,126,1017,417,928,1519,118,230"}
+--- {id: 33,name: 金钱卦,type: 30,hierarchy: 1,price: 28000,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4318,4630"}
+--- {id: 34,name: 金鼎,type: 30,hierarchy: 1,price: 50000,country: 10,sellingCities: "3722,4617,5025,4325,4321,3725,4117,5028"}
+--- {id: 35,name: 火晶,type: 30,hierarchy: 1,price: 28000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,2901,2610,2908"}
+--- {id: 36,name: 黄钟,type: 30,hierarchy: 1,price: 38000,country: 40,sellingCities: "2501,2608,1906,2714,1902,1910,3201,3410"}
+--- {id: 37,name: 香料,type: 30,hierarchy: 1,price: 30000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2046,2636,3033"}
+--- {id: 38,name: 神仙酒,type: 30,hierarchy: 1,price: 32000,country: 30,sellingCities: "2539,3246,2733,1942,2646,3434,1937,3039"}
+--- {id: 39,name: 御贡神丹,type: 30,hierarchy: 1,price: 26000,country: 50,sellingCities: "2430,1918,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 40,name: 纣王戈,type: 30,hierarchy: 1,price: 60000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}
+--- {id: 41,name: 幻狸猫,type: 40,price: 17800,country: 50,sellingCities: "",materialIds: [9,18],highSellCountries: [20,40,50]}
+--- {id: 42,name: 御羹,type: 40,price: 30600,country: 50,sellingCities: "",materialIds: [2,37],highSellCountries: [20,40,50]}
+--- {id: 43,name: 女儿巾,type: 40,price: 25500,country: 50,sellingCities: "",materialIds: [17,19],highSellCountries: [20,30,50]}
+--- {id: 44,name: 青铜灯,type: 40,price: 29000,country: 50,sellingCities: "",materialIds: [15,16],highSellCountries: [10,30,40]}
+--- {id: 45,name: 玉满堂,type: 40,price: 35500,country: 50,sellingCities: "",materialIds: [23,24],highSellCountries: [20,30,50]}
+--- {id: 46,name: 灵珠,type: 40,price: 41500,country: 50,sellingCities: "",materialIds: [14,31],highSellCountries: [10,30,50]}
+--- {id: 47,name: 千年灵芝,type: 45,price: 100000,country: 50,sellingCities: "",excludeBag: true,excludeRandomEvent: true}
+
+--- {id: 201,name: 砂糖,type: 10,hierarchy: 2,price: 3000,country: 20,sellingCities: "120,1317,919,928,1519,430,617,118,230,1528,1324,922"}
+--- {id: 202,name: 黄油,type: 10,hierarchy: 2,price: 3600,country: 10,sellingCities: "5019,3817,5022,4030,3719,4321,3725,4117,5028,4318,4630"}
+--- {id: 203,name: 奶酪,type: 10,hierarchy: 2,price: 6000,country: 40,sellingCities: "3406,3214,2201,2014,1902,1910,3201,3410,2901,2610,2908"}
+--- {id: 204,name: 毛毡,type: 10,hierarchy: 2,price: 9000,country: 30,sellingCities: "2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 205,name: 仙鹤草,type: 10,hierarchy: 2,price: 10500,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,1902,1910"}
+--- {id: 206,name: 帝王蟹,type: 10,hierarchy: 2,price: 12000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519"}
+--- {id: 207,name: 大理石,type: 10,hierarchy: 2,price: 12600,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926"}
+--- {id: 208,name: 牛肉,type: 10,hierarchy: 2,price: 18000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2646,3434"}
+--- {id: 209,name: 波斯猫,type: 10,hierarchy: 2,price: 19800,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725"}
+--- {id: 210,name: 双鱼盘,type: 10,hierarchy: 2,price: 24000,country: 50,sellingCities: "3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 211,name: 晶体球,type: 20,hierarchy: 2,price: 78000,country: 10,sellingCities: "5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725,5028,4318,4630"}
+--- {id: 212,name: 心衣,type: 20,hierarchy: 2,price: 75000,country: 20,sellingCities: "730,417,1528,1324,922,120,1317,919,1519,617,230"}
+--- {id: 213,name: 抱月瓶,type: 20,hierarchy: 2,price: 96000,country: 30,sellingCities: "3246,3437,2733,2039,1942,2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 214,name: 金桂枝,type: 20,hierarchy: 2,price: 93000,country: 40,sellingCities: "2308,2608,2414,1906,2714,3406,3214,2201,2014,1910,3410,2901,2610,2908"}
+--- {id: 215,name: 煤油灯,type: 20,hierarchy: 2,price: 90000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 216,name: 铁器,type: 20,hierarchy: 2,price: 84000,country: 20,sellingCities: "1024,126,1017,730,1528,1324,922,1317,919,928,1519,430,617,118"}
+--- {id: 217,name: 龙涎香,type: 20,hierarchy: 2,price: 81000,country: 40,sellingCities: "2308,2501,2414,1906,2714,3406,3214,2201,1902,3201,3410,2610,2908"}
+--- {id: 218,name: 貂皮,type: 20,hierarchy: 2,price: 87000,country: 30,sellingCities: "2346,2733,1942,3442,1934,2646,3434,1937,3039,2636,3033"}
+--- {id: 219,name: 缫丝,type: 20,hierarchy: 2,price: 72000,country: 10,sellingCities: "3722,4617,5019,3817,4321,3725,4117,5028,4318"}
+--- {id: 220,name: 银蛇戒指,type: 20,hierarchy: 2,price: 120000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 221,name: 冰晶,type: 20,hierarchy: 2,price: 99000,country: 30,sellingCities: "2539,3246,2346,3437,2039,2433,1934,3434,2046,2636,3033"}
+--- {id: 222,name: 犀角,type: 20,hierarchy: 2,price: 102000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519,430,118,230"}
+--- {id: 223,name: 水胆,type: 20,hierarchy: 2,price: 105000,country: 10,sellingCities: "3722,4617,5025,3728,4328,3817,5022,4030,3719,4321,3725,4117,5028,4630"}
+--- {id: 224,name: 龙石,type: 20,hierarchy: 2,price: 108000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,2201,2014,1902,1910,3201,3410,2901"}
+--- {id: 225,name: 金蛇戒指,type: 20,hierarchy: 2,price: 180000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}
+--- {id: 231,name: 珠泪,type: 30,hierarchy: 2,price: 156000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,430,617"}
+--- {id: 232,name: 逆鳞,type: 30,hierarchy: 2,price: 324000,country: 20,sellingCities: "1024,126,1017,417,928,1519,118,230"}
+--- {id: 233,name: 塔罗牌,type: 30,hierarchy: 2,price: 168000,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4318,4630"}
+--- {id: 234,name: 权杖,type: 30,hierarchy: 2,price: 300000,country: 10,sellingCities: "3722,4617,5025,4325,4321,3725,4117,5028"}
+--- {id: 235,name: 凤凰羽,type: 30,hierarchy: 2,price: 168000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,2901,2610,2908"}
+--- {id: 236,name: 里拉琴,type: 30,hierarchy: 2,price: 228000,country: 40,sellingCities: "2501,2608,1906,2714,1902,1910,3201,3410"}
+--- {id: 237,name: 玛萨拉,type: 30,hierarchy: 2,price: 180000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2046,2636,3033"}
+--- {id: 238,name: 葡萄酒,type: 30,hierarchy: 2,price: 192000,country: 30,sellingCities: "2539,3246,2733,1942,2646,3434,1937,3039"}
+--- {id: 239,name: 圣饼,type: 30,hierarchy: 2,price: 156000,country: 50,sellingCities: "2430,1918,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 240,name: 仪仗锤矛,type: 30,hierarchy: 2,price: 360000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}
+
+
+--- {id: 301,name: 鸡精,type: 10,hierarchy: 3,price: 8000,country: 20,sellingCities: "120,1317,919,928,1519,430,617,118,230,1528,1324,922"}
+--- {id: 302,name: 豆腐,type: 10,hierarchy: 3,price: 9600,country: 10,sellingCities: "5019,3817,5022,4030,3719,4321,3725,4117,5028,4318,4630"}
+--- {id: 303,name: 汤圆,type: 10,hierarchy: 3,price: 16000,country: 40,sellingCities: "3406,3214,2201,2014,1902,1910,3201,3410,2901,2610,2908"}
+--- {id: 304,name: 呢绒,type: 10,hierarchy: 3,price: 24000,country: 30,sellingCities: "2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 305,name: 冬虫夏草,type: 10,hierarchy: 3,price: 28000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,1902,1910"}
+--- {id: 306,name: 锦绣龙虾,type: 10,hierarchy: 3,price: 32000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519"}
+--- {id: 307,name: 水墨石,type: 10,hierarchy: 3,price: 33600,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926"}
+--- {id: 308,name: 驴肉,type: 10,hierarchy: 3,price: 48000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2646,3434"}
+--- {id: 309,name: 狸花猫,type: 10,hierarchy: 3,price: 52800,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725"}
+--- {id: 310,name: 紫砂壶,type: 10,hierarchy: 3,price: 64000,country: 50,sellingCities: "3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 311,name: 求签筒,type: 20,hierarchy: 3,price: 208000,country: 10,sellingCities: "5025,3728,4328,4325,5019,3817,5022,4030,3719,4321,3725,5028,4318,4630"}
+--- {id: 312,name: 泳衣,type: 20,hierarchy: 3,price: 200000,country: 20,sellingCities: "730,417,1528,1324,922,120,1317,919,1519,617,230"}
+--- {id: 313,name: 青花瓷,type: 20,hierarchy: 3,price: 256000,country: 30,sellingCities: "3246,3437,2733,2039,1942,2433,3442,1934,2646,3434,1937,3039,2046,2636,3033"}
+--- {id: 314,name: 五帝钱,type: 20,hierarchy: 3,price: 248000,country: 40,sellingCities: "2308,2608,2414,1906,2714,3406,3214,2201,2014,1910,3410,2901,2610,2908"}
+--- {id: 315,name: 烛灯台,type: 20,hierarchy: 3,price: 240000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 316,name: 钢器,type: 20,hierarchy: 3,price: 224000,country: 20,sellingCities: "1024,126,1017,730,1528,1324,922,1317,919,928,1519,430,617,118"}
+--- {id: 317,name: 伽南香,type: 20,hierarchy: 3,price: 216000,country: 40,sellingCities: "2308,2501,2414,1906,2714,3406,3214,2201,1902,3201,3410,2610,2908"}
+--- {id: 318,name: 羊绒,type: 20,hierarchy: 3,price: 232000,country: 30,sellingCities: "2346,2733,1942,3442,1934,2646,3434,1937,3039,2636,3033"}
+--- {id: 319,name: 苧麻布,type: 20,hierarchy: 3,price: 192000,country: 10,sellingCities: "3722,4617,5019,3817,4321,3725,4117,5028,4318"}
+--- {id: 320,name: 玉髓银戒,type: 20,hierarchy: 3,price: 320000,country: 50,sellingCities: "3418,2721,2430,1918,3130,1922,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 321,name: 碧玺,type: 20,hierarchy: 3,price: 264000,country: 30,sellingCities: "2539,3246,2346,3437,2039,2433,1934,3434,2046,2636,3033"}
+--- {id: 322,name: 羚羊角,type: 20,hierarchy: 3,price: 272000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,928,1519,430,118,230"}
+--- {id: 323,name: 白玉,type: 20,hierarchy: 3,price: 280000,country: 10,sellingCities: "3722,4617,5025,3728,4328,3817,5022,4030,3719,4321,3725,4117,5028,4630"}
+--- {id: 324,name: 祖母绿,type: 20,hierarchy: 3,price: 288000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,2201,2014,1902,1910,3201,3410,2901"}
+--- {id: 325,name: 翡翠金戒,type: 20,hierarchy: 3,price: 480000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}
+--- {id: 331,name: 海柳,type: 30,hierarchy: 3,price: 416000,country: 20,sellingCities: "1024,126,1017,730,417,1528,1324,922,120,1317,919,430,617"}
+--- {id: 332,name: 凤血,type: 30,hierarchy: 3,price: 864000,country: 20,sellingCities: "1024,126,1017,417,928,1519,118,230"}
+--- {id: 333,name: 罗盘,type: 30,hierarchy: 3,price: 448000,country: 10,sellingCities: "3722,4617,5025,3728,4328,4325,5019,3817,5022,4030,3719,4318,4630"}
+--- {id: 334,name: 玉玺,type: 30,hierarchy: 3,price: 800000,country: 10,sellingCities: "3722,4617,5025,4325,4321,3725,4117,5028"}
+--- {id: 335,name: 龙骨晶,type: 30,hierarchy: 3,price: 448000,country: 40,sellingCities: "2308,2501,2608,2414,1906,2714,3406,3214,2201,2014,2901,2610,2908"}
+--- {id: 336,name: 琵琶,type: 30,hierarchy: 3,price: 608000,country: 40,sellingCities: "2501,2608,1906,2714,1902,1910,3201,3410"}
+--- {id: 337,name: 十三香,type: 30,hierarchy: 3,price: 480000,country: 30,sellingCities: "2539,3246,2346,3437,2733,2039,1942,2433,3442,1934,2046,2636,3033"}
+--- {id: 338,name: 烧刀子,type: 30,hierarchy: 3,price: 512000,country: 30,sellingCities: "2539,3246,2733,1942,2646,3434,1937,3039"}
+--- {id: 339,name: 乾坤蛋,type: 30,hierarchy: 3,price: 416000,country: 50,sellingCities: "2430,1918,2924,2517,3427,3425,2817,1926,3224,2217,2725,2030,2830"}
+--- {id: 340,name: 指挥刀,type: 30,hierarchy: 3,price: 960000,country: 50,sellingCities: "3418,2721,3130,1922,3224,2217,2725,2030"}

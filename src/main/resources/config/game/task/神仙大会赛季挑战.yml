@@ -1,0 +1,11 @@
+---
+groupId: 70000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  - {id: 8010,seq: 1,type: 80,name: "累计18天参与神仙大会",value: 18,awards: [{item: 140,num: 100}],isValid: true}
+  - {id: 8020,seq: 2,type: 80,name: "累计打掉100w召唤师血量",value: 1000000,awards: [{item: 140,num: 100}],isValid: true}
+  - {id: 8030,seq: 3,type: 80,name: "累计击杀1000张卡牌",value: 1000,awards: [{item: 140,num: 100}],isValid: true}
+  - {id: 8040,seq: 4,type: 80,name: "累计更换100张卡牌",value: 100,awards: [{item: 140,num: 100}],isValid: true}
+  - {id: 8050,seq: 5,type: 80,name: "累计获得100场胜利",value: 100,awards: [{item: 140,num: 300}],isValid: true}
+...

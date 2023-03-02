@@ -1,0 +1,39 @@
+#CfgDroiyan8
+#showBegin:展示开始时间
+#showEnd:展示结束时间00:00:00
+#quizs:竞猜内容
+#id:这场比赛的标识 eg：22-11-20#20 年-月-日-小时
+#competeCountries:参与的国家
+#winCountry:赢的国家
+#betBegin:竞猜开始时间
+#betEnd:竞猜结束时间
+#needTreasure:消耗道具的Id
+#num:消耗道具的数量
+#quizAwards:竞猜奖励
+#continuousSuccessTimes:连续中的次数
+#quizAwardId:奖励Id
+key: 唯一
+
+showBegin: 2022-12-07 00:00:00
+showEnd: 2022-12-19 23:59:59
+quizs:
+  - {id: 22-12-03-23,competeCountries:[4,7],winCountry: 4,betBegin: 2022-11-30 16:00:00, betEnd: 2022-12-03 20:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-04-03,competeCountries:[9,16],winCountry: 9,betBegin: 2022-12-01 10:00:00, betEnd: 2022-12-04 00:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-04-23,competeCountries:[13,12],winCountry: 13,betBegin: 2022-12-01 10:00:00, betEnd: 2022-12-04 20:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-05-03,competeCountries:[5,3],winCountry: 5,betBegin: 2022-11-30 16:00:00, betEnd: 2022-12-05 00:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-05-23,competeCountries:[19,24],winCountry: 24,betBegin: 2022-12-02 10:00:00, betEnd: 2022-12-05 20:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-06-03,competeCountries:[25,32],winCountry: 25,betBegin: 2022-12-03 10:00:00, betEnd: 2022-12-06 00:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-06-23,competeCountries:[23,17],winCountry: 23,betBegin: 2022-12-03 10:00:00, betEnd: 2022-12-06 20:00:00,needTreasure: 50430,num: 3}
+  - {id: 22-12-07-03,competeCountries:[29,27],winCountry: 29,betBegin: 2022-12-03 10:00:00, betEnd: 2022-12-07 00:00:00,needTreasure: 50430,num: 3}
+
+continuousSuccess:
+  - {continuousSuccessTimes: 1,num: 0}
+  - {continuousSuccessTimes: 2,num: 50}
+  - {continuousSuccessTimes: 3,num: 150}
+  - {continuousSuccessTimes: 4,num: 300}
+  - {continuousSuccessTimes: 5,num: 500}
+  - {continuousSuccessTimes: 6,num: 750}
+  - {continuousSuccessTimes: 7,num: 1050}
+  - {continuousSuccessTimes: 8,num: 1400}
+
+betAwardId: 50431

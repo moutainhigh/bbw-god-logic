@@ -1,0 +1,47 @@
+#商城、谜仙洞
+#箱子标识，对应
+key: 510
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 20 # 铜钱
+    num: 30000
+    prop: 5000 #(0,10000]的概率
+  -
+    item: 30 #体力
+    num: 12
+    prop: 800
+  -
+    item: 60 #道具
+    good: 万能灵石
+    num: 1
+    prop: 482
+    starProps: #万能灵石星级概率
+      - 4100
+      - 4100
+      - 1500
+      - 250
+      - 50
+  -
+    item: 60 #道具
+    good: 法宝
+    num: 1
+    prop: 2368
+    starProps: # 法宝星级概率
+      - 5565
+      - 2956
+      - 844
+      - 435
+      - 200
+  -
+    item: 50 #元素
+    good: 随机
+    num: 1
+    prop: 800
+...

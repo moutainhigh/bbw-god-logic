@@ -1,0 +1,20 @@
+#箱子标识
+key: 711
+#箱子描述
+desc: 随机3个物品
+#是否随机
+isRandom: false
+#可获得多少种物品
+categoryNum: 2
+#物品
+goods: 
+  -
+    item: 20 # 铜钱
+    num: 5000
+    prop: 10000
+  -
+    item: 60 #通天残页
+    good: 通天残卷
+    num: 1
+    prop: 10000
+...

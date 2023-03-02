@@ -1,0 +1,8 @@
+#活动总览,登录有礼,派礼小兔,魔法女巫,新年心愿,杂货小铺,兔年招募,夺宝回馈,充值特惠
+{{富甲1}}gm/server!addGameActivity?groups=0&types=13620,13510,13520,13530,13540,13550,13590,10160,13600,13610&begin=2023-01-22 00:00:00&end=2023-01-28 23:59:59
+#首充重置
+{{富甲1}}gm/server!addGameActivity?groups=0&types=165&begin=2023-01-22 00:00:00&end=2099-01-01 00:00:00
+#藏宝秘境,节日兑换
+{{富甲1}}gm/server!addGameActivity?groups=0&types=13110,10050&begin=2023-01-22 00:00:00&end=2023-01-29 23:59:59
+#消费跨服冲榜（日榜、总榜）
+{{富甲1}}gm/server!addGameActivityRank?serverGroups=20&type=11030,11040&begin=2023-01-22 00:00:00&end=2023-01-29 23:59:59

@@ -1,0 +1,87 @@
+#CfgCardXianJue
+key: 唯一
+# 最大等级
+maxLevel: 120
+# 最好品质
+maxQuality: 60
+# 星图星级数
+starNum: 6
+#基本加成
+#xianJueType 仙诀类型  addition 加成（10攻 20防 30加强度 40 加韧度）
+xianJues:
+  - {xianJueType: 10,name: 御器诀,additions: [{type: 10,value: 30}]}
+  - {xianJueType: 20,name: 控宝术,additions: [{type: 20,value: 30}]}
+#强化数据 addition:加成（10攻 20防 30加召唤师血量）
+xianJueStrengthens:
+  - {minLevel: 1,maxLevel: 10,needCopper: 50000,successRate: 10000,additions: [{type: 10,value: 3},{type: 20,value: 3}]}
+  - {minLevel: 11,maxLevel: 20,needCopper: 100000,successRate: 9500,additions: [{type: 10,value: 3},{type: 20,value: 3}]}
+  - {minLevel: 21,maxLevel: 30,needCopper: 150000,successRate: 9000,additions: [{type: 10,value: 3},{type: 20,value: 3}]}
+  - {minLevel: 31,maxLevel: 40,needCopper: 230000,successRate: 8500,additions: [{type: 10,value: 4},{type: 20,value: 4}]}
+  - {minLevel: 41,maxLevel: 50,needCopper: 310000,successRate: 8000,additions: [{type: 10,value: 4},{type: 20,value: 4}]}
+  - {minLevel: 51,maxLevel: 60,needCopper: 430000,successRate: 7000,additions: [{type: 10,value: 4},{type: 20,value: 4}]}
+  - {minLevel: 61,maxLevel: 70,needCopper: 550000,successRate: 6000,additions: [{type: 10,value: 5},{type: 20,value: 5}]}
+  - {minLevel: 71,maxLevel: 80,needCopper: 700000,successRate: 5000,additions: [{type: 10,value: 5},{type: 20,value: 5}]}
+  - {minLevel: 81,maxLevel: 90,needCopper: 850000,successRate: 4000,additions: [{type: 10,value: 5},{type: 20,value: 5}]}
+  - {minLevel: 91,maxLevel: 100,needCopper: 1050000,successRate: 3000,additions: [{type: 10,value: 6},{type: 20,value: 6}]}
+  - {minLevel: 101,maxLevel: 110,needCopper: 1250000,successRate: 2000,additions: [{type: 10,value: 6},{type: 20,value: 6}]}
+  - {minLevel: 111,maxLevel: 120,needCopper: 1450000,successRate: 1000,additions: [{type: 10,value: 6},{type: 20,value: 6}]}
+#品质等级限制
+# 品质=》研习等级上限   quality:品质（凡品10、中20、上品30、精品40、极品50、仙品60）
+qualityLevelLimits:
+  10: 10
+  20: 30
+  30: 50
+  40: 70
+  50: 90
+  60: 120
+#星图相关  星光砂11600 青天石11610
+xianjueStarMaps:
+  101: {quality: 10,star: 1,needs: [{item: 20,num: 500000}],successRate: 100,additionRatio: 0.01}
+  102: {quality: 10,star: 2,needs: [{item: 20,num: 500000}],successRate: 80,additionRatio: 0.02}
+  103: {quality: 10,star: 3,needs: [{item: 20,num: 500000}],successRate: 60,additionRatio: 0.03}
+  104: {quality: 10,star: 4,needs: [{item: 20,num: 500000}],successRate: 40,additionRatio: 0.04}
+  105: {quality: 10,star: 5,needs: [{item: 20,num: 500000}],successRate: 20,additionRatio: 0.05}
+  106: {quality: 10,star: 6,needs: [{item: 60,awardId: 11600,num: 10}],successRate: 100,additionRatio: 0.07}
+  201: {quality: 20,star: 1,needs: [{item: 20,num: 750000}],successRate: 90,additionRatio: 0.085}
+  202: {quality: 20,star: 2,needs: [{item: 20,num: 750000}],successRate: 70,additionRatio: 0.1}
+  203: {quality: 20,star: 3,needs: [{item: 20,num: 750000}],successRate: 50,additionRatio: 0.115}
+  204: {quality: 20,star: 4,needs: [{item: 20,num: 750000}],successRate: 30,additionRatio: 0.13}
+  205: {quality: 20,star: 5,needs: [{item: 20,num: 750000}],successRate: 10,additionRatio: 0.145}
+  206: {quality: 20,star: 6,needs: [{item: 60,awardId: 11600,num: 15}],successRate: 100,additionRatio: 0.175}
+  301: {quality: 30,star: 1,needs: [{item: 60,awardId: 11600,num: 1}],successRate: 80,additionRatio: 0.195}
+  302: {quality: 30,star: 2,needs: [{item: 60,awardId: 11600,num: 1}],successRate: 60,additionRatio: 0.215}
+  303: {quality: 30,star: 3,needs: [{item: 60,awardId: 11600,num: 1}],successRate: 40,additionRatio: 0.235}
+  304: {quality: 30,star: 4,needs: [{item: 60,awardId: 11600,num: 1}],successRate: 20,additionRatio: 0.255}
+  305: {quality: 30,star: 5,needs: [{item: 60,awardId: 11600,num: 1}],successRate: 10,additionRatio: 0.275}
+  306: {quality: 30,star: 6,needs: [{item: 60,awardId: 11610,num: 1}],successRate: 100,additionRatio: 0.325}
+  401: {quality: 40,star: 1,needs: [{item: 60,awardId: 11600,num: 3}],successRate: 70,additionRatio: 0.35}
+  402: {quality: 40,star: 2,needs: [{item: 60,awardId: 11600,num: 3}],successRate: 50,additionRatio: 0.375}
+  403: {quality: 40,star: 3,needs: [{item: 60,awardId: 11600,num: 3}],successRate: 30,additionRatio: 0.4}
+  404: {quality: 40,star: 4,needs: [{item: 60,awardId: 11600,num: 3}],successRate: 10,additionRatio: 0.425}
+  405: {quality: 40,star: 5,needs: [{item: 60,awardId: 11600,num: 3}],successRate: 5,additionRatio: 0.45}
+  406: {quality: 40,star: 6,needs: [{item: 60,awardId: 11610,num: 2}],successRate: 100,additionRatio: 0.55}
+  501: {quality: 50,star: 1,needs: [{item: 60,awardId: 11600,num: 6}],successRate: 70,additionRatio: 0.58}
+  502: {quality: 50,star: 2,needs: [{item: 60,awardId: 11600,num: 6}],successRate: 50,additionRatio: 0.61}
+  503: {quality: 50,star: 3,needs: [{item: 60,awardId: 11600,num: 6}],successRate: 30,additionRatio: 0.64}
+  504: {quality: 50,star: 4,needs: [{item: 60,awardId: 11600,num: 6}],successRate: 10,additionRatio: 0.67}
+  505: {quality: 50,star: 5,needs: [{item: 60,awardId: 11600,num: 6}],successRate: 5,additionRatio: 0.70}
+  506: {quality: 50,star: 6,needs: [{item: 60,awardId: 11610,num: 6}],successRate: 100,additionRatio: 1}
+#品质参悟限制
+# quality:品质（凡品10、中20、上品30、精品40、极品50、仙品60）
+#参悟类别=>法宝id
+comprehendNeedTreasureId:
+  30: 50356
+  40: 50357
+  #单次参悟加成数值=>加成概率
+comprehendProbs:
+  1: 30
+  2: 50
+  3: 20
+#仙诀品质=》参悟值上限
+comprehendLimits:
+  10: 0
+  20: 20
+  30: 40
+  40: 60
+  50: 80
+  60: 100

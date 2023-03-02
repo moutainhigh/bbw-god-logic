@@ -1,0 +1,9 @@
+spring:
+  dingding:
+    url: https://oapi.dingtalk.com/robot/send?access_token=
+    to:
+      error-coder: 98e1b75a0c2de1caf13dc1f553cc99ee6081fc5d52995b7ad029fdc5b61c6400  #程序员
+      info-coder: a84dcb5634da1978e9b0a52513f23466aaee76fd3af9bbd79f66498187357619  #程序员
+      operator: ab0f3feb316eec5885ad305f7fb52187f1864ff62e3c2612b5788d4c1f4450e1 #运营人员
+      yd-operator: be721569eb96f7469e9833c29bd87df316e332f903756845a2d0d66082434df7 #游动运营人员
+      manager:  cac066e03af66a3c91f92da99da6cb0802800efa1474df6427568c3fe160d0a2 #管理人员

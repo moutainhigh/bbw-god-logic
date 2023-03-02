@@ -1,0 +1,14 @@
+key: 615
+desc: 卡牌-殷郊*1、铜钱*30w、金元素*50
+isRandom: false
+goods:
+  - item: 40
+    good: 殷郊
+    num: 1
+  - item: 20
+    good: 铜钱
+    num: 300000
+  - item: 50
+    good: 土
+    num: 50
+...

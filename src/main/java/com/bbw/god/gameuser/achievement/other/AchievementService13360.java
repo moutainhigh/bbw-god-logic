@@ -1,0 +1,57 @@
+package com.bbw.god.gameuser.achievement.other;
+
+import com.bbw.god.gameuser.achievement.BaseAchievementService;
+import com.bbw.god.gameuser.achievement.UserAchievementInfo;
+import com.bbw.god.gameuser.card.UserCard;
+import com.bbw.god.gameuser.card.UserCardService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+/**
+ * @author suchaobin
+ * @description 成就id=13360的service
+ * @date 2020/5/14 18:00
+ **/
+@Service
+public class AchievementService13360 extends BaseAchievementService {
+	@Autowired
+	private UserCardService userCardService;
+
+	/**
+	 * 获取当前成就id
+	 *
+	 * @return 当前成就id
+	 */
+	@Override
+	public int getMyAchievementId() {
+		return 13360;
+	}
+
+	/**
+	 * 获取当前成就进度
+	 *
+	 * @param uid  玩家id
+	 * @param info 成就对象信息
+	 * @return 当前成就进度
+	 */
+	@Override
+	public int getMyProgress(long uid, UserAchievementInfo info) {
+		if (isAccomplished(info)) {
+			return getMyNeedValue();
+		}
+		List<UserCard> userCards = userCardService.getUserCards(uid);
+		List<Integer> list = userCards.stream().map(uc -> {
+			UserCard.UserCardStrengthenInfo cardInfo = uc.getStrengthenInfo();
+			if (null == cardInfo) {
+				return 0;
+			}
+			return cardInfo.gainUseSkillScrollTimes() == null ? 0 : cardInfo.gainUseSkillScrollTimes();
+		}).collect(Collectors.toList());
+		Optional<Integer> optional = list.stream().max(Integer::compareTo);
+		return optional.orElse(0);
+	}
+}

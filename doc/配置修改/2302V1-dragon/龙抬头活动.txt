@@ -1,0 +1,6 @@
+#活动总览，节日登入，幸运翻倍，逍遥碰杯，瑞兔商店，酒逢知己，节日礼包，充值特惠
+{{富甲1}}gm/server!addGameActivity?groups=0&types=10130,10020,13330,13710,13730,13060,13720,13560,10140,10030&begin=2023-02-21 00:00:00&end=2023-02-26 23:59:59
+#花赋予神
+{{富甲1}}gm/server!addGameActivity?groups=0&types=13310&begin=2023-02-21 00:00:00&end=2023-02-27 23:59:59
+逍遥跨服冲榜
+{{富甲1}}gm/server!addGameActivityRank?serverGroups=20&type=11190,11200&begin=2023-02-21 00:00:00&end=2023-02-26 23:59:59

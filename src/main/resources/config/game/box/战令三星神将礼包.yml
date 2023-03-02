@@ -1,0 +1,73 @@
+#战令三星神将礼包
+#箱子标识，对应
+key: 50153
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  - item: 40
+    good: 殷素知
+    num: 1
+    prop: 10
+  - item: 40
+    good: 崇应彪
+    num: 1
+    prop: 5
+  - item: 40
+    good: 太颠
+    num: 1
+    prop: 5
+  - item: 40
+    good: 闳夭
+    num: 1
+    prop: 5
+  - item: 40
+    good: 陈桐
+    num: 1
+    prop: 10
+  - item: 40
+    good: 郭宸
+    num: 1
+    prop: 5
+  - item: 60 # 道具
+    good: 仙之源
+    num: 1
+    prop: 460
+  - item: 60 # 道具
+    good: 魂源
+    num: 2
+    prop: 500
+  - item: 60 # 道具
+    good: 魂源
+    num: 1
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 通天残卷
+    num: 2
+    prop: 1500
+  -
+    item: 20 # 铜钱
+    num: 500000
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 夺宝积分
+    num: 20
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 200
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 100
+    prop: 1500
+
+...

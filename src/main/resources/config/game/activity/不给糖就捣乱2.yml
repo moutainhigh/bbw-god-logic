@@ -1,0 +1,67 @@
+#不给糖就捣乱2
+#CfgHolidayTreatOrTrick
+key: 唯一
+
+#村庄事件触发概率
+cunZTriggerProb: 50
+#宝箱触发概率
+boxTriggerProb: 50
+#宝箱领取需要法宝
+boxReceiveNeedTreasure: 50420
+#宝箱领取需要法宝数量
+boxReceiveNeedTreasureNum: 5
+#订单触发概率
+orderTriggerProb: 50
+#宝箱产出
+boxOutPut: [{item: 10,num: 50,probability: 400},{item: 10,num: 30,probability: 600},{item: 10,num: 20,probability: 700},{item: 10,num: 10,probability: 800},{item: 60,awardId: 11090,num: 2,probability: 200},{item: 60,awardId: 11090,num: 1,probability: 300},{item: 60,awardId: 11010,num: 2,probability: 200},{item: 60,awardId: 11010,num: 1,probability: 300},{item: 60,awardId: 850,num: 1,probability: 100},{item: 60,awardId: 840,num: 1,probability: 200},{item: 60,awardId: 830,num: 1,probability: 300},{item: 60,awardId: 10020,num: 10,probability: 300},{item: 60,awardId: 10020,num: 8,probability: 400},{item: 60,awardId: 10020,num: 5,probability: 500},{item: 60,awardId: 10020,num: 3,probability: 600},{item: 20,num: 1000000,probability: 100},{item: 20,num: 800000,probability: 200},{item: 20,num: 600000,probability: 300},{item: 20,num: 400000,probability: 400},{item: 20,num: 200000,probability: 600},{item: 20,num: 100000,probability: 800},{item: 60,awardId: 10030,num: 1,probability: 200},{item: 60,awardId: 210,num: 1,probability: 400},{item: 60,awardId: 260,num: 1,probability: 400},{item: 60,awardId: 60,num: 1,probability: 400},{item: 60,awardId: 11060,num: 1,probability: 1},{item: 60,awardId: 10180,num: 1,probability: 299}]
+#餐品id meals 餐品
+meals:
+  - {firstFood: 50422, secondFood: 50422,prob: 289,price: 56}
+  - {firstFood: 50422, secondFood: 50423,prob: 289,price: 84}
+  - {firstFood: 50422, secondFood: 50424,prob: 272,price: 150}
+  - {firstFood: 50422, secondFood: 50425,prob: 272,price: 270}
+  - {firstFood: 50422, secondFood: 50426,prob: 255,price: 544}
+  - {firstFood: 50422, secondFood: 50427,prob: 187,price: 1122}
+  - {firstFood: 50422, secondFood: 50428,prob: 136,price: 2210}
+  - {firstFood: 50423, secondFood: 50422,prob: 289,price: 84}
+  - {firstFood: 50423, secondFood: 50423,prob: 289,price: 112}
+  - {firstFood: 50423, secondFood: 50424,prob: 272,price: 180}
+  - {firstFood: 50423, secondFood: 50425,prob: 272,price: 300}
+  - {firstFood: 50423, secondFood: 50426,prob: 255,price: 576}
+  - {firstFood: 50423, secondFood: 50427,prob: 187,price: 1156}
+  - {firstFood: 50423, secondFood: 50428,prob: 136,price: 2244}
+  - {firstFood: 50424, secondFood: 50422,prob: 272,price: 150}
+  - {firstFood: 50424, secondFood: 50423,prob: 272,price: 180}
+  - {firstFood: 50424, secondFood: 50424,prob: 256,price: 256}
+  - {firstFood: 50424, secondFood: 50425,prob: 256,price: 384}
+  - {firstFood: 50424, secondFood: 50426,prob: 240,price: 680}
+  - {firstFood: 50424, secondFood: 50427,prob: 176,price: 1296}
+  - {firstFood: 50424, secondFood: 50428,prob: 128,price: 2448}
+  - {firstFood: 50425, secondFood: 50422,prob: 272,price: 270}
+  - {firstFood: 50425, secondFood: 50423,prob: 272,price: 300}
+  - {firstFood: 50425, secondFood: 50424,prob: 256,price: 384}
+  - {firstFood: 50425, secondFood: 50425,prob: 256,price: 512}
+  - {firstFood: 50425, secondFood: 50426,prob: 240,price: 816}
+  - {firstFood: 50425, secondFood: 50427,prob: 176,price: 1440}
+  - {firstFood: 50425, secondFood: 50428,prob: 128,price: 2592}
+  - {firstFood: 50426, secondFood: 50422,prob: 255,price: 544}
+  - {firstFood: 50426, secondFood: 50423,prob: 255,price: 576}
+  - {firstFood: 50426, secondFood: 50424,prob: 240,price: 680}
+  - {firstFood: 50426, secondFood: 50425,prob: 240,price: 816}
+  - {firstFood: 50426, secondFood: 50426,prob: 225,price: 1152}
+  - {firstFood: 50426, secondFood: 50427,prob: 165,price: 1824}
+  - {firstFood: 50426, secondFood: 50428,prob: 120,price: 3040}
+  - {firstFood: 50427, secondFood: 50422,prob: 187,price: 1122}
+  - {firstFood: 50427, secondFood: 50423,prob: 187,price: 1156}
+  - {firstFood: 50427, secondFood: 50424,prob: 176,price: 1296}
+  - {firstFood: 50427, secondFood: 50425,prob: 176,price: 1440}
+  - {firstFood: 50427, secondFood: 50426,prob: 165,price: 1824}
+  - {firstFood: 50427, secondFood: 50427,prob: 121,price: 2560}
+  - {firstFood: 50427, secondFood: 50428,prob: 88,price: 3840}
+  - {firstFood: 50428, secondFood: 50422,prob: 136,price: 2210}
+  - {firstFood: 50428, secondFood: 50423,prob: 136,price: 2244}
+  - {firstFood: 50428, secondFood: 50424,prob: 128,price: 2448}
+  - {firstFood: 50428, secondFood: 50425,prob: 128,price: 2592}
+  - {firstFood: 50428, secondFood: 50426,prob: 120,price: 3040}
+  - {firstFood: 50428, secondFood: 50427,prob: 88,price: 3840}
+  - {firstFood: 50428, secondFood: 50428,prob: 64,price: 5120}

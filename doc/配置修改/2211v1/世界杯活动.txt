@@ -1,0 +1,6 @@
+#活动总览，超级16强，决战8强，我是竞猜王，竞猜任务，竞猜跨服冲榜
+{{富甲1}}gm/server!addGameActivity?groups=0&types=13420,13430,13440,13460,13470,&begin=2022-11-20 00:00:00&end=2022-12-19 23:59:59
+#我是预言家，竞猜商店,
+{{富甲1}}gm/server!addGameActivity?groups=0&type=13450,13480&begin=2022-11-20 00:00:00&end=2022-12-20 23:59:59
+#榜单 跨服消费日榜，总榜
+{{富甲1}}gm/server!addGameActivityRank?serverGroups=20&type=11170,11180&begin=2022-11-21 00:00:00&end=2022-12-20 23:59:59

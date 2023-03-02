@@ -1,0 +1,15 @@
+#箱子标识
+key: 716
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: false
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 20 # 铜钱
+    num: 2500
+    prop: 10000
+...

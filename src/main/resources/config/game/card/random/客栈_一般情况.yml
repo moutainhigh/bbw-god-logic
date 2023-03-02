@@ -1,0 +1,25 @@
+#策略名称
+key: 客栈_一般情况
+#策略描述
+desc: 随机卡牌
+#结果限制
+maxSize: 3
+#5星以上卡牌不超过1张
+resultRules: [{star: 5,maxSize: 1}]
+selectors:
+  - key: 5星卡
+    condition: {star: 5,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 0.15}
+  - key: 4星卡
+    condition: {star: 4,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 0.15}
+  - key: 3星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 6}
+  - key: 2星卡
+    condition: {star: 2,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 46.65}
+  - key: 1星卡
+    condition: {star: 1,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 0,value: 100}
+...

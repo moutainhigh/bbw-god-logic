@@ -1,0 +1,24 @@
+#圣诞心愿配置
+#CfgHolidayChristmasWish
+key: 唯一
+#最大心愿数
+maxWishNum: 10
+#favoriteAward 最喜欢 即满足两个条件
+#likeAward 喜欢 即满足一个条件
+#ordinaryAward 普通 即不满足任一个条件
+#圣诞心愿
+christmasWishs:
+  - {id: 1001,type: 1,giftWish: 50482,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1002,type: 1,giftWish: 50483,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1003,type: 1,giftWish: 50484,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1004,type: 2,giftWish: 50485,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1005,type: 2,giftWish: 50486,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1006,type: 2,giftWish: 50487,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1007,type: 3,giftWish: 50488,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1008,type: 3,giftWish: 50489,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1009,type: 3,giftWish: 50490,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1010,type: 4,giftWish: 50491,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1011,type: 4,giftWish: 50492,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+  - {id: 1012,type: 4,giftWish: 50493,favoriteAwards: [{item: 60,awardId: 50473,num: 100}],likeAwards: [{item: 60,awardId: 50473,num: 50}],ordinaryAwards: [{item: 60,awardId: 50473,num: 30}]}
+#npc集合
+npcIds: [3130,3140,3150,3160,3170,3180,3190,3200,3270,3310,3330,3340,3350,3360]

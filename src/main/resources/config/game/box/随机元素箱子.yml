@@ -1,0 +1,17 @@
+#商城、谜仙洞
+#箱子标识，对应
+key: 50126
+#箱子描述
+desc: 随机1个元素
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  -
+    item: 50 #元素
+    good: 随机
+    num: 1
+    prop: 100
+...

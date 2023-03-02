@@ -1,0 +1,13 @@
+#策略名称
+key: 卡池_万物_单抽_许愿
+#策略描述
+desc: 按概率获得万能灵石或者卡牌（way=0、2）
+#结果限制
+maxSize: 1
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors: 
+  -
+    key: 许愿卡
+    condition: {include: [$许愿卡]}
+    probability: {type: 1,value: $概率,maxTimes: $保底值}
+...

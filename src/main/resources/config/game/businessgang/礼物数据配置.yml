@@ -1,0 +1,13 @@
+#礼物数据配置
+#CfgGiftEntity
+#礼物物品id giftId 礼物类别 type 10宝珠 20烟草 30钱财 40马匹 50饰品  级别 grade 0低级 1高级 favorability 好感度
+--- {giftId: 50183, type: 10, grade: 0, favorability: 10}
+--- {giftId: 50184, type: 10, grade: 1, favorability: 30}
+--- {giftId: 50185, type: 20, grade: 0, favorability: 10}
+--- {giftId: 50186, type: 20, grade: 1, favorability: 30}
+--- {giftId: 50187, type: 30, grade: 0, favorability: 10}
+--- {giftId: 50188, type: 30, grade: 1, favorability: 30}
+--- {giftId: 50189, type: 40, grade: 0, favorability: 10}
+--- {giftId: 50190, type: 40, grade: 1, favorability: 30}
+--- {giftId: 50191, type: 50, grade: 0, favorability: 10}
+--- {giftId: 50192, type: 50, grade: 1, favorability: 30}

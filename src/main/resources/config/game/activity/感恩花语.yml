@@ -1,0 +1,62 @@
+#CfgThankFlowerLanguage
+#感谢花语活动相关配置
+key: 唯一
+#花盆数量
+flowerpotNum: 4
+#种子包
+seedBags: [50433,50434,50435]
+#种子包信息 id 种子包id seeds: 种子id
+seedBagInfos:
+  - {id: 50433,seeds: [5044400,5044500]}
+  - {id: 50434,seeds: [5044600,5044700]}
+  - {id: 50435,seeds: [5044800,5044900]}
+#成花信息 id   flowerNum: 成花数量 , floerId :成花id
+flowerInfos:
+  - {id: 5044400,seedId: 1, flowerNum: 0 ,needFertilizer: 0,flowerId: 50444}
+  - {id: 5044402,seedId: 1, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50444}
+  - {id: 5044405,seedId: 1, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50444}
+  - {id: 5044410,seedId: 1, flowerNum: 10,needFertilizer: 50438,flowerId: 50444}
+  - {id: 5044500,seedId: 2, flowerNum: 0 ,needFertilizer: 0,flowerId: 50445}
+  - {id: 5044502,seedId: 2, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50445}
+  - {id: 5044505,seedId: 2, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50445}
+  - {id: 5044510,seedId: 2, flowerNum: 10,needFertilizer: 50438,flowerId: 50445}
+  - {id: 5044600,seedId: 3, flowerNum: 0 ,needFertilizer: 0,flowerId: 50446}
+  - {id: 5044602,seedId: 3, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50446}
+  - {id: 5044605,seedId: 3, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50446}
+  - {id: 5044610,seedId: 3, flowerNum: 10,needFertilizer: 50438,flowerId: 50446}
+  - {id: 5044700,seedId: 4, flowerNum: 0 ,needFertilizer: 0,flowerId: 50447}
+  - {id: 5044702,seedId: 4, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50447}
+  - {id: 5044705,seedId: 4, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50447}
+  - {id: 5044710,seedId: 4, flowerNum: 10,needFertilizer: 50438,flowerId: 50447}
+  - {id: 5044800,seedId: 5, flowerNum: 0 ,needFertilizer: 0,flowerId: 50448}
+  - {id: 5044802,seedId: 5, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50448}
+  - {id: 5044805,seedId: 5, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50448}
+  - {id: 5044810,seedId: 5, flowerNum: 10,needFertilizer: 50438,flowerId: 50448}
+  - {id: 5044900,seedId: 6, flowerNum: 0 ,needFertilizer: 0,flowerId: 50449}
+  - {id: 5044902,seedId: 6, flowerNum: 2 ,needFertilizer: 50436,flowerId: 50449}
+  - {id: 5044905,seedId: 6, flowerNum: 5 ,needFertilizer: 50437,flowerId: 50449}
+  - {id: 5044910,seedId: 6, flowerNum: 10,needFertilizer: 50438,flowerId: 50449}
+
+# 肥料
+fertilizers: [50436,50437,50438]
+#花束信息 bouquetLeve 花束等级 花的id 40朵花全一样才有花的id
+bouquetInfos:
+  - {id: 1,bouquetLevel: 0,flowerId: 50444,bouquets:[50439]}
+  - {id: 2,bouquetLevel: 0,flowerId: 50445,bouquets:[50440]}
+  - {id: 3,bouquetLevel: 0,flowerId: 50446,bouquets:[50441]}
+  - {id: 4,bouquetLevel: 0,flowerId: 50447,bouquets:[50442]}
+  - {id: 5,bouquetLevel: 1,flowerId: 0,bouquets:[50439,50440]}
+  - {id: 6,bouquetLevel: 2,flowerId: 0,bouquets:[50441,50442]}
+  - {id: 7,bouquetLevel: 3,flowerId: 0,bouquets:[50443]}
+#花等级
+flowerLevels:
+  50444: 1
+  50445: 1
+  50446: 2
+  50447: 2
+  50448: 3
+  50449: 3
+#每花影响花束概率
+perFlowerEfferBouquetPro: 25
+#花朵信息
+flowers: [50444,50445,50446,50447,50448,50449]

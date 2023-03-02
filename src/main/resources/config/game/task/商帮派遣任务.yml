@@ -1,0 +1,14 @@
+---
+groupId: 170000
+#商帮派遣任务
+#type:
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+tasks:
+  #awardId为空奖励为对应商帮声望
+  - {id: 170001,type: 120,difficulty: 10,name: "悬赏处使者-初级-巡视周边",value: 1,awards: [{item: 60,num: 10},{item: 60,awardId: 50198, num: 10}],isValid: true}
+  - {id: 170002,type: 120,difficulty: 20,name: "悬赏处使者-中级-培训新人",value: 1,awards: [{item: 60,num: 20},{item: 60,awardId: 50198, num: 20}],isValid: true}
+  - {id: 170003,type: 120,difficulty: 30,name: "悬赏处使者-高级-驻守商帮",value: 1,awards: [{item: 60,num: 30},{item: 60,awardId: 50198, num: 30}],isValid: true}
+  - {id: 170004,type: 120,difficulty: 40,name: "悬赏处使者-史诗级-转送密信",value: 1,awards: [{item: 60,num: 40},{item: 60,awardId: 50198, num: 40}],isValid: true}

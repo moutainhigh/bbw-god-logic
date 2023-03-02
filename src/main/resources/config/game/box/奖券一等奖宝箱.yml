@@ -1,0 +1,20 @@
+key: 50155
+desc: 使用后可随机获得以下奖励之一，已获得的卡牌不会重复获得，且前3次内必得金睛白虎。
+isRandom: true
+goods:
+  -
+    item: 40
+    good: 金睛白虎
+    num: 1
+    prop: 2000
+  -
+    item: 40
+    good: 腾蛇
+    num: 1
+    prop: 4500
+  - 
+    item: 60
+    good: 随机高级卷轴
+    num: 1
+    prop: 3500  
+...

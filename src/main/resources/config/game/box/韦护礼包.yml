@@ -1,0 +1,14 @@
+key: 603
+desc: 卡牌-韦护*1、铜钱*30w、金元素*50
+isRandom: false
+goods:
+  - item: 40
+    good: 韦护
+    num: 1
+  - item: 20
+    good: 铜钱
+    num: 300000
+  - item: 50
+    good: 金
+    num: 50
+...

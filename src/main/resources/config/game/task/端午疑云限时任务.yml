@@ -1,0 +1,48 @@
+---
+groupId: 210000
+#端午节限时任务
+#type:
+#TIME_LIMIT_NORMAL("时效-常规", 110),
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#TIME_LIMIT_FIGHT_TASK("时效-特殊战斗任务", 130),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+#seqGroup(8000)
+tasks: #村庄疑云
+  - {id: 210001,seqGroup: 8000,seq: 1,type: 120,difficulty: 10,name: "训练开始",value: 1,awards: [{item: 20, num: 100000}],isValid: true}
+  - {id: 210002,seqGroup: 8000,seq: 2,type: 120,difficulty: 10,name: "我们很强",value: 1,awards: [{item: 60, awardId: 11010, num: 2}],isValid: true}
+  - {id: 210003,seqGroup: 8000,seq: 3,type: 120,difficulty: 10,name: "我这记性",value: 1,awards: [{item: 60, awardId: 10020, num: 8}],isValid: true}
+  - {id: 210004,seqGroup: 8000,seq: 4,type: 120,difficulty: 10,name: "抓紧时间",value: 1,awards: [{item: 60, awardId: 11710, num: 2}],isValid: true}
+  - {id: 210005,seqGroup: 8000,seq: 5,type: 130,difficulty: 10,name: "挡道药兽",value: 1,awards: [{item: 60, awardId: 530, num: 1}],isValid: true}
+  - {id: 210006,seqGroup: 8000,seq: 6,type: 120,difficulty: 10,name: "训练成果",value: 1,awards: [{item: 20, num: 150000}],isValid: true}
+  - {id: 210007,seqGroup: 8000,seq: 7,type: 120,difficulty: 10,name: "思思走失",value: 1,awards: [{item: 60, awardId: 10020, num: 10}],isValid: true}
+  - {id: 210008,seqGroup: 8000,seq: 8,type: 120,difficulty: 20,name: "远处呼救",value: 1,awards: [{item: 60, awardId: 11710, num: 2}],isValid: true}
+  - {id: 210009,seqGroup: 8000,seq: 9,type: 120,difficulty: 20,name: "来救救我",value: 1,awards: [{item: 60, awardId: 50156, num: 1}],isValid: true}
+  - {id: 210010,seqGroup: 8000,seq: 10,type: 130,difficulty: 20,name: "留下做饭",value: 1,awards: [{item: 60, awardId: 580, num: 1}],isValid: true}
+  - {id: 210011,seqGroup: 8000,seq: 11,type: 110,difficulty: 20,name: "弄点食物",value: 1,awards: [{item: 60, awardId: 10110, num: 1}],isValid: true}
+  - {id: 210012,seqGroup: 8000,seq: 12,type: 120,difficulty: 20,name: "赠送食物",value: 1,awards: [{item: 20, num: 200000}],isValid: true}
+  - {id: 210013,seqGroup: 8000,seq: 13,type: 120,difficulty: 20,name: "终于回来",value: 1,awards: [{item: 60, awardId: 11400, num: 1}],isValid: true}
+  - {id: 210014,seqGroup: 8000,seq: 14,type: 120,difficulty: 20,name: "犒劳队员",value: 1,awards: [{item: 60, awardId: 10020, num: 12}],isValid: true}
+  - {id: 210015,seqGroup: 8000,seq: 15,type: 120,difficulty: 20,name: "开始训练",value: 1,awards: [{item: 60, awardId: 11710, num: 2}],isValid: true}
+  - {id: 210016,seqGroup: 8000,seq: 16,type: 120,difficulty: 20,name: "队员出事",value: 1,awards: [{item: 60, awardId: 11572, num: 3}],isValid: true}
+  - {id: 210017,seqGroup: 8000,seq: 17,type: 120,difficulty: 20,name: "救救队员",value: 1,awards: [{item: 60, awardId: 50159, num: 2}],isValid: true}
+  - {id: 210018,seqGroup: 8000,seq: 18,type: 130,difficulty: 20,name: "暴躁鲸龙",value: 1,awards: [{item: 60, awardId: 11710, num: 2}],isValid: true}
+  - {id: 210019,seqGroup: 8000,seq: 19,type: 120,difficulty: 30,name: "上游源头",value: 1,awards: [{item: 60, awardId: 50158, num: 1}],isValid: true}
+  - {id: 210020,seqGroup: 8000,seq: 20,type: 120,difficulty: 30,name: "探查真相",value: 1,awards: [{item: 60, awardId: 11010, num: 3}],isValid: true}
+  - {id: 210021,seqGroup: 8000,seq: 21,type: 120,difficulty: 30,name: "酣睡药兽",value: 1,awards: [{item: 60, awardId: 11700, num: 4}],isValid: true}
+  - {id: 210022,seqGroup: 8000,seq: 22,type: 130,difficulty: 30,name: "生气药兽",value: 1,awards: [{item: 60, awardId: 11060, num: 1}],isValid: true}
+  - {id: 210023,seqGroup: 8000,seq: 23,type: 120,difficulty: 30,name: "饥饿药兽",value: 1,awards: [{item: 60, awardId: 11710, num: 3}],isValid: true}
+  - {id: 210024,seqGroup: 8000,seq: 24,type: 120,difficulty: 30,name: "远走他乡",value: 1,awards: [{item: 20, num: 400000}],isValid: true}
+  - {id: 210025,seqGroup: 8000,seq: 25,type: 120,difficulty: 30,name: "告知鲸龙",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 210026,seqGroup: 8000,seq: 26,type: 120,difficulty: 30,name: "危机解除",value: 1,awards: [{item: 60, awardId: 10180, num: 9}],isValid: true}
+  - {id: 210027,seqGroup: 8000,seq: 27,type: 120,difficulty: 30,name: "队员受伤",value: 1,awards: [{item: 60, awardId: 11010, num: 5}],isValid: true}
+  - {id: 210028,seqGroup: 8000,seq: 28,type: 120,difficulty: 30,name: "再次集结",value: 1,awards: [{item: 60, awardId: 60, num: 1}],isValid: true}
+  - {id: 210029,seqGroup: 8000,seq: 29,type: 110,difficulty: 30,name: "比赛践行",value: 2,awards: [{item: 60, awardId: 11710, num: 3}],isValid: true}
+  - {id: 210030,seqGroup: 8000,seq: 30,type: 120,difficulty: 40,name: "准备出发",value: 1,awards: [{item: 60, awardId: 50131, num: 1}],isValid: true}
+  - {id: 210031,seqGroup: 8000,seq: 31,type: 120,difficulty: 40,name: "首战告捷",value: 1,awards: [{item: 60, awardId: 11010, num: 6}],isValid: true}
+  - {id: 210032,seqGroup: 8000,seq: 32,type: 130,difficulty: 40,name: "场外变数",value: 1,awards: [{item: 60, awardId: 11090, num: 3}],isValid: true}
+  - {id: 210033,seqGroup: 8000,seq: 33,type: 110,difficulty: 40,name: "虚惊一场",value: 3,awards: [{item: 60, awardId: 11710, num: 3}],isValid: true}
+  - {id: 210034,seqGroup: 8000,seq: 34,type: 120,difficulty: 40,name: "顺利夺冠",value: 1,awards: [{item: 60, awardId: 31300, num: 1}],isValid: true}
+  - {id: 210035,seqGroup: 8000,seq: 35,type: 120,difficulty: 40,name: "夺冠归来",value: 1,awards: [{item: 60, awardId: 11410, num: 1}],isValid: true}
+...

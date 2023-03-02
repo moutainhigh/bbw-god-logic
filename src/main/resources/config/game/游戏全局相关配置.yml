@@ -1,0 +1,88 @@
+#游戏全局相关配置
+#CfgGame
+---
+key: 唯一
+#用户中心地址
+#dev: http://nz62v8.natappfree.cc/godmanager/
+#prod: http://goduac.bamboowind.cn:8081/godmanager/
+uacBaseUrl: http://goduac.bamboowind.cn:8081/godmanager/
+
+#版本配置地址
+versionConfigUrl: http://bbw-download.oss-cn-hangzhou.aliyuncs.com/god/hud/version.manifest
+#版本,每次服务器启动时都会从versionConfigUrl读取并更新该值
+version: 318
+#测试白名单
+whiteAccounts:
+  - xiaoyi20@qq.com
+  - test@qq.com
+  - sdsa@qq.com
+  - hyh970906
+  - hyh002
+  - abu142
+  - 478869236
+  - 5271629 #15817148447
+  - 5673491 #18695633953
+  - 5852448 #18859551328
+  - 5852570 #17750599365
+  - 29cd93c15f2efc335957a351c6b6e6e4 #九游
+  - 454729408@qq.com
+  - opdkDwfYI7sh2-NDEPe65ppGyWUU
+  - opdkDwbQaFhGVnpS7HFfgTkTtUC0 #lwb
+  - zflwb
+  - 7220789 #立君
+  - fjcheshi001
+  - fjcheshi002
+  - fjcheshi003
+  - fjcheshi004
+  - fjcheshi005
+  - fjcheshi006
+  - fjcheshi007
+  - fjcheshi008
+  - fjcheshi009
+  - fjcheshi010
+  - fjcheshi011
+  - fjcheshi012
+  - fjcheshi013
+  - fjcheshi014
+  - fjcheshi015
+  - fjcheshi016
+  - fjcheshi017
+  - fjcheshi018
+  - fjcheshi019
+  - fjcheshi020
+  - bw
+  - huang12
+  - 9550000@qq.com
+  - sg552akm4m60
+  - 17750599365
+  - zftest1
+  - zftest2
+  - zftest3
+  - zftest4
+  - zftest5
+  - zftest6
+  - zftest7
+  - zftest8
+  - zftest9
+  - jc123
+#富甲第一个账号，用于开服初始化一个角色 
+firstAccount: fj_firster@bamboowind.com
+#摇一次骰子需要的体力
+diceOneShake: 6
+#体力最大值
+maxDice: 2500
+#体力增长上限基数
+baseDiceIncLimit: 200
+ableEnterServerInDays: 60
+#游戏昵称最大长度
+maxNicknameLength: 5
+gmWhiteIps:
+  - 47.107.66.14 #跳板机
+  - 39.108.138.41 #coder
+  - 110.88.215.215 #zf04_5g
+  - 120.37.113.78 #zf_5g
+  - 120.37.113.79 #zf03_5g
+  - 106.122.70.42
+  - 120.41.72.7
+  - 110.81.60.118
+...

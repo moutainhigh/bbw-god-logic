@@ -1,0 +1,47 @@
+# 地图挖宝
+#CfgDigForTreasure
+---
+key: 唯一
+#随机产出池
+randomAwardsPool:
+  #percentage： 百分比  100%=》10000,awards：奖励集合
+  #元宝
+  - {percentage: 100,awards: [{"item":10,"num":80}]}
+  - {percentage: 100,awards: [{"item":10,"num":60}]}
+  - {percentage: 500,awards: [{"item":10,"num":40}]}
+  - {percentage: 800,awards: [{"item":10,"num":20}]}
+  #幸运硬币
+  - {percentage: 50,awards: [{"item":60,"num":1,"awardId":11216}]}
+  #夺宝抵用券
+  - {percentage: 100,awards: [{"item":60,"num":2,"awardId":11090}]}
+  - {percentage: 200,awards: [{"item":60,"num":1,"awardId":11090}]}
+  #通天残卷
+  - {percentage: 250,awards: [{"item":60,"num":2,"awardId":11010}]}
+  - {percentage: 400,awards: [{"item":60,"num":1,"awardId":11010}]}
+  #灵石
+  - {percentage: 100,awards: [{"item":60,"num":1,"awardId":850}]}
+  - {percentage: 200,awards: [{"item":60,"num":1,"awardId":840}]}
+  - {percentage: 600,awards: [{"item":60,"num":1,"awardId":830}]}
+  #神沙
+  - {percentage: 500,awards: [{"item":60,"num":8,"awardId":10020}]}
+  - {percentage: 700,awards: [{"item":60,"num":5,"awardId":10020}]}
+  - {percentage: 800,awards: [{"item":60,"num":3,"awardId":10020}]}
+  #铜钱
+  - {percentage: 100,awards: [{"item":20,"num":600000}]}
+  - {percentage: 300,awards: [{"item":20,"num":400000}]}
+  - {percentage: 500,awards: [{"item":20,"num":200000}]}
+  #字帖
+  - {percentage: 1000,awards: [{"item":60,"num":1,"awardId":11217}]}
+  - {percentage: 1000,awards: [{"item":60,"num":1,"awardId":11218}]}
+  - {percentage: 800,awards: [{"item":60,"num":1,"awardId":11220}]}
+  - {percentage: 800,awards: [{"item":60,"num":1,"awardId":11221}]}
+  - {percentage: 100,awards: [{"item":60,"num":1,"awardId":11219}]}
+#额外产出池
+additionalAwardsPool:
+  #maxTimes最大获取次数
+  - {maxTimes: 1,awards: [{"item":60,"num":1,"awardId":11060}]}
+  - {maxTimes: 1,awards: [{"item":60,"num":1,"awardId":11060}]}
+  - {maxTimes: 1,awards: [{"item":40,"num":1,"awardId":549}]}
+  - {maxTimes: 1,awards: [{"item":40,"num":1,"awardId":550}]}
+
+...

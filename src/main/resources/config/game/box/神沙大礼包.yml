@@ -1,0 +1,17 @@
+#箱子标识
+key: 1070
+#箱子描述
+desc: 1个仙之源，1个神沙
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 神沙
+    num: 1
+  -
+    item: 60 # 道具
+    good: 仙之源
+    num: 1
+...

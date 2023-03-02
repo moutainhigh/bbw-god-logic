@@ -1,0 +1,13 @@
+---
+groupId: 240000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  - {id: 240001,type: 280,timesLimit: 55,name: "每日每充值满5钻石(当日可领次数55)",value: 5,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240002,type: 280,timesLimit: 25,name: "每日每消费100元宝(当日可领次数25)",value: 100,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240003,type: 280,timesLimit: 8,name: "每日每完成1个商帮任务(当日可领次数8)",value: 1,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240004,type: 280,timesLimit: 8,name: "每日每完成1个行会任务(当日可领次数8)",value: 1,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240005,type: 280,timesLimit: 5,name: "每日每拜访3次村庄(当日可领次数5)",value: 3,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240006,type: 280,timesLimit: 4,name: "每日每战胜3次野怪(当日可领次数4)",value: 3,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240007,type: 280,timesLimit: 4,name: "每日每获得3次练兵胜利(当日可领次数4)",value: 3,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}
+  - {id: 240008,type: 280,timesLimit: 1,name: "每日登陆游戏(当日可领次数1)",value: 1,awards: [{item: 60,awardId: 50430,num: 1}],isValid: true}

@@ -1,0 +1,9 @@
+@新增表
+野地事件：cfg_yd_event
+野怪卡牌：cfg_yg_cards
+
+@去除表
+cfg_city_limit_special
+
+新增
+runtime_var表

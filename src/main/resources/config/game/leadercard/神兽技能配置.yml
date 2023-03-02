@@ -1,0 +1,25 @@
+#CfgBeastSkillEntity
+#beastId同道具配置项的ID  chapter篇  skills技能集
+--- {beastId: 110010,name: 海东青,skills: [101]}
+--- {beastId: 110020,name: 比翼鸟,skills: [101,3003]}
+--- {beastId: 110030,name: 逍遥马,skills: [102]}
+--- {beastId: 110040,name: 真金兽,skills: [102,3007]}
+--- {beastId: 110050,name: 独角兽,skills: [102,3010]}
+--- {beastId: 110060,name: 刺冠枭,skills: [101,4504]}
+--- {beastId: 110070,name: 剔雪貂,skills: [102,103]}
+--- {beastId: 110080,name: 风灵鹫,skills: [101,3013]}
+--- {beastId: 110090,name: 射月鹰,skills: [101,3102]}
+--- {beastId: 110100,name: 幻的卢,skills: [102,1205]}
+--- {beastId: 110110,name: 掠日隼,skills: [101,3902]}
+--- {beastId: 110120,name: 驺虞兽,skills: [102,3151]}
+--- {beastId: 110130,name: 金蛟龙,skills: [3161,3121]}
+--- {beastId: 110140,name: 貔貅,skills: [102,1090]}
+--- {beastId: 110150,name: 虓虎,skills: [102,4112]}
+--- {beastId: 110160,name: 翎聿,skills: [101,3126]}
+--- {beastId: 110170,name: 幻影,skills: [102,4501]}
+--- {beastId: 110180,name: 药兽,skills: [102,3141]}
+--- {beastId: 110190,name: 黄龙,skills: [101,1008]}
+--- {beastId: 110200,name: 麒麟,skills: [102,1106]}
+--- {beastId: 110210,name: 华鹊,skills: [101,3009]}
+--- {beastId: 110220,name: 麖,skills: [102,3152]}
+--- {beastId: 110230,name: 灯魅,skills: [101,6002]}

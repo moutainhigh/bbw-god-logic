@@ -1,0 +1,81 @@
+---
+groupId: 90000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  #限时任务
+  - {id: 95701,type: 95,days: 1,name: "召唤师等级达到20级",value: 20,awards: [{item: 10,num: 188}],isValid: true}
+  - {id: 95702,type: 95,days: 2,name: "攻下8座三级城",value: 8,awards: [{item: 20,num: 500000}],isValid: true}
+  - {id: 95703,type: 95,days: 3,name: "攻下2座四级城",value: 2,awards: [{item: 60,awardId: 11010,num: 20}],isValid: true}
+  - {id: 95704,type: 95,days: 4,name: "攻下1座主城",value: 1,awards: [{item: 60,awardId: 10110,num: 9}],isValid: true}
+  - {id: 95705,type: 95,days: 5,name: "集齐姜子牙、孟章苍龙、赵公明、金銮火凤、黄飞虎",value: 5,awards: [{item: 60,awardId: 10180,num: 50}],isValid: true}
+  - {id: 95706,type: 95,days: 6,name: "集齐杨戬、句芒、妲己、火灵圣母、闻仲中任意4张",value: 4,awards: [{item: 60,awardId: 850,num: 30}],isValid: true}
+  - {id: 95707,type: 95,days: 7,name: "攻下封神大陆所有城池",value: 85,awards: [{item: 60,awardId: 11065,num: 1}],isValid: true}
+  #1日
+  - {id: 90011,type: 90,days: 1,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90012,type: 90,days: 1,name: "累计卖出30件特产",value: 30,awards: [{item: 50,num: 3},{item: 160,num: 15}],isValid: true}
+  - {id: 90013,type: 90,days: 1,name: "累计战胜5次野怪",value: 5,awards: [{item: 50,num: 3},{item: 160,num: 10}],isValid: true}
+  - {id: 90014,type: 90,days: 1,name: "将5张卡牌升到3级",value: 5,awards: [{item: 10,num: 40},{item: 160,num: 20}],isValid: true}
+  - {id: 90015,type: 90,days: 1,name: "升级5次城内建筑",value: 5,awards: [{item: 60,awardId: 11340,num: 30},{item: 160,num: 20}],isValid: true}
+  - {id: 90016,type: 90,days: 1,name: "在神将中上阵7张卡牌",value: 7,awards: [{item: 20,num: 10000},{item: 160,num: 10}],isValid: true}
+  - {id: 90017,type: 90,days: 1,name: "添加好友并击败友怪",value: 1,awards: [{item: 60,awardId: 340,num: 1},{item: 160,num: 15}],isValid: true}
+  - {id: 90018,type: 90,days: 1,name: "商铺购买每日元素礼包",value: 1,awards: [{item: 20,num: 10000},{item: 160,num: 10}],isValid: true}
+  - {id: 90019,type: 90,days: 1,name: "查看【头像—设置】内的游戏帮助",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 20}],isValid: true}
+  - {id: 90020,type: 90,days: 1,name: "进行1次万物卡池招募",value: 1,awards: [{item: 60,awardId: 10110,num: 1},{item: 160,num: 20}],isValid: true}
+  - {id: 90021,type: 90,days: 1,name: "战斗中使用一次战斗法宝",value: 1,awards: [{item: 50,num: 3},{item: 160,num: 20}],isValid: true}
+  #2
+  - {id: 90111,type: 90,days: 2,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90112,type: 90,days: 2,name: "累计卖出70件特产",value: 70,awards: [{item: 50,num: 4},{item: 160,num: 15}],isValid: true}
+  - {id: 90113,type: 90,days: 2,name: "累计战胜15次野怪",value: 15,awards: [{item: 50,num: 5},{item: 160,num: 10}],isValid: true}
+  - {id: 90114,type: 90,days: 2,name: "将10张卡牌升到3级",value: 10,awards: [{item: 10,num: 50},{item: 160,num: 20}],isValid: true}
+  - {id: 90115,type: 90,days: 2,name: "升级10次城内建筑",value: 10,awards: [{item: 60,awardId: 11340,num: 30},{item: 160,num: 20}],isValid: true}
+  - {id: 90116,type: 90,days: 2,name: "点将台招募20次神将",value: 20,awards: [{item: 20,num: 30000},{item: 160,num: 20}],isValid: true}
+  - {id: 90117,type: 90,days: 2,name: "加入行会并完成一个八卦任务",value: 1,awards: [{item: 60,awardId: 10110,num: 1},{item: 160,num: 20}],isValid: true}
+  - {id: 90118,type: 90,days: 2,name: "参与魔王降临活动",value: 1,awards: [{item: 60,awardId: 10210,num: 60},{item: 160,num: 20}],isValid: true}
+  - {id: 90119,type: 90,days: 2,name: "在太一府捐献1次特产",value: 1,awards: [{item: 60,awardId: 120,num: 1},{item: 160,num: 20}],isValid: true}
+  #3日
+  - {id: 90211,type: 90,days: 3,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90212,type: 90,days: 3,name: "累计卖出110件特产",value: 110,awards: [{item: 50,num: 4},{item: 160,num: 15}],isValid: true}
+  - {id: 90213,type: 90,days: 3,name: "累计战胜30次野怪",value: 30,awards: [{item: 50,num: 5},{item: 160,num: 10}],isValid: true}
+  - {id: 90214,type: 90,days: 3,name: "将10张卡牌升到5级",value: 10,awards: [{item: 10,num: 60},{item: 160,num: 20}],isValid: true}
+  - {id: 90215,type: 90,days: 3,name: "升级15次城内建筑",value: 15,awards: [{item: 60,awardId: 11340,num: 30},{item: 160,num: 20}],isValid: true}
+  - {id: 90216,type: 90,days: 3,name: "点将台招募30次神将",value: 30,awards: [{item: 20,num: 30000},{item: 160,num: 20}],isValid: true}
+  - {id: 90217,type: 90,days: 3,name: "封神台进行3场战斗",value: 3,awards: [{item: 60,awardId: 60,num: 1},{item: 160,num: 10}],isValid: true}
+  - {id: 90218,type: 90,days: 3,name: "完成一次商帮任务",value: 1,awards: [{item: 60,awardId: 10050,num: 2},{item: 160,num: 15}],isValid: true}
+  - {id: 90219,type: 90,days: 3,name: "神仙大会进行1场战斗",value: 1,awards: [{item: 60,awardId: 210,num: 1},{item: 160,num: 10}],isValid: true}
+  #4日
+  - {id: 90311,type: 90,days: 4,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90312,type: 90,days: 4,name: "累计卖出150件特产",value: 150,awards: [{item: 50,num: 4},{item: 160,num: 15}],isValid: true}
+  - {id: 90313,type: 90,days: 4,name: "累计战胜45次野怪",value: 45,awards: [{item: 50,num: 5},{item: 160,num: 10}],isValid: true}
+  - {id: 90314,type: 90,days: 4,name: "将1张卡牌升到10级",value: 1,awards: [{item: 10,num: 70},{item: 160,num: 20}],isValid: true}
+  - {id: 90315,type: 90,days: 4,name: "升级25次城内建筑",value: 25,awards: [{item: 60,awardId: 11340,num: 45},{item: 160,num: 20}],isValid: true}
+  - {id: 90316,type: 90,days: 4,name: "点将台招募50次神将",value: 50,awards: [{item: 20,num: 50000},{item: 160,num: 20}],isValid: true}
+  #5日
+  - {id: 90411,type: 90,days: 5,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90412,type: 90,days: 5,name: "累计卖出190件特产",value: 190,awards: [{item: 50,num: 4},{item: 160,num: 15}],isValid: true}
+  - {id: 90413,type: 90,days: 5,name: "累计战胜60次野怪",value: 60,awards: [{item: 50,num: 5},{item: 160,num: 10}],isValid: true}
+  - {id: 90414,type: 90,days: 5,name: "将3张卡牌升到10级",value: 3,awards: [{item: 10,num: 70},{item: 160,num: 20}],isValid: true}
+  - {id: 90415,type: 90,days: 5,name: "升级35次城内建筑",value: 35,awards: [{item: 60,awardId: 11340,num: 45},{item: 160,num: 20}],isValid: true}
+  - {id: 90416,type: 90,days: 5,name: "点将台招募70次神将",value: 70,awards: [{item: 20,num: 50000},{item: 160,num: 20}],isValid: true}
+  #6日
+  - {id: 90511,type: 90,days: 6,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90512,type: 90,days: 6,name: "累计卖出250件特产",value: 250,awards: [{item: 60,awardId: 10020,num: 6},{item: 160,num: 15}],isValid: true}
+  - {id: 90513,type: 90,days: 6,name: "累计战胜80次野怪",value: 80,awards: [{item: 60,awardId: 10020,num: 5},{item: 160,num: 15}],isValid: true}
+  - {id: 90514,type: 90,days: 6,name: "将5张卡牌升到10级",value: 5,awards: [{item: 10,num: 90},{item: 160,num: 20}],isValid: true}
+  - {id: 90515,type: 90,days: 6,name: "升级50次城内建筑",value: 50,awards: [{item: 60,awardId: 11340,num: 45},{item: 160,num: 20}],isValid: true}
+  - {id: 90516,type: 90,days: 6,name: "点将台招募100次神将",value: 100,awards: [{item: 20,num: 50000},{item: 160,num: 20}],isValid: true}
+  #7日
+  - {id: 90611,type: 90,days: 7,name: "登录游戏",value: 1,awards: [{item: 20,num: 20000},{item: 160,num: 5}],isValid: true}
+  - {id: 90612,type: 90,days: 7,name: "累计卖出310件特产",value: 310,awards: [{item: 60,awardId: 10020,num: 6},{item: 160,num: 15}],isValid: true}
+  - {id: 90613,type: 90,days: 7,name: "累计战胜100次野怪",value: 100,awards: [{item: 60,awardId: 10020,num: 5},{item: 160,num: 15}],isValid: true}
+  - {id: 90614,type: 90,days: 7,name: "将8张卡牌升到10级",value: 8,awards: [{item: 10,num: 90},{item: 160,num: 20}],isValid: true}
+  - {id: 90615,type: 90,days: 7,name: "升级70次城内建筑",value: 70,awards: [{item: 60,awardId: 11340,num: 45},{item: 160,num: 20}],isValid: true}
+  - {id: 90616,type: 90,days: 7,name: "点将台招募150次神将",value: 150,awards: [{item: 20,num: 50000},{item: 160,num: 20}],isValid: true}
+boxs:
+  - {id: 90901,boxKey: 0,score: 150,awards: [{item: 20,num: 500000}],isValid: true}
+  - {id: 90902,boxKey: 0,score: 300,awards: [{item: 40,star: 4,num: 1}],isValid: true}
+  - {id: 90903,boxKey: 0,score: 450,awards: [{item: 10,num: 388}],isValid: true}
+  - {id: 90904,boxKey: 0,score: 600,awards: [{item: 60,awardId: 10110,num: 3}],isValid: true}
+  #姜子牙，孟章苍龙，赵公明，金銮火凤，黄飞虎，五星灵石*5    6选1
+  - {id: 90905,boxKey: 0,score: 800,awards: [{item: 40,awardId: 101,num: 1},{item: 40,awardId: 236,num: 1},{item: 40,awardId: 302,num: 1},{item: 40,awardId: 401,num: 1},{item: 40,awardId: 502,num: 1},{item: 60,awardId: 850,num: 5}],isValid: true}
+...

@@ -1,0 +1,13 @@
+#箱子标识
+key: 1082
+#箱子描述
+desc: 通天残卷*10
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 60 #道具
+    good: 通天残卷
+    num: 30
+...

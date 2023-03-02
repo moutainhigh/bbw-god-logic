@@ -1,0 +1,47 @@
+#卡牌策略配置
+#RandomStrategy
+---
+#策略名称，上线以后不可修改
+key: 完整参考
+#策略描述
+desc: 详细描述
+#如果本策略获取不到，采用哪个策略获取
+nextStrategyKey: 
+#结果限制
+#maxSize：最多返回多少条记录。没有配置，默认为1.
+maxSize: 1
+# rules 规则配置，可选择，如果选择出来的结果不满足此规则，则重新选择，最多重选100次。如果还没有满足的，说明角色运气实在好，返回最后一次结果。
+# rules.condition.star: 星级
+# rules.condition.maxSize:最多返回数量
+resultRules: [{star: 0,maxSize: 1}]
+#随机选择器，由 卡牌满足条件condition 和 概率probability 组成
+# 以"$"开头的为动态参数，需要程序从外部传入。需要过滤角色卡牌，请 设置为 "$角色卡牌"
+# -1值表示没有限制
+# 卡牌满足条件 condition 
+#   star:星级;1|2|3|4|5。单选。
+#   getWay:获取途径;0|1|2|3|4 。可配置多个
+#   type:属性。-1代表不限制，金木水火土取值依次为 |10|20|30|40|50                                       【允许传参:$角色属性】 
+#   group:组合ID，-1代表不限制
+#   requestSize:要求的数量。没有配置，默认为1
+#   include 白名单，配置卡牌ID或者名称，以英文逗号,分隔。没有配置就是允许所有；如果有配置，则从这个名单开始条件过滤。     【允许传参:$角色卡牌集，$城池卡牌集】
+#   exclude 黑名单，配置卡牌ID或者名称，以英文逗号,分隔。                                                      【允许传参:$角色卡牌集，$城池卡牌集】
+#   include，exclude 允许配置灵石，名称分别为 1星灵石|2星灵石|3星灵石|4星灵石|5星灵石
+selectors: 
+  -
+    key: 1最好的卡牌排最前面
+    requestSize: 1
+    condition: {star: 5,getWay: [1],type: $角色属性,group: -1,include: [],exclude: [$角色卡牌集] }
+     #type:概率类型0|1。0=真随机;1=伪随机。 value:概率[0,100]，maxTimes:保底策略，可选参数，最多多少次后必然命中。
+    probability: {type: 1,value: 20,maxTimes: 100}
+  -
+    key: 2第二好的卡牌
+    requestSize: 1
+    condition: {star: 4,getWay: [1,0],type: $角色属性,exclude: [$角色卡牌集] }
+    probability: {type: 1,value: 30,maxTimes: 100}
+  -
+    key: 3最差的卡牌排最后
+    requestSize: 1
+    condition: {star: 3,getWay: [1,2,3],type: $角色属性}
+    probability: {type: 1,value: 40}
+
+...

@@ -1,0 +1,5 @@
+#CfgYuXGExceptFuTuEntity
+#玉虚宫不产出符图，在此配置表中的技能不在玉虚宫途径产出
+#futuId 法宝基础数据表中对应的符图id
+--- {futuId: 231403}
+--- {futuId: 231307}

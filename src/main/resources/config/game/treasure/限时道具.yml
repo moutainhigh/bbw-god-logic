@@ -1,0 +1,266 @@
+#限时道具配置
+#CfgTimeLimitTreasureEntity
+#神仙大会头像
+#--- {treasureId: 31070, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31071, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31072, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31073, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31074, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31075, timeLimit: 2021-12-02 00:00:00}
+#--- {treasureId: 31076, timeLimit: 2021-12-02 00:00:00}
+#活动
+--- {treasureId: 12001, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 12002, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 12003, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 12004, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 12005, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 12006, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 11250, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 11260, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 11270, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 11420, timeLimit: 2021-10-08 23:59:59}
+--- {treasureId: 11490, timeLimit: 2021-10-08 23:59:59}
+
+#周年
+--- {treasureId: 11201, timeLimit: 2021-04-28 00:00:00}
+--- {treasureId: 11203, timeLimit: 2021-04-28 00:00:00}
+--- {treasureId: 11204, timeLimit: 2021-04-28 00:00:00}
+--- {treasureId: 11205, timeLimit: 2021-04-28 00:00:00}
+--- {treasureId: 11206, timeLimit: 2021-04-28 00:00:00}
+--- {treasureId: 11207, timeLimit: 2021-04-28 00:00:00}
+#夏天
+--- {treasureId: 11221, timeLimit: 2021-07-30 00:00:00}
+--- {treasureId: 11222, timeLimit: 2021-07-30 00:00:00}
+--- {treasureId: 11223, timeLimit: 2021-07-30 00:00:00}
+--- {treasureId: 11224, timeLimit: 2021-07-30 00:00:00}
+--- {treasureId: 11225, timeLimit: 2021-07-30 00:00:00}
+#--- {treasureId: 11216, timeLimit: 2022-03-26 23:59:59}
+#2021七夕
+--- {treasureId: 11209, timeLimit: 2021-08-21 00:00:00}
+#2021中秋
+--- {treasureId: 11202, timeLimit: 2021-09-26 00:00:00}
+--- {treasureId: 50098, timeLimit: 2021-09-26 00:00:00}
+--- {treasureId: 50099, timeLimit: 2021-09-26 00:00:00}
+--- {treasureId: 50100, timeLimit: 2021-09-26 00:00:00}
+--- {treasureId: 50101, timeLimit: 2021-09-26 00:00:00}
+--- {treasureId: 50102, timeLimit: 2021-09-26 00:00:00}
+#2021国庆
+--- {treasureId: 50110, timeLimit: 2021-10-09 00:00:00}
+#2021万圣节
+--- {treasureId: 50120, timeLimit: 2021-11-05 00:00:00}
+--- {treasureId: 50121, timeLimit: 2021-11-05 00:00:00}
+--- {treasureId: 50122, timeLimit: 2021-11-05 00:00:00}
+--- {treasureId: 50123, timeLimit: 2021-11-05 00:00:00}
+--- {treasureId: 50124, timeLimit: 2021-11-05 00:00:00}
+#感恩节
+--- {treasureId: 50135, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50136, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50137, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50138, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50139, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50140, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50141, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50142, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50143, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50144, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50145, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50146, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50147, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50148, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50149, timeLimit: 2021-12-02 00:00:00}
+--- {treasureId: 50134, timeLimit: 2021-12-02 23:30:00}
+--- {treasureId: 50150, timeLimit: 2021-12-03 00:00:00}
+#双旦节
+--- {treasureId: 50162, timeLimit: 2022-01-04 00:00:00}
+--- {treasureId: 50163, timeLimit: 2022-01-04 00:00:00}
+--- {treasureId: 50165, timeLimit: 2022-01-03 00:00:00}
+--- {treasureId: 50164, timeLimit: 2022-01-03 00:00:00}
+--- {treasureId: 50166, timeLimit: 2022-01-03 00:00:00}
+--- {treasureId: 50167, timeLimit: 2022-01-03 00:00:00}
+--- {treasureId: 50168, timeLimit: 2022-01-03 00:00:00}
+--- {treasureId: 50169, timeLimit: 2022-01-03 00:00:00}
+#2022春节
+--- {treasureId: 50175, timeLimit: 2022-02-07 00:00:00}
+--- {treasureId: 50176, timeLimit: 2022-02-07 00:00:00}
+--- {treasureId: 50177, timeLimit: 2022-02-07 00:00:00}
+--- {treasureId: 50178, timeLimit: 2022-02-07 00:00:00}
+
+#2022周年庆
+--- {treasureId: 50217, timeLimit: 2022-03-26 00:00:00}
+--- {treasureId: 50218, timeLimit: 2022-03-26 00:00:00}
+--- {treasureId: 50219, timeLimit: 2022-03-26 00:00:00}
+#2022抵御冠族
+--- {treasureId: 50222, timeLimit: 2022-04-07 23:59:59}
+--- {treasureId: 50223, timeLimit: 2022-04-07 23:59:59}
+--- {treasureId: 50224, timeLimit: 2022-04-07 23:59:59}
+--- {treasureId: 50225, timeLimit: 2022-04-07 23:59:59}
+#2022劳动节
+--- {treasureId: 11211, timeLimit: 2022-05-06 00:00:00}
+--- {treasureId: 11212, timeLimit: 2022-05-06 00:00:00}
+--- {treasureId: 11213, timeLimit: 2022-05-06 00:00:00}
+--- {treasureId: 11214, timeLimit: 2022-05-06 00:00:00}
+--- {treasureId: 11215, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 11440, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 11450, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 11460, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 11470, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 11480, timeLimit: 2022-05-06 00:00:00}
+#--- {treasureId: 50207, timeLimit: 2022-05-05 21:00:00}
+#2022端午节
+--- {treasureId: 11710, timeLimit: 2022-06-11 23:30:00}
+--- {treasureId: 50302, timeLimit: 2022-06-11 00:00:00}
+--- {treasureId: 50303, timeLimit: 2022-06-11 00:00:00}
+--- {treasureId: 50304, timeLimit: 2022-06-11 00:00:00}
+--- {treasureId: 12007, timeLimit: 2022-06-12 00:00:00}
+
+#2022盛夏活动
+--- {treasureId: 50308, timeLimit: 2022-07-19 23:59:59}
+--- {treasureId: 50309, timeLimit: 2022-07-19 23:59:59}
+--- {treasureId: 50310, timeLimit: 2022-07-19 23:59:59}
+--- {treasureId: 50311, timeLimit: 2022-07-19 23:59:59}
+
+#七夕
+--- {treasureId: 50315, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50316, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50317, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50318, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50319, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50320, timeLimit: 2022-08-12 23:59:59}
+--- {treasureId: 50208, timeLimit: 2022-08-12 23:59:59}
+
+#2022中秋
+--- {treasureId: 50321, timeLimit: 2022-09-19 00:00:00}
+--- {treasureId: 50322, timeLimit: 2022-09-19 00:00:00}
+--- {treasureId: 50323, timeLimit: 2022-09-19 00:00:00}
+--- {treasureId: 11280, timeLimit: 2022-09-19 08:00:00}
+
+#2022国庆
+--- {treasureId: 50402, timeLimit: 2022-10-07 23:59:59}
+--- {treasureId: 50403, timeLimit: 2022-10-07 23:59:59}
+--- {treasureId: 50404, timeLimit: 2022-10-07 23:59:59}
+--- {treasureId: 50405, timeLimit: 2022-10-07 23:59:59}
+--- {treasureId: 50406, timeLimit: 2022-10-07 23:59:59}
+--- {treasureId: 50407, timeLimit: 2022-10-08 23:59:59}
+--- {treasureId: 12007, timeLimit: 2022-10-08 23:59:59}
+
+#万圣
+--- {treasureId: 50420, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50421, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50422, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50423, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50424, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50425, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50426, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50427, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50428, timeLimit: 2022-11-01 23:59:59}
+--- {treasureId: 50429, timeLimit: 2022-11-01 23:59:59}
+
+#世界杯
+--- {treasureId: 50430, timeLimit: 2022-12-18 23:59:59}
+--- {treasureId: 50431, timeLimit: 2022-12-20 23:59:59}
+
+#感恩节
+--- {treasureId: 50433, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50434, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50435, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50436, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50437, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50438, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50439, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50440, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50441, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50442, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50443, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50444, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50445, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50446, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50447, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50448, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 50449, timeLimit: 2022-12-01 23:59:59}
+--- {treasureId: 11216, timeLimit: 2022-12-30 23:59:59}
+
+
+#冬暮日
+--- {treasureId: 50450, timeLimit: 2022-12-16 23:59:59}
+--- {treasureId: 50451, timeLimit: 2022-12-16 23:59:59}
+--- {treasureId: 50452, timeLimit: 2022-12-15 23:59:59}
+--- {treasureId: 50453, timeLimit: 2022-12-15 23:59:59}
+--- {treasureId: 50454, timeLimit: 2022-12-15 23:59:59}
+--- {treasureId: 50455, timeLimit: 2022-12-15 23:59:59}
+
+#圣诞节
+--- {treasureId: 50456, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50457, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50458, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50459, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50460, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50461, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50462, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50463, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50464, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50465, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50466, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50467, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50468, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50469, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50470, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50471, timeLimit: 2022-12-29 23:59:59}
+--- {treasureId: 50472, timeLimit: 2022-12-29 23:59:59}
+
+
+#2023元旦
+--- {treasureId: 50474, timeLimit: 2023-1-7 23:59:59}
+--- {treasureId: 50475, timeLimit: 2023-1-7 23:59:59}
+--- {treasureId: 50476, timeLimit: 2023-1-7 23:59:59}
+--- {treasureId: 50220, timeLimit: 2023-1-7 23:59:59}
+--- {treasureId: 50170, timeLimit: 2023-1-8 08:00:00}
+
+#2023萌虎辞旧
+--- {treasureId: 50171, timeLimit: 2023-01-21 23:59:59}
+--- {treasureId: 10235, timeLimit: 2023-01-21 23:59:59}
+--- {treasureId: 10220, timeLimit: 2023-01-21 23:59:59}
+--- {treasureId: 50174, timeLimit: 2023-01-21 23:59:59}
+
+
+#2023瑞兔迎新
+--- {treasureId: 50477, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50478, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50479, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50480, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50481, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50482, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50483, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50484, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50485, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50486, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50487, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50488, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50489, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50490, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50491, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50492, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50493, timeLimit: 2023-01-28 23:59:59}
+--- {treasureId: 50161, timeLimit: 2023-01-29 23:59:59}
+--- {treasureId: 50473, timeLimit: 2023-01-28 23:59:59}
+
+#2023元宵
+--- {treasureId: 50203, timeLimit: 2023-02-06 23:59:59}
+--- {treasureId: 50204, timeLimit: 2023-02-06 23:59:59}
+--- {treasureId: 50205, timeLimit: 2023-02-06 23:59:59}
+--- {treasureId: 50206, timeLimit: 2023-02-06 23:59:59}
+--- {treasureId: 50209, timeLimit: 2023-02-06 23:59:59}
+--- {treasureId: 50494, timeLimit: 2023-02-07 23:59:59}
+
+#2023情人节
+--- {treasureId: 11440, timeLimit: 2023-02-14 23:59:59}
+--- {treasureId: 11450, timeLimit: 2023-02-14 23:59:59}
+--- {treasureId: 11460, timeLimit: 2023-02-14 23:59:59}
+--- {treasureId: 11470, timeLimit: 2023-02-14 23:59:59}
+--- {treasureId: 11480, timeLimit: 2023-02-14 23:59:59}
+--- {treasureId: 50207, timeLimit: 2023-02-14 20:59:59}
+--- {treasureId: 50495, timeLimit: 2023-02-14 23:59:59}
+
+#2023龙抬头
+--- {treasureId: 50497, timeLimit: 2023-02-26 23:59:59}
+--- {treasureId: 50498, timeLimit: 2023-02-26 23:59:59}
+--- {treasureId: 50499, timeLimit: 2023-02-26 23:59:59}

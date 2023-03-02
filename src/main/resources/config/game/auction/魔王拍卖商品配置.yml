@@ -1,0 +1,12 @@
+--- {id: 10,name: 普五卡牌,num: 1,minPrice: 1000,minAddPrice: 100,prop: 5}
+--- {id: 20,name: 五星灵石,num: 3,minPrice: 1000,minAddPrice: 100,prop: 16}
+--- {id: 30,name: 四星灵石,num: 10,minPrice: 800,minAddPrice: 50,prop: 16}
+--- {id: 40,name: 3篇卷轴,num: 1,minPrice: 1500,minAddPrice: 100,prop: 4}
+--- {id: 50,name: 4篇卷轴,num: 1,minPrice: 2500,minAddPrice: 100,prop: 2}
+--- {id: 60,name: 5篇卷轴,num: 1,minPrice: 3000,minAddPrice: 100,prop: 1}
+--- {id: 70,name: 增力符,num: 1,minPrice: 300,minAddPrice: 50,prop: 15}
+--- {id: 80,name: 大力符,num: 1,minPrice: 300,minAddPrice: 50,prop: 15}
+--- {id: 90,name: 力神符,num: 1,minPrice: 700,minAddPrice: 50,prop: 8}
+--- {id: 100,name: 补元符,num: 1,minPrice: 700,minAddPrice: 50,prop: 8}
+--- {id: 110,name: 强元符,num: 1,minPrice: 1200,minAddPrice: 100,prop: 5}
+--- {id: 120,name: 元神符,num: 1,minPrice: 1200,minAddPrice: 100,prop: 5}

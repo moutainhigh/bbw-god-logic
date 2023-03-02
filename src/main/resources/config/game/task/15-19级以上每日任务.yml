@@ -1,0 +1,39 @@
+---
+groupId: 25000
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks: 
+#固定类 23010-23099
+  - {id: 25010,type: 30,name: "今日首次登录游戏",value: 1,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25011,type: 30,name: "消耗5个元素升级卡牌",value: 5,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25012,type: 30,name: "消耗60点体力",value: 60,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25013,type: 30,name: "领取1次封神台积分",value: 1,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25014,type: 30,name: "使用1次地图法宝",value: 1,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25015,type: 30,name: "使用1个战斗法宝",value: 1,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25016,type: 30,name: "累计铜钱收益%s万",value: null,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25017,type: 30,name: "进行5次练兵",value: 5, awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25018,type: 30,name: "到商城花费元宝购物1次",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25021,type: 30,name: "完成2次行会任务",value: 2,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25023,type: 30,name: "挑战1次诛仙阵",value: 1,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+#1类 23010-23099
+  - {id: 25110,type: 30,name: "到福地收获60元宝",value: 60,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25111,type: 30,name: "与野怪战斗6次",value: 6,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25112,type: 30,name: "钱庄领取5份税收",value: 5,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25113,type: 30,name: "炼丹房收取5份经验",value: 5,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25114,type: 30,name: "在地图上购买5张卡牌",value: 5,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+  - {id: 25115,type: 30,name: "矿场收取8个元素",value: 8,awards: [{item: 80,num: 200},{item: 100,num: 10}],isValid: true}
+#2类 23010-23099
+  - {id: 25210,type: 30,name: "使1个神仙附体（百宝箱不算）",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+#3类 23010-23099
+  - {id: 25310,type: 30,name: "到文王庙求签1次",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25311,type: 30,name: "到女娲庙捐赠1次",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25312,type: 30,name: "到迷仙洞探险1次",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25313,type: 30,name: "到鹿台升级卡牌1次",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+  - {id: 25314,type: 30,name: "在路边捡到1个百宝箱",value: 1,awards: [{item: 80,num: 400},{item: 100,num: 20}],isValid: true}
+#宝箱  此处宝箱奖励仅用于展示 ，实际领取的奖励配置在box目录下对应的yml中   {item: 120,num: 1} 为随机灵石*1
+boxs: 
+  - {id: 25901,boxKey: 716,score: 30,awards: [{item: 20,num: 2500}],isValid: true}
+  - {id: 25902,boxKey: 717,score: 60,awards: [{item: 20,num: 5000},{item: 30,num: 15}],isValid: true}
+  - {id: 25903,boxKey: 718,score: 90,awards: [{item: 20,num: 7500},{item: 50,awardId: 0,num: 8}],isValid: true}
+  - {id: 25904,boxKey: 719,score: 120,awards: [{item: 20,num: 10000},{item: 30,num: 30}],isValid: true}
+  - {id: 25905,boxKey: 720,score: 150,awards: [{item: 20,num: 15000},{item: 50,awardId: 0,num: 10},{item: 120,num: 1}],isValid: true}
+...

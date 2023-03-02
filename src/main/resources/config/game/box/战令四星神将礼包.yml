@@ -1,0 +1,73 @@
+#战令四星神将礼包
+#箱子标识，对应
+key: 50152
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  - item: 40
+    good: 灵坛护法
+    num: 1
+    prop: 10
+  - item: 40
+    good: 高继能
+    num: 1
+    prop: 5
+  - item: 40
+    good: 鲁雄
+    num: 1
+    prop: 10
+  - item: 40
+    good: 袁福通
+    num: 1
+    prop: 10
+  - item: 40
+    good: 万年鼋龙
+    num: 1
+    prop: 10
+  - item: 40
+    good: 闻聘
+    num: 1
+    prop: 5
+  - item: 60 # 道具
+    good: 仙之源
+    num: 1
+    prop: 460
+  - item: 60 # 道具
+    good: 魂源
+    num: 2
+    prop: 490
+  - item: 60 # 道具
+    good: 魂源
+    num: 1
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 通天残卷
+    num: 2
+    prop: 1500
+  -
+    item: 20 # 铜钱
+    num: 500000
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 夺宝积分
+    num: 20
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 200
+    prop: 1500
+  -
+    item: 60 # 道具
+    good: 战令经验
+    num: 100
+    prop: 1500
+
+...

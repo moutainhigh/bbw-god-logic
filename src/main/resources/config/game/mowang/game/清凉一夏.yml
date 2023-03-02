@@ -1,0 +1,44 @@
+# 魔王配置
+#CfgGameMaou
+---
+key: 4000
+#允许的参战卡牌数
+cardLimit: 0
+#免费次数
+freeTimes: 0
+#地灵印额外次数
+extraTimesForDiLY: 0
+#天灵印额外次数
+extraTimesForTingLY: 0
+#两轮间隔时间
+intervalSeconds: 300
+# 等级达到多少级的参与者可获得击杀奖励。!!!如果与其他特殊条件判定，由具体业务特殊处理。
+killAwardsNeedLevel: 10
+#魔王信息
+maous:
+  # initBlood: 初始血量
+  # minTurn: 使用该魔王数据的最小轮次
+  # maxTurn: 使用该魔王数据的最大轮次。999999相当于无限轮次
+  # extraBloodPerTurn: 在轮次期间，每轮的血量加值
+  # killAwards:击杀奖励
+  - {id: 40010,initBlood: 2000000,minTurn: 1,maxTurn: 1,extraBloodPerTurn: 0, killAwards: [{item: 60,awardId: 11010,num: 2},{item: 60,awardId: 10180,num: 1},{item: 60,awardId: 10020,num: 6},{item: 20,num: 50000},{item: 60,awardId: 11090,num: 1}]}
+  - {id: 40020,initBlood: 2000000,minTurn: 2,maxTurn: 2,extraBloodPerTurn: 0, killAwards: [{item: 60,awardId: 11010,num: 4},{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 10020,num: 12},{item: 20,num: 100000},{item: 60,awardId: 11090,num: 2}]}
+  - {id: 40030,initBlood: 2000000,minTurn: 3,maxTurn: 999999,extraBloodPerTurn: 0, killAwards: [{item: 60,awardId: 11010,num: 6},{item: 60,awardId: 10180,num: 3},{item: 60,awardId: 10020,num: 18},{item: 20,num: 150000},{item: 60,awardId: 11090,num: 3}]}
+#目标奖励
+targets:
+  - {id: 110,blood: 1000,awards: [{item: 20,num: 200000}]}
+  - {id: 120,blood: 2000,awards: [{item: 60,awardId: 11010,num: 5}]}
+  - {id: 130,blood: 3000,awards: [{item: 20,num: 500000}]}
+  - {id: 140,blood: 5000,awards: [{item: 60,awardId: 11010,num: 10}]}
+  - {id: 150,blood: 7000,awards: [{item: 60,awardId: 10180,num: 9}]}
+  - {id: 160,blood: 9000,awards: [{item: 60,awardId: 10110,num: 9}]}
+  - {id: 170,blood: 12000,awards: [{item: 60,awardId: 11060,num: 1}]}
+  - {id: 180,blood: 15000,awards: [{item: 60,awardId: 50221,num: 10}]}
+  - {id: 190,blood: 18000,awards: [{item: 60,awardId: 11410,num: 1}]}
+  - {id: 200,blood: 21000,awards: [{item: 60,awardId: 50010,num: 1}]}
+
+#生效的技能:
+effectSkills:
+#生效的组合：
+effectGroups:
+...

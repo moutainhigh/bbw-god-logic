@@ -1,0 +1,265 @@
+---
+#商会 任务要求的特产信息
+key: 唯一
+lowSpecials: 
+  - {id: 9,name: "猫",areaId: 10}
+  - {id: 2,name: "面",areaId: 10}
+  - {id: 1,name: "盐",areaId: 20}
+  - {id: 6,name: "鱼",areaId: 20}
+  - {id: 8,name: "鲜肉",areaId: 30}
+  - {id: 4,name: "亚麻",areaId: 30}
+  - {id: 3,name: "米",areaId: 40}
+  - {id: 5,name: "草药",areaId: 40}  
+  - {id: 7,name: "石料",areaId: 50}
+  - {id: 10,name: "紫色陶瓶",areaId: 50}  
+middleSpecials: 
+  - {id: 19,name: "丝绸",areaId: 10}
+  - {id: 11,name: "龟甲",areaId: 10}
+  - {id: 23,name: "玛瑙",areaId: 10}
+  - {id: 16,name: "青铜器",areaId: 20}
+  - {id: 12,name: "肚兜",areaId: 20}
+  - {id: 22,name: "鹿角",areaId: 20}
+  - {id: 21,name: "水晶",areaId: 30}
+  - {id: 13,name: "瓷碗",areaId: 30}
+  - {id: 18,name: "狐裘",areaId: 30}
+  - {id: 14,name: "玉如意",areaId: 40}
+  - {id: 17,name: "麝香",areaId: 40}  
+  - {id: 24,name: "翡翠",areaId: 40}
+  - {id: 15,name: "宫灯",areaId: 50} 
+heighSpecials: 
+  - {id: 34,name: "金鼎",areaId: 10}
+  - {id: 31,name: "海珀",areaId: 20}
+  - {id: 32,name: "龙珠",areaId: 20}
+  - {id: 37,name: "香料",areaId: 30}
+  - {id: 38,name: "神仙酒",areaId: 30}
+  - {id: 35,name: "火晶",areaId: 40}
+  - {id: 36,name: "黄钟",areaId: 40}  
+  - {id: 25,name: "真纣王扳指",areaId: 50}
+  - {id: 39,name: "御贡神丹",areaId: 50} 
+  - {id: 40,name: "纣王戈",areaId: 50} 
+#自定义 商会的相关物品   钱袋10080 积分10090 金币10100
+cocTaskRewards: 
+  - productId: 1
+    memo: 低级商会任务奖励
+    awardList:
+      - {num: 1, item: 60, awardId: 10080}
+      - {num: 5, item: 60, awardId: 10090}
+      - {num: 1, item: 60, awardId: 10100}
+  - productId: 2
+    memo: 中级商会任务奖励
+    awardList:
+      - {num: 2, item: 60, awardId: 10080}
+      - {num: 10, item: 60, awardId: 10090}
+      - {num: 2, item: 60, awardId: 10100} 
+  - productId: 3
+    memo: 高级商会任务奖励
+    awardList:
+      - {num: 3, item: 60, awardId: 10080}
+      - {num: 15, item: 60, awardId: 10090}
+      - {num: 3, item: 60, awardId: 10100}
+#type 1的为特产卖出收入任务 即贸易任务
+expList:
+  - {id: 1,type: 1,content: "今日买卖特产收入超过500w，每日完成+5商会积分",target: 5000000}
+  - {id: 2,type: 1,content: "今日买卖特产收入超过750w，每日完成+5商会积分",target: 7500000}
+  - {id: 3,type: 1,content: "今日买卖特产收入超过1000w，每日完成+5商会积分",target: 10000000}
+  #type 2的为练兵任务
+  - {id: 4,type: 2,content: "今日练兵获得15次胜利，每日完成+5商会积分",target: 15}
+  - {id: 5,type: 2,content: "今日练兵获得20次胜利，每日完成+5商会积分",target: 20}
+  - {id: 6,type: 2,content: "今日练兵获得25次胜利，每日完成+5商会积分",target: 25}
+  #type 3的为特殊任务
+  - {id: 7,type: 3,content: "今日完成2次初级以上任务，每日完成+5商会积分",target: 2}
+  - {id: 8,type: 3,content: "今日完成3次初级以上任务，每日完成+5商会积分",target: 3}
+  - {id: 9,type: 3,content: "今日完成4次初级以上任务，每日完成+5商会积分，+1商会金币",target: 4}
+  - {id: 10,type: 3,content: "今日完成5次初级以上任务，每日完成+5商会积分，+1商会金币",target: 5}
+  - {id: 11,type: 3,content: "今日完成6次初级以上任务，每日完成+5商会积分，+2商会金币",target: 6}
+#跑商历练奖励
+#自定义 商会的相关物品类型为90   其中1:钱袋   2:积分  3:金币#自定义 商会的相关物品   钱袋10080 积分10090 金币10100
+#奖励   expid为任务ID   一个任务可以有多个奖励
+expTaskAwards: 
+  - productId: 1
+    memo: 历练任务ID为1的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 2
+    memo: 历练任务ID为2的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 3
+    memo: 历练任务ID为3的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 4
+    memo: 历练任务ID为4的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090} 
+  - productId: 5
+    memo: 历练任务ID为5的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 6
+    memo: 历练任务ID为6的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 7
+    memo: 历练任务ID为7的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+  - productId: 8
+    memo: 历练任务ID为8的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+      
+  - productId: 9
+    memo: 历练任务ID为9的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+      - {num: 1, item: 60, awardId: 10100}
+  - productId: 10
+    memo: 历练任务ID为10的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+      - {num: 1, item: 60, awardId: 10100} 
+  - productId: 11
+    memo: 历练任务ID为11的历练奖励
+    awardList:
+      - {num: 5, item: 60, awardId: 10090}
+      - {num: 2, item: 60, awardId: 10100}
+    
+   
+honorList: 
+  - {level: 1,giftId: 0,giftPrice: 0,target: 0,title: "涉世未深",memo: "解锁·商会店铺-混沌仙石、解锁·商会店铺-特许交易劵"}
+  - {level: 2,giftId: 2,giftPrice: 188,target: 100,title: "初入商圈",memo: "解锁·专属头像【初入商圈】"}
+  - {level: 3,giftId: 3,giftPrice: 288,target: 300,title: "临工打杂",memo: "商会店铺-混沌仙石每日可购买次数上限+1"}
+  - {level: 4,giftId: 4,giftPrice: 388,target: 600,title: "跑堂伙计",memo: "解锁·商会店铺-卡牌刺客、解锁·商会店铺-卡牌叛逆童子"}
+  - {level: 5,giftId: 5,giftPrice: 588,target: 1200,title: "肩担小贩",memo: "加急任务概率翻倍（注意：初始刷出的概率不翻倍）、解锁·商会店铺-卡牌锦鲤、解锁·商会店铺-卡牌尤浑"}
+  - {level: 6,giftId: 6,giftPrice: 888,target: 2000,title: "小店掌柜",memo: "商会店铺-混沌仙石每日可购买次数上限+1"}
+  - {level: 7,giftId: 7,giftPrice: 1288,target: 3000,title: "旺铺老板",memo: "钱庄收益+10%"}
+  - {level: 8,giftId: 8,giftPrice: 1688,target: 5000,title: "连锁富商",memo: "解锁·专属头像【连锁富商】、进入城池，有10%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+  - {level: 9,giftId: 9,giftPrice: 2088,target: 7000,title: "一方财主",memo: "解锁·专属头像【一方财主】、进入城池，有20%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+  - {level: 10,giftId: 10,giftPrice: 3288,target: 10000,title: "商周巨富",memo: "解锁·专属头像【商周巨富】、进入城池，有30%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+  - {level: 11,giftId: 11,giftPrice: 4188,target: 13000,title: "富可敌国",memo: "解锁·专属头像【富可敌国】、进入城池，有40%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+  - {level: 12,giftId: 12,giftPrice: 6888,target: 18000,title: "封神首富",memo: "解锁·专属头像【封神首富】、进入城池，有50%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+#解锁头像140
+headList:
+  - {baseId: 3000,lv: 2,memo: "初入商圈"}
+  - {baseId: 3010,lv: 8,memo: "连锁富商"}
+  - {baseId: 3020,lv: 9,memo: "一方财主"}
+  - {baseId: 3030,lv: 10,memo: "商周巨富"}
+  - {baseId: 3040,lv: 11,memo: "富可敌国"}
+  - {baseId: 3050,lv: 12,memo: "封神首富"}
+#自定义 商会的相关物品类型为90   Id:  其中1:钱袋   2:积分  3:金币 4：特许交易证
+
+giftList: 
+#消耗类型 1 元宝 2铜钱 3 RMB 4 神仙大会仙豆  6商会金币 
+#商品类型   60法宝  40卡牌
+   - {minLevel: 2,goodId: 2,id: 2,price: 188,priceType: 1,limitCount: 1,memo: "2级商会头衔礼包"}
+   - {minLevel: 3,goodId: 3,id: 3,price: 288,priceType: 1,limitCount: 1,memo: "3级商会头衔礼包"}
+   - {minLevel: 4,goodId: 4,id: 4,price: 388,priceType: 1,limitCount: 1,memo: "4级商会头衔礼包"}
+   - {minLevel: 5,goodId: 5,id: 5,price: 588,priceType: 1,limitCount: 1,memo: "5级商会头衔礼包"}
+   - {minLevel: 6,goodId: 6,id: 6,price: 888,priceType: 1,limitCount: 1,memo: "6级商会头衔礼包"}
+   - {minLevel: 7,goodId: 7,id: 7,price: 1288,priceType: 1,limitCount: 1,memo: "7级商会头衔礼包"}
+   - {minLevel: 8,goodId: 8,id: 8,price: 1688,priceType: 1,limitCount: 1,memo: "8级商会头衔礼包"}
+   - {minLevel: 9,goodId: 9,id: 9,price: 2088,priceType: 1,limitCount: 1,memo: "9级商会头衔礼包"}
+   - {minLevel: 10,goodId: 10,id: 10,price: 3288,priceType: 1,limitCount: 1,memo: "10级商会头衔礼包"}
+   - {minLevel: 11,goodId: 11,id: 11,price: 4188,priceType: 1,limitCount: 1,memo: "11级商会头衔礼包"}
+   - {minLevel: 12,goodId: 12,id: 12,price: 6888,priceType: 1,limitCount: 1,memo: "12级商会头衔礼包"}
+#礼包配置
+productAwards:
+  - productId: 2
+    memo: 2级礼包：商会钱袋*1，三星灵石*3，山河社稷图*3（售价：188元宝）
+    awardList:
+      - {num: 1, item: 60, awardId: 10080}
+      - {num: 3, item: 60, awardId: 830}
+      - {num: 3, item: 60, awardId: 60}
+  - productId: 3
+    memo: 3级礼包：商会钱袋*2，三星灵石*5，特许交易劵*2 （售价：288元宝）
+    awardList:
+      - {num: 2, item: 60, awardId: 10080}
+      - {num: 5, item: 60, awardId: 830}
+      - {num: 2, item: 60, awardId: 10060}
+  - productId: 4
+    memo: 4级礼包：商会钱袋*5，三星灵石*8，特许交易劵*2 （售价：388元宝）
+    awardList:
+      - {num: 5, item: 60, awardId: 10080}
+      - {num: 8, item: 60, awardId: 830}
+      - {num: 2, item: 60, awardId: 10060} 
+  - productId: 5
+    memo: 5级礼包：商会钱袋*8，四星灵石*5，特许交易劵*3 （售价：588元宝）
+    awardList:
+      - {num: 8, item: 60, awardId: 10080}
+      - {num: 5, item: 60, awardId: 840}
+      - {num: 3, item: 60, awardId: 10060}
+  - productId: 6
+    memo: 6级礼包：商会钱袋*10，四星灵石*8，特许交易劵*5 （售价：888元宝）
+    awardList:
+      - {num: 10, item: 60, awardId: 10080}
+      - {num: 8, item: 60, awardId: 840}
+      - {num: 5, item: 60, awardId: 10060}
+  - productId: 7
+    memo: 7级礼包：商会钱袋*12，四星灵石*10，混沌仙石*10 （售价：1288元宝）
+    awardList:
+      - {num: 12, item: 60, awardId: 10080}
+      - {num: 10, item: 60, awardId: 840}
+      - {num: 10, item: 60, awardId: 10030}
+  - productId: 8
+    memo: 8级礼包：商会钱袋*15，五星灵石*3，混沌仙石*15 （售价：1688元宝）
+    awardList:
+      - {num: 15, item: 60, awardId: 10080}
+      - {num: 3, item: 60, awardId: 850}
+      - {num: 15, item: 60, awardId: 10030}
+  - productId: 9
+    memo: 9级礼包：商会钱袋*20，五星灵石*5，混沌仙石*20 （售价：2088元宝）
+    awardList:
+      - {num: 20, item: 60, awardId: 10080}
+      - {num: 5, item: 60, awardId: 850}
+      - {num: 20, item: 60, awardId: 10030}
+  - productId: 10
+    memo: 10级礼包：商会钱袋*25，五星灵石*8，混沌仙石*25 （售价：3288元宝）
+    awardList:
+      - {num: 25, item: 60, awardId: 10080}
+      - {num: 8, item: 60, awardId: 850}
+      - {num: 25, item: 60, awardId: 10030}
+  - productId: 11
+    memo: 11级礼包：商会钱袋*30，五星灵石*10，混沌仙石*30 （售价：4188元宝）
+    awardList:
+      - {num: 30, item: 60, awardId: 10080}
+      - {num: 10, item: 60, awardId: 850}
+      - {num: 30, item: 60, awardId: 10030}
+  - productId: 12
+    memo: 12级礼包：商会钱袋*50，五星灵石*18，混沌仙石*50 （售价：6888元宝）
+    awardList:
+      - {num: 50, item: 60, awardId: 10080}
+      - {num: 18, item: 60, awardId: 850}
+      - {num: 50, item: 60, awardId: 10030}
+      
+privilegeList:
+#特权类型 解锁商品110、加急任务概率翻倍120、收益提升130、商品购买次数上限150、城池特产优惠160、
+    #配置时直接加到目标值，取时不在将低等级的累加，而是取等级最大的数值为准
+   - {level: 3,type: 150,shopId: 1001,quantity: 1,memo: "商会店铺-混沌仙石每日可购买次数上限3+1"}
+   - {level: 5,type: 120,shopId: 12001,quantity: 2,memo: "加急任务概率翻倍（注意：初始刷出的概率不翻倍"}
+   - {level: 6,type: 150,shopId: 1001,quantity: 2,memo: "商会店铺-混沌仙石每日可购买次数上限3+2"}
+   - {level: 7,type: 130,shopId: 13010,quantity: 10,memo: "钱庄收益+10%"}  
+   - {level: 8,type: 160,shopId: 10505,quantity: 10,memo: "进入城池，有10%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+   - {level: 9,type: 160,shopId: 10505,quantity: 20,memo: "进入城池，有20%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+   - {level: 10,type: 160,shopId: 10505,quantity: 30,memo: "进入城池，有30%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+   - {level: 11,type: 160,shopId: 10505,quantity: 40,memo: "进入城池，有40%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+   - {level: 12,type: 160,shopId: 10505,quantity: 50,memo: "进入城池，有50%概率，本城购买特产获5%折扣，卖出特产溢价5%"}
+shopList: 
+#消耗类型 1 元宝 2铜钱 3 RMB 4 神仙大会仙豆  6商会金币 
+#商品类型   60法宝  40卡牌
+   - {minLevel: 1,goodId: 10030,id: 1001,propType: 60,price: 3,priceType: 6,limitCount: 3,memo: "混沌仙石"}
+   - {minLevel: 1,goodId: 10060,id: 1002,propType: 60,price: 1,priceType: 6,limitCount: 0,memo: "特许交易证"}
+   - {minLevel: 4,goodId: 135,id: 1003,propType: 40,price: 80,priceType: 6,limitCount: 0,memo: "卡牌-刺客"}
+   - {minLevel: 4,goodId: 536,id: 1004,propType: 40,price: 80,priceType: 6,limitCount: 0,memo: "卡牌-叛道童子"}
+   - {minLevel: 5,goodId: 531,id: 1005,propType: 40,price: 200,priceType: 6,limitCount: 0,memo: "卡牌-尤浑"}
+   - {minLevel: 5,goodId: 136,id: 1006,propType: 40,price: 150,priceType: 6,limitCount: 0,memo: "卡牌-锦鲤"}
+   - {minLevel: 7,goodId: 239,id: 1007,propType: 40,price: 900,priceType: 6,limitCount: 0,memo: "卡牌-姜文焕"}
+   - {minLevel: 7,goodId: 442,id: 1008,propType: 40,price: 1800,priceType: 6,limitCount: 0,memo: "卡牌-云中子"}
+   - {minLevel: 1,goodId: 50012,id: 1009,propType: 60,price: 4,priceType: 6,limitCount: 100,memo: "荣耀银币"}
+   - {minLevel: 1,goodId: 11010,id: 1010,propType: 60,price: 2,priceType: 6,limitCount: 0,memo: "通天残卷"}
+   - {minLevel: 1,goodId: 10030,id: 1011,propType: 60,price: 6,priceType: 6,limitCount: 0,memo: "混沌仙石"}
+   - {minLevel: 1,goodId: 11060,id: 1012,propType: 60,price: 100,priceType: 6,limitCount: 2,memo: "传奇卷轴宝箱"}
+   - {minLevel: 1,goodId: 11410,id: 1013,propType: 60,price: 500,priceType: 6,limitCount: 2,memo: "随机高级卷轴"}
+   - {minLevel: 1,goodId: 50010,id: 1014,propType: 60,price: 2000,priceType: 6,limitCount: 1,memo: "随机秘传卷轴"}
+   - {minLevel: 1,goodId: 11065,id: 1015,propType: 60,price: 5000,priceType: 6,limitCount: 1,memo: "至尊秘传宝箱"}
+...

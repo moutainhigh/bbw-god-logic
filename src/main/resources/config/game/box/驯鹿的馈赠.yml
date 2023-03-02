@@ -1,0 +1,26 @@
+key: 50460
+desc: 随机获得以下奖励之一：章鱼触手、驯鹿角、魔法羽毛、小兔耳
+isRandom: true
+categoryNum: 1
+goods: 
+  -
+    item: 60
+    good: 章鱼触手
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 驯鹿角
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 魔法羽毛
+    num: 1
+    prop: 2500
+  -
+    item: 60
+    good: 小兔耳
+    num: 1
+    prop: 2500
+...

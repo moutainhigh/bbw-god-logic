@@ -1,0 +1,25 @@
+#箱子标识
+key: 1160
+#箱子描述
+desc: 财神珠*2、山河社稷图*3、七香车*3、回马枪*5
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 #道具
+    good: 财神珠
+    num: 2
+  -
+    item: 60 #道具
+    good: 山河社稷图
+    num: 3
+  -
+    item: 60 #道具
+    good: 七香车
+    num: 3
+  -
+    item: 60 #道具
+    good: 回马枪
+    num: 5
+...

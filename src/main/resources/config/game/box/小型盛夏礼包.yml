@@ -1,0 +1,21 @@
+#箱子标识
+key: 50312
+#箱子描述
+desc: 小型盛夏礼包
+isRandom: true
+categoryNum: 1
+#物品
+goods:
+  - item: 60
+    good: 喷水手枪
+    num: 1
+    prop: 7900
+  - item: 60
+    good: 降温冰袋
+    num: 1
+    prop: 2000
+  - item: 60
+    good: 气球水蛋
+    num: 1
+    prop: 100
+...

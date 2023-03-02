@@ -1,0 +1,47 @@
+#箱子标识
+key: 唯一
+#箱子描述
+desc: 随机1个物品
+#物品
+goods:
+  - item: 60
+    good: 夺宝符
+    num: 1
+    prop: 10
+  - item: 60
+    good: 神沙
+    num: 4
+    prop: 1890
+  - item: 60
+    good: 五星灵石
+    num: 1
+    prop: 300
+  - item: 60
+    good: 魂源
+    num: 1
+    prop: 1700
+  - item: 60
+    good: 四星灵石
+    num: 1
+    prop: 650
+  - item: 60
+    good: 传奇卷轴宝箱
+    num: 1
+    prop: 50
+  - item: 60
+    good: 通天残卷
+    num: 1
+    prop: 1800
+  - item: 60
+    good: 符箓礼包
+    num: 1
+    prop: 300
+  - item: 60
+    good: 通天残卷
+    num: 2
+    prop: 1600
+  - item: 60
+    good: 混沌仙石
+    num: 1
+    prop: 1500
+...

@@ -1,0 +1,5 @@
+-- 节日礼包-51 13560
+INSERT INTO pay_product (`id`, `serial`, `plat`, `inner_id`, `name`, `quantity`, `price`, `extra_num`, `is_available`, `recommend`) VALUES (99001801, 1, 99000000, '99001801', '节日礼包6元福利', 0, 6, 0, b'1', b'1');
+INSERT INTO pay_product (`id`, `serial`, `plat`, `inner_id`, `name`, `quantity`, `price`, `extra_num`, `is_available`, `recommend`) VALUES (99001802, 1, 99000000, '99001802', '节日礼包30元福利', 0, 30, 0, b'1', b'1');
+INSERT INTO pay_product (`id`, `serial`, `plat`, `inner_id`, `name`, `quantity`, `price`, `extra_num`, `is_available`, `recommend`) VALUES (99001803, 1, 99000000, '99001803', '节日礼包98元福利', 0, 98, 0, b'1', b'1');
+INSERT INTO pay_product (`id`, `serial`, `plat`, `inner_id`, `name`, `quantity`, `price`, `extra_num`, `is_available`, `recommend`) VALUES (99001804, 1, 99000000, '99001804', '节日礼包198元福利', 0, 198, 0, b'1', b'1');

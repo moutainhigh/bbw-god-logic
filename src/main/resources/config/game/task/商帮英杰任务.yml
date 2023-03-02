@@ -1,0 +1,18 @@
+---
+groupId: 220000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+#基于10000的特产买卖利润相当于1英杰值，把value的值扩大10000倍
+tasks:
+  #1日
+  - {id: 220001,type: 260,name: "300英杰值",value: 3000000,awards: [{item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220002,type: 260,name: "600英杰值",value: 6000000,awards: [{item: 60,awardId: 50315,num: 1}, {item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220003,type: 260,name: "900英杰值",value: 9000000,awards: [{item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220004,type: 260,name: "1200英杰值",value: 12000000,awards: [{item: 60,awardId: 50316,num: 1}, {item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220005,type: 260,name: "1500英杰值",value: 15000000,awards: [{item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220006,type: 260,name: "1800英杰值",value: 18000000,awards: [{item: 60,awardId: 50317,num: 1}, {item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220007,type: 260,name: "2100英杰值",value: 21000000,awards: [{item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220008,type: 260,name: "2400英杰值",value: 24000000,awards: [{item: 60,awardId: 50318,num: 1}, {item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220009,type: 260,name: "2700英杰值",value: 27000000,awards: [{item: 60,awardId: 50208,num: 10}],isValid: true}
+  - {id: 220010,type: 260,name: "3000英杰值",value: 30000000,awards: [{item: 60,awardId: 50319,num: 1}, {item: 60,awardId: 50208,num: 10}],isValid: true}
+...

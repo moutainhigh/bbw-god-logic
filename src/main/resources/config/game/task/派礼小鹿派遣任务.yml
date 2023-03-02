@@ -1,0 +1,14 @@
+---
+groupId: 250000
+#商帮派遣任务
+#type:
+#TIME_LIMIT_DISPATCH_TASK("时效-派遣任务", 120),
+#difficulty:
+#FIRST_LEVEL("初级", 10),MIDDLE_LEVEL("中级", 20),
+#HIGH_LEVEL("高级", 30),SUPER_LEVEL("史诗级", 40),
+tasks:
+  #awardId为空奖励为对应商帮声望
+  - {id: 250001,type: 120,difficulty: 10,name: "",value: 1,generateProb: 30,awards: [],isValid: true}
+  - {id: 250002,type: 120,difficulty: 20,name: "",value: 1,generateProb: 30,awards: [],isValid: true}
+  - {id: 250003,type: 120,difficulty: 30,name: "",value: 1,generateProb: 20,awards: [],isValid: true}
+  - {id: 250004,type: 120,difficulty: 40,name: "",value: 1,generateProb: 20,awards: [],isValid: true}

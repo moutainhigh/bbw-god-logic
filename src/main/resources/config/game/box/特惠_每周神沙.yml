@@ -1,0 +1,13 @@
+#箱子标识
+key: 1120
+#箱子描述
+desc: 神沙
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 60 #道具
+    good: 神沙
+    num: 60
+...

@@ -1,0 +1,71 @@
+#箱子标识
+key: "普通野怪宝箱_玩家等级[1,9]"
+#箱子描述
+desc: 随机1种物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods:
+  - item: 40 #卡牌
+    good: "普通野怪卡牌_玩家等级[1,9]"
+    num: 1
+    prop: 3000
+  - item: 60 #道具
+    good: 法宝
+    num: 1
+    prop: 400
+    starProps:
+      - 2350
+      - 2350
+      - 3700
+      - 1100
+      - 500
+  - item: 60 #道具
+    good: 万能灵石
+    num: 1
+    prop: 400
+    starProps:
+      - 3500
+      - 3500
+      - 2000
+      - 800
+      - 200
+  - item: 30 #体力
+    good: 体力
+    num: 18
+    prop: 800
+  - item: 50 #元素
+    good: 随机
+    num: 1
+    prop: 400
+  - item: 50 #元素
+    good: 随机
+    num: 2
+    prop: 400
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 2000
+    prop: 920
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 4000
+    prop: 1380
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 6000
+    prop: 1380
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 8000
+    prop: 460
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 10000
+    prop: 322
+  - item: 20 #铜钱
+    good: 铜钱
+    num: 20000
+    prop: 138
+...

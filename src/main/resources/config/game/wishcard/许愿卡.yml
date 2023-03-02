@@ -1,0 +1,34 @@
+# 许愿卡配置
+#CfgWishCard
+---
+key: 唯一
+#金许愿池
+goldWishCards:
+  #id卡牌Id,name卡牌，needWish需要的许愿值，isNew是否新卡，newDateEnd新卡截止时间
+  - {id: 102,name: 杨戬,needWish: 500,isNew: 0}
+#木许愿池
+woodWishCards:
+  - {id: 202,name: 句芒,needWish: 500,isNew: 0}
+#水许愿池
+waterWishCards:
+  - {id: 301,name: 妲己,needWish: 500,isNew: 0}
+#火许愿池
+fireWishCards:
+  - {id: 402,name: 火灵圣母,needWish: 500,isNew: 0}
+#土许愿池
+earthWishCards:
+  - {id: 501,name: 闻仲,needWish: 500,isNew: 0}
+#万物许愿池
+wanwuWishCards:
+  - {id: 247,name: 玉鼎真人,needWish: 1200,isNew: 1,newDateEnd: 20190531}
+  - {id: 334,name: 敖广,needWish: 180,isNew: 0}
+  - {id: 335,name: 敖闰,needWish: 180,isNew: 0}
+  - {id: 336,name: 敖顺,needWish: 180,isNew: 0}
+  - {id: 434,name: 敖钦,needWish: 180,isNew: 0}
+  - {id: 535,name: 吕岳,needWish: 150,isNew: 0}
+  - {id: 130,name: 鱼凫,needWish: 150,isNew: 0}
+  - {id: 233,name: 毕方,needWish: 150,isNew: 0}
+  - {id: 526,name: 比干,needWish: 150,isNew: 1,newDateEnd: 20190531}
+limitTimeWishCards:
+  - {id: 561,name: 犰狳,needWish: 800,isNew: 0}
+...

@@ -1,0 +1,33 @@
+#节日任务
+#CfgHolidayTaskEntity
+#type=10070是每日任务
+--- { id: 1010,type: 10070,name: "击败3次冰霜雪怪",value: 3,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+--- { id: 1020,type: 10070,name: "击败5次冰霜雪怪",value: 5,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+--- { id: 1030,type: 10070,name: "击败8次冰霜雪怪",value: 8,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+--- { id: 1040,type: 10070,name: "完成1次商会任务",value: 1,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+--- { id: 1050,type: 10070,name: "完成2次商会任务",value: 2,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+--- { id: 1060,type: 10070,name: "完成3次商会任务",value: 3,awards: [ { item: 60,awardId: 11420,num: 1 } ] }
+#--- {id: 1070,type: 10070,name: "击败3次恶鬼缠身",value: 3,awards: [{item: 60,awardId: 11250,num: 1},{item: 60,awardId: 11260,num: 1}]}
+#--- {id: 1080,type: 10070,name: "击败5次恶鬼缠身",value: 5,awards: [{item: 60,awardId: 11250,num: 1},{item: 60,awardId: 11260,num: 1}]}
+#--- {id: 1090,type: 10070,name: "参与3次封神台战斗",value: 3,awards: [{item: 60,awardId: 11270,num: 1},{item: 60,awardId: 11280,num: 1}]}
+#--- {id: 1100,type: 10070,name: "参与2次神仙大会",value: 2,awards: [{item: 60,awardId: 11270,num: 1},{item: 60,awardId: 11280,num: 1}]}
+#--- {id: 1110,type: 10070,name: "击败1次精英野怪",value: 1,awards: [{item: 60,awardId: 11270,num: 1},{item: 60,awardId: 11280,num: 1}]}
+#--- {id: 1120,type: 10070,name: "卖出50件特产",value: 50,awards: [{item: 60,awardId: 11270,num: 1},{item: 60,awardId: 11280,num: 1}]}
+#type=10080是活动期间的任务
+#--- {id: 2010,type: 10080,name: "获得卡牌-巫医",value: 1,awards: [{item: 60,awardId: 11250,num: 1}]}
+#--- {id: 2020,type: 10080,name: "将卡牌-巫医升到5级",value: 5,awards: [{item: 60,awardId: 11250,num: 1}]}
+#--- {id: 2030,type: 10080,name: "将卡牌-巫医升到10级",value: 10,awards:[{item: 60,awardId: 11250,num: 1}]}
+#--- {id: 2040,type: 10080,name: "将卡牌-巫医升到5阶",value: 5,awards: [{item: 60,awardId: 11250,num: 2}]}
+#--- {id: 2050,type: 10080,name: "将卡牌-巫医升到10阶",value: 10,awards: [{item: 60,awardId: 11250,num: 3}]}
+#--- {id: 2060,type: 10080,name: "佳节博饼获得一秀",value: 1,awards: [{item: 60,awardId: 11270,num: 1}]}
+#--- {id: 2070,type: 10080,name: "佳节博饼获得二举",value: 1,awards: [{item: 60,awardId: 11270,num: 1}]}
+#--- {id: 2080,type: 10080,name: "佳节博饼获得四进",value: 1,awards: [{item: 60,awardId: 11270,num: 2}]}
+#--- {id: 2090,type: 10080,name: "佳节博饼获得三红",value: 1,awards: [{item: 60,awardId: 11270,num: 2}]}
+#--- {id: 2100,type: 10080,name: "佳节博饼获得对堂",value: 1,awards: [{item: 60,awardId: 11270,num: 3}]}
+#--- {id: 2110,type: 10080,name: "佳节博饼获得状元",value: 1,awards: [{item: 60,awardId: 11270,num: 3}]}
+--- {id: 2120,type: 10080,name: "合成并出售10个特殊特产",value: 10,awards: [{item: 60,awardId: 11420,num: 1}]}
+--- {id: 2130,type: 10080,name: "合成并出售20个特殊特产",value: 20,awards: [{item: 60,awardId: 11420,num: 1}]}
+--- {id: 2140,type: 10080,name: "合成并出售40个特殊特产",value: 40,awards: [{item: 60,awardId: 11420,num: 2}]}
+--- {id: 2150,type: 10080,name: "合成并出售60个特殊特产",value: 60,awards: [{item: 60,awardId: 11420,num: 2}]}
+--- {id: 2160,type: 10080,name: "合成并出售90个特殊特产",value: 90,awards: [{item: 60,awardId: 11420,num: 3}]}
+--- {id: 2170,type: 10080,name: "合成并出售120个特殊特产",value: 120,awards: [{item: 60,awardId: 11420,num: 3}]}

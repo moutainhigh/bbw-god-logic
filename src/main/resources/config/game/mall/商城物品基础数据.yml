@@ -1,0 +1,806 @@
+#商城物品
+#CfgMallEntity
+#name只是便于查看配置,不影响游戏逻辑
+#serial控制显示次序
+#unit单位,见ConsumeType
+
+#type=0 -> 可购但不显示
+--- {id: 70,type: 0,name: 五彩石,item: 60,goodsId: 70,num: 1,serial: 70,unit: 1,price: 20,originalPrice: 20,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170,type: 0,name: 醒酒毡,item: 60,goodsId: 170,num: 1,serial: 170,unit: 2,price: 5000,originalPrice: 5000,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 205,type: 0,name: 杏黄旗,item: 60,goodsId: 205,num: 1,serial: 205,unit: 1,price: 20,originalPrice: 20,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 580,type: 0,name: 神沙大礼包,item: 60,goodsId: 580,num: 1,serial: 580,unit: 1,price: 188,originalPrice: 188,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 10190,type: 0,name: 洗髓丹,item: 60,goodsId: 10190,num: 1,serial: 10190,unit: 1,price: 200,originalPrice: 200,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 11700,type: 0,name: 军符,item: 60,goodsId: 11700,num: 1,serial: 11700,unit: 1,price: 30,originalPrice: 30,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 50160,type: 0,name: 蜂王浆,item: 60,goodsId: 50160,num: 1,serial: 50160,unit: 1,price: 10,originalPrice: 10,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=10 -> 道具
+--- {id: 50,type: 10,name: 捆仙绳,item: 60,goodsId: 50,num: 1,serial: 60,unit: 1,price: 180,originalPrice: 180,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 60,type: 10,name: 山河社稷图,item: 60,goodsId: 60,num: 1,serial: 60,unit: 1,price: 180,originalPrice: 180,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 90,type: 10,name: 定风珠,item: 60,goodsId: 90,num: 1,serial: 90,unit: 1,price: 65,originalPrice: 65,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 120,type: 10,name: 七香车,item: 60,goodsId: 120,num: 1,serial: 120,unit: 1,price: 70,originalPrice: 70,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130,type: 10,name: 青鸾,item: 60,goodsId: 130,num: 1,serial: 130,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 150,type: 10,name: 四不像,item: 60,goodsId: 150,num: 1,serial: 150,unit: 1,price: 20,originalPrice: 20,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 160,type: 10,name: 漫步靴,item: 60,goodsId: 160,num: 1,serial: 160,unit: 1,price: 10,originalPrice: 10,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 165,type: 10,name: 捆仙绳,item: 60,goodsId: 50,num: 1,serial: 165,unit: 1,price: 180,originalPrice: 180,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 510,type: 10,name: 宝箱,item: 60,goodsId: 510,num: 1,serial: 3,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 520,type: 10,name: 百宝箱,item: 60,goodsId: 520,num: 1,serial: 1,unit: 1,price: 250,originalPrice: 250,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1318,type: 10,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 10030,unit: 1,price: 200,originalPrice: 200,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1327,type: 10,name: 诛仙令,item: 60,goodsId: 10040,num: 1,serial: 10040,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1328,type: 10,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 10050,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1329,type: 10,name: 星光砂,item: 60,goodsId: 11600,num: 1,serial: 10060,unit: 1,price: 45,originalPrice: 30,discount: 100,limit: 0,peroid: 0,status: true}
+##自营该条记录状态是false,陈总 版本为true
+--- {id: 1330,type: 10,name: 天宫图,item: 60,goodsId: 11750,num: 1,serial: 11750,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 0,peroid: 0,status: false}
+--- {id: 1331,type: 10,name: 重塑金丹,item: 60,goodsId: 11573,num: 1,serial: 11751,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1332,type: 10,name: 注灵石,item: 60,goodsId: 50377,num: 1,serial: 11751,unit: 1,price: 60,originalPrice: 300,discount: 100,limit: 0,peroid: 0,status: true}
+
+
+#type=20 -> 神秘
+#--- {id: 10,type: 20,name: 财神珠,item: 60,goodsId: 10,num: 1,serial: 10,unit: 1,price: 380,originalPrice: 380,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2020,type: 20,name: 乾坤图,item: 60,goodsId: 20,num: 1,serial: 20,unit: 1,price: 400,originalPrice: 580,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 2030,type: 20,name: 玉麒麟,item: 60,goodsId: 80,num: 1,serial: 80,unit: 1,price: 40,originalPrice: 60,discount: 100,limit: 1,peroid: 0,status: true,probability: 0}
+--- {id: 2040,type: 20,name: 风火轮,item: 60,goodsId: 110,num: 1,serial: 110,unit: 1,price: 50,originalPrice: 70,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 2050,type: 20,name: 送神符,item: 60,goodsId: 180,num: 1,serial: 180,unit: 2,price: 50000,originalPrice: 50000,discount: 100,limit: 1,peroid: 0,status: true,probability: 150}
+--- {id: 2060,type: 20,name: 回马枪,item: 60,goodsId: 190,num: 1,serial: 190,unit: 1,price: 8,originalPrice: 8,discount: 100,limit: 1,peroid: 0,status: true,probability: 870}
+--- {id: 2070,type: 20,name: 番天印,item: 60,goodsId: 210,num: 1,serial: 210,unit: 1,price: 100,originalPrice: 110,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 2080,type: 20,name: 打神鞭,item: 60,goodsId: 220,num: 1,serial: 220,unit: 1,price: 80,originalPrice: 125,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 2090,type: 20,name: 阴阳镜,item: 60,goodsId: 230,num: 1,serial: 230,unit: 1,price: 50,originalPrice: 80,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+#--- {id: 2100,type: 20,name: 太极图,item: 60,goodsId: 240,num: 1,serial: 240,unit: 1,price: 75,originalPrice: 75,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2110,type: 20,name: 九龙神火罩,item: 60,goodsId: 260,num: 1,serial: 260,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 2120,type: 20,name: 莫邪宝剑,item: 60,goodsId: 270,num: 1,serial: 270,unit: 2,price: 15000,originalPrice: 150000,discount: 100,limit: 1,peroid: 0,status: true,probability: 140}
+#--- {id: 2130,type: 20,name: 攒心钉,item: 60,goodsId: 300,num: 1,serial: 300,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2140,type: 20,name: 乾坤尺,item: 60,goodsId: 310,num: 1,serial: 310,unit: 2,price: 20000,originalPrice: 300000,discount: 100,limit: 1,peroid: 0,status: true,probability: 120}
+--- {id: 2150,type: 20,name: 乾坤弓,item: 60,goodsId: 350,num: 1,serial: 350,unit: 2,price: 15000,originalPrice: 200000,discount: 100,limit: 1,peroid: 0,status: true,probability: 140}
+--- {id: 2160,type: 20,name: 混元金斗,item: 60,goodsId: 400,num: 1,serial: 400,unit: 1,price: 30,originalPrice: 30,discount: 100,limit: 1,peroid: 0,status: true,probability: 700}
+#--- {id: 2170,type: 20,name: 定神丹,item: 60,goodsId: 420,num: 1,serial: 420,unit: 1,price: 55,originalPrice: 55,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2180,type: 20,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 840,unit: 1,price: 80,originalPrice: 80,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 2190,type: 20,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 850,unit: 1,price: 160,originalPrice: 450,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+#--- {id: 2200,type: 20,name: 聚仙旗,item: 60,goodsId: 10010,num: 1,serial: 10010,unit: 1,price: 400,originalPrice: 400,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2210,type: 20,name: 落宝金钱,item: 60,goodsId: 30,num: 1,serial: 30,unit: 1,price: 80,originalPrice: 180,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+#--- {id: 2220,type: 20,name: 铜钱袋,item: 60,goodsId: 540,num: 1,serial: 540,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 1,peroid: 0,status: true}
+#--- {id: 2230,type: 20,name: 元素袋,item: 60,goodsId: 550,num: 1,serial: 550,unit: 2,price: 200000,originalPrice: 200000,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 2240,type: 20,name: 震天箭,item: 60,goodsId: 360,num: 1,serial: 360,unit: 2,price: 12000,originalPrice: 200000,discount: 100,limit: 1,peroid: 0,status: true,probability: 140}
+--- {id: 2250,type: 20,name: 红葫芦,item: 60,goodsId: 370,num: 1,serial: 370,unit: 2,price: 10000,originalPrice: 100000,discount: 100,limit: 1,peroid: 0,status: true,probability: 140}
+--- {id: 2260,type: 20,name: 通天残卷*3,item: 60,goodsId: 11010,num: 3,serial: 11010,unit: 2,price: 100000,originalPrice: 60000,discount: 100,limit: 1,peroid: 0,status: true,probability: 30}
+--- {id: 2270,type: 20,name: 增力符,item: 60,goodsId: 20110,num: 1,serial: 20110,unit: 2,price: 500000,originalPrice: 300000,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 2280,type: 20,name: 补元符,item: 60,goodsId: 20210,num: 1,serial: 20210,unit: 2,price: 500000,originalPrice: 300000,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 2290,type: 20,name: 增力符,item: 60,goodsId: 20110,num: 1,serial: 20110,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 1,peroid: 0,status: true,probability: 200}
+--- {id: 2300,type: 20,name: 补元符,item: 60,goodsId: 20210,num: 1,serial: 20210,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 1,peroid: 0,status: true,probability: 200}
+--- {id: 2310,type: 20,name: 大力符,item: 60,goodsId: 20120,num: 1,serial: 20120,unit: 1,price: 200,originalPrice: 180,discount: 100,limit: 1,peroid: 0,status: true,probability: 200}
+--- {id: 2320,type: 20,name: 强元符,item: 60,goodsId: 20220,num: 1,serial: 20220,unit: 1,price: 200,originalPrice: 180,discount: 100,limit: 1,peroid: 0,status: true,probability: 200}
+--- {id: 2330,type: 20,name: 通天残卷*10,item: 60,goodsId: 11010,num: 10,serial: 11010,unit: 1,price: 300,originalPrice: 350,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 2340,type: 20,name: 力神符,item: 60,goodsId: 20130,num: 1,serial: 20130,unit: 1,price: 600,originalPrice: 540,discount: 100,limit: 1,peroid: 0,status: true,probability: 100}
+--- {id: 2350,type: 20,name: 元神符,item: 60,goodsId: 20230,num: 1,serial: 20230,unit: 1,price: 600,originalPrice: 540,discount: 100,limit: 1,peroid: 0,status: true,probability: 100}
+--- {id: 2360,type: 20,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 11410,unit: 1,price: 5000,originalPrice: 6000,discount: 100,limit: 1,peroid: 0,status: true,probability: 30}
+--- {id: 2370,type: 20,name: 定风珠,item: 60,goodsId: 90,num: 1,serial: 90,unit: 2,price: 18000,originalPrice: 20000,discount: 100,limit: 1,peroid: 0,status: true,probability: 60}
+--- {id: 2380,type: 20,name: 七香车,item: 60,goodsId: 120,num: 1,serial: 120,unit: 2,price: 21000,originalPrice: 30000,discount: 100,limit: 1,peroid: 0,status: true,probability: 60}
+--- {id: 2390,type: 20,name: 青天石,item: 60,goodsId: 11610,num: 1,serial: 120,unit: 1,price: 500,originalPrice: 500,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 2400,type: 20,name: 星图保护符,item: 60,goodsId: 11720,num: 1,serial: 100,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 2410,type: 20,name: 青鸾,item: 60,goodsId: 130,num: 1,serial: 100,unit: 2,price: 12000,originalPrice: 12000,discount: 100,limit: 1,peroid: 0,status: true,probability: 1100}
+--- {id: 2420,type: 20,name: 漫步靴*10,item: 60,goodsId: 160,num: 10,serial: 100,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 2430,type: 20,name: 铜钱*15万,item: 20,goodsId: 0,num: 150000,serial: 1,unit: 1,price: 75,originalPrice: 75,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 2440,type: 20,name: 神砂*20,item: 60,goodsId: 10020,num: 20,serial: 100,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 2450,type: 20,name: 混元金斗*3,item: 60,goodsId: 400,num: 3,serial: 400,unit: 1,price: 60,originalPrice: 30,discount: 100,limit: 1,peroid: 0,status: true,probability: 700}
+--- {id: 2460,type: 20,name: 回马枪*3,item: 60,goodsId: 190,num: 3,serial: 190,unit: 1,price: 30,originalPrice: 8,discount: 100,limit: 1,peroid: 0,status: true,probability: 870}
+
+#type=25->表情
+--- {id: 25001,type: 25,name: 小布表情包,item: 60,goodsId: 32001,num: 1,serial: 1,unit: 2,price: 5000000,originalPrice: 5000000,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 25002,type: 25,name: 阿毛表情包,item: 60,goodsId: 32002,num: 1,serial: 2,unit: 1,price: 2000,originalPrice: 2000,discount: 100,limit: 1,peroid: 0,status: true}
+
+#type=40 -> 礼包
+--- {id: 1000,type: 40,name: 每周仙石礼包,item: 60,goodsId: 1000,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 200,discount: 40,limit: 5,peroid: 7,status: true}
+--- {id: 1001,type: 40,name: 神仙大礼包,item: 60,goodsId: 1001,num: 1,serial: 27,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 0,peroid: 1,status: true}
+--- {id: 1010,type: 40,name: 每日元素包,item: 60,goodsId: 1010,num: 1,serial: 21,unit: 2,price: 30000,originalPrice: 50000,discount: 60,limit: 1,peroid: 1,status: true}
+--- {id: 1030,type: 40,name: 每日体力包,item: 60,goodsId: 1030,num: 1,serial: 23,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 2,peroid: 1,status: true}
+--- { id: 1040,type: 40,name: 每日商会礼包,item: 60,goodsId: 1040,num: 1,serial: 24,unit: 1,price: 50,originalPrice: 50,discount: 100,limit: 1,peroid: 1,status: true }
+--- { id: 1050,type: 40,name: 每日商令礼包,item: 60,goodsId: 1050,num: 1,serial: 25,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 2,peroid: 1,status: true }
+--- { id: 1070,type: 40,name: 每日神沙大礼包,item: 60,goodsId: 1070,num: 1,serial: 26,unit: 1,price: 188,originalPrice: 188,discount: 100,limit: 0,peroid: 1,status: true }
+--- { id: 1110,type: 40,name: 每周跑商礼包,item: 60,goodsId: 1110,num: 1,serial: 11,unit: 1,price: 120,originalPrice: 174,discount: 70,limit: 3,peroid: 7,status: true }
+--- { id: 1120,type: 40,name: 每周神沙礼包,item: 60,goodsId: 1120,num: 1,serial: 12,unit: 1,price: 240,originalPrice: 300,discount: 80,limit: 2,peroid: 7,status: true }
+#--- {id: 1130,type: 40,name: 每周灵石,item: 60,goodsId: 1130,num: 1,serial: 10,unit: 3,price: 18,originalPrice: 18,discount: 100,limit: 3,peroid: 7,status: true}
+--- {id: 1140,type: 40,name: 每周城建礼包,item: 60,goodsId: 1140,num: 1,serial: 14,unit: 1,price: 460,originalPrice: 600,discount: 80,limit: 1,peroid: 7,status: true}
+--- {id: 1150,type: 40,name: 每周聚灵礼包,item: 60,goodsId: 1150,num: 1,serial: 15,unit: 1,price: 500,originalPrice: 900,discount: 60,limit: 1,peroid: 7,status: true}
+--- {id: 1160,type: 40,name: 每周商贸礼包,item: 60,goodsId: 1160,num: 1,serial: 16,unit: 1,price: 1080,originalPrice: 1550,discount: 70,limit: 1,peroid: 7,status: true}
+#type=45 -> 节日限时礼包  activity 对应活动父类型 id对应活动表的ID
+--- {id: 9000001,type: 45,name: 节日限定礼包,item: 0,goodsId: 9000001,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 60,discount: 100,limit: 5,peroid: 1,status: true}
+#type=46 -> 节日限时礼包51  activity 对应活动父类型 id对应活动表的ID
+--- {id: 9000002,type: 46,name: 节日限定礼包,item: 0,goodsId: 9000002,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 60,discount: 100,limit: 5,peroid: 1,status: true}
+#type=43 -> 上仙礼包
+--- {id: 1220,type: 43,name: 上仙礼包,item: 60,goodsId: 1220,num: 1,serial: 3,unit: 1,price: 2560,originalPrice: 4200,discount: 60,limit: 1,peroid: -7,status: true}
+--- {id: 1221,type: 43,name: 上仙礼包2,item: 60,goodsId: 1221,num: 1,serial: 3,unit: 1,price: 880,originalPrice: 4200,discount: 60,limit: 1,peroid: -7,status: true}
+#type=42 -> 通天残卷礼包
+--- {id: 1081,type: 42,name: 小通天残卷礼包,item: 60,goodsId: 1081,num: 1,serial: 1,unit: 1,price: 300,originalPrice: 500,discount: 60,limit: 1,peroid: 1,status: true}
+--- {id: 1082,type: 42,name: 中通天残卷礼包,item: 60,goodsId: 1082,num: 1,serial: 2,unit: 1,price: 1050,originalPrice: 1500,discount: 70,limit: 2,peroid: 1,status: true}
+--- {id: 1083,type: 42,name: 大通天残卷礼包,item: 60,goodsId: 1083,num: 1,serial: 4,unit: 1,price: 2700,originalPrice: 3000,discount: 90,limit: 2,peroid: 1,status: true}
+--- {id: 1084,type: 42,name: 超大通天残卷礼包,item: 60,goodsId: 1084,num: 1,serial: 3,unit: 1,price: 4000,originalPrice: 5000,discount: 80,limit: 1,peroid: 1,status: true}
+#type=44 -> 萌新礼包
+--- {id: 1210,type: 44,name: 萌新礼包,item: 60,goodsId: 1210,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 1211,type: 44,name: 1元萌新礼包,item: 60,goodsId: 1211,num: 1,serial: 2,unit: 3,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#type=50 -> 助力礼包   goodsId修改时DynamicMenuEnum 中也要对应修改
+--- {id: 1281,type: 50,name: 战斗助力,item: 60,goodsId: 1281,num: 1,serial: 1281,unit: 3,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 1282,type: 50,name: 进阶助力,item: 60,goodsId: 1282,num: 1,serial: 1282,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 1283,type: 50,name: 法宝助力,item: 60,goodsId: 1283,num: 1,serial: 1283,unit: 3,price: 12,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+#type=60 ->封神台  权限在代码中实现
+--- {id: 6010,type: 60,name: 金元素,item: 50,goodsId: 10,num: 1,serial: 10,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6020,type: 60,name: 木元素,item: 50,goodsId: 20,num: 1,serial: 20,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6030,type: 60,name: 水元素,item: 50,goodsId: 30,num: 1,serial: 30,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6040,type: 60,name: 火元素,item: 50,goodsId: 40,num: 1,serial: 50,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6050,type: 60,name: 土元素,item: 50,goodsId: 50,num: 1,serial: 50,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6070,type: 60,name: 铜钱,item: 20,goodsId: 0,num: 10000,serial: 70,unit: 10,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6080,type: 60,name: 星光砂,item: 60,goodsId: 11600,num: 1,serial: 80,unit: 10,price: 5000,originalPrice: null,discount: 100,limit: 5,peroid: 1,status: true}
+--- {id: 6329,type: 60,name: 碧云,item: 40,goodsId: 329,num: 1,serial: 103,unit: 10,price: 300000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6330,type: 60,name: 厉鬼,item: 40,goodsId: 330,num: 1,serial: 102,unit: 10,price: 150000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6332,type: 60,name: 雉鸡精,item: 40,goodsId: 332,num: 1,serial: 104,unit: 10,price: 300000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6430,type: 60,name: 孔雀明王,item: 40,goodsId: 430,num: 1,serial: 108,unit: 10,price: 2400000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6528,type: 60,name: 乌鸦兵,item: 40,goodsId: 528,num: 1,serial: 101,unit: 10,price: 150000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6529,type: 60,name: 晁田,item: 40,goodsId: 529,num: 1,serial: 105,unit: 10,price: 600000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6530,type: 60,name: 晁雷,item: 40,goodsId: 530,num: 1,serial: 106,unit: 10,price: 600000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6531,type: 60,name: 伯夷,item: 40,goodsId: 447,num: 1,serial: 107,unit: 10,price: 500000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+--- {id: 6532,type: 60,name: 蚊道人,item: 40,goodsId: 257,num: 1,serial: 110,unit: 11770,price: 15000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6533,type: 60,name: 金眼驼,item: 40,goodsId: 151,num: 1,serial: 111,unit: 11770,price: 20000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6534,type: 60,name: 姜皇后,item: 40,goodsId: 261,num: 1,serial: 112,unit: 11770,price: 25000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6535,type: 60,name: 马善,item: 40,goodsId: 460,num: 1,serial: 113,unit: 11770,price: 30000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6536,type: 60,name: 普贤真人,item: 40,goodsId: 152,num: 1,serial: 114,unit: 11770,price: 40000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6537,type: 60,name: 封神竞技勋章,item: 60,goodsId: 11770,num: 1,serial: 109,unit: 10,price: 800,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6538,type: 60,name: 封神台积分,item: 60,goodsId: 11050,num: 100,serial: 115,unit: 11770,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 6539,type: 60,name: 星光砂,item: 60,goodsId: 11600,num: 1,serial: 116,unit: 11770,price: 10,originalPrice: null,discount: 100,limit: 5,peroid: 1,status: true}
+
+#type=70 -> 诛仙阵
+--- {id: 70001,type: 70,name: 金系本源,item: 60,goodsId: 50390,num: 1,serial: 1,unit: 124,price: 25,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70002,type: 70,name: 木系本源,item: 60,goodsId: 50391,num: 1,serial: 2,unit: 124,price: 25,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70003,type: 70,name: 水系本源,item: 60,goodsId: 50392,num: 1,serial: 3,unit: 124,price: 25,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70004,type: 70,name: 火系本源,item: 60,goodsId: 50393,num: 1,serial: 4,unit: 124,price: 25,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70005,type: 70,name: 土系本源,item: 60,goodsId: 50394,num: 1,serial: 5,unit: 124,price: 25,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70006,type: 70,name: 金雷竹,item: 60,goodsId: 50364,num: 1,serial: 6,unit: 124,price: 50,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70007,type: 70,name: 养魂木,item: 60,goodsId: 50365,num: 1,serial: 7,unit: 124,price: 50,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70008,type: 70,name: 紫炎真根,item: 60,goodsId: 50366,num: 1,serial: 8,unit: 124,price: 150,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70009,type: 70,name: 地魄玄石,item: 60,goodsId: 50367,num: 1,serial: 9,unit: 124,price: 250,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70010,type: 70,name: 冥华紫晶,item: 60,goodsId: 50368,num: 1,serial: 10,unit: 124,price: 500,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70011,type: 70,name: 归元玄晶,item: 60,goodsId: 50369,num: 1,serial: 11,unit: 124,price: 750,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70012,type: 70,name: 九窍灵翠,item: 60,goodsId: 50370,num: 1,serial: 12,unit: 124,price: 1000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70013,type: 70,name: 竹青火,item: 60,goodsId: 50371,num: 1,serial: 13,unit: 124,price: 3000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70014,type: 70,name: 天狼妖炎,item: 60,goodsId: 50372,num: 1,serial: 14,unit: 124,price: 7500,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70015,type: 70,name: 幽冥紫炎,item: 60,goodsId: 50373,num: 1,serial: 15,unit: 124,price: 12000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70016,type: 70,name: 涅槃之火,item: 60,goodsId: 50374,num: 1,serial: 16,unit: 124,price: 18000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70017,type: 70,name: 红莲业火,item: 60,goodsId: 50375,num: 1,serial: 17,unit: 124,price: 24000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70018,type: 70,name: 九天神火,item: 60,goodsId: 50376,num: 1,serial: 18,unit: 124,price: 30000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 70019,type: 70,name: 圣兽挑战令,item: 60,goodsId: 50496,num: 1,serial: 18,unit: 124,price: 200,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+
+#type=80 -> 星君宝库
+--- {id: 8010,type: 80,name: 金元素,item: 50,goodsId: 10,num: 1,serial: 10,unit: 8,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8020,type: 80,name: 木元素,item: 50,goodsId: 20,num: 1,serial: 20,unit: 8,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8030,type: 80,name: 水元素,item: 50,goodsId: 30,num: 1,serial: 30,unit: 8,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8040,type: 80,name: 火元素,item: 50,goodsId: 40,num: 1,serial: 40,unit: 8,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8050,type: 80,name: 土元素,item: 50,goodsId: 50,num: 1,serial: 50,unit: 8,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8060,type: 80,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 9,unit: 8,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8070,type: 80,name: 三星灵石,item: 60,goodsId: 830,num: 1,serial: 7,unit: 9,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8080,type: 80,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 6,unit: 9,price: 3,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8090,type: 80,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 5,unit: 9,price: 9,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8100,type: 80,name: 分身灵石,item: 60,goodsId: 11580,num: 1,serial: 8,unit: 9,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8110,type: 80,name: 仙之源,item: 60,goodsId: 10110,num: 1,serial: 1,unit: 90,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8120,type: 80,name: 血晶,item: 60,goodsId: 50129,num: 1,serial: 2,unit: 90,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8130,type: 80,name: 星光砂,item: 60,goodsId: 11600,num: 1,serial: 3,unit: 90,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 8140,type: 80,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 4,unit: 90,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#type=90 -> 消费福利
+--- {id: 9005,type: 90,name: 山河社稷图,item: 60,goodsId: 60,num: 1,serial: 9,unit: 12,price: 300,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+--- {id: 9010,type: 90,name: 财神珠,item: 60,goodsId: 10,num: 1,serial: 10,unit: 12,price: 600,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 9020,type: 90,name: 乾坤图,item: 60,goodsId: 20,num: 1,serial: 20,unit: 12,price: 1000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 9030,type: 90,name: 唤神符,item: 60,goodsId: 10170,num: 1,serial: 30,unit: 12,price: 4000,originalPrice: null,discount: 100,limit: 8,peroid: 0,status: true}
+--- {id: 9040,type: 90,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 4,unit: 12,price: 500,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 9050,type: 90,name: 三星灵石,item: 60,goodsId: 830,num: 1,serial: 3,unit: 12,price: 250,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 9060,type: 90,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 2,unit: 12,price: 500,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 9070,type: 90,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 1,unit: 12,price: 1500,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#type=100 ->周度充值礼包
+--- {id: 100328,type: 100,name: 每周炼技礼包,item: 60,goodsId: 1105,num: 1,serial: 1,unit: 10000,price: 328,originalPrice: null,discount: 100,limit: 2,peroid: 7,status: true}
+--- {id: 100199,type: 100,name: 每周夺宝礼包,item: 60,goodsId: 1104,num: 1,serial: 2,unit: 10000,price: 198,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 100098,type: 100,name: 每周保护礼包,item: 60,goodsId: 1102,num: 1,serial: 3,unit: 10000,price: 98,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 100200,type: 100,name: 每周保护礼包2,item: 60,goodsId: 1107,num: 1,serial: 4,unit: 10000,price: 198,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 100329,type: 100,name: 每周修道礼包,item: 60,goodsId: 1106,num: 1,serial: 5,unit: 10000,price: 328,originalPrice: null,discount: 100,limit: 2,peroid: 7,status: true}
+--- {id: 100201,type: 100,name: 每周星图礼包,item: 60,goodsId: 1108,num: 1,serial: 6,unit: 10000,price: 68,originalPrice: null,discount: 100,limit: 3,peroid: 7,status: true}
+--- {id: 100202,type: 100,name: 每周符首礼包,item: 60,goodsId: 1109,num: 1,serial: 7,unit: 10000,price: 68,originalPrice: null,discount: 100,limit: 2,peroid: 7,status: true}
+--- {id: 100203,type: 100,name: 每周符首礼包2,item: 60,goodsId: 1110,num: 1,serial: 8,unit: 10000,price: 98,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 100204,type: 100,name: 每周祈符礼包,item: 60,goodsId: 1111,num: 1,serial: 9,unit: 10000,price: 328,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 100205,type: 100,name: 每周修炼礼包,item: 60,goodsId: 1112,num: 1,serial: 10,unit: 10000,price: 198,originalPrice: null,discount: 100,limit: 3,peroid: 7,status: true}
+#--- {id: 100000,type: 100,name: 每周福利包,item: 60,goodsId: 1101,num: 1,serial: 1,unit: 10000,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+#--- {id: 100198,type: 100,name: 每周修体包,item: 60,goodsId: 1103,num: 1,serial: 3,unit: 10000,price: 198,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+
+#type=105 ->日度充值礼包
+--- {id: 105030,type: 105,name: 每日夺宝礼包,item: 60,goodsId: 1041,num: 1,serial: 1,unit: 10000,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 105060,type: 105,name: 每日修道礼包,item: 60,goodsId: 1044,num: 1,serial: 2,unit: 10000,price: 60,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 105080,type: 105,name: 每日升阶礼包,item: 60,goodsId: 1045,num: 1,serial: 3,unit: 10000,price: 80,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 105098,type: 105,name: 每日招募礼包,item: 60,goodsId: 1043,num: 1,serial: 4,unit: 10000,price: 90,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 105120,type: 105,name: 每日祈符礼包,item: 60,goodsId: 1046,num: 1,serial: 5,unit: 10000,price: 120,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 105111,type: 105,name: 每日摇一摇,item: 60,goodsId: 1047,num: 1,serial: 6,unit: 10000,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 1,status: true}
+#--- {id: 105001,type: 105,name: 每日福利包,item: 60,goodsId: 1040,num: 1,serial: 10,unit: 1,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+#--- {id: 105068,type: 105,name: 每日升阶礼包,item: 60,goodsId: 1042,num: 1,serial: 2,unit: 10000,price: 68,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+
+#type=110 ->月度充值礼包
+#--- {id: 110000,type: 110,name: 0元月礼包,item: 60,goodsId: 1300,num: 1,serial: 60,unit: 3,price: 0,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110005,type: 110,name: 30元月礼包,item: 60,goodsId: 1310,num: 1,serial: 60,unit: 3,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110010,type: 110,name: 68元月礼包,item: 60,goodsId: 1315,num: 1,serial: 50,unit: 3,price: 68,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110015,type: 110,name: 198元月礼包,item: 60,goodsId: 1320,num: 1,serial: 40,unit: 3,price: 198,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110020,type: 110,name: 328元月礼包,item: 60,goodsId: 1325,num: 1,serial: 30,unit: 3,price: 328,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110025,type: 110,name: 448元月礼包,item: 60,goodsId: 1330,num: 1,serial: 20,unit: 3,price: 448,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#--- {id: 110030,type: 110,name: 648元月礼包,item: 60,goodsId: 1335,num: 1,serial: 10,unit: 3,price: 648,originalPrice: null,discount: 100,limit: 1,peroid: 30,status: true}
+#type=120 ->活动礼包
+--- {id: 120010,type: 120,name: 破星军,item: 60,goodsId: 1291,num: 1,serial: 2,unit: 3,price: 128,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 120005,type: 120,name: 神力横扫礼包,item: 60,goodsId: 1292,num: 1,serial: 1,unit: 10000,price: 648,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+#type=130 -> 魔王商店
+--- {id: 130103,type: 130,name: 姬发,item: 40,goodsId: 103,num: 1,serial: 103,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130104,type: 130,name: 雷震子,item: 40,goodsId: 104,num: 1,serial: 104,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130105,type: 130,name: 李靖,item: 40,goodsId: 105,num: 1,serial: 105,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130107,type: 130,name: 黄天化,item: 40,goodsId: 107,num: 1,serial: 107,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130203,type: 130,name: 桃花星,item: 40,goodsId: 203,num: 1,serial: 203,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130206,type: 130,name: 木吒,item: 40,goodsId: 206,num: 1,serial: 206,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130207,type: 130,name: 游法师,item: 40,goodsId: 207,num: 1,serial: 207,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130208,type: 130,name: 魔礼海,item: 40,goodsId: 208,num: 1,serial: 208,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130303,type: 130,name: 云霄,item: 40,goodsId: 303,num: 1,serial: 303,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130305,type: 130,name: 邓婵玉,item: 40,goodsId: 305,num: 1,serial: 305,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130306,type: 130,name: 龙吉公主,item: 40,goodsId: 306,num: 1,serial: 306,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130308,type: 130,name: 魔礼红,item: 40,goodsId: 308,num: 1,serial: 308,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130404,type: 130,name: 杨任,item: 40,goodsId: 404,num: 1,serial: 404,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130405,type: 130,name: 胡喜媚,item: 40,goodsId: 405,num: 1,serial: 405,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130407,type: 130,name: 魔礼青,item: 40,goodsId: 407,num: 1,serial: 407,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 130408,type: 130,name: 鄂顺,item: 40,goodsId: 408,num: 1,serial: 408,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 130505,type: 130,name: 邬文化,item: 40,goodsId: 505,num: 1,serial: 505,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130506,type: 130,name: 魔礼寿,item: 40,goodsId: 506,num: 1,serial: 506,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130507,type: 130,name: 土行孙,item: 40,goodsId: 507,num: 1,serial: 507,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130508,type: 130,name: 石矶娘娘,item: 40,goodsId: 508,num: 1,serial: 508,unit: 13,price: 360,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130106,type: 130,name: 韦护,item: 40,goodsId: 106,num: 1,serial: 102,unit: 13,price: 600,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130205,type: 130,name: 申公豹,item: 40,goodsId: 205,num: 1,serial: 202,unit: 13,price: 600,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130304,type: 130,name: 崇黑虎,item: 40,goodsId: 304,num: 1,serial: 302,unit: 13,price: 600,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130406,type: 130,name: 王天君,item: 40,goodsId: 406,num: 1,serial: 402,unit: 13,price: 600,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 130504,type: 130,name: 殷郊,item: 40,goodsId: 504,num: 1,serial: 502,unit: 13,price: 600,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#type=140 -> 节日活动兑换
+#--- { id: 140010,type: 140,name: 金鼠信物,item: 60,goodsId: 11061,num: 1,serial: 11020,unit: 39,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 6,status: true }
+#--- { id: 140020,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 11010,unit: 39,price: 15,originalPrice: null,discount: 100,limit: 3,peroid: 6,status: true }
+#--- { id: 140030,type: 140,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 10180,unit: 39,price: 5,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140040,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 11050,unit: 39,price: 3,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140050,type: 140,name: 神沙,item: 60,goodsId: 10020,num: 1,serial: 1,unit: 39,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140060,type: 140,name: 端午节节日礼包1,item: 60,goodsId: 1510,num: 5,serial: 1,unit: 28,price: 3,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140070,type: 140,name: 端午节节日礼包1,item: 60,goodsId: 1510,num: 10,serial: 1,unit: 28,price: 5,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140080,type: 140,name: 端午节节日礼包1,item: 60,goodsId: 1510,num: 8,serial: 1,unit: 29,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140090,type: 140,name: 端午节节日礼包2,item: 60,goodsId: 1520,num: 1,serial: 1,unit: 33,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140100,type: 140,name: 夜明珠,item: 60,goodsId: 11250,num: 1,serial: 1,unit: 1,price: 50,originalPrice: null,discount: 100,limit: 50,peroid: 8,status: true }
+#--- { id: 140110,type: 140,name: 和平金鸽,item: 60,goodsId: 11270,num: 1,serial: 1,unit: 1,price: 50,originalPrice: null,discount: 100,limit: 50,peroid: 8,status: true }
+#--- { id: 140120,type: 140,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 11020,unit: 39,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 6,status: true }
+#--- { id: 140130,type: 140,name: 小金砖,item: 60,goodsId: 11420,num: 1,serial: 1,unit: 1,price: 50,originalPrice: null,discount: 100,limit: 50,peroid: 6,status: true }
+#--- { id: 140310,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 3,serial: 1,unit: 61,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140320,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 20000,serial: 1,unit: 62,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140330,type: 140,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 1,unit: 63,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true }
+#--- { id: 140340,type: 140,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 1,unit: 64,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140350,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 65,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true }
+#--- { id: 140360,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 3,serial: 1,unit: 66,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140370,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 20000,serial: 1,unit: 67,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140380,type: 140,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 1,unit: 68,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true }
+#--- { id: 140390,type: 140,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 1,unit: 69,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140400,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 70,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true }
+#--- { id: 140410,type: 140,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 1,unit: 71,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true }
+#--- { id: 140420,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 1,unit: 72,price: 1,originalPrice: null,discount: 100,limit: 3,peroid: 107,status: true }
+#--- { id: 140430,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 73,price: 1,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true }
+#--- { id: 140440,type: 140,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 1,unit: 74,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true }
+#--- { id: 140450,type: 140,name: 随机元素,item: 50,goodsId: 50126,num: 1,serial: 1,unit: 75,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140460,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 10000,serial: 1,unit: 76,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140470,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 1,unit: 78,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140480,type: 140,name: 星光砂,item: 60,goodsId: 11600,num: 1,serial: 1,unit: 78,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140490,type: 140,name: 夺宝抵用券,item: 60,goodsId: 11090,num: 1,serial: 1,unit: 79,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140500,type: 140,name: 仙之源,item: 60,goodsId: 10110,num: 1,serial: 1,unit: 80,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140510,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 1,unit: 81,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140520,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 82,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140530,type: 140,name: 至尊高级卷轴,item: 60,goodsId: 11730,num: 1,serial: 1,unit: 83,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140540,type: 140,name: 至尊高级卷轴,item: 60,goodsId: 11730,num: 2,serial: 1,unit: 84,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140550,type: 140,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 1,unit: 85,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140560,type: 140,name: 至尊秘传宝箱,item: 60,goodsId: 11065,num: 1,serial: 1,unit: 86,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140570,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 1,unit: 87,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140580,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 88,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140590,type: 140,name: 至尊高级卷轴,item: 60,goodsId: 11730,num: 1,serial: 1,unit: 89,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140600,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 1,unit: 91,price: 60,originalPrice: null,discount: 100,limit: 2,peroid: 111,status: true }
+#--- { id: 140610,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 91,price: 100,originalPrice: null,discount: 100,limit: 1,peroid: 111,status: true }
+#--- { id: 140620,type: 140,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 1,unit: 91,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 111,status: true }
+#--- { id: 140630,type: 140,name: 随机元素,item: 50,goodsId: 50126,num: 1,serial: 1,unit: 91,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140640,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 10000,serial: 1,unit: 91,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140650,type: 140,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 1,unit: 92,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140660,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 92,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140670,type: 140,name: 至尊高级卷轴,item: 60,goodsId: 11730,num: 1,serial: 1,unit: 92,price: 5,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140760,type: 140,name: 地阶符首,item: 60,goodsId: 50131,num: 1,serial: 1,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 5,peroid: 0,status: true }
+--- { id: 140680,type: 140,name: 至尊高级卷轴,item: 60,goodsId: 11730,num: 1,serial: 1,unit: 93,price: 10,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140690,type: 140,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 1,unit: 93,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 140700,type: 140,name: 至尊秘传宝箱,item: 60,goodsId: 11065,num: 1,serial: 1,unit: 93,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#2022劳动节
+#--- { id: 140710,type: 140,name: 通天残卷,item: 60,goodsId: 11010,num: 3,serial: 1,unit: 46,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140720,type: 140,name: 铜钱,item: 20,goodsId: 0,num: 20000,serial: 1,unit: 47,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140730,type: 140,name: 仙之源,item: 60,goodsId: 10110,num: 9,serial: 1,unit: 52,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true }
+#--- { id: 140740,type: 140,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 1,unit: 53,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#--- { id: 140750,type: 140,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 1,unit: 54,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true }
+
+
+#type=150 -> 神仙大会购买
+#--- {id: 150001,type: 150,name: 仙豆,item: 60,goodId: 11080,num: 1,serial: 2,unit: 1,price: 1,originalPrice: null,discount: 100,limit: 30,peroid: 0,status: true}
+--- { id: 150010,type: 150,name: 一星灵石,item: 60,goodsId: 810,num: 1,serial: 90,unit: 4,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 150020,type: 150,name: 二星灵石,item: 60,goodsId: 820,num: 1,serial: 80,unit: 4,price: 90,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 150030,type: 150,name: 三星灵石,item: 60,goodsId: 830,num: 1,serial: 70,unit: 4,price: 300,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 150040,type: 150,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 60,unit: 4,price: 900,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- {id: 150050,type: 150,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 50,unit: 4,price: 3000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 150060,type: 150,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 40,unit: 4,price: 540,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 150070,type: 150,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 30,unit: 4,price: 8000,originalPrice: null,discount: 100,limit: 20,peroid: 0,status: true}
+--- {id: 150080,type: 150,name: 秘传,item: 60,goodsId: 0,num: 1,serial: 10,unit: 4,price: 24000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 150090,type: 150,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 20,unit: 4,price: 24000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+#type=160 -> 奇遇云游商人
+--- {id: 160010,type: 160,name: 山河社稷图,item: 60,goodsId: 60,num: 1,serial: 1,unit: 1,price: 100,originalPrice: 180,discount: 72,limit: 0,peroid: 0,status: true}
+--- {id: 160020,type: 160,name: 风火轮,item: 60,goodsId: 110,num: 1,serial: 1,unit: 1,price: 50,originalPrice: 70,discount: 71,limit: 0,peroid: 0,status: true}
+#--- {id: 160030,type: 160,name: 紫金钵盂,item: 60,goodsId: 320,num: 1,serial: 1,unit: 1,price: 140,originalPrice: 200,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160040,type: 160,name: 番天印,item: 60,goodsId: 210,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 110,discount: 72,limit: 0,peroid: 0,status: true}
+--- {id: 160050,type: 160,name: 九龙神火罩,item: 60,goodsId: 260,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 100,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160060,type: 160,name: 玉麒麟,item: 60,goodsId: 80,num: 1,serial: 1,unit: 1,price: 40,originalPrice: 60,discount: 66,limit: 0,peroid: 0,status: true}
+#--- {id: 160070,type: 160,name: 诛仙剑,item: 60,goodsId: 250,num: 1,serial: 1,unit: 1,price: 140,originalPrice: 200,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160080,type: 160,name: 捆仙绳,item: 60,goodsId: 50,num: 1,serial: 1,unit: 1,price: 130,originalPrice: 180,discount: 72,limit: 0,peroid: 0,status: true}
+#--- {id: 160090,type: 160,name: 打神鞭,item: 60,goodsId: 220,num: 1,serial: 1,unit: 1,price: 90,originalPrice: 125,discount: 72,limit: 0,peroid: 0,status: true}
+#--- {id: 160100,type: 160,name: 莫邪宝剑,item: 60,goodsId: 270,num: 1,serial: 1,unit: 1,price: 70,originalPrice: 100,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160110,type: 160,name: 定神丹,item: 60,goodsId: 420,num: 1,serial: 1,unit: 1,price: 70,originalPrice: 100,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160120,type: 160,name: 金葫芦,item: 60,goodsId: 380,num: 1,serial: 1,unit: 1,price: 70,originalPrice: 100,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160130,type: 160,name: 乾坤尺,item: 60,goodsId: 310,num: 1,serial: 1,unit: 1,price: 70,originalPrice: 95,discount: 73,limit: 0,peroid: 0,status: true}
+#--- {id: 160140,type: 160,name: 七香车,item: 60,goodsId: 120,num: 1,serial: 1,unit: 1,price: 50,originalPrice: 70,discount: 71,limit: 0,peroid: 0,status: true}
+#--- {id: 160150,type: 160,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 1,unit: 1,price: 140,originalPrice: 200,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160160,type: 160,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 1,unit: 1,price: 140,originalPrice: 200,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160170,type: 160,name: 通天残卷,item: 60,goodsId: 11010,num: 10,serial: 1,unit: 1,price: 300,originalPrice: 500,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160180,type: 160,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 1,unit: 1,price: 420,originalPrice: 600,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160190,type: 160,name: 聚仙旗,item: 60,goodsId: 10010,num: 1,serial: 1,unit: 1,price: 280,originalPrice: 400,discount: 70,limit: 0,peroid: 0,status: true}
+#--- {id: 160200,type: 160,name: 财神珠,item: 60,goodsId: 10,num: 1,serial: 1,unit: 1,price: 260,originalPrice: 380,discount: 68,limit: 0,peroid: 0,status: true}
+--- {id: 160210,type: 160,name: 乾坤图,item: 60,goodsId: 20,num: 1,serial: 1,unit: 1,price: 400,originalPrice: 580,discount: 68,limit: 0,peroid: 0,status: true}
+#--- {id: 160220,type: 160,name: 落宝金钱,item: 60,goodsId: 30,num: 1,serial: 1,unit: 1,price: 130,originalPrice: 180,discount: 72,limit: 0,peroid: 0,status: true}
+--- {id: 160230,type: 160,name: 五星灵石,item: 60,goodsId: 850,num: 10,serial: 1,unit: 1,price: 1400,originalPrice: 6000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160240,type: 160,name: 五星灵石,item: 60,goodsId: 850,num: 5,serial: 1,unit: 1,price: 800,originalPrice: 3000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160250,type: 160,name: 四星灵石,item: 60,goodsId: 840,num: 10,serial: 1,unit: 1,price: 700,originalPrice: 2000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160260,type: 160,name: 四星灵石,item: 60,goodsId: 840,num: 5,serial: 1,unit: 1,price: 400,originalPrice: 1000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160270,type: 160,name: 混沌仙石,item: 60,goodsId: 10030,num: 10,serial: 1,unit: 1,price: 1200,originalPrice: 2000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160280,type: 160,name: 混沌仙石,item: 60,goodsId: 10030,num: 5,serial: 1,unit: 1,price: 700,originalPrice: 1000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160290,type: 160,name: 玄阶符首,item: 60,goodsId: 50130,num: 1,serial: 1,unit: 1,price: 800,originalPrice: 1000,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160300,type: 160,name: 残晶,item: 60,goodsId: 50127,num: 60,serial: 1,unit: 1,price: 30,originalPrice: 50,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160310,type: 160,name: 天晶,item: 60,goodsId: 50128,num: 10,serial: 1,unit: 1,price: 60,originalPrice: 80,discount: 70,limit: 0,peroid: 0,status: true}
+--- {id: 160320,type: 160,name: 血晶,item: 60,goodsId: 50129,num: 1,serial: 1,unit: 1,price: 80,originalPrice: 100,discount: 70,limit: 0,peroid: 0,status: true}
+
+
+#type=170 -> 夺宝
+#--- {id: 170010,type: 170,name: 玉鼎真人,item: 40,goodsId: 247,num: 1,serial: 1,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170020,type: 170,name: 崇侯虎,item: 40,goodsId: 325,num: 1,serial: 1,unit: 34,price: 2,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170030,type: 170,name: 崇侯虎封神令,item: 60,goodsId: 90010,num: 1,serial: 2,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170040,type: 170,name: 洪力符,item: 60,goodsId: 20150,num: 1,serial: 11,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170050,type: 170,name: 宙元符,item: 60,goodsId: 20250,num: 1,serial: 12,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170060,type: 170,name: 杨戬封神令,item: 60,goodsId: 90020,num: 1,serial: 3,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170070,type: 170,name: 木-连环,item: 60,goodsId: 21218,num: 1,serial: 8,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+#--- {id: 170080,type: 170,name: 张奎封神令,item: 60,goodsId: 90040,num: 1,serial: 4,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+#--- {id: 170090,type: 170,name: 土—张奎-地劫-潜龙,item: 60,goodsId: 21217,num: 1,serial: 14,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 170100,type: 170,name: 孔雀明王封神令,item: 60,goodsId: 90050,num: 1,serial: 4,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170110,type: 170,name: 全-影随,item: 60,goodsId: 21236,num: 1,serial: 7,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170120,type: 170,name: 姜子牙入圣令,item: 60,goodsId: 90080,num: 1,serial: 5,unit: 34,price: 2,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170130,type: 170,name: 金-圣·姜子牙-10级-封神-奉神,item: 60,goodsId: 21249,num: 1,serial: 6,unit: 34,price: 1,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 170140,type: 170,name: 神力横扫封神令,item: 60,goodsId: 90210,num: 1,serial: 6,unit: 34,price: 4,originalPrice: 1,discount: 100,limit: 1,peroid: 0,status: true}
+
+
+#type=180 > 奇珍-特惠礼包
+--- {id: 180000,type: 180,name: 超值礼包,item: 60,goodsId: 1400,num: 1,serial: 1,unit: 1,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 180001,type: 180,name: 每日1元礼包,item: 60,goodsId: 1401,num: 1,serial: 1,unit: 3,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 180002,type: 180,name: 每日3元礼包,item: 60,goodsId: 1402,num: 1,serial: 1,unit: 3,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 180003,type: 180,name: 每日6元礼包,item: 60,goodsId: 1403,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 180004,type: 180,name: 特惠60元套餐礼包,item: 60,goodsId: 1404,num: 1,serial: 1,unit: 3,price: 60,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+#type=185 限时礼包
+--- {id: 185001,type: 185,name: 修炼特惠礼包1,item: 60,goodsId: 1601,num: 1,serial: 1,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185002,type: 185,name: 修炼特惠礼包2,item: 60,goodsId: 1602,num: 1,serial: 1,unit: 1,price: 2500,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185003,type: 185,name: 新手福利礼包1,item: 60,goodsId: 1603,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185004,type: 185,name: 新手福利礼包2,item: 60,goodsId: 1604,num: 1,serial: 1,unit: 3,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185005,type: 185,name: 修炼特惠礼包3,item: 60,goodsId: 1605,num: 1,serial: 1,unit: 3,price: 98,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185006,type: 185,name: 修炼特惠礼包4,item: 60,goodsId: 1606,num: 1,serial: 1,unit: 3,price: 198,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185007,type: 185,name: 招募惊喜礼包1,item: 60,goodsId: 1607,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185008,type: 185,name: 招募惊喜礼包2,item: 60,goodsId: 1608,num: 1,serial: 1,unit: 3,price: 98,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185009,type: 185,name: 攻城略地礼包-金,item: 60,goodsId: 1701,num: 1,serial: 1,unit: 1,price: 168,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185010,type: 185,name: 攻城略地礼包-木,item: 60,goodsId: 1702,num: 1,serial: 1,unit: 1,price: 168,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185011,type: 185,name: 攻城略地礼包-水,item: 60,goodsId: 1703,num: 1,serial: 1,unit: 1,price: 168,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185012,type: 185,name: 攻城略地礼包-火,item: 60,goodsId: 1704,num: 1,serial: 1,unit: 1,price: 168,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 185013,type: 185,name: 攻城略地礼包-土,item: 60,goodsId: 1705,num: 1,serial: 1,unit: 1,price: 168,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+#type=190 > 奇珍-元宝礼包
+--- {id: 190020,type: 190,name: 300元宝,item: 60,goodsId: 20,num: 1,serial: 2,unit: 10000,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 190015,type: 190,name: 680元宝,item: 60,goodsId: 15,num: 1,serial: 3,unit: 10000,price: 68,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 190016,type: 190,name: 980元宝,item: 60,goodsId: 16,num: 1,serial: 4,unit: 10000,price: 98,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 190017,type: 190,name: 1980元宝,item: 60,goodsId: 17,num: 1,serial: 5,unit: 10000,price: 198,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 190018,type: 190,name: 3280元宝,item: 60,goodsId: 18,num: 1,serial: 6,unit: 10000,price: 328,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 190019,type: 190,name: 6480元宝,item: 60,goodsId: 19,num: 1,serial: 7,unit: 10000,price: 648,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#目前默认不显示,是否显示配置请到游戏默认产品中配置
+--- {id: 190013,type: 190,name: 60元宝,item: 60,goodsId: 13,num: 1,serial: 1,unit: 10000,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- {id: 190014,type: 190,name: 180元宝,item: 60,goodsId: 14,num: 1,serial: 1,unit: 3,price: 18,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- {id: 190022,type: 190,name: 1280元宝,item: 60,goodsId: 22,num: 1,serial: 1,unit: 3,price: 128,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#type=710 > 奇珍-钻石礼包
+--- {id: 710001,type: 710,name: 6钻石,item: 60,goodsId: 40,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710002,type: 710,name: 30钻石,item: 60,goodsId: 41,num: 1,serial: 1,unit: 3,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710003,type: 710,name: 68钻石,item: 60,goodsId: 42,num: 1,serial: 1,unit: 3,price: 68,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710004,type: 710,name: 98钻石,item: 60,goodsId: 43,num: 1,serial: 1,unit: 3,price: 98,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710005,type: 710,name: 198钻石,item: 60,goodsId: 44,num: 1,serial: 1,unit: 3,price: 198,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710006,type: 710,name: 328钻石,item: 60,goodsId: 45,num: 1,serial: 1,unit: 3,price: 328,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 710007,type: 710,name: 648钻石,item: 60,goodsId: 46,num: 1,serial: 1,unit: 3,price: 648,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=195 >新手首冲档位
+--- {id: 195006,type: 195,name: 60元宝,item: 60,goodsId: 60,num: 1,serial: 1,unit: 3,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 195030,type: 195,name: 300元宝,item: 60,goodsId: 61,num: 1,serial: 1,unit: 3,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 195098,type: 195,name: 980元宝,item: 60,goodsId: 62,num: 1,serial: 1,unit: 3,price: 98,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 195198,type: 195,name: 1980元宝,item: 60,goodsId: 63,num: 1,serial: 1,unit: 3,price: 198,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=200 -> 巅峰对决购买
+--- { id: 200010,type: 155,name: 一星灵石,item: 60,goodsId: 810,num: 1,serial: 80,unit: 40,price: 30,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 200020,type: 155,name: 二星灵石,item: 60,goodsId: 820,num: 1,serial: 70,unit: 40,price: 90,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 200030,type: 155,name: 三星灵石,item: 60,goodsId: 830,num: 1,serial: 60,unit: 40,price: 300,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 200040,type: 155,name: 四星灵石,item: 60,goodsId: 840,num: 1,serial: 50,unit: 40,price: 900,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- {id: 200050,type: 155,name: 五星灵石,item: 60,goodsId: 850,num: 1,serial: 40,unit: 40,price: 3000,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 200060,type: 155,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 30,unit: 40,price: 540,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 200070,type: 155,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 20,unit: 40,price: 8000,originalPrice: null,discount: 100,limit: 20,peroid: 0,status: true}
+--- {id: 200080,type: 155,name: 秘传,item: 60,goodsId: 0,num: 1,serial: 10,unit: 40,price: 24000,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+
+#type=300->赛马商店
+--- {id: 300001,type: 300,name: 至尊秘传宝箱,item: 60,goodsId: 11065,num: 1,serial: 1,unit: 136,price: 1000,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300002,type: 300,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 2,unit: 136,price: 400,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300007,type: 300,name: 板角青牛,item: 40,goodsId: 255,num: 1,serial: 3,unit: 136,price: 400,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300008,type: 300,name: 黄天禄,item: 40,goodsId: 144,num: 1,serial: 3,unit: 136,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300009,type: 300,name: 苏全忠,item: 40,goodsId: 246,num: 1,serial: 3,unit: 136,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300010,type: 300,name: 玄武仙师,item: 40,goodsId: 344,num: 1,serial: 3,unit: 136,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300011,type: 300,name: 刘环,item: 40,goodsId: 450,num: 1,serial: 3,unit: 136,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300012,type: 300,name: 雷开,item: 40,goodsId: 546,num: 1,serial: 3,unit: 136,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300013,type: 300,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 2,unit: 136,price: 150,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300014,type: 300,name: 辛免,item: 40,goodsId: 155,num: 1,serial: 3,unit: 136,price: 130,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+--- {id: 300015,type: 300,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 7,unit: 136,price: 50,originalPrice: null,discount: 100,limit: 2,peroid: 107,status: true}
+--- {id: 300016,type: 300,name: 花神赋,item: 60,goodsId: 50221,num: 1,serial: 7,unit: 136,price: 10,originalPrice: null,discount: 100,limit: 50,peroid: 107,status: true}
+--- {id: 300017,type: 300,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 8,unit: 136,price: 3,originalPrice: null,discount: 100,limit: 0,peroid: 107,status: true}
+--- {id: 300018,type: 300,name: 通天残卷,item: 60,goodsId: 11010,num: 2,serial: 9,unit: 136,price: 3,originalPrice: null,discount: 100,limit: 0,peroid: 107,status: true}
+#--- {id: 300003,type: 300,name: 狰狞,item: 40,goodsId: 345,num: 1,serial: 3,unit: 136,price: 130,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+#--- {id: 300004,type: 300,name: 五色神牛,item: 40,goodsId: 538,num: 1,serial: 4,unit: 136,price: 90,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+#--- {id: 300005,type: 300,name: 魔童,item: 40,goodsId: 438,num: 1,serial: 5,unit: 136,price: 70,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+#--- {id: 300006,type: 300,name: 千里马,item: 40,goodsId: 548,num: 1,serial: 6,unit: 136,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 107,status: true}
+
+#type=400=》战令商店
+#五行神将礼包*1	军符*2	无限购次数	无
+#铜钱*50万	    军符*1	赛季限购10次	无
+#仙之源*1	    军符*2	赛季限购10次	无
+#夺宝抵用券*1	    军符*1	赛季限购10次	无
+#通天残卷*1	    军符*1	赛季限购10次	无
+#传奇卷轴宝箱*1	军符*10	赛季限购1次	需激活战令（代码实现）
+#随机高级卷轴*1	军符*50	赛季限购1次	需激活战令（代码实现）
+--- {id: 400001,type: 400,name: 五行神将礼包,item: 60,goodsId: 11680,num: 1,serial: 1,unit: 11700,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 400002,type: 400,name: 铜钱*50万,item: 20,goodsId: 0,num: 500000,serial: 2,unit: 11700,price: 1,originalPrice: null,discount: 100,limit: 10,peroid: 13000,status: true}
+--- {id: 400003,type: 400,name: 仙之源,item: 60,goodsId: 10110,num: 1,serial: 3,unit: 11700,price: 2,originalPrice: null,discount: 100,limit: 10,peroid: 13000,status: true}
+--- {id: 400004,type: 400,name: 夺宝抵用券,item: 60,goodsId: 11090,num: 1,serial: 4,unit: 11700,price: 1,originalPrice: null,discount: 100,limit: 10,peroid: 13000,status: true}
+--- {id: 400005,type: 400,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 5,unit: 11700,price: 1,originalPrice: null,discount: 100,limit: 10,peroid: 13000,status: true}
+--- {id: 400006,type: 400,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 6,unit: 11700,price: 10,originalPrice: null,discount: 100,limit: 1,peroid: 13000,status: true}
+--- {id: 400007,type: 400,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 7,unit: 11700,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 13000,status: true}
+--- {id: 400008,type: 400,name: 金风飒飒礼包,item: 60,goodsId: 50151,num: 1,serial: 8,unit: 11700,price: 4,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 400009,type: 400,name: 战令四星礼包,item: 60,goodsId: 50152,num: 1,serial: 9,unit: 11700,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 400010,type: 400,name: 战令三星礼包,item: 60,goodsId: 50153,num: 1,serial: 10,unit: 11700,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 400011,type: 400,name: 战令神兽礼包,item: 60,goodsId: 50154,num: 1,serial: 11,unit: 11700,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+
+--- {id: 500001,type: 500,name: 进阶令牌,item: 60,goodsId: 1600,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 13000,status: true}
+--- {id: 500002,type: 500,name: 高级进阶令牌,item: 60,goodsId: 1610,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 13000,status: true}
+--- {id: 500003,type: 780,name: 节日礼包6元,item: 60,goodsId: 1801,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 109,status: true}
+--- {id: 500004,type: 780,name: 节日礼包30元,item: 60,goodsId: 1802,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 109,status: true}
+--- {id: 500005,type: 780,name: 节日礼包98元,item: 60,goodsId: 1803,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 109,status: true}
+--- {id: 500006,type: 780,name: 节日礼包198元,item: 60,goodsId: 1804,num: 1,serial: 9,unit: 3,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 109,status: true}
+#780为节日礼包
+
+#type=600=》轮回商店（荣耀商店）
+--- {id: 600001,type: 600,name: 金灵圣母,item: 40,goodsId: 461,num: 1,serial: 1,unit: 50011,price: 5,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600002,type: 600,name: 玉鼎真人封神令,item: 60,goodsId: 90070,num: 1,serial: 2,unit: 50011,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600003,type: 600,name: 神·玉鼎真人-10级-幻术-玄幻,item: 60,goodsId: 21243,num: 1,serial: 3,unit: 50011,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600004,type: 600,name: 魔·妲己-5级-噬魂-吸阳,item: 60,goodsId: 21242,num: 1,serial: 4,unit: 50011,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600005,type: 600,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 5,unit: 50011,price: 6,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- {id: 600006,type: 600,name: 荣耀银币*100,item: 60,goodsId: 50012,num: 100,serial: 6,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- {id: 600007,type: 600,name: 荣耀金币,item: 60,goodsId: 50011,num: 1,serial: 7,unit: 50012,price: 160,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600008,type: 600,name: 魂源,item: 60,goodsId: 10180,num: 1,serial: 8,unit: 50198,price: 200,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600009,type: 600,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 9,unit: 50198,price: 200,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600010,type: 600,name: 霹雳木,item: 60,goodsId: 50133,num: 1,serial: 10,unit: 50198,price: 100,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600011,type: 600,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 11,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 7,status: true}
+--- {id: 600012,type: 600,name: 混沌仙石,item: 60,goodsId: 10030,num: 1,serial: 12,unit: 50198,price: 20,originalPrice: null,discount: 100,limit: 5,peroid: 1,status: true}
+--- {id: 600013,type: 600,name: 得物袋,item: 60,goodsId: 50179,num: 1,serial: 13,unit: 50198,price: 30,originalPrice: null,discount: 100,limit: 20,peroid: 1,status: true}
+--- {id: 600014,type: 600,name: 特许交易证,item: 60,goodsId: 10060,num: 1,serial: 14,unit: 50198,price: 8,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600015,type: 600,name: 卡牌-刺客,item: 40,goodsId: 135,num: 1,serial: 15,unit: 50012,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600016,type: 600,name: 卡牌-叛道童子,item: 40,goodsId: 536,num: 1,serial: 16,unit: 50012,price: 30,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600017,type: 600,name: 卡牌-锦鲤,item: 40,goodsId: 136,num: 1,serial: 17,unit: 50012,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600018,type: 600,name: 卡牌-尤浑,item: 40,goodsId: 531,num: 1,serial: 18,unit: 50012,price: 60,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600019,type: 600,name: 卡牌-姜文焕,item: 40,goodsId: 239,num: 1,serial: 19,unit: 50011,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600020,type: 600,name: 卡牌-陈九公,item: 40,goodsId: 463,num: 1,serial: 20,unit: 50011,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600021,type: 600,name: 卡牌-萧升,item: 40,goodsId: 262,num: 1,serial: 21,unit: 50011,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600022,type: 600,name: 卡牌-云中子,item: 40,goodsId: 442,num: 1,serial: 22,unit: 50011,price: 4,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600023,type: 600,name: 赵公明封神令,item: 60,goodsId: 90090,num: 1,serial: 23,unit: 50011,price: 3,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600024,type: 600,name: 水-神·赵公明-5级-伏虎,item: 60,goodsId: 21271,num: 1,serial: 24,unit: 50011,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600025,type: 600,name: 铜铲子,item: 60,goodsId: 50180,num: 1,serial: 25,unit: 50198,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600026,type: 600,name: 银铲子,item: 60,goodsId: 50181,num: 1,serial: 26,unit: 50198,price: 10,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600027,type: 600,name: 金铲子,item: 60,goodsId: 50182,num: 1,serial: 27,unit: 50198,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600028,type: 600,name: 唤兽铃铛,item: 60,goodsId: 50199,num: 1,serial: 28,unit: 50198,price: 100,originalPrice: null,discount: 100,limit: 1,peroid: 1,status: true}
+--- {id: 600029,type: 600,name: 金-杨戬-5级-混元-哮天,item: 60,goodsId: 21228,num: 1,serial: 29,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600030,type: 600,name: 金-神·韦护-0级-突袭-突击,item: 60,goodsId: 21276,num: 1,serial: 30,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600031,type: 600,name: 金-圣·姜子牙-10级-封神-奉神,item: 60,goodsId: 21249,num: 1,serial: 31,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600032,type: 600,name: 木-哪吒-5级-复活-乾坤,item: 60,goodsId: 21219,num: 1,serial: 32,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600033,type: 600,name: 木-哪吒-10级-混绫,item: 60,goodsId: 21220,num: 1,serial: 33,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600034,type: 600,name: 木-神·袁洪-0级-流毒-幻术,item: 60,goodsId: 21277,num: 1,serial: 34,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600035,type: 600,name: 神·崇侯虎-5级-金刚-金罩,item: 60,goodsId: 21237,num: 1,serial: 35,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- {id: 600036,type: 600,name: 水-神·赵公明-5级-伏虎,item: 60,goodsId: 21271,num: 1,serial: 36,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600037,type: 600,name: 水-神·无当圣母-10级-死咒-殇咒,item: 60,goodsId: 21278,num: 1,serial: 37,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600038,type: 600,name: 火-神·天花娘娘-5级-入痘-痘仙,item: 60,goodsId: 21279,num: 1,serial: 38,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600039,type: 600,name: 火-神·赤精子-10级-诛仙-诛绝,item: 60,goodsId: 21284,num: 1,serial: 39,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600040,type: 600,name: 土-殷洪-5级-刚毅,item: 60,goodsId: 21168,num: 1,serial: 40,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600041,type: 600,name: 土-张奎-地劫-潜龙,item: 60,goodsId: 21217,num: 1,serial: 41,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600042,type: 600,name: 土-神·龟灵圣母-5级-飞狙-金刚,item: 60,goodsId: 21280,num: 1,serial: 42,unit: 50011,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 600043,type: 600,name: 冷箭符图,item: 60,goodsId: 231307,num: 1,serial: 41,unit: 50011,price: 6,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 600044,type: 600,name: 神力横扫封神令,item: 60,goodsId: 90210,num: 1,serial: 42,unit: 50011,price: 8,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+#type=610 -> 黑五特惠
+--- {id: 610001,type: 610,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 61,unit: 1,price: 16000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610002,type: 610,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 62,unit: 1,price: 6000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610003,type: 610,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 63,unit: 1,price: 3000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 610004,type: 610,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 64,unit: 1,price: 1200,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 610005,type: 610,name: 星图保护符,item: 60,goodsId: 11720,num: 10,serial: 65,unit: 1,price: 1000,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+--- {id: 610006,type: 610,name: 万能符箓,item: 60,goodsId: 20010,num: 1,serial: 66,unit: 1,price: 3000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 610007,type: 610,name: 元阳符,item: 60,goodsId: 20260,num: 1,serial: 67,unit: 1,price: 10000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610008,type: 610,name: 天力符,item: 60,goodsId: 20160,num: 1,serial: 68,unit: 1,price: 10000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610009,type: 610,name: 仙之源,item: 60,goodsId: 10110,num: 9,serial: 69,unit: 1,price: 1692,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+--- {id: 610015,type: 610,name: 花神赋,item: 60,goodsId: 50221,num: 1,serial: 70,unit: 1,price: 300,originalPrice: null,discount: 100,limit: 10,peroid: 0,status: true}
+--- {id: 610019,type: 610,name: 荣耀铜币,item: 60,goodsId: 50198,num: 50,serial: 71,unit: 1,price: 100,originalPrice: null,discount: 100,limit: 10,peroid: 0,status: true}
+#--- {id: 610010,type: 610,name: 宝藏令,item: 60,goodsId: 50161,num: 1,serial: 90,unit: 10000,price: 100,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 610011,type: 610,name: 五阶符首,item: 60,goodsId: 50132,num: 1,serial: 80,unit: 10000,price: 100,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610012,type: 610,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 81,unit: 10000,price: 50,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610013,type: 610,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 82,unit: 10000,price: 20,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 610014,type: 610,name: 仙之源,item: 60,goodsId: 10110,num: 9,serial: 83,unit: 10000,price: 6,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 610016,type: 610,name: 花神赋,item: 60,goodsId: 50221,num: 1,serial: 84,unit: 10000,price: 20,originalPrice: null,discount: 100,limit: 20,peroid: 0,status: true}
+#--- {id: 610017,type: 610,name: 花束,item: 60,goodsId: 50407,num: 1,serial: 90,unit: 10000,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 0,status: true}
+#--- {id: 610018,type: 610,name: 小碗狗粮,item: 60,goodsId: 50450,num: 1,serial: 90,unit: 10000,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 0,status: true}
+--- {id: 610020,type: 610,name: 荣耀铜币,item: 60,goodsId: 50198,num: 100,serial: 84,unit: 10000,price: 6,originalPrice: null,discount: 100,limit: 30,peroid: 0,status: true}
+
+
+#type=620 ->藏宝秘境
+#大奖池
+--- { id: 620001,type: 620,name: 至尊秘传宝箱*1,item: 60,goodsId: 11065,num: 1,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 620002,type: 620,name: 小妖精*1,item: 40,goodsId: 465,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620003,type: 620,name: 随机秘传卷轴*1,item: 60,goodsId: 50010,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620004,type: 620,name: 五阶符首*1,item: 60,goodsId: 50132,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620005,type: 620,name: 四阶符首*1,item: 60,goodsId: 50131,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620006,type: 620,name: 随机高级卷轴*1,item: 60,goodsId: 11410,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620007,type: 620,name: 洪力符*1,item: 60,goodsId: 20150,num: 1,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 620008,type: 620,name: 宙元符*1,item: 60,goodsId: 20250,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620009,type: 620,name: 仙之源*9,item: 60,goodsId: 10110,num: 9 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620010,type: 620,name: 威力符*1,item: 60,goodsId: 20140,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620011,type: 620,name: 尚元符*1,item: 60,goodsId: 20240,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620012,type: 620,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060,num: 1 ,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620038,type: 620,name: 荣耀金币*1,item: 60,goodsId: 50011,num: 1,serial: 90,unit: 93,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#普通奖池
+--- { id: 620013,type: 620,name: 乾坤图*1,item: 60,goodsId: 20,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620014,type: 620,name: 力神符*1,item: 60,goodsId: 20130,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620015,type: 620,name: 元神符*1,item: 60,goodsId: 20230,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620016,type: 620,name: 血晶*1,item: 60,goodsId: 50129,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620017,type: 620,name: 财神珠*1,item: 60,goodsId: 10,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620018,type: 620,name: 五星灵石*1,item: 60,goodsId: 850,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620019,type: 620,name: 聚仙旗*1,item: 60,goodsId: 10010,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620020,type: 620,name: 大力符*1,item: 60,goodsId: 20120,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620021,type: 620,name: 强元符*1,item: 60,goodsId: 20220,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620022,type: 620,name: 星图保护符*1,item: 60,goodsId: 11720,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620023,type: 620,name: 四星灵石*1,item: 60,goodsId: 840,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620024,type: 620,name: 三星灵石*1,item: 60,goodsId: 830,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620025,type: 620,name: 番天印*1,item: 60,goodsId: 210,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620026,type: 620,name: 九龙神火罩*1,item: 60,goodsId: 260,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620027,type: 620,name: 山河社稷图*1,item: 60,goodsId: 60,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620028,type: 620,name: 混沌仙石*1,item: 60,goodsId: 10030,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620029,type: 620,name: 仙之源*1,item: 60,goodsId: 10110,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620030,type: 620,name: 夺宝抵用券*1,item: 60,goodsId: 11090,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620031,type: 620,name: 魂源*1,item: 60,goodsId: 10180,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620032,type: 620,name: 通天残卷*1,item: 60,goodsId: 11010,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620033,type: 620,name: 天晶*10,item: 60,goodsId: 50128,num: 10,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620034,type: 620,name: 神砂*5,item: 60,goodsId: 10020,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620035,type: 620,name: 星光砂*1,item: 60,goodsId: 11600,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620036,type: 620,name: 增力符*1,item: 60,goodsId: 20110,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 620037,type: 620,name: 补元符*1,item: 60,goodsId: 20210,num: 1,serial: 90,unit: 1,price: 60,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#type=630 ->随机兑换
+#威震九州
+#--- { id: 630001,type: 630,name: 小型鞭炮礼包*1,item: 60,goodsId: 50200,num: 1,serial: 90,unit: 94,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630002,type: 630,name: 中型鞭炮礼包*1,item: 60,goodsId: 50201,num: 1,serial: 90,unit: 95,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630003,type: 630,name: 大型鞭炮礼包*1,item: 60,goodsId: 50202,num: 1,serial: 90,unit: 96,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+##無啥代志
+#--- { id: 630004,type: 630,name: 小型平安符礼包*1,item: 60,goodsId: 50226,num: 1,serial: 90,unit: 102,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630005,type: 630,name: 中型平安符礼包*1,item: 60,goodsId: 50227,num: 1,serial: 90,unit: 103,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630006,type: 630,name: 大型平安符礼包*1,item: 60,goodsId: 50228,num: 1,serial: 90,unit: 104,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+##小虎老板
+#--- { id: 630007,type: 630,name: 大型盛夏符礼包*1,item: 60,goodsId: 50312,num: 1,serial: 90,unit: 115,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630008,type: 630,name: 大型盛夏符礼包*1,item: 60,goodsId: 50313,num: 1,serial: 90,unit: 116,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#--- { id: 630009,type: 630,name: 大型盛夏符礼包*1,item: 60,goodsId: 50314,num: 1,serial: 90,unit: 117,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+#师妹情愫
+--- { id: 630010,type: 630,name: 随机秘传卷轴*1,item: 60,goodsId: 50010,num: 1,serial: 90,unit: 118,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 630011,type: 630,name: 随机高级卷轴*1,item: 60,goodsId: 11410,num: 1,serial: 90,unit: 119,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 630012,type: 630,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060,num: 1,serial: 90,unit: 120,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 630013,type: 630,name: 炼技保护符*1,item: 60,goodsId: 11400,num: 1,serial: 90,unit: 121,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 630014,type: 630,name: 仙之缘*9,item: 60,goodsId: 10110,num: 9,serial: 90,unit: 122,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 630015,type: 630,name: 老父亲随机奖励*1,item: 60,goodsId: 50326,num: 1,serial: 90,unit: 123,price: 2,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=650 天灯工坊
+--- { id: 650001,type: 650,name: 天灯*1,item: 60,goodsId: 50209,num: 1,serial: 90,unit: 97,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 650002,type: 650,name: 木条*1,item: 60,goodsId: 50203,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 50,peroid: 1,status: true}
+--- { id: 650003,type: 650,name: 许愿蜡烛*1,item: 60,goodsId: 50204,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 50,peroid: 1,status: true}
+--- { id: 650004,type: 650,name: 薄纸*1,item: 60,goodsId: 50205,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 50,peroid: 1,status: true}
+#type=660 -> 合服折扣特惠商店
+--- {id: 660001,type: 660,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 60,unit: 1,price: 16000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 660002,type: 660,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 60,unit: 1,price: 6000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 660003,type: 660,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 90,unit: 1,price: 3000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 660004,type: 660,name: 炼技保护符,item: 60,goodsId: 11400,num: 1,serial: 90,unit: 1,price: 1200,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 660005,type: 660,name: 星图保护符,item: 60,goodsId: 11720,num: 10,serial: 90,unit: 1,price: 1000,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+--- {id: 660006,type: 660,name: 万能符箓,item: 60,goodsId: 20010,num: 1,serial: 90,unit: 1,price: 3000,originalPrice: null,discount: 100,limit: 2,peroid: 0,status: true}
+--- {id: 660007,type: 660,name: 元阳符,item: 60,goodsId: 20260,num: 1,serial: 90,unit: 1,price: 10000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 660008,type: 660,name: 天力符,item: 60,goodsId: 20160,num: 1,serial: 90,unit: 1,price: 10000,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 660009,type: 660,name: 仙之源,item: 60,goodsId: 10110,num: 9,serial: 90,unit: 1,price: 1692,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true}
+#type=670 -> 合服活动兑换
+--- { id: 670010,type: 670,name: 通天残卷,item: 60,goodsId: 11010,num: 1,serial: 11010,unit: 98,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 670020,type: 670,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 11020,unit: 98,price: 20,originalPrice: null,discount: 100,limit: 3,peroid: 0,status: true }
+--- { id: 670030,type: 670,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 11030,unit: 98,price: 50,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 670040,type: 670,name: 随机秘传卷轴,item: 60,goodsId: 50010,num: 1,serial: 11040,unit: 99,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+--- { id: 670050,type: 670,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 11040,unit: 100,price: 1,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true }
+#type=680 ->花神赋我
+--- { id: 680001,type: 680,name: 时装-风起霓裳*1,item: 120,goodsId: 120040,num: 1,serial: 2,unit: 101,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 680002,type: 680,name: 时装升级丹*1,item: 60,goodsId: 11571,num: 1,serial: 4,unit: 101,price: 10,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 680003,type: 680,name: 商帮令牌*1,item: 60,goodsId: 10050,num: 1,serial: 5,unit: 101,price: 10,originalPrice: null,discount: 100,limit: 0,peroid: 0,status: true}
+--- { id: 680004,type: 680,name: 时装-乘风破浪*1,item: 120,goodsId: 120050,num: 1,serial: 1,unit: 101,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- { id: 680005,type: 680,name: 时装-绿茵时装*1,item: 120,goodsId: 120060,num: 1,serial: 3,unit: 101,price: 200,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+#type=690 ->材料商店
+--- { id: 690001,type: 690,name: 金元珠,item: 60,goodsId: 11440,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 1,status: true}
+--- { id: 690002,type: 690,name: 木元珠,item: 60,goodsId: 11450,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 1,status: true}
+--- { id: 690003,type: 690,name: 水元珠,item: 60,goodsId: 11460,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 1,status: true}
+--- { id: 690004,type: 690,name: 火元珠,item: 60,goodsId: 11470,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 1,status: true}
+--- { id: 690005,type: 690,name: 土元珠,item: 60,goodsId: 11480,num: 1,serial: 90,unit: 1,price: 10,originalPrice: null,discount: 100,limit: 10,peroid: 1,status: true}
+
+#type=700 ->封神祭坛
+--- {id: 700001,type: 700,name: 韦护封神令,item: 60,goodsId: 90100,num: 1,serial: 90,unit: 105,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 700002,type: 700,name: 金-神·韦护-5级-突袭-突击,item: 60,goodsId: 21276,num: 1,serial: 90,unit: 110,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+--- {id: 700003,type: 700,name: 袁洪封神令,item: 60,goodsId: 90110,num: 1,serial: 90,unit: 106,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 700004,type: 700,name: 木-神·袁洪-5级-流毒-幻术,item: 60,goodsId: 21277,num: 1,serial: 90,unit: 111,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+--- {id: 700005,type: 700,name: 无当圣母封神令,item: 60,goodsId: 90120,num: 1,serial: 90,unit: 107,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 700006,type: 700,name: 水-神·无当圣母-10级-死咒-殇咒,item: 60,goodsId: 21278,num: 1,serial: 90,unit: 112,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+--- {id: 700007,type: 700,name: 天花娘娘封神令,item: 60,goodsId: 90130,num: 1,serial: 90,unit: 108,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 700008,type: 700,name: 火-神·天花娘娘-10级-入痘-痘仙,item: 60,goodsId: 21279,num: 1,serial: 90,unit: 113,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+--- {id: 700009,type: 700,name: 龟灵圣母封神令,item: 60,goodsId: 90140,num: 1,serial: 90,unit: 109,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 700010,type: 700,name: 土-神·龟灵圣母-10级-飞狙-金刚,item: 60,goodsId: 21280,num: 1,serial: 90,unit: 114,price: 1,originalPrice: null,discount: 100,limit: 1,peroid: 0,status: true}
+
+
+#type=730 -> 新神秘
+--- {id: 730010,type: 730,name: 山河社稷图,item: 60,goodsId: 60,num: 1,serial: 1,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 300}
+--- {id: 730020,type: 730,name: 定风珠,item: 60,goodsId: 90,num: 1,serial: 2,unit: 2,price: 18000,originalPrice: 18000,discount: 100,limit: 5,peroid: 0,status: true,probability: 400}
+--- {id: 730030,type: 730,name: 风火轮,item: 60,goodsId: 110,num: 1,serial: 3,unit: 2,price: 21000,originalPrice: 21000,discount: 100,limit: 2,peroid: 0,status: true,probability: 500}
+--- {id: 730040,type: 730,name: 番天印,item: 60,goodsId: 210,num: 1,serial: 4,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730050,type: 730,name: 打神鞭,item: 60,goodsId: 220,num: 1,serial: 5,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730060,type: 730,name: 阴阳镜,item: 60,goodsId: 230,num: 1,serial: 6,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730070,type: 730,name: 太极图,item: 60,goodsId: 240,num: 1,serial: 7,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730080,type: 730,name: 诛仙剑,item: 60,goodsId: 250,num: 1,serial: 8,unit: 2,price: 80000,originalPrice: 80000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730090,type: 730,name: 九龙神火罩,item: 60,goodsId: 260,num: 1,serial: 9,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730100,type: 730,name: 莫邪宝剑,item: 60,goodsId: 270,num: 1,serial: 10,unit: 2,price: 30000,originalPrice: 30000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730110,type: 730,name: 招魂幡,item: 60,goodsId: 280,num: 1,serial: 11,unit: 2,price: 60000,originalPrice: 60000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730120,type: 730,name: 戮仙剑,item: 60,goodsId: 290,num: 1,serial: 12,unit: 2,price: 80000,originalPrice: 80000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730130,type: 730,name: 扫霞衣,item: 60,goodsId: 430,num: 1,serial: 13,unit: 2,price: 60000,originalPrice: 60000,discount: 100,limit: 2,peroid: 0,status: true,probability: 400}
+--- {id: 730140,type: 730,name: 五火神焰扇,item: 60,goodsId: 440,num: 1,serial: 14,unit: 2,price: 40000,originalPrice: 40000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730150,type: 730,name: 攒心钉,item: 60,goodsId: 300,num: 1,serial: 15,unit: 2,price: 40000,originalPrice: 40000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730160,type: 730,name: 乾坤尺,item: 60,goodsId: 310,num: 1,serial: 16,unit: 2,price: 40000,originalPrice: 40000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730170,type: 730,name: 紫金钵盂,item: 60,goodsId: 320,num: 1,serial: 17,unit: 2,price: 100000,originalPrice: 100000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730180,type: 730,name: 紫绫仙衣,item: 60,goodsId: 330,num: 1,serial: 18,unit: 2,price: 30000,originalPrice: 30000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730190,type: 730,name: 绝仙剑,item: 60,goodsId: 340,num: 1,serial: 19,unit: 2,price: 40000,originalPrice: 40000,discount: 100,limit: 2,peroid: 0,status: true,probability: 200}
+--- {id: 730200,type: 730,name: 金系本源*3,item: 60,goodsId: 50390,num: 3,serial: 20,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 730210,type: 730,name: 木系本源*3,item: 60,goodsId: 50391,num: 3,serial: 21,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 730220,type: 730,name: 水系本源*3,item: 60,goodsId: 50392,num: 3,serial: 22,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 730230,type: 730,name: 火系本源*3,item: 60,goodsId: 50393,num: 3,serial: 23,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 730240,type: 730,name: 土系本源*3,item: 60,goodsId: 50394,num: 3,serial: 24,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 600}
+--- {id: 730250,type: 730,name: 补元符,item: 60,goodsId: 20210,num: 1,serial: 25,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730260,type: 730,name: 增力符,item: 60,goodsId: 20110,num: 1,serial: 26,unit: 2,price: 500000,originalPrice: 500000,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730270,type: 730,name: 体力*60,item: 30,goodsId: 0,num: 60,serial: 27,unit: 2,price: 120000,originalPrice: 120000,discount: 100,limit: 2,peroid: 0,status: true,probability: 0}
+--- {id: 730280,type: 730,name: 初级复阵图,item: 60,goodsId: 50399,num: 1,serial: 28,unit: 2,price: 2000000,originalPrice: 2000000,discount: 100,limit: 1,peroid: 0,status: true,probability: 0}
+
+
+--- {id: 730290,type: 730,name: 三星灵石*5,item: 60,goodsId: 830,num: 5,serial: 29,unit: 1,price: 200,originalPrice: 200,discount: 100,limit: 2,peroid: 0,status: true,probability: 500}
+--- {id: 730300,type: 730,name: 四星灵石*5,item: 60,goodsId: 840,num: 5,serial: 30,unit: 1,price: 400,originalPrice: 400,discount: 100,limit: 2,peroid: 0,status: true,probability: 500}
+--- {id: 730310,type: 730,name: 五星灵石*5,item: 60,goodsId: 850,num: 5,serial: 31,unit: 1,price: 800,originalPrice: 800,discount: 100,limit: 2,peroid: 0,status: true,probability: 300}
+--- {id: 730320,type: 730,name: 随机高级卷轴,item: 60,goodsId: 11410,num: 1,serial: 32,unit: 1,price: 5000,originalPrice: 5000,discount: 100,limit: 1,peroid: 0,status: true,probability: 10}
+--- {id: 730330,type: 730,name: 传奇卷轴宝箱,item: 60,goodsId: 11060,num: 1,serial: 33,unit: 1,price: 2000,originalPrice: 2000,discount: 100,limit: 1,peroid: 0,status: true,probability: 290}
+--- {id: 730340,type: 730,name: 元神符,item: 60,goodsId: 20230,num: 1,serial: 34,unit: 1,price: 800,originalPrice: 800,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730350,type: 730,name: 力神符,item: 60,goodsId: 20130,num: 1,serial: 35,unit: 1,price: 800,originalPrice: 800,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730360,type: 730,name: 强元符,item: 60,goodsId: 20220,num: 1,serial: 36,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 730370,type: 730,name: 大力符,item: 60,goodsId: 20120,num: 1,serial: 37,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 730380,type: 730,name: 神砂*20,item: 60,goodsId: 10020,num: 20,serial: 38,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 5,peroid: 0,status: true,probability: 500}
+--- {id: 730390,type: 730,name: 金雷竹*5,item: 60,goodsId: 50364,num: 5,serial: 39,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 900}
+--- {id: 730400,type: 730,name: 养魂木*5,item: 60,goodsId: 50365,num: 5,serial: 40,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 900}
+--- {id: 730410,type: 730,name: 金系本源*10,item: 60,goodsId: 50390,num: 10,serial: 41,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 700}
+--- {id: 730420,type: 730,name: 木系本源*10,item: 60,goodsId: 50391,num: 10,serial: 42,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 700}
+--- {id: 730430,type: 730,name: 水系本源*10,item: 60,goodsId: 50392,num: 10,serial: 43,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 700}
+--- {id: 730440,type: 730,name: 火系本源*10,item: 60,goodsId: 50393,num: 10,serial: 44,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 700}
+--- {id: 730450,type: 730,name: 土系本源*10,item: 60,goodsId: 50394,num: 10,serial: 45,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 2,peroid: 0,status: true,probability: 700}
+--- {id: 730460,type: 730,name: 地阶符首,item: 60,goodsId: 50131,num: 1,serial: 46,unit: 1,price: 600,originalPrice: 600,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 730470,type: 730,name: 玄阶符首,item: 60,goodsId: 50130,num: 1,serial: 47,unit: 1,price: 250,originalPrice: 250,discount: 100,limit: 1,peroid: 0,status: true,probability: 500}
+--- {id: 730480,type: 730,name: 乾坤图,item: 60,goodsId: 20,num: 1,serial: 48,unit: 1,price: 400,originalPrice: 400,discount: 100,limit: 5,peroid: 0,status: true,probability: 0}
+--- {id: 730490,type: 730,name: 玉麒麟,item: 60,goodsId: 80,num: 1,serial: 49,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 4,peroid: 0,status: true,probability: 0}
+--- {id: 730500,type: 730,name: 星图保护符,item: 60,goodsId: 11720,num: 1,serial: 50,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 10,peroid: 0,status: true,probability: 0}
+--- {id: 730510,type: 730,name: 青天石,item: 60,goodsId: 11610,num: 1,serial: 51,unit: 1,price: 500,originalPrice: 500,discount: 100,limit: 5,peroid: 0,status: true,probability: 0}
+--- {id: 730520,type: 730,name: 中级复阵图,item: 60,goodsId: 50400,num: 1,serial: 52,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 1,peroid: 0,status: true,probability: 0}
+--- {id: 730530,type: 730,name: 金创药,item: 60,goodsId: 50396,num: 1,serial: 53,unit: 1,price: 60,originalPrice: 60,discount: 100,limit: 5,peroid: 0,status: true,probability: 0}
+--- {id: 730540,type: 730,name: 复活草,item: 60,goodsId: 50397,num: 1,serial: 54,unit: 1,price: 100,originalPrice: 100,discount: 100,limit: 5,peroid: 0,status: true,probability: 0}
+--- {id: 730550,type: 730,name: 还原图,item: 60,goodsId: 50398,num: 1,serial: 55,unit: 1,price: 300,originalPrice: 300,discount: 100,limit: 1,peroid: 0,status: true,probability: 0}
+
+
+
+--- {id: 730560,type: 730,name: 四星灵石*5,item: 60,goodsId: 840,num: 5,serial: 56,unit: 10000,price: 5,originalPrice: 5,discount: 100,limit: 2,peroid: 0,status: true,probability: 800}
+--- {id: 730570,type: 730,name: 五星灵石*5,item: 60,goodsId: 850,num: 5,serial: 57,unit: 10000,price: 15,originalPrice: 15,discount: 100,limit: 2,peroid: 0,status: true,probability: 500}
+--- {id: 730580,type: 730,name: 金雷竹*10,item: 60,goodsId: 50364,num: 10,serial: 58,unit: 10000,price: 10,originalPrice: 10,discount: 100,limit: 2,peroid: 0,status: true,probability: 900}
+--- {id: 730590,type: 730,name: 养魂木*10,item: 60,goodsId: 50365,num: 10,serial: 59,unit: 10000,price: 10,originalPrice: 10,discount: 100,limit: 2,peroid: 0,status: true,probability: 900}
+--- {id: 730600,type: 730,name: 天阶符首,item: 60,goodsId: 50132,num: 1,serial: 60,unit: 10000,price: 60,originalPrice: 60,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730610,type: 730,name: 地阶符首,item: 60,goodsId: 50131,num: 1,serial: 61,unit: 10000,price: 30,originalPrice: 30,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 730620,type: 730,name: 玄阶符首,item: 60,goodsId: 50130,num: 1,serial: 62,unit: 10000,price: 15,originalPrice: 15,discount: 100,limit: 1,peroid: 0,status: true,probability: 800}
+--- {id: 730630,type: 730,name: 紫炎真根,item: 60,goodsId: 50366,num: 1,serial: 63,unit: 10000,price: 3,originalPrice: 3,discount: 100,limit: 5,peroid: 0,status: true,probability: 900}
+--- {id: 730640,type: 730,name: 地魄玄石,item: 60,goodsId: 50367,num: 1,serial: 64,unit: 10000,price: 5,originalPrice: 5,discount: 100,limit: 5,peroid: 0,status: true,probability: 800}
+--- {id: 730650,type: 730,name: 冥华紫晶,item: 60,goodsId: 50368,num: 1,serial: 65,unit: 10000,price: 10,originalPrice: 10,discount: 100,limit: 5,peroid: 0,status: true,probability: 700}
+--- {id: 730660,type: 730,name: 归元玄晶,item: 60,goodsId: 50369,num: 1,serial: 66,unit: 10000,price: 15,originalPrice: 15,discount: 100,limit: 5,peroid: 0,status: true,probability: 500}
+--- {id: 730670,type: 730,name: 九窍灵翠,item: 60,goodsId: 50370,num: 1,serial: 67,unit: 10000,price: 20,originalPrice: 20,discount: 100,limit: 5,peroid: 0,status: true,probability: 300}
+--- {id: 730680,type: 730,name: 竹青火,item: 60,goodsId: 50371,num: 1,serial: 68,unit: 10000,price: 20,originalPrice: 20,discount: 100,limit: 1,peroid: 0,status: true,probability: 400}
+--- {id: 730690,type: 730,name: 天狼妖炎,item: 60,goodsId: 50372,num: 1,serial: 69,unit: 10000,price: 50,originalPrice: 50,discount: 100,limit: 1,peroid: 0,status: true,probability: 400}
+--- {id: 730700,type: 730,name: 幽冥紫炎,item: 60,goodsId: 50373,num: 1,serial: 70,unit: 10000,price: 80,originalPrice: 80,discount: 100,limit: 1,peroid: 0,status: true,probability: 400}
+--- {id: 730710,type: 730,name: 涅槃之火,item: 60,goodsId: 50374,num: 1,serial: 71,unit: 10000,price: 120,originalPrice: 120,discount: 100,limit: 1,peroid: 0,status: true,probability: 300}
+--- {id: 730720,type: 730,name: 红莲业火,item: 60,goodsId: 50375,num: 1,serial: 72,unit: 10000,price: 160,originalPrice: 160,discount: 100,limit: 1,peroid: 0,status: true,probability: 200}
+--- {id: 730730,type: 730,name: 九天神火,item: 60,goodsId: 50376,num: 1,serial: 73,unit: 10000,price: 200,originalPrice: 200,discount: 100,limit: 1,peroid: 0,status: true,probability: 100}
+--- {id: 730740,type: 730,name: 猴儿酒*2,item: 60,goodsId: 50356,num: 2,serial: 74,unit: 10000,price: 10,originalPrice: 10,discount: 100,limit: 15,peroid: 0,status: true,probability: 0}
+--- {id: 730750,type: 730,name: 竹叶青*2,item: 60,goodsId: 50357,num: 2,serial: 75,unit: 10000,price: 10,originalPrice: 10,discount: 100,limit: 15,peroid: 0,status: true,probability: 0}
+--- {id: 730760,type: 730,name: 玉虚神水,item: 60,goodsId: 50395,num: 1,serial: 76,unit: 10000,price: 15,originalPrice: 15,discount: 100,limit: 3,peroid: 0,status: true,probability: 0}
+--- {id: 730770,type: 730,name: 高级复阵图,item: 60,goodsId: 50401,num: 1,serial: 77,unit: 10000,price: 20,originalPrice: 20,discount: 100,limit: 1,peroid: 0,status: true,probability: 0}
+
+#type=740->万圣餐厅
+--- {id: 740001,type: 740,name: 买入芝士奶酪/芝士奶酪,item: 60,goodsId: 50421,num: 1,serial: 1,unit: 125,price: 10,originalPrice: 10,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740002,type: 740,name: 芝士奶酪/万圣南瓜*10,item: 60,goodsId: 50429,num: 10,serial: 2,unit: 126,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740003,type: 740,name: 鸡肉Taco/万圣南瓜*20,item: 60,goodsId: 50429,num: 20,serial: 3,unit: 127,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740004,type: 740,name: 奶香切片/万圣南瓜*40,item: 60,goodsId: 50429,num: 40,serial: 4,unit: 128,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740005,type: 740,name: 酥脆曲奇/万圣南瓜*80,item: 60,goodsId: 50429,num: 80,serial: 5,unit: 129,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740006,type: 740,name: 蜜糖舒芙蕾/万圣南瓜*160,item: 60,goodsId: 50429,num: 160,serial: 6,unit: 130,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740007,type: 740,name: 草莓挞挞/万圣南瓜*320,item: 60,goodsId: 50429,num: 320,serial: 7,unit: 131,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740008,type: 740,name: 醇香酥茶/万圣南瓜*640,item: 60,goodsId: 50429,num: 640,serial: 8,unit: 132,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 740009,type: 740,name: 糖果南瓜桶/万圣南瓜*1280,item: 60,goodsId: 50429,num: 1280,serial: 9,unit: 133,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=750->万圣餐厅兑换
+--- {id: 750001,type: 750,name: 铜钱*50万,item: 20,goodsId: 0,num: 500000,serial: 1,unit: 134,price: 125,originalPrice: 100,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 750002,type: 750,name: 通天残卷*10,item: 60,goodsId: 11010,num: 10,serial: 2,unit: 134,price: 375,originalPrice: 300,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 750003,type: 750,name: 魂源*9,item: 60,goodsId: 10180,num: 9,serial: 3,unit: 134,price: 625,originalPrice: 500,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750004,type: 750,name: 仙之源*9,item: 60,goodsId: 10110,num: 9,serial: 4,unit: 134,price: 2000,originalPrice: 1600,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750005,type: 750,name: 万能符箓*1,item: 60,goodsId: 20010,num: 1,serial: 5,unit: 134,price: 1875,originalPrice: 1500,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750006,type: 750,name: 地阶符首*1,item: 60,goodsId: 50131,num: 1,serial: 6,unit: 134,price: 1875,originalPrice: 1500,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750007,type: 750,name: 炼技保护符*1,item: 60,goodsId: 11400,num: 1,serial: 7,unit: 134,price: 1500,originalPrice: 1200,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750008,type: 750,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060,num: 1,serial: 8,unit: 134,price: 3750,originalPrice: 3000,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750009,type: 750,name: 随机高级卷轴*1,item: 60,goodsId: 11410,num: 1,serial: 9,unit: 134,price: 7500,originalPrice: 6000,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 750010,type: 750,name: 随机秘传卷轴*1,item: 60,goodsId: 50010,num: 1,serial: 10,unit: 134,price: 20000,originalPrice: 16000,discount: 100,limit: 1,peroid: 0,status: true}
+
+
+#type=760->竞猜商店
+--- {id: 760001,type: 760,name: 神力横扫封神令*1,item: 60,goodsId: 90210,num: 1,serial: 1,unit: 135,price: 14000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760002,type: 760,name: 冷箭符图*1,item: 60,goodsId: 231307,num: 1,serial: 2,unit: 135,price: 12000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760003,type: 760,name: 至尊秘传宝箱*1,item: 60,goodsId: 11065,num: 1,serial: 3,unit: 135,price: 10000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760004,type: 760,name: 随机秘传卷轴*1,item: 60,goodsId: 50010,num: 1,serial: 4,unit: 135,price: 8000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760005,type: 760,name: 随机高级卷轴*1,item: 60,goodsId: 11410,num: 1,serial: 5,unit: 135,price: 6000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760006,type: 760,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060,num: 1,serial: 6,unit: 135,price: 3000,originalPrice: 100,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 760007,type: 760,name: 通天残卷*1,item: 60,goodsId: 11010,num: 1,serial: 7,unit: 135,price: 100,originalPrice: 100,discount: 100,limit: 100,peroid: 0,status: true}
+--- {id: 760008,type: 760,name: 神砂*1,item: 60,goodsId: 10020,num: 1,serial: 8,unit: 135,price: 50,originalPrice: 100,discount: 100,limit: 100,peroid: 0,status: true}
+
+
+#type=770->荣耀货币兑换 按照金银铜排列
+--- {id: 770001,type: 770,name: 荣耀银币*100(金币换银币),item: 60,goodsId: 50012,num: 100,serial: 3,unit: 50011,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 770002,type: 770,name: 荣耀铜币*10000(金币换铜币),item: 60,goodsId: 50198,num: 10000,serial: 2,unit: 50011,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 770003,type: 770,name: 荣耀金币*1(银币换金币),item: 60,goodsId: 50011,num: 1,serial: 5,unit: 50012,price: 100,originalPrice: 100,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 770004,type: 770,name: 荣耀铜币*100(银币换铜币),item: 60,goodsId: 50198,num: 100,serial: 1,unit: 50012,price: 1,originalPrice: 1,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 770005,type: 770,name: 荣耀金币*1(铜币换金币),item: 60,goodsId: 50011,num: 1,serial: 6,unit: 50198,price: 10000,originalPrice: 10000,discount: 100,limit: 0,peroid: 0,status: true}
+--- {id: 770006,type: 770,name: 荣耀银币*1(铜币换银币),item: 60,goodsId: 50012,num: 1,serial: 4,unit: 50198,price: 100,originalPrice: 100,discount: 100,limit: 0,peroid: 0,status: true}
+
+#type=790->生肖对碰商店
+--- {id: 790001,type: 790,name: 铜钱*50万,item: 20,goodsId: 0,num: 500000,serial: 1,unit: 138,price: 25,originalPrice: 25,discount: 100,limit: 20,peroid: 0,status: true}
+--- {id: 790002,type: 790,name: 通天残卷*10,item: 60,goodsId: 11010,num: 10,serial: 2,unit: 138,price: 75,originalPrice: 75,discount: 100,limit: 20,peroid: 0,status: true}
+--- {id: 790003,type: 790,name: 花神赋*1,item: 60,goodsId: 50221,num: 1,serial: 3,unit: 138,price: 75,originalPrice: 75,discount: 100,limit: 10,peroid: 0,status: true}
+--- {id: 790004,type: 790,name: 魂源*9,item: 60,goodsId: 10180,num: 9,serial: 4,unit: 138,price: 125,originalPrice: 125,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790005,type: 790,name: 仙之源*9,item: 60,goodsId: 10110,num: 9,serial: 5,unit: 138,price: 400,originalPrice: 400,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790006,type: 790,name: 万能符箓*1,item: 60,goodsId: 20010,num: 1,serial: 6,unit: 138,price: 375,originalPrice: 375,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790007,type: 790,name: 地阶符首*1,item: 60,goodsId: 50131,num: 1,serial: 7,unit: 138,price: 375,originalPrice: 375,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790008,type: 790,name: 炼技保护符*1,item: 60,goodsId: 11400,num: 1,serial: 8,unit: 138,price: 300,originalPrice: 300,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790009,type: 790,name: 传奇卷轴宝箱*1,item: 60,goodsId: 11060,num: 1,serial: 9,unit: 138,price: 750,originalPrice: 750,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790010,type: 790,name: 随机高级卷轴*1,item: 60,goodsId: 11410,num: 1,serial: 10,unit: 138,price: 1500,originalPrice: 1500,discount: 100,limit: 1,peroid: 0,status: true}
+--- {id: 790011,type: 790,name: 随机秘传卷轴*1,item: 60,goodsId: 50010,num: 1,serial: 11,unit: 138,price: 4000,originalPrice: 4000,discount: 100,limit: 1,peroid: 0,status: true}

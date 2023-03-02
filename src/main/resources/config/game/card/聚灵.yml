@@ -1,0 +1,13 @@
+#野怪
+#CfgJuLing
+key: 唯一
+#聚灵可选卡牌
+jlCards: [101, 236, 302, 401, 502] #普通
+jlXDCards: [102, 202, 301, 402, 501] #限定
+#聚灵指定卡牌需要的元宝
+needGoldForJL: 500 #普通
+needGoldForJLXD: 2000 #限定
+#聚灵需要的聚灵旗
+needJlqForJL: 8
+#聚灵需要的唤神符数量
+needHsfForJLXD: 8

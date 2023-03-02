@@ -1,0 +1,19 @@
+key: 11780
+desc: 随机获得以下奖励之一：铜钱*10万、元宝*10、神砂*2
+isRandom: true
+categoryNum: 1
+goods: 
+  -
+    item: 20
+    num: 100000
+    prop: 4000
+  -
+    item: 10
+    num: 10
+    prop: 3000
+  -
+    item: 60
+    good: 神沙
+    num: 2
+    prop: 3000
+...

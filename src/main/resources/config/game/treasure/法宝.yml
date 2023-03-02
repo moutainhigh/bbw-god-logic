@@ -1,0 +1,11 @@
+key: 唯一
+#财神珠有效步数
+treasureEffectCSZ: 200
+#落宝金钱有效步数
+treasureEffectLBJQ: 3
+#青鸾有效步数
+treasureEffectQL: 10
+#四不像有效步数
+treasureEffectSBX: 10
+#玉麒麟+10体力
+treasureEffectYQL: 60

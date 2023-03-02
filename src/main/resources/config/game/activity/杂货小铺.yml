@@ -1,0 +1,52 @@
+#CfgGroceryShop
+
+key: 唯一
+#盲盒的最大数量
+blindBoxMaxNum: 30
+#至少需要打开多少个盲盒，才可以刷新
+blindBoxNeedNum: 25
+#若前面都没有开出大奖，然第25次必出大奖
+needMustGetNum: 25
+#盲盒大奖配置
+#treasureName 名称
+#treasureId 大奖道具id
+#needTreasure 需要消耗的道具id
+#num 需要消耗的道具数量
+#award 奖励
+blindBoxGrandPrixs:
+  - {treasureName: 随机秘传卷轴*1, treasureId: 50010, needTreasure: 50473, num: 188,award:{item: 60,awardId: 50010,num: 1}}
+  - {treasureName: 随机高级卷轴*1, treasureId: 11410, needTreasure: 50473, num: 108,award:{item: 60,awardId: 11410,num: 1}}
+  - {treasureName: 房日兔*1, treasureId: 468, needTreasure: 50473, num: 108,award:{item: 40,awardId: 468,num: 1}}
+  - {treasureName: 传奇卷轴宝箱*1, treasureId: 11060, needTreasure: 50473, num: 88,award:{item: 60,awardId: 11060,num: 1}}
+  - {treasureName: 炼技保护符*1, treasureId: 11400, needTreasure: 50473, num: 88,award:{item: 60,awardId: 11400,num: 1}}
+  - {treasureName: 仙之源*9, treasureId: 10110, needTreasure: 50473, num: 58,award:{item: 60,awardId: 10110,num: 9}}
+
+
+#盲盒奖励配置
+#treasureId 大奖的道具id
+#awards 奖励,大奖要配置在里面，保证里面奖励三十个
+blindBoxAwards:
+  #随机秘传卷轴*1
+  - {treasureId: 50010, awards:[
+    {item: 60,awardId: 50010,num: 1},{item: 10,num: 50},{item: 10,num: 30},{item: 10,num: 25},{item: 10,num: 20},{item: 20,num: 1000000},{item: 20,num: 800000},{item: 20,num: 500000},{item: 20,num: 300000},{item: 20,num: 200000},{item: 60,awardId: 10020,num: 60},{item: 60,awardId: 10020,num: 50},{item: 60,awardId: 10020,num: 30},{item: 60,awardId: 10020,num: 20},{item: 60,awardId: 11010,num: 15},{item: 60,awardId: 11010,num: 10},{item: 60,awardId: 11010,num: 8},{item: 60,awardId: 11600,num: 10},{item: 60,awardId: 11600,num: 8},{item: 60,awardId: 810,num: 50},{item: 60,awardId: 820,num: 30},{item: 60,awardId: 830,num: 20},{item: 60,awardId: 840,num: 12},{item: 60,awardId: 850,num: 8},{item: 60,awardId: 11720,num: 10},{item: 60,awardId: 11090,num: 10},{item: 60,awardId: 50364,num: 15},{item: 60,awardId:  50364,num: 10},{item: 60,awardId: 50365,num: 15},{item: 60,awardId: 50365,num: 10}
+  ]}
+  #随机高级卷轴*1
+  - {treasureId: 11410, awards:[
+    {item: 60,awardId: 11410,num: 1},{item: 10,num: 25},{item: 10,num: 15},{item: 10,num: 13},{item: 10,num: 10},{item: 20,num: 500000},{item: 20,num: 400000},{item: 20,num: 250000},{item: 20,num: 150000},{item: 20,num: 100000},{item: 60,awardId: 10020,num: 30},{item: 60,awardId: 10020,num: 25},{item: 60,awardId: 10020,num: 15},{item: 60,awardId: 10020,num: 10},{item: 60,awardId: 11010,num: 8},{item: 60,awardId: 11010,num: 5},{item: 60,awardId: 11010,num: 4},{item: 60,awardId: 11600,num: 5},{item: 60,awardId: 11600,num: 4},{item: 60,awardId: 810,num: 25},{item: 60,awardId: 820,num: 15},{item: 60,awardId: 830,num: 10},{item: 60,awardId: 840,num: 6},{item: 60,awardId: 850,num: 4},{item: 60,awardId: 11720,num: 5},{item: 60,awardId: 11090,num: 5},{item: 60,awardId: 50364,num: 8},{item: 60,awardId:  50364,num: 5},{item: 60,awardId: 50365,num: 8},{item: 60,awardId: 50365,num: 5}
+  ]}
+  #房日兔*1
+  - {treasureId: 468, awards:[
+    {item: 40,awardId: 468,num: 1},{item: 10,num: 25},{item: 10,num: 15},{item: 10,num: 13},{item: 10,num: 10},{item: 20,num: 500000},{item: 20,num: 400000},{item: 20,num: 250000},{item: 20,num: 150000},{item: 20,num: 100000},{item: 60,awardId: 10020,num: 30},{item: 60,awardId: 10020,num: 25},{item: 60,awardId: 10020,num: 15},{item: 60,awardId: 10020,num: 10},{item: 60,awardId: 11010,num: 8},{item: 60,awardId: 11010,num: 5},{item: 60,awardId: 11010,num: 4},{item: 60,awardId: 11600,num: 5},{item: 60,awardId: 11600,num: 4},{item: 60,awardId: 810,num: 25},{item: 60,awardId: 820,num: 15},{item: 60,awardId: 830,num: 10},{item: 60,awardId: 840,num: 6},{item: 60,awardId: 850,num: 4},{item: 60,awardId: 11720,num: 5},{item: 60,awardId: 11090,num: 5},{item: 60,awardId: 50364,num: 8},{item: 60,awardId:  50364,num: 5},{item: 60,awardId: 50365,num: 8},{item: 60,awardId: 50365,num: 5}
+  ]}
+  #传奇卷轴宝箱*1
+  - {treasureId: 11060, awards:[
+    {item: 60,awardId: 11060,num: 1},{item: 10,num: 20},{item: 10,num: 12},{item: 10,num: 10},{item: 10,num: 8},{item: 20,num: 400000},{item: 20,num: 320000},{item: 20,num: 200000},{item: 20,num: 120000},{item: 20,num: 80000},{item: 60,awardId: 10020,num: 24},{item: 60,awardId: 10020,num: 20},{item: 60,awardId: 10020,num: 12},{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 11010,num: 6},{item: 60,awardId: 11010,num: 4},{item: 60,awardId: 11010,num: 3},{item: 60,awardId: 11600,num: 4},{item: 60,awardId: 11600,num: 3},{item: 60,awardId: 810,num: 20},{item: 60,awardId: 820,num: 12},{item: 60,awardId: 830,num: 8},{item: 60,awardId: 840,num: 5},{item: 60,awardId: 850,num: 3},{item: 60,awardId: 11720,num: 4},{item: 60,awardId: 11090,num: 4},{item: 60,awardId: 50364,num: 6},{item: 60,awardId:  50364,num: 4},{item: 60,awardId: 50365,num: 6},{item: 60,awardId: 50365,num: 4}
+  ]}
+  #炼技保护符*1
+  - {treasureId: 11400, awards:[
+    {item: 60,awardId: 11400,num: 1},{item: 10,num: 20},{item: 10,num: 12},{item: 10,num: 10},{item: 10,num: 8},{item: 20,num: 400000},{item: 20,num: 320000},{item: 20,num: 200000},{item: 20,num: 120000},{item: 20,num: 80000},{item: 60,awardId: 10020,num: 24},{item: 60,awardId: 10020,num: 20},{item: 60,awardId: 10020,num: 12},{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 11010,num: 6},{item: 60,awardId: 11010,num: 4},{item: 60,awardId: 11010,num: 3},{item: 60,awardId: 11600,num: 4},{item: 60,awardId: 11600,num: 3},{item: 60,awardId: 810,num: 20},{item: 60,awardId: 820,num: 12},{item: 60,awardId: 830,num: 8},{item: 60,awardId: 840,num: 5},{item: 60,awardId: 850,num: 3},{item: 60,awardId: 11720,num: 4},{item: 60,awardId: 11090,num: 4},{item: 60,awardId: 50364,num: 6},{item: 60,awardId:  50364,num: 4},{item: 60,awardId: 50365,num: 6},{item: 60,awardId: 50365,num: 4}
+  ]}
+  #仙之源*9
+  - {treasureId: 10110, awards:[
+    {item: 60,awardId: 10110,num: 9},{item: 10,num: 15},{item: 10,num: 9},{item: 10,num: 8},{item: 10,num: 6},{item: 20,num: 300000},{item: 20,num: 240000},{item: 20,num: 150000},{item: 20,num: 90000},{item: 20,num: 60000},{item: 60,awardId: 10020,num: 18},{item: 60,awardId: 10020,num: 15},{item: 60,awardId: 10020,num: 9},{item: 60,awardId: 10020,num: 6},{item: 60,awardId: 11010,num: 5},{item: 60,awardId: 11010,num: 3},{item: 60,awardId: 11010,num: 2},{item: 60,awardId: 11600,num: 3},{item: 60,awardId: 11600,num: 2},{item: 60,awardId: 810,num: 15},{item: 60,awardId: 820,num: 9},{item: 60,awardId: 830,num: 6},{item: 60,awardId: 840,num: 3},{item: 60,awardId: 850,num: 2},{item: 60,awardId: 11720,num: 3},{item: 60,awardId: 11090,num: 3},{item: 60,awardId: 50364,num: 5},{item: 60,awardId:  50364,num: 3},{item: 60,awardId: 50365,num: 5},{item: 60,awardId: 50365,num: 3}
+  ]}

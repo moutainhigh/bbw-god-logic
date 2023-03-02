@@ -1,0 +1,21 @@
+#TODO
+#需要参数：神仙概率
+---
+#策略名称
+key: "精英野怪_玩家等级[20,29]"
+#策略描述
+# CityConfig.java
+#  [20,29]级卡牌掉率  {0% 45.5%  45.5% 9%  0%};
+desc: 按概率掉落一张卡牌（way=0）；概率跟野怪召唤师的等级有关；概率受神仙的影响
+#【请把最好的卡牌排在最前面，选卡时候依次从上往下执行，选择到满足结果要求的最大值后，将不再继续选择】
+selectors:
+  - key: 4星卡
+    condition: {star: 4,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 9}
+  - key: 3星卡
+    condition: {star: 3,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 45.5}
+  - key: 2星卡
+    condition: {star: 2,include: [$0类卡,$可洗入大地图卡牌集]}
+    probability: {type: 1,value: 100}
+...

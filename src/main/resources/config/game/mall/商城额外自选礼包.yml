@@ -1,0 +1,6 @@
+#卡牌 日礼包
+#CfgMallExtraPackEntity
+--- {id: 180001,extraAwards: [{item: 60,awardId: 10110,num: 1},{item: 60,awardId: 110,num: 1},{item: 60,awardId: 50157,num: 2},{item: 60,awardId: 11090,num: 1},{item: 60,awardId: 11572,num: 5}]}
+--- {id: 180002,extraAwards: [{item: 60,awardId: 50130,num: 1},{item: 60,awardId: 580,num: 1},{item: 60,awardId: 11720,num: 2},{item: 60,awardId: 50158,num: 1},{item: 60,awardId: 50156,num: 1}]}
+--- {id: 180003,extraAwards: [{item: 60,awardId: 11100,num: 1},{item: 60,awardId: 10180,num: 1},{item: 60,awardId: 10050,num: 1},{item: 60,awardId: 11571,num: 1},{item: 60,awardId: 50128,num: 30}]}
+--- {id: 105098,extraAwards: [{item: 60,awardId: 10110,num: 9},{item: 60,awardId: 11350,num: 12},{item: 60,awardId: 11360,num: 12},{item: 60,awardId: 11370,num: 12},{item: 60,awardId: 11380,num: 12},{item: 60,awardId: 11390,num: 12}]}

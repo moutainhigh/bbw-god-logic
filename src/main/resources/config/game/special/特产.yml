@@ -1,0 +1,5 @@
+#特产参数配置
+#CfgSpecial
+key: 唯一
+#特产的最高上限
+specialMaxLimit: 24

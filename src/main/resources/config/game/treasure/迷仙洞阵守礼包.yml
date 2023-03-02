@@ -1,0 +1,28 @@
+---
+# CfgMxdZhenShou
+key: 唯一
+randomAwards:
+  - {item: 20,num: 100000,probability: 600}
+  - {item: 20,num: 50000,probability: 600}
+  - {item: 20,num: 30000,probability: 750}
+  - {item: 60,num: 10,awardId: 10020,probability: 500}
+  - {item: 60,num: 5,awardId: 10020,probability: 600}
+  - {item: 60,num: 3,awardId: 10020,probability: 800}
+  - {item: 60,num: 1,awardId: 10180,probability: 300}
+  - {item: 60,num: 1,awardId: 850,probability: 100}
+  - {item: 60,num: 1,awardId: 840,probability: 200}
+  - {item: 60,num: 1,awardId: 830,probability: 300}
+  - {item: 60,num: 1,awardId: 820,probability: 400}
+  - {item: 60,num: 1,awardId: 11010,probability: 400}
+  - {item: 60,num: 2,awardId: 11010,probability: 300}
+  - {item: 60,num: 3,awardId: 11010,probability: 200}
+  - {item: 60,num: 1,awardId: 10030,probability: 300}
+  - {item: 60,num: 1,awardId: 0,star: 5,probability: 300}
+  - {item: 60,num: 1,awardId: 0,star: 4,probability: 500}
+  - {item: 60,num: 1,awardId: 0,star: 3,probability: 800}
+  - {item: 60,num: 1,awardId: 0,star: 2,probability: 800}
+  - {item: 60,num: 1,awardId: 11620,probability: 300}
+  - {item: 60,num: 1,awardId: 11630,probability: 300}
+  - {item: 60,num: 1,awardId: 11640,probability: 300}
+  - {item: 60,num: 1,awardId: 11650,probability: 300}
+  - {item: 60,num: 1,awardId: 11410,probability: 50}

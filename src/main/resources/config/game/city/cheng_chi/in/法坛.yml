@@ -1,0 +1,22 @@
+#法坛数据配置
+#CfgFaTanEntity
+key: 唯一
+#解锁法坛需要的铜钱
+unlockFaTanNeedCopper: 1000000
+#解锁法坛需要消耗的道具
+unlockFaTanNeedTreasureId: 50133
+#解锁法坛需要消耗的道具数量
+unlockFaTanNeedTreasureNum: 3
+#升级相关数据
+upgradeFaTan:
+  #faTanLv：法坛等级 needCopper：需要铜钱 needRepairValue：需要修缮值 probability：概率 needTreasure：需要道具和数量
+  - {faTanLv: 1,needCopper: 1500000,needRepairValue: 2,probability: 250,needTreasure: [{treasureId: 50133,num: 1}]}
+  - {faTanLv: 2,needCopper: 2000000,needRepairValue: 2,probability: 250,needTreasure: [{treasureId: 50133,num: 1}]}
+  - {faTanLv: 3,needCopper: 2500000,needRepairValue: 2,probability: 250,needTreasure: [{treasureId: 50133,num: 1}]}
+  - {faTanLv: 4,needCopper: 3000000,needRepairValue: 3,probability: 150,needTreasure: [{treasureId: 50133,num: 1}]}
+  - {faTanLv: 5,needCopper: 3500000,needRepairValue: 3,probability: 150,needTreasure: [{treasureId: 50133,num: 1}]}
+  - {faTanLv: 6,needCopper: 4000000,needRepairValue: 3,probability: 150,needTreasure: [{treasureId: 50133,num: 2}]}
+  - {faTanLv: 7,needCopper: 4500000,needRepairValue: 4,probability: 125,needTreasure: [{treasureId: 50133,num: 2}]}
+  - {faTanLv: 8,needCopper: 5000000,needRepairValue: 4,probability: 125,needTreasure: [{treasureId: 50133,num: 2}]}
+  - {faTanLv: 9,needCopper: 5500000,needRepairValue: 4,probability: 125,needTreasure: [{treasureId: 50133,num: 2}]}
+  - {faTanLv: 10,needCopper: 6000000,needRepairValue: 5,probability: 100,needTreasure: [{treasureId: 50133,num: 2}]}

@@ -1,0 +1,19 @@
+#活动道具产出相关配置
+#CfgHolidaySummerHeat
+key: 唯一
+#初始售出价格(单位：铜钱)
+initialSellingPrice:
+  - {treasureId: 50308, price: 5000}
+
+#触发野怪宝箱概率
+yeGuaiTriggerPro: 0
+#野怪宝箱概率产出
+yeGuaiBoxOutPut: [{item: 60,awardId: 50308,num: 1,probability: 100}]
+#村庄触发概率
+cunZTriggerPro: 0
+#村庄产出
+cunZOutPut: [{item: 60,awardId: 50308,num: 1,probability: 70},{item: 60,awardId: 50309,num: 1,probability: 28},{item: 60,awardId: 50310,num: 1,probability: 2}]
+#特产触发概率
+specialsTriggerPro: 0
+#特产产出
+specialsOutPut: [{item: 60,awardId: 50308,num: 1,probability: 100}]

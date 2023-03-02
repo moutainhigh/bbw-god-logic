@@ -1,0 +1,31 @@
+#野怪
+#CfgYeGuai
+key: 唯一
+#开箱子价格
+ygBoxPrice: 20
+#野怪开箱子
+yeGBoxs:
+  #YG_NORMAL("普通野怪", 10, 3750),
+  #YG_XIONG_SHOU("凶兽来袭", 15, 5000),
+  #YG_ELITE("精英野怪", 30, 1250),
+  #YG_FRIEND("好友野怪", 40, 0),
+  #YG_ELITE_FRIEND("好友精英野怪", 50, 0);
+  - {yeGType: 10,minLevel: 1,maxLevel: 9,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[1,9]"}
+  - {yeGType: 10,minLevel: 10,maxLevel: 19,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[10,19]"}
+  - {yeGType: 10,minLevel: 20,maxLevel: 29,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[20,29]"}
+  - {yeGType: 10,minLevel: 30,maxLevel: 39,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[30,39]"}
+  - {yeGType: 10,minLevel: 40,maxLevel: 49,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[40,49]"}
+  - {yeGType: 10,minLevel: 50,maxLevel: 999,isBusinessGang: false,boxKey: "普通野怪宝箱_玩家等级[50,999]"}
+
+  - {yeGType: 10,minLevel: 20,maxLevel: 29,isBusinessGang: true,boxKey: "普通野怪宝箱_升级_玩家等级[20,29]"}
+  - {yeGType: 10,minLevel: 30,maxLevel: 39,isBusinessGang: true,boxKey: "普通野怪宝箱_升级_玩家等级[30,39]"}
+  - {yeGType: 10,minLevel: 40,maxLevel: 49,isBusinessGang: true,boxKey: "普通野怪宝箱_升级_玩家等级[40,49]"}
+  - {yeGType: 10,minLevel: 50,maxLevel: 999,isBusinessGang: true,boxKey: "普通野怪宝箱_升级_玩家等级[50,999]"}
+
+  - {yeGType: 30,minLevel: 20,maxLevel: 29,isBusinessGang: false,boxKey: "精英野怪宝箱_玩家等级[20,29]"}
+  - {yeGType: 30,minLevel: 30,maxLevel: 39,isBusinessGang: false,boxKey: "精英野怪宝箱_玩家等级[30,39]"}
+  - {yeGType: 30,minLevel: 40,maxLevel: 999,isBusinessGang: false,boxKey: "精英野怪宝箱_玩家等级[40,999]"}
+
+  - {yeGType: 30,minLevel: 20,maxLevel: 29,isBusinessGang: true,boxKey: "精英野怪宝箱_升级_玩家等级[20,29]"}
+  - {yeGType: 30,minLevel: 30,maxLevel: 39,isBusinessGang: true,boxKey: "精英野怪宝箱_升级_玩家等级[30,39]"}
+  - {yeGType: 30,minLevel: 40,maxLevel: 999,isBusinessGang: true,boxKey: "精英野怪宝箱_升级_玩家等级[40,999]"}

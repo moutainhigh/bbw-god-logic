@@ -1,0 +1,15 @@
+#箱子标识
+key: 1001
+#箱子描述
+desc: 神仙大会门票*1，附赠：夺宝积分*60
+#是否随机
+isRandom: false
+#物品
+goods:
+  - item: 60 #道具
+    good: 神仙大会门票
+    num: 1
+  - item: 60 #道具
+    good: 夺宝积分
+    num: 60
+...

@@ -1,0 +1,31 @@
+---
+#阐截斗法相关配置
+key: 唯一
+#结算邮件配置
+mails: 
+  - {id: 110,title: "胜不骄",content: "亲爱的召唤师：\n  本赛季阐截斗法已落下帷幕，您所在的教派获得最终胜利。尽情享受胜利的喜悦，下赛季见！",awards: '[{"item":60,"awardId":840,"num":2},{"item":20,"num":500000},{"item":60,"awardId":10020,"num":30}]',memo: "四星灵石*2、铜钱*50w、神砂*30"}
+  - {id: 120,title: "败不馁",content: "亲爱的召唤师：\n  本赛季阐截斗法已落下帷幕，您所在的教派不幸败北。希望您再接再历，下赛季越战越勇！",awards: '[{"item":60,"awardId":840,"num":1},{"item":20,"num":300000},{"item":60,"awardId":10020,"num":20}]',memo: "四星灵石*1、铜钱*30w、神砂*20"}
+  - {id: 130,title: "乱斗封神邀请函",content: "亲爱的召唤师：\n  恭喜您获得乱斗封神的参赛资格，比赛将于周日20:00开启，请务必准时赴约哦。",awards: "",memo: ""}
+  - {id: 140,title: "荣登宝座",content: "亲爱的召唤师：\n  您在本赛季英勇地发挥，帮助教派获得了许多精彩的胜利。下赛季您将荣登【掌教师尊】宝座，教派的荣光需要您的带领。",awards: "",memo: ""}
+  - {id: 150,title: "教派奇人",content: "  恭喜您在【教派奇人-%s】中获得了%s个赞。成为教派之星指日可待。",awards: '[{"item":20,"num":300000}]',memo: "30w铜钱"}
+  - {id: 160,title: "站在世界之巅",content: "恭喜您获得本次乱斗封神的最终胜利，您的传说和威名将在商周大陆上久久传唱。",awards: '[{"item":40,"awardId":537,"num":1}]',memo: "四星卡牌-应龙*1"}
+  
+honorlv:
+  - {lv: 1,memo: "外门弟子",multiple: 1,honor: 2}
+  - {lv: 2,memo: "内门弟子",multiple: 1.5,honor: 3}
+  - {lv: 3,memo: "真传弟子",multiple: 2,honor: 4}
+  - {lv: 4,memo: "渡劫地仙",multiple: 2.5,honor: 5}
+  - {lv: 5,memo: "大乘天仙",multiple: 3,honor: 6}
+  - {lv: 6,memo: "大罗地仙",multiple: 3.5,honor: 7}
+  - {lv: 7,memo: "护教法王",multiple: 4,honor: 8}
+  - {lv: 8,memo: "掌教师尊",multiple: 4.5,honor: 10}
+  
+specialHonor:
+  #游刃有余
+  - {id: 3006,memo: "获得%s场胜利的 %s.%s",content: "都是修道的，为啥你这么优秀"}
+  #天选之人
+  - {id: 3007,memo: "匹配到%s次仙人的 %s.%s",content: "你，就是全教的希望"}
+  #锐不可当
+  - {id: 3008,memo: "拿下%s场连胜的 %s.%s",content: "道友别哔哔，不服来比比"}
+  #得道升天
+  - {id: 3009,memo: "获得%s积分的 %s.%s",content: "在你的眼里，大家都是积分"}

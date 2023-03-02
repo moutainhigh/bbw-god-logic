@@ -1,0 +1,7 @@
+#夺宝宝箱
+#CfgSnatchTreasureBox
+--- {id: 10,value: 5,awards: [{item: 60,awardId: 11090,num: 1}]}
+--- {id: 20,value: 15,awards: [{item: 60,awardId: 11090,num: 1},{item: 60,awardId: 10180,num: 2}]}
+--- {id: 30,value: 35,awards: [{item: 60,awardId: 11090,num: 1},{item: 60,awardId: 10180,num: 5}]}
+--- {id: 40,value: 65,awards: [{item: 60,awardId: 11090,num: 1},{item: 60,awardId: 10180,num: 9}]}
+--- {id: 50,value: 125,awards: [{item: 60,awardId: 11090,num: 1},{item: 60,awardId: 10180,num: 18}]}

@@ -1,0 +1,198 @@
+#战令等级奖励 CfgWarTokenLevelAward
+--- {tokenLevel: 1,baseAwards: [{item: 60,awardId: 11700,num: 4}],supAwards: [{item: 40,awardId: 364,num: 1},{item: 60,awardId: 11700,num: 12}]}
+--- {tokenLevel: 2,baseAwards: [{item: 60,awardId: 10110,num: 1}],supAwards: [{item: 60,awardId: 10110,num: 1}]}
+--- {tokenLevel: 3,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 11010,num: 2}]}
+--- {tokenLevel: 4,baseAwards: [{item: 60,awardId: 10020,num: 2}],supAwards: [{item: 60,awardId: 11110,num: 30}]}
+--- {tokenLevel: 5,baseAwards: [{item: 60,awardId: 11700,num: 4}],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 11010,num: 2}]}
+--- {tokenLevel: 6,baseAwards: [{item: 60,awardId: 10020,num: 2}],supAwards: [{item: 60,awardId: 10020,num: 2}]}
+--- {tokenLevel: 7,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 8,baseAwards: [{item: 60,awardId: 580,num: 1}],supAwards: [{item: 60,awardId: 580,num: 1}]}
+--- {tokenLevel: 9,baseAwards: [{item: 60,awardId: 11699,num: 1}],supAwards: [{item: 60,awardId: 11110,num: 30}]}
+
+--- {tokenLevel: 10,baseAwards: [{item: 60,awardId: 520,num: 1}],supAwards: [{item: 60,awardId: 11060,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 11,baseAwards: [{item: 60,awardId: 10110,num: 1}],supAwards: [{item: 60,awardId: 10180,num: 2}]}
+--- {tokenLevel: 12,baseAwards: [{item: 60,awardId: 11010,num: 1}],supAwards: [{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 13,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 11090,num: 1}]}
+--- {tokenLevel: 14,baseAwards: [{item: 20,awardId: 0,num: 100000}],supAwards: [{item: 60,awardId: 10020,num: 2}]}
+--- {tokenLevel: 15,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 16,baseAwards: [{item: 60,awardId: 11010,num: 1}],supAwards: [{item: 60,awardId: 580,num: 1}]}
+--- {tokenLevel: 17,baseAwards: [{item: 60,awardId: 11090,num: 1}],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 18,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 19,baseAwards: [{item: 60,awardId: 10110,num: 1}],supAwards: [{item: 60,awardId: 11110,num: 30}]}
+
+--- {tokenLevel: 20,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 50012,num: 15},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 21,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 22,baseAwards: [{item: 60,awardId: 11090,num: 1}],supAwards: [{item: 60,awardId: 10180,num: 2}]}
+--- {tokenLevel: 23,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 24,baseAwards: [{item: 60,awardId: 10020,num: 4}],supAwards: [{item: 60,awardId: 10180,num: 2}]}
+--- {tokenLevel: 25,baseAwards: [{item: 60,awardId: 520,num: 1}],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 26,baseAwards: [{item: 60,awardId: 580,num: 1}],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 27,baseAwards: [{item: 60,awardId: 10020,num: 8}],supAwards: [{item: 60,awardId: 11090,num: 1}]}
+--- {tokenLevel: 28,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 20,awardId: 0,num: 500000}]}
+--- {tokenLevel: 29,baseAwards: [{item: 60,awardId: 11010,num: 1}],supAwards: [{item: 60,awardId: 11090,num: 1}]}
+
+--- {tokenLevel: 30,baseAwards: [{item: 60,awardId: 10010,num: 8}],supAwards: [{item: 60,awardId: 11720,num: 20},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 31,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 32,baseAwards: [{item: 10,awardId: 0,num: 100}],supAwards: [{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 33,baseAwards: [],supAwards: [{item: 20,awardId: 0,num: 500000}]}
+--- {tokenLevel: 34,baseAwards: [{item: 60,awardId: 11010,num: 1}],supAwards: [{item: 60,awardId: 10110,num: 1}]}
+--- {tokenLevel: 35,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 36,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 37,baseAwards: [{item: 60,awardId: 11110,num: 30}],supAwards: [{item: 60,awardId: 11090,num: 1}]}
+--- {tokenLevel: 38,baseAwards: [],supAwards: [{item: 60,awardId: 10180,num: 2}]}
+--- {tokenLevel: 39,baseAwards: [{item: 20,awardId: 0,num: 300000}],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+
+--- {tokenLevel: 40,baseAwards: [{item: 60,awardId: 11700,num: 10}],supAwards: [{item: 60,awardId: 50221,num: 10},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 41,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 4}]}
+--- {tokenLevel: 42,baseAwards: [{item: 60,awardId: 10180,num: 2}],supAwards: [{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 43,baseAwards: [],supAwards: [{item: 60,awardId: 10110,num: 1}]}
+--- {tokenLevel: 44,baseAwards: [{item: 60,awardId: 10180,num: 2}],supAwards: [{item: 10,awardId: 0,num: 100}]}
+--- {tokenLevel: 45,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 46,baseAwards: [],supAwards: [{item: 20,awardId: 0,num: 500000}]}
+--- {tokenLevel: 47,baseAwards: [{item: 60,awardId: 10020,num: 12}],supAwards: [{item: 60,awardId: 11090,num: 1}]}
+--- {tokenLevel: 48,baseAwards: [],supAwards: [{item: 60,awardId: 10180,num: 2}]}
+--- {tokenLevel: 49,baseAwards: [{item: 60,awardId: 11010,num: 2}],supAwards: [{item: 60,awardId: 10110,num: 1}]}
+
+--- {tokenLevel: 50,baseAwards: [{item: 10,awardId: 0,num: 100}],supAwards: [{item: 60,awardId: 11400,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 51,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 4},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 52,baseAwards: [{item: 60,awardId: 10110,num: 1}],supAwards: [{item: 10,awardId: 0,num: 100},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 53,baseAwards: [],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 54,baseAwards: [{item: 60,awardId: 10020,num: 16}],supAwards: [{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 55,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 56,baseAwards: [],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 57,baseAwards: [{item: 60,awardId: 11700,num: 2}],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 58,baseAwards: [],supAwards: [{item: 20,awardId: 0,num: 500000},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 59,baseAwards: [{item: 60,awardId: 10020,num: 20}],supAwards: [{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 60,baseAwards: [{item: 60,awardId: 11700,num: 10}],supAwards: [{item: 60,awardId: 110220,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 61,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 62,baseAwards: [],supAwards: [{item: 10,awardId: 0,num: 100},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 63,baseAwards: [],supAwards: [{item: 60,awardId: 10180,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 64,baseAwards: [],supAwards: [{item: 20,awardId: 0,num: 500000},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 65,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 66,baseAwards: [],supAwards: [{item: 10,awardId: 0,num: 100},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 67,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 68,baseAwards: [],supAwards: [{item: 20,awardId: 0,num: 500000},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 69,baseAwards: [],supAwards: [{item: 60,awardId: 10110,num: 1},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 70,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 10170,num: 8},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 71,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 72,baseAwards: [],supAwards: [{item: 60,awardId: 10110,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 73,baseAwards: [],supAwards: [{item: 10,awardId: 0,num: 100},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 74,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 8},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 75,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 76,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 77,baseAwards: [],supAwards: [{item: 60,awardId: 10110,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 78,baseAwards: [],supAwards: [{item: 10,awardId: 0,num: 100},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 79,baseAwards: [],supAwards: [{item: 60,awardId: 10020,num: 12},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 80,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 40,awardId: 467,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 81,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 82,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 83,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 84,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 85,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 86,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 87,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 88,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 89,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 90,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11410,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 91,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 92,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 93,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 94,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 95,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 96,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 97,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 98,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 99,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 100,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 101,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 102,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 103,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 104,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 105,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 106,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 107,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 108,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 109,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 110,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 111,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 112,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 113,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 114,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 115,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11680,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 116,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 117,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 118,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+--- {tokenLevel: 119,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 150}]}
+
+--- {tokenLevel: 120,baseAwards: [{item: 60,awardId: 11680,num: 1}],supAwards: [{item: 60,awardId: 11410,num: 1},{item: 60,awardId: 11700,num: 2}]}
+--- {tokenLevel: 121,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 122,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 123,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 124,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 125,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 126,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 127,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 128,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 129,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 130,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 900}]}
+
+--- {tokenLevel: 131,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 132,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 133,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 134,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 135,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 136,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 137,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 138,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 139,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 140,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 900}]}
+
+--- {tokenLevel: 141,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 142,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 143,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 144,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 145,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 146,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 147,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 148,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 149,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 150,baseAwards: [],supAwards: [{item: 60,awardId: 50010,num: 1},{item: 60,awardId: 50198,num: 900}]}
+
+--- {tokenLevel: 151,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 152,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 153,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 154,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 155,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 156,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 157,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 158,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 159,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 160,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 900}]}
+
+--- {tokenLevel: 161,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 162,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 163,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 164,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 165,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 166,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 167,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 168,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 169,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 170,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 900}]}
+
+--- {tokenLevel: 171,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 172,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 173,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 174,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 175,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 2},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 176,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 177,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 178,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 179,baseAwards: [],supAwards: [{item: 60,awardId: 11700,num: 1},{item: 60,awardId: 50198,num: 300}]}
+--- {tokenLevel: 180,baseAwards: [],supAwards: [{item: 60,awardId: 50010,num: 1},{item: 60,awardId: 50198,num: 900}]}

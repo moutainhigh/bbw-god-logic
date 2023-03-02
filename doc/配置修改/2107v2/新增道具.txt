@@ -1,0 +1,21 @@
+--- {id: 590,name: 攻城略地礼包,type: 30,star: null,memo: ""}
+
+--- {id: 11770,name: 封神竞技勋章,type: 50,star: null,memo: ""}
+--- {id: 11780,name: 初级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11790,name: 中级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11800,name: 高级村庄宝箱,type: 50,star: null,memo: ""}
+--- {id: 11810,name: 史诗级村庄宝箱,type: 50,star: null,memo: ""}
+
+--- { id: 21239,name: 木-暗蛊,type: 56,star: null,memo: "" }
+--- { id: 21240,name: 水-暗蛊,type: 56,star: null,memo: "" }
+--- { id: 21241,name: 火-炙焰,type: 56,star: null,memo: "" }
+
+--- {id: 110100,name: 幻的卢,type: 111,star: null,memo: ""}
+--- {id: 110110,name: 掠日隼,type: 110,star: null,memo: ""}
+
+--- {id: 120010,name: 法术分身,type: 120,star: null,memo: ""}
+--- {id: 120020,name: 诗酒年华,type: 120,star: null,memo: ""}
+--- {id: 11571,name: 时装升级丹,type: 50,star: null,memo: ""}
+--- {id: 11572,name: 神行符,type: 50,star: null,memo: ""}
+--- {id: 11573,name: 重塑金丹,type: 50,star: null,memo: ""}
+

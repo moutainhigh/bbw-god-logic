@@ -1,0 +1,37 @@
+#魔王商品购买权限配置
+#CfgMaouMallAuth
+#mallId 商品id
+#authority 权限
+
+--- {mallId: 103,authority: 103}
+--- {mallId: 104,authority: 103}
+--- {mallId: 105,authority: 103}
+--- {mallId: 107,authority: 103}
+
+--- {mallId: 203,authority: 203}
+--- {mallId: 206,authority: 203}
+--- {mallId: 207,authority: 203}
+--- {mallId: 208,authority: 203}
+
+--- {mallId: 303,authority: 303}
+--- {mallId: 305,authority: 303}
+--- {mallId: 306,authority: 303}
+--- {mallId: 308,authority: 303}
+
+--- {mallId: 404,authority: 403}
+--- {mallId: 405,authority: 403}
+--- {mallId: 407,authority: 403}
+--- {mallId: 408,authority: 403}
+
+--- {mallId: 505,authority: 503}
+--- {mallId: 506,authority: 503}
+--- {mallId: 507,authority: 503}
+--- {mallId: 508,authority: 503}
+
+--- {mallId: 106,authority: 105}
+--- {mallId: 205,authority: 205}
+--- {mallId: 304,authority: 305}
+--- {mallId: 406,authority: 405}
+--- {mallId: 504,authority: 505}
+
+

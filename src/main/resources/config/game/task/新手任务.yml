@@ -1,0 +1,32 @@
+---
+groupId: 10000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  - {id: 10,seq: 1,type: 10,name: "点击领取奖励",value: 1,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 60,seq: 2,type: 10,name: "在神将中上阵7张卡牌",value: 7,awards: [{item: 50,awardId: 0,num: 2}],isValid: true}
+  - {id: 40,seq: 3,type: 10,name: "获得1次战斗胜利",value: 1,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 80,seq: 4,type: 10,name: "添加1个好友",value: 1,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 90,seq: 5,type: 10,name: "帮好友打一次怪",value: 1,awards: [{item: 50,awardId: 0,num: 3}],isValid: true}
+  - {id: 100,seq: 6,type: 10,name: "将任意3张卡牌升至三级",value: 3,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 111,seq: 7,type: 10,name: "攻下2座城池",value: 2,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 20,seq: 8,type: 10,name: "城池内卖掉1件特产",value: 1,awards: [{item: 10,num: 20}],isValid: true}
+  - {id: 310,seq: 9,type: 10,name: "查看【头像-设置】内的游戏帮助",value: 1,awards: [{item: 50,awardId: 0,num: 3}],isValid: true}
+  - {id: 112,seq: 10,type: 10,name: "攻下3座城池",value: 3,awards: [{item: 20,num: 20000}],isValid: true}
+  - {id: 70,seq: 11,type: 10,name: "城池内卖掉10件特产",value: 10,awards: [{item: 60, awardId: 130,num: 1}],isValid: true}
+  - {id: 320,seq: 12,type: 10,name: "使用【青鸾】",value: 1,awards: [{item: 60, awardId: 160,num: 1}],isValid: true}
+  - {id: 230,seq: 13,type: 10,name: "使用【漫步靴】并通过1个路口",value: 1,awards: [{item: 60,awardId: 340,num: 1}],isValid: true}
+  - {id: 260,seq: 14,type: 10,name: "在战斗中使用【绝仙剑】",value: 1,awards: [{item: 60,awardId: 340,num: 1}],isValid: true}
+  - {id: 50,seq: 15,type: 10,name: "打赢3场野怪",value: 3,awards: [{item: 60,awardId: 310,num: 1}],isValid: true}
+  - {id: 210,seq: 16,type: 10,name: "进行1次招募",value: 1,awards: [{item: 20,num: 30000}],isValid: true}
+  - {id: 321,seq: 17,type: 10,name: "商城购买每日元素礼包",value: 1,awards: [{item: 50,awardId: 0,num: 3}],isValid: true}
+  - {id: 270,seq: 18,type: 10,name: "进行3场练兵",value: 3,awards: [{item: 60,awardId: 80,num: 1}],isValid: true}
+  - {id: 280,seq: 19,type: 10,name: "参与3场【封神台】战斗",value: 3,awards: [{item: 60,awardId: 250,num: 1}],isValid: true}
+  - {id: 113,seq: 20,type: 10,name: "攻下5座城池",value: 5,awards: [{item: 60,awardId: 120,num: 1}],isValid: true}
+  - {id: 300,seq: 21,type: 10,name: "打下1座三级城",value: 1,awards: [{item: 60,awardId: 60,num: 1}],isValid: true}
+boxs:
+  - {id: 10901,boxKey: 0,score: 5,awards: [{item: 10,num: 100}],isValid: true}
+  - {id: 10902,boxKey: 0,score: 10,awards: [{item: 40,star: 3,num: 1}],isValid: true}
+  - {id: 10903,boxKey: 0,score: 15,awards: [{item: 60,awardId: 10110,num: 1}],isValid: true}
+  - {id: 10904,boxKey: 0,score: 21,awards: [{strategy: "随机四大天王",item: 40,star: 4,num: 1}],isValid: true}
+...

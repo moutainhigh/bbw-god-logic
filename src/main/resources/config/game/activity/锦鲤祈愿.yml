@@ -1,0 +1,30 @@
+#锦鲤祈愿相关配置
+#CfgHolidayKoiPray
+key: 唯一
+#初始售出价格(单位：铜钱)
+initialSellingPrice:
+  - {treasureId: 50402, price: 5000}
+  - {treasureId: 50403, price: 5000}
+  - {treasureId: 50404, price: 5000}
+#活动法宝ids
+treasureIds: [50402,50403,50404,50405]
+#锦鲤兑换基数 基数缩小10倍
+koiExchangeBases:
+  50402: 1
+  50403: 2
+  50404: 3
+  50405: 5
+#祈愿倍率 总概率100 倍率扩大了10倍
+prayMultiples: [{multiple: 10,prob: 65},{multiple: 12,prob: 25},{multiple: 15,prob: 7},{multiple: 20,prob: 3},]
+#触发野怪宝箱概率
+yeGuaiTriggerPro: 45
+#野怪宝箱概率产出
+yeGuaiBoxOutPut: [{item: 60,awardId: 50402,num: 2,probability: 100}]
+#村庄触发概率
+cunZTriggerPro: 35
+#村庄产出
+cunZOutPut: [{item: 60,awardId: 50403,num: 1,probability: 15},{item: 60,awardId: 50403,num: 2,probability: 20},{item: 60,awardId: 50403,num: 3,probability: 15},{item: 60,awardId: 50404,num: 1,probability: 10},{item: 60,awardId: 50404,num: 2,probability: 15},{item: 60,awardId: 50404,num: 3,probability: 10},{item: 60,awardId: 50405,num: 1,probability: 6},{item: 60,awardId: 50405,num: 2,probability: 6},{item: 60,awardId: 50405,num: 3,probability: 3}]
+#特产触发概率
+specialsTriggerPro: 35
+#特产产出
+specialsOutPut: [{item: 60,awardId: 50402,num: 1,probability: 60},{item: 60,awardId: 50403,num: 1,probability: 30},{item: 60,awardId: 50404,num: 1,probability: 10}]

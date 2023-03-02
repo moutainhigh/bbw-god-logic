@@ -1,0 +1,29 @@
+#箱子标识
+key: 1010
+#箱子描述
+desc: 元素
+#是否随机
+isRandom: false
+#物品
+goods: 
+  -
+    item: 50 #元素
+    good: 金
+    num: 1
+  -
+    item: 50 #元素
+    good: 木
+    num: 1
+  -
+    item: 50 #元素
+    good: 水
+    num: 1
+  -
+    item: 50 #元素
+    good: 火
+    num: 1
+  -
+    item: 50 #元素
+    good: 土
+    num: 1
+...

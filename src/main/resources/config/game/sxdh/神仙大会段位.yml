@@ -1,0 +1,59 @@
+#神仙大会
+#CfgSxdhSegment
+key: 唯一
+#########普通
+segments:
+  - {id: 1,name: 初始段位,minScore: -999999,maxScore: 0}
+  - {id: 2,name: 道童,minScore: 1,maxScore: 69}
+  - {id: 3,name: 道人,minScore: 70,maxScore: 139}
+  - {id: 4,name: 道士,minScore: 140,maxScore: 209}
+  - {id: 5,name: 道长,minScore: 210,maxScore: 279}
+  - {id: 6,name: 教众,minScore: 280,maxScore: 349}
+  - {id: 7,name: 教首,minScore: 350,maxScore: 419}
+  - {id: 8,name: 真人,minScore: 420,maxScore: 489}
+  - {id: 9,name: 散仙,minScore: 490,maxScore: 559}
+  - {id: 10,name: 真仙,minScore: 560,maxScore: 629}
+  - {id: 11,name: 大师,minScore: 630,maxScore: 699}
+  - {id: 12,name: 上师,minScore: 700,maxScore: 769}
+  - {id: 13,name: 道师,minScore: 770,maxScore: 839}
+  - {id: 14,name: 神仙,minScore: 840,maxScore: 909}
+  - {id: 15,name: 上仙,minScore: 910,maxScore: 979}
+  - {id: 16,name: 飞仙,minScore: 980,maxScore: 1049}
+  - {id: 17,name: 长老,minScore: 1050,maxScore: 1119}
+  - {id: 18,name: 星君,minScore: 1120,maxScore: 1189}
+  - {id: 19,name: 元神,minScore: 1190,maxScore: 1259}
+  - {id: 20,name: 教主,minScore: 1260,maxScore: 1329}
+  - {id: 21,name: 天尊,minScore: 1330,maxScore: 999999}
+#########冲刺
+sprintSegments:
+  - {id: 1,name: 初始段位,minScore: -999999,maxScore: 0}
+  - {id: 2,name: 道童,minScore: 1,maxScore: 9}
+  - {id: 3,name: 道人,minScore: 10,maxScore: 19}
+  - {id: 4,name: 道士,minScore: 20,maxScore: 29}
+  - {id: 5,name: 道长,minScore: 30,maxScore: 39}
+  - {id: 6,name: 教众,minScore: 40,maxScore: 49}
+  - {id: 7,name: 教首,minScore: 50,maxScore: 59}
+  - {id: 8,name: 真人,minScore: 60,maxScore: 69}
+  - {id: 9,name: 散仙,minScore: 70,maxScore: 79}
+  - {id: 10,name: 真仙,minScore: 80,maxScore: 89}
+  - {id: 11,name: 大师,minScore: 90,maxScore: 99}
+  - {id: 12,name: 上师,minScore: 100,maxScore: 109}
+  - {id: 13,name: 道师,minScore: 110,maxScore: 119}
+  - {id: 14,name: 神仙,minScore: 120,maxScore: 129}
+  - {id: 15,name: 上仙,minScore: 130,maxScore: 139}
+  - {id: 16,name: 飞仙,minScore: 140,maxScore: 149}
+  - {id: 17,name: 长老,minScore: 150,maxScore: 159}
+  - {id: 18,name: 星君,minScore: 160,maxScore: 169}
+  - {id: 19,name: 元神,minScore: 170,maxScore: 179}
+  - {id: 20,name: 教主,minScore: 180,maxScore: 189}
+  - {id: 21,name: 天尊,minScore: 190,maxScore: 999999}
+#########阶段
+stages:
+  - {id: 10,name: 阶段1,segments:[1,2,3,4],matchMinSegment: 1,matchMaxSegment: 7}
+  - {id: 20,name: 阶段2,segments:[5,6,7],matchMinSegment: 1,matchMaxSegment: 10}
+  - {id: 30,name: 阶段3,segments:[8,9,10],matchMinSegment: 5,matchMaxSegment: 13}
+  - {id: 40,name: 阶段4,segments:[11,12,13],matchMinSegment: 8,matchMaxSegment: 16}
+  - {id: 50,name: 阶段5,segments:[14,15,16],matchMinSegment: 11,matchMaxSegment: 19}
+  - {id: 60,name: 阶段6,segments:[17,18,19],matchMinSegment: 14,matchMaxSegment: 21}
+  - {id: 70,name: 阶段7,segments:[20,21],matchMinSegment: 17,matchMaxSegment: 21}
+

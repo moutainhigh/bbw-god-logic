@@ -1,0 +1,42 @@
+#符箓礼包
+#箱子标识，对应
+key: 580
+#箱子描述
+desc: 随机1个物品
+#是否随机
+isRandom: true
+#可获得多少种物品
+categoryNum: 1
+#物品
+goods: 
+  -
+    item: 60 # 道具
+    good: 增力符
+    num: 1
+    prop: 2500
+  -
+    item: 60 # 道具
+    good: 补元符
+    num: 1
+    prop: 2500
+  -
+    item: 60 # 道具
+    good: 大力符
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 强元符
+    num: 1
+    prop: 2000
+  -
+    item: 60 # 道具
+    good: 力神符
+    num: 1
+    prop: 500
+  -
+    item: 60 # 道具
+    good: 元神符
+    num: 1
+    prop: 500
+...

@@ -1,0 +1,22 @@
+---
+groupId: 230000
+#每日任务列表：
+# 当isValid 设置有false时只允许获取奖励，不允许用来生成任务
+tasks:
+  - {id: 230001,type: 270,name: "今日在万圣餐厅合成餐品10次(当日可领次数1)",value: 10,awards: [{item: 60,awardId: 50420,num: 20}],isValid: true}
+  - {id: 230002,type: 270,name: "今日在万圣餐厅合成餐品30次(当日可领次数1)",value: 30,awards: [{item: 60,awardId: 50420,num: 40}],isValid: true}
+  - {id: 230003,type: 270,name: "今日在万圣餐厅合成餐品50次(当日可领次数1)",value: 50,awards: [{item: 60,awardId: 50420,num: 40}],isValid: true}
+  - {id: 230004,type: 270,name: "今日在万圣餐厅合成餐品100次(当日可领次数1)",value: 100,awards: [{item: 60,awardId: 50420,num: 100}],isValid: true}
+  - {id: 230005,type: 270,name: "今日在商铺中花费满300元宝(当日可领次数1)",value: 300,awards: [{item: 60,awardId: 50420,num: 40}],isValid: true}
+  - {id: 230006,type: 270,name: "今日在商铺中花费满600元宝(当日可领次数1)",value: 600,awards: [{item: 60,awardId: 50420,num: 60}],isValid: true}
+  - {id: 230007,type: 270,name: "今日在商铺中花费满900元宝(当日可领次数1)",value: 900,awards: [{item: 60,awardId: 50420,num: 80}],isValid: true}
+  - {id: 230008,type: 270,name: "今日在商铺中花费满1200元宝(当日可领次数1)",value: 1200,awards: [{item: 60,awardId: 50420,num: 100}],isValid: true}
+  - {id: 230009,type: 270,name: "每战胜1次野怪",value: 1,awards: [{item: 60,awardId: 50420,num: 5}],isValid: true}
+  - {id: 230010,type: 270,name: "每练兵胜利1次",value: 1,awards: [{item: 60,awardId: 50420,num: 5}],isValid: true}
+  - {id: 230011,type: 270,name: "今日使用1个地图法宝(当日可领次数50)",value: 1,awards: [{item: 60,awardId: 50420,num: 5}],isValid: true}
+  - {id: 230012,type: 270,name: "今日使用1个战斗法宝(当日可领次数50)",value: 1,awards: [{item: 60,awardId: 50420,num: 5}],isValid: true}
+  - {id: 230013,type: 270,name: "每拜访2次村庄",value: 2,awards: [{item: 60,awardId: 50420,num: 10}],isValid: true}
+  - {id: 230014,type: 270,name: "每出售10个特产",value: 10,awards: [{item: 60,awardId: 50420,num: 10}],isValid: true}
+  - {id: 230015,type: 270,name: "每消耗60点体力",value: 60,awards: [{item: 60,awardId: 50420,num: 10}],isValid: true}
+  - {id: 230016,type: 270,name: "每完成1次商帮任务",value: 1,awards: [{item: 60,awardId: 50420,num: 20}],isValid: true}
+...

@@ -1,0 +1,15 @@
+---
+groupId: 160000
+#商帮每周任务
+tasks:
+  #awardId为空奖励为对应商帮声望
+  - {id: 160001,name: "累计获得6000万特产买卖的利润",value: 60000000,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160002,name: "累计出售350件特产",value: 350,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160003,name: "累计完成20个特产运送任务",value: 20,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160004,name: "累计完成20个商帮派遣任务",value: 20,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160005,name: "累计完成5个史诗级任务",value: 5,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160006,name: "累计完成10个高级任务",value: 10,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  #  - {id: 160007,name: "累计完成20个中级任务",value: 20,awards: [{item: 60,num: 300},{item: 60,awardId: 50012, num: 3}],isValid: true}
+  #  - {id: 160008,name: "累计完成25个低级任务",value: 25,awards: [{item: 60,num: 300},{item: 60,awardId: 50012, num: 3}],isValid: true}
+  - {id: 160009,name: "累计完成150次练兵胜利",value: 150,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}
+  - {id: 160010,name: "累计完成150次野怪胜利",value: 150,awards: [{item: 60,num: 300},{item: 60,awardId: 50198, num: 300}],isValid: true}

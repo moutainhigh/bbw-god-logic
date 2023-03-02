@@ -1,0 +1,13 @@
+#箱子标识
+key: 1050
+#箱子描述
+desc: 商会令牌*1
+#是否随机
+isRandom: false
+#物品
+goods:
+  -
+    item: 60 #道具
+    good: 商会令牌
+    num: 1
+...
